@@ -1,0 +1,219 @@
+
+:root{
+
+    --MAIN-TEXT-color:#323232; /* Color of text by default */
+    --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-LINK-color:#793CCC; /* Color of links */
+    --MAIN-LINK-HOVER-color:#512888; /* Color of hovered links */
+    --MAIN-ANCHOR-color: #793CCC; /* color of anchors on titles */
+
+    --MENU-HEADER-BG-color:#512888; /* Background color of menu header */
+    --MENU-HEADER-BORDER-color:#793CCC; /*Color of menu header border */
+
+    --MENU-SEARCH-BG-color:#512888; /* Search field background color (by default borders + icons) */
+    --MENU-SEARCH-BOX-color: #793CCC; /* Override search field border color */
+    --MENU-SEARCH-BOX-ICONS-color: #C497FF; /* Override search field icons color */
+
+    --MENU-SECTIONS-ACTIVE-BG-color:#20272b; /* Background color of the active section and its childs */
+    --MENU-SECTIONS-BG-color:#252c31; /* Background color of other sections */
+    --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
+    --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
+
+    --MENU-VISITED-color: #793CCC; /* Color of 'page visited' icons in menu */
+    --MENU-SECTION-HR-color: #20272b; /* Color of <hr> separator in menu */
+
+}
+
+.dark{
+    --MAIN-TEXT-color:#CDCDCD; /* Color of text by default */
+    --MAIN-TITLES-TEXT-color: #A1A1A1; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-LINK-color:#9148F5; /* Color of links */
+    --MAIN-LINK-HOVER-color:#793CCC; /* Color of hovered links */
+    --MAIN-ANCHOR-color: #9148F5; /* color of anchors on titles */
+  
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #888; /* Color of active category text */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #000; /* Color of background for the active
+    category (only) */
+}
+
+body {
+    color: var(--MAIN-TEXT-color) !important;
+}
+
+body.dark {
+    background: #000;
+}
+
+textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--MAIN-TITLES-TEXT-color) !important;
+}
+
+a {
+    color: var(--MAIN-LINK-color);
+}
+
+.anchor {
+    color: var(--MAIN-ANCHOR-color);
+}
+
+a:hover {
+    color: var(--MAIN-LINK-HOVER-color);
+}
+
+#sidebar ul li.visited > a .read-icon {
+	color: var(--MENU-VISITED-color);
+}
+
+#body a.highlight:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 0%;
+    -webkit-transition: width 0.5s ease;
+    -moz-transition: width 0.5s ease;
+    -ms-transition: width 0.5s ease;
+    transition: width 0.5s ease;
+    background-color: var(--MAIN-LINK-HOVER-color);
+}
+#sidebar {
+	background-color: var(--MENU-SECTIONS-BG-color);
+}
+#sidebar #header-wrapper {
+    background: var(--MENU-HEADER-BG-color);
+    color: var(--MENU-SEARCH-BOX-ICONS-color);
+    border-color: var(--MENU-HEADER-BORDER-color);
+}
+#sidebar .searchbox {
+	border-color: var(--MENU-SEARCH-BOX-color);
+    background: var(--MENU-SEARCH-BG-color);
+}
+#sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
+    background: var(--MENU-SECTIONS-ACTIVE-BG-color);
+}
+#sidebar .searchbox * {
+    color: var(--MENU-SEARCH-BOX-ICONS-color);
+}
+
+#sidebar a {
+    color: var(--MENU-SECTIONS-LINK-color);
+}
+
+#sidebar a:hover {
+    color: var(--MENU-SECTIONS-LINK-HOVER-color);
+}
+
+#sidebar ul li.active > a {
+    background: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color);
+    color: var(--MENU-SECTION-ACTIVE-CATEGORY-color) !important;
+}
+
+#sidebar hr {
+    border-color: var(--MENU-SECTION-HR-color);
+}
+
+.dark #top-bar{
+    background: #222;
+}
+
+.dark #TableOfContents{
+    background: #222;
+}
+
+.dark .btn-default{
+    color: #CCC !important;
+    background-color: #333 !important;
+    border-color: #555 !important;
+}
+
+.dark .btn-default:hover, .btn-default:focus, .btn-default:active {
+    color: #fff !important;
+    background-color: #9e9e9e !important;
+    border-color: #9e9e9e !important;
+}
+
+.dark .btn:hover, .btn:focus {
+    color: #2b2b2b !important;
+    text-decoration: none !important;
+}
+
+.dark div.notices.info {
+    background: #524D46;
+}
+
+.dark div.notices.warning {
+    background: #524A4A;
+}
+
+.dark div.notices.note {
+    background: #505457;
+}
+
+.dark div.notices.tip {
+    background: #505750;
+}
+
+.dark div.notices p {
+    color: var(--MAIN-TEXT-color) !important;
+}
+
+.dark div.notices > p:first-child:before {
+    color: #222 !important;
+}
+.dark div.notices > p:first-child {
+    color: #222 !important;
+}
+
+.dark code {
+    color: #FF7C9D;
+    background: #1d1f21;
+    border: 1px solid #211F20;
+}
+
+.dark kbd {
+    border:1px solid #ccc;
+    background-color:#080808;
+    -moz-box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #000000 inset;
+    -webkit-box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #000000 inset;
+    box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #000000 inset;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    display:inline-block;
+    margin:0 0.1em;
+    text-shadow:0 1px 0 #000000;
+    line-height:1.4;
+    white-space:nowrap;
+}
+
+.dark #body .nav:hover {
+    background: #333333;
+}
+
+.dark th {
+    background: #1d1f21;;
+}
+
+#homelinks {
+    background: var(--MENU-HEADER-BG-color);
+    background-color: var(--MENU-HEADER-BORDER-color);
+    border-bottom-color: var(--MENU-HEADER-BORDER-color);
+}
+  
+.dark > #body .tab-nav-button.active {
+    color: #fff !important;
+    background-color: #9e9e9e !important;
+    border-color: #9e9e9e !important;
+}
+
+.dark > #body .tab-nav-button {
+    color: #CCC !important;
+    background-color: #333 !important;
+    border-color: #555 !important;
+}

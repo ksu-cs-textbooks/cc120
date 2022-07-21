@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homepage on K-State CC 120 Textbook</title>
+    <link>https://ksu-cs-textbooks.github.io/cis527/</link>
+    <description>Recent content in Homepage on K-State CC 120 Textbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jul 2022 10:53:05 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cis527/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/0-forward/01-introduction/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/0-forward/01-introduction/</guid>
+      <description>Web Only
+This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.
+Course Resources Syllabus Textbook Welcome Message Hello students, and welcome to CC 120 - Web Page Development. My name is Nathan Bean, and I will be your instructor for this course.</description>
+    </item>
+    
+    <item>
+      <title>Hyper-Text Markup Language</title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/2-html/01-introduction/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/2-html/01-introduction/</guid>
+      <description>Hyper-Text Markup Language (HTML) alongside Hyper-Text Transfer Protocol (HTTP) formed the core of Sir Tim Berners-Lee&amp;rsquo;s world-wide web. As the name implies, HTTP is a markup language, one that combines the text of what is being said with instructions on how to display it.
+The other aspect of HTML is its hyper-text nature. Hyper-text refers to text that links to additional resources - primarily the links in the document, but also embedded multimedia.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/1-www/01-introduction/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/1-www/01-introduction/</guid>
+      <description>While working for CERN (the European Organization for Nuclear Research), Tim Burners-Lee proposed bringing the ideas of hyper-text documents together with emerging Internet technologies like the Transmission Control Protocol (TCP) and the Domain Name System (DNS) to create the World-Wide Web. He defined the Hyper Text Transfer Protocol (HTTP), the first web server, and the first web browser, in 1990 demonstrating the feasibility of the idea. Since that time, the web has grown to contain around 1.</description>
+    </item>
+    
+    <item>
+      <title>The Vision of Sir Tim Berners Lee</title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/1-www/02-the-technologies-of-the-web/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/1-www/02-the-technologies-of-the-web/</guid>
+      <description>When Tim-Berners Lee presented his original ideas for the World-Wide Web, it consisted of a protocol for requesting web documents - HTTP, and a markup language those documents could be written in - HTML. These initial technologies continue to be the foundation of the world-wide web, and have been enhanced by technologies to style webpages - CSS - and modify them - JavaScript.
+Each of these technologies has continued to evolve under the guidance of the W3C.</description>
+    </item>
+    
+    <item>
+      <title>Element Structure</title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/2-html/02-element-structure/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/2-html/02-element-structure/</guid>
+      <description>HTML was built from the SGML (Structured Generalized Markup Language) standard, which provides the concept of &amp;ldquo;tags&amp;rdquo; to provide markup and structure within a text document. Each element in HTML is defined by a unique opening and closing tag, which in turn are surrounded by angle brackets (&amp;lt;&amp;gt;).
+For example, a top-level heading in HTML would be written:
+&amp;lt;h1&amp;gt;Hello World&amp;lt;/h1&amp;gt;
+And render:
+|||create
+Hello World |||
+The &amp;lt;h1&amp;gt; is the opening tag and the &amp;lt;/h1&amp;gt; is the closing tag.</description>
+    </item>
+    
+    <item>
+      <title>Document Structure</title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/2-html/03-document-structure/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/2-html/03-document-structure/</guid>
+      <description>When authoring an HTML page, HTML elements should be organized into an HTML Document. This format is defined in the HTML standard. HTML that does not follow this format are technically invalid, and may not be interpreted and rendered correctly by all browsers. Accordingly, it is important to follow the standard.
+The basic structure of a valid HTML5 document is:
+&amp;lt;!doctype HTML&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Page Title Goes Here&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt;Page body and tags go here.</description>
+    </item>
+    
+    <item>
+      <title>Flow Model</title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/2-html/04-flow-model/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/2-html/04-flow-model/</guid>
+      <description>Given that the role of HTML is markup, i.e. providing structure and formatting to text, HTML elements can broadly be categorized into two categories depending on how they affect the flow of text - inline and block.
+Inline elements referred to elements that maintained the flow of text, i.e. the bring attention to (&amp;lt;b&amp;gt;) element used in a paragraph of text, would bold the text without breaking the flow:
+&amp;lt;p&amp;gt;The quick brown &amp;lt;b&amp;gt;fox&amp;lt;/b&amp;gt; lept over the log&amp;lt;/p&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/0-forward/07-syllabus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/0-forward/07-syllabus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/2-html/05-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/2-html/05-tables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/2-html/06-forms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/2-html/06-forms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/2-html/07-common-html-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/2-html/07-common-html-elements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/2-http/01-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/2-http/01-introduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/2-http/02-browser-requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/2-http/02-browser-requests/</guid>
+      <description>Before we get too deep in the details of what a request is, and how it works, let&amp;rsquo;s explore the primary kind of request you&amp;rsquo;re already used to making - requests originating from a browser. Every time you use a browser to browse the Internet, you are creating a series of HTTP (or HTTPS) requests that travel across the networks between you and a web server, which responds to your requests.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/01-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/01-introduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/02-css-rule-format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/02-css-rule-format/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/03-css-selectors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/03-css-selectors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/04-applying-css-rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/04-applying-css-rules/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/05-css-cascading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/05-css-cascading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/06-css-specificity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/06-css-specificity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/07-css-units/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/07-css-units/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/08-css-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/08-css-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/09-css-colors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/09-css-colors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/10-css-text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/10-css-text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/11-css-box-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/11-css-box-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/12-css-positioning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/12-css-positioning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/13-css-layouts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/13-css-layouts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cis527/3-css/14-responsive-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cis527/3-css/14-responsive-css/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

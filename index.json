@@ -1,0 +1,246 @@
+[
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/0-forward/",
+	"title": "Course Information",
+	"tags": [],
+	"description": "",
+	"content": "Forward CIS 400 Course Information Getting Oriented\nWeb Only\nThis textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.\n"
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/2-http/",
+	"title": "Hyper-Text Transfer Protocol",
+	"tags": [],
+	"description": "",
+	"content": "Hyper-Text Transfer Protocol "
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/1-www/",
+	"title": "The World-Wide-Web",
+	"tags": [],
+	"description": "",
+	"content": "The World-Wide-Web "
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/",
+	"title": "Cascading Style Sheets",
+	"tags": [],
+	"description": "",
+	"content": "Cascading Style Sheets "
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/2-html/",
+	"title": "Hyper-Text Markup Language",
+	"tags": [],
+	"description": "",
+	"content": "Hyper-Text Markup Language "
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/0-forward/01-introduction/",
+	"title": "Course Introduction",
+	"tags": [],
+	"description": "",
+	"content": " Web Only\nThis textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.\nCourse Resources Syllabus Textbook Welcome Message Hello students, and welcome to CC 120 - Web Page Development. My name is Nathan Bean, and I will be your instructor for this course.\n"
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/2-html/01-introduction/",
+	"title": "Hyper-Text Markup Language",
+	"tags": [],
+	"description": "",
+	"content": "Hyper-Text Markup Language (HTML) alongside Hyper-Text Transfer Protocol (HTTP) formed the core of Sir Tim Berners-Lee\u0026rsquo;s world-wide web. As the name implies, HTTP is a markup language, one that combines the text of what is being said with instructions on how to display it.\nThe other aspect of HTML is its hyper-text nature. Hyper-text refers to text that links to additional resources - primarily the links in the document, but also embedded multimedia.\nThis ability to author structured pages that linked to other structured pages with a single mouse click is at the heart of the World-Wide-Web.\n|||topic The HTML standard, along with many other web technologies, is maintained by the World-Wide-Web Consortium (abbrivated W3C), stakeholders who create and maintain web standards. The full description of the Hyper-Text Markup Language can be found here w3c\u0026rsquo;s HTML page. |||\n"
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/1-www/01-introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": " While working for CERN (the European Organization for Nuclear Research), Tim Burners-Lee proposed bringing the ideas of hyper-text documents together with emerging Internet technologies like the Transmission Control Protocol (TCP) and the Domain Name System (DNS) to create the World-Wide Web. He defined the Hyper Text Transfer Protocol (HTTP), the first web server, and the first web browser, in 1990 demonstrating the feasibility of the idea. Since that time, the web has grown to contain around 1.7 billion webpages1.\nThe web is more a social creation than a technical one. I designed it for a social effect — to help people work together — and not as a technical toy. The ultimate goal of the Web is to support and improve our weblike existence in the world. We clump into families, associations, and companies. We develop trust across the miles and distrust around the corner. -Sir Tim Berners-Lee\nTim Burners-Lee went on to found the World Wide Web Consortium (W3C) to continue developing and maintaining web standards. He has been the recipient of numerous prestigious international awards and was knighted by Queen Elizabeth in 2004 for his contributions to society.\nSee https://siteefy.com/how-many-websites-are-there/ for a current estimate.\u0026#160;\u0026#x21a9;\u0026#xfe0e;\n"
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/1-www/02-the-technologies-of-the-web/",
+	"title": "The Vision of Sir Tim Berners Lee",
+	"tags": [],
+	"description": "",
+	"content": "When Tim-Berners Lee presented his original ideas for the World-Wide Web, it consisted of a protocol for requesting web documents - HTTP, and a markup language those documents could be written in - HTML. These initial technologies continue to be the foundation of the world-wide web, and have been enhanced by technologies to style webpages - CSS - and modify them - JavaScript.\nEach of these technologies has continued to evolve under the guidance of the W3C. As of this writing, HTTP is in its 2nd version, HTML is in its 5th, CSS is in its 4th, and JavaScript is in its 7th. Each of these technologies is explored in its own chapter of the book, which can be accessed from the table of contents.\n|||info The table of contents can be opened from the guide at any time by clicking the corresponding button in the upper-left-hand corner: |||\nThe full standards for each can be found in the World Wide Web Consortium (W3C) organization\u0026rsquo;s website www.w3c.org, and great developer support is offered on each through the Mozilla Developer Network developer.mozilla.org. While originally the official documentation for Mozilla\u0026rsquo;s Firefox browser, Microsoft partnered with MDN as the official documentation source for their Edge browser. Additionally, MDN documents how the Safari, Opera, and IE browsers support the web standards, making it a great reference for a web developer.\n"
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/2-html/02-element-structure/",
+	"title": "Element Structure",
+	"tags": [],
+	"description": "",
+	"content": "HTML was built from the SGML (Structured Generalized Markup Language) standard, which provides the concept of \u0026ldquo;tags\u0026rdquo; to provide markup and structure within a text document. Each element in HTML is defined by a unique opening and closing tag, which in turn are surrounded by angle brackets (\u0026lt;\u0026gt;).\nFor example, a top-level heading in HTML would be written:\n\u0026lt;h1\u0026gt;Hello World\u0026lt;/h1\u0026gt;\nAnd render:\n|||create\nHello World |||\nThe \u0026lt;h1\u0026gt; is the opening tag and the \u0026lt;/h1\u0026gt; is the closing tag. The name of the tag appears immediately within the \u0026lt;\u0026gt; of the opening tag, and within the closing tag proceeded by a forward slash (/). Between the opening tag and closing tag is the content of the element. This can be text (as in the case above) or it can be another HTML element.\nFor example:\n\u0026lt;h1\u0026gt;Hello \u0026lt;i\u0026gt;World\u0026lt;/i\u0026gt;!\u0026lt;/h1\u0026gt;\nRenders:\n|||create\nHello World! |||\nNesting Elements An element nested inside another element in this way is called a child of the element it is nested in. The containing element is a parent. If more than one tag is contained within the parent, the children are referred to as siblings of one another. Finally, a element nested several layers deep inside another element is called a descendant of that element, and that element is called an ancestor.\nMatching Tags Every opening tag must have a matching closing tag. Moreover, nested tags must be matched in order, much like when you use parenthesis and curly braces in programming. While whitespace is ignored by HTML interpreters, best developer practices use indentation to indicate nesting, i.e.:\n\u0026lt;div\u0026gt; \u0026lt;h1\u0026gt;Hello World!\u0026lt;/h1\u0026gt; \u0026lt;p\u0026gt; This is a paragraph, followed by an unordered list... \u0026lt;/p\u0026gt; \u0026lt;ul\u0026gt; \u0026lt;li\u0026gt;List item #1\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;List item #2\u0026lt;/li\u0026gt; \u0026lt;li\u0026gt;List item #3\u0026lt;/li\u0026gt; \u0026lt;/ul\u0026gt; \u0026lt;/div\u0026gt; Getting tags out of order results in invalid HTML, which may be rendered unpredictably in different browsers.\nVoid Elements Also, some elements are not allowed to contain content, and should not be written with an end tag, like the break character:\n\u0026lt;br\u0026gt;\nHowever, there is a more strict version of HTML called XHTML which is based on XML (another SGML extension). In XHTML void tags are self-closing, and must include a / before the last \u0026gt;, i.e.:\n\u0026lt;br/\u0026gt;\nIn practice, most browsers will interpret \u0026lt;br\u0026gt; and \u0026lt;br/\u0026gt; interchangeably, and you will see many websites and even textbooks use one or the other strategy (sometimes both on the same page). But as a computer scientist, you should strive to use the appropriate form based type of document you are creating.\nTag Name Case Similarly, by the standards, HTML is case-insensitive when evaluating tag names, but the W3C recommends using lowercase characters. In XHTML tag names must be in lowercase, and React\u0026rsquo;s JSX format uses lowercase to distinguish between HTML elements and React components. Thus, it makes sense to always use lowercase tag names.\n|||topic XHTML is intended to allow HTML to be interpreted by XML parsers, hence the more strict formatting. While it is nearly identical to HTML, there are important structural differences that need to be followed for it to be valid. And since the point of XHTML is to make it more easily parsed by machines, these must be followed to meet that goal. Like HTML, the XHTML standard is maintained by W3C: https://www.w3.org/TR/xhtml11/. |||\nAttributes In addition to the tag name, tags can have attributes embedded within them. These are key-value pairs that can modify the corresponding HTML element in some way. For example, an image tag must have a src (source) attribute that provides a URL where the image data to display can be found:\n\u0026lt;img src=\u0026quot;img/Light_Bulb_or_Idea_Flat_Icon_Vector.svg\u0026quot; alt=\u0026quot;Light Bulb\u0026quot;\u0026gt;\nThis allows the image to be downloaded and displayed within the browser:\n|||create |||\nNote that the img element is another void tag. Also, img elements should always have an alt attribute set - this is text that is displayed if the image cannot be downloaded, and is also read by a screen reader when viewed by the visually impaired.\nAttributes come in the form of key-value pairs, with the key and value separated by an equal sign (=) and the individual attributes and the tag name separated by whitespace. Attributes can only appear in an opening or void tag. Some attributes (like readonly) do not need a value.\nThere should be no spaces between the attribute key, the equal sign (=), and the attribute value. Attribute values should be quoted using single or double quotes if they contain a space character, single quote, or double quote character.\nAdditionally, while there are specific attributes defined within the HTML standard that browsers know how to interpret, specific technologies like Angular and React add their own, custom attributes. Any attribute a browser does not know is simply ignored by the browser.\n{Check It!|assessment}(free-text-auto-3681872174)\n"
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/2-html/03-document-structure/",
+	"title": "Document Structure",
+	"tags": [],
+	"description": "",
+	"content": "When authoring an HTML page, HTML elements should be organized into an HTML Document. This format is defined in the HTML standard. HTML that does not follow this format are technically invalid, and may not be interpreted and rendered correctly by all browsers. Accordingly, it is important to follow the standard.\nThe basic structure of a valid HTML5 document is:\n\u0026lt;!doctype HTML\u0026gt; \u0026lt;html lang=\u0026#34;en\u0026#34;\u0026gt; \u0026lt;head\u0026gt; \u0026lt;title\u0026gt;Page Title Goes Here\u0026lt;/title\u0026gt; \u0026lt;/head\u0026gt; \u0026lt;body\u0026gt; \u0026lt;p\u0026gt;Page body and tags go here...\u0026lt;/p\u0026gt; \u0026lt;/body\u0026gt; \u0026lt;/html\u0026gt; We\u0026rsquo;ll walk through each section of the page in detail.\nDoctype The SGML standard that HTML is based on requires a !doctype tag to appear as the first tag on the page. The doctype indicates what kind of document the file represents. For HTML5, the doctype is simply HTML. Note the doctype is not an element - it has no closing tag and is not self-closing.\n|||topic For SGML, the doctype normally includes a URL pointing at a definition for the specific type of document. For example, in HTML4, it would have been \u0026lt;!DOCTYPE HTML PUBLIC \u0026quot;-//W3C//DTD HTML 4.01//EN\u0026quot; \u0026quot;http://www.w3.org/TR/html4/strict.dtd\u0026quot;\u0026gt;. HTML5 broke with the standard by only requiring HTML be included, making the doctype much easier to remember and type.\n|||\nHTML Element The next element should be an html element. It should include all other elements in the document, and its closing tag should be the last tag on the page. It is best practice to include a lang attribute to indicate what language is used in the document - here we used \u0026quot;en\u0026quot; for English. The html element should only contain two children - a head and body tag in that order.\n|||info The list of valid langauge subtags are maintained by the Internet Assigned Numbers Authority (IANA), which also oversees domains and IP addresses. The full list can be reached here. |||\nThe Head Element The next element is the head element. A valid HTML document will only have one head element, and it will always be the first child of the html element. The head section contains metadata about the document - information about the document that is not rendered in the document itself. This typically consists of meta and link elements, as well as a title. Traditionally, script elements would also appear here, though current best practice places them as the last children of the body tag.\nThe Title Element The head element should always have exactly one child title element, which contains the title of the page (as text; the title element should never contain other HTML elements). This title is typically displayed in the browser tab.\nThe Body Element The next element is the body element. A valid HTML document will only have one body element, and it will always be the second child of the html element. The body tag contains all the HTML elements that make up the page. It can be empty, though that makes for a very boring page.\n"
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/2-html/04-flow-model/",
+	"title": "Flow Model",
+	"tags": [],
+	"description": "",
+	"content": "Given that the role of HTML is markup, i.e. providing structure and formatting to text, HTML elements can broadly be categorized into two categories depending on how they affect the flow of text - inline and block.\nInline elements referred to elements that maintained the flow of text, i.e. the bring attention to (\u0026lt;b\u0026gt;) element used in a paragraph of text, would bold the text without breaking the flow:\n\u0026lt;p\u0026gt;The quick brown \u0026lt;b\u0026gt;fox\u0026lt;/b\u0026gt; lept over the log\u0026lt;/p\u0026gt;\n|||create The quick brown fox lept over the log |||\nIn contrast, block elements break the flow of text. For example, the \u0026lt;blockquote\u0026gt; element used to inject a quote into the middle of the same paragraph:\n\u0026lt;p\u0026gt;The quick brown fox \u0026lt;blockquote\u0026gt;What does the fox say? - YLVIS\u0026lt;/blockquote\u0026gt; lept over the log\u0026lt;/p\u0026gt;\n|||create The quick brown fox What does the fox say? - YLVIS lept over the log |||\nWhile HTML elements default to either block or inline behavior, this can be changed with the CSS display property.\n"
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/",
+	"title": "Homepage",
+	"tags": [],
+	"description": "",
+	"content": "Web Page Development CC 120 Course Textbook\nNathan Bean\nKansas State University\n© 2022\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.\n"
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/0-forward/07-syllabus/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/2-html/05-tables/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/2-html/06-forms/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/2-html/07-common-html-elements/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/2-http/01-introduction/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/2-http/02-browser-requests/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "Before we get too deep in the details of what a request is, and how it works, let\u0026rsquo;s explore the primary kind of request you\u0026rsquo;re already used to making - requests originating from a browser. Every time you use a browser to browse the Internet, you are creating a series of HTTP (or HTTPS) requests that travel across the networks between you and a web server, which responds to your requests.\nTo help illustrate how these requests are made, we have set up a simple static webserver that runs on this Codio box, and serves files from the public directory (seen in the Filetree). Click on the Terminal window to give it focus, and you should see the Box URL displayed there. Open this url by clicking on it, or copying it to a browser. Alternatively, you can choose the Box URL option from the Run menu at the top of the Codio window.\nWhen you open the website with a browser, you should see a page with Index of Public at the top and a list of files in the public directory. In the Terminal a message: Recieved Request for /.\nNow try following the link for example.html. The page should load, and the terminal should have the messages:\nRecieved Request for /example.html Serving Request for /example.html Let\u0026rsquo;s add a picture to example.html, just below the \u0026ldquo;hello bird!\u0026rdquo; line:\n\u0026lt;img src=\u0026#34;carrierpigeon.png\u0026#34; alt=\u0026#34;pigeon\u0026#34;\u0026gt; Then refresh the page. Provided the src attribute matches, you should see the image on the page. And in the terminal:\nRecieved Request for /example.hml Serving /example.html Recieved Request for /carrierpigeon.png Serving /carrierpigeon.png The important takeaway here is that the image is requested separately from the HTML file. As the browser reads the page and encounters the \u0026lt;img\u0026gt; tag, it makes an additional request for the resource supplied in its src attribute. When that second request finishes, the downloaded image is added to the web page.\nLet\u0026rsquo;s add a CSS file, example.css to the public directory, with content:\nbody { font-weight: bold; color: #512888; } And link it to our HTML document with a \u0026lt;link\u0026gt; element in the \u0026lt;head\u0026gt;:\n\u0026lt;link href=\u0026#34;example.css\u0026#34; rel=\u0026#34;stylesheet\u0026#34; type=\u0026#34;text/css\u0026#34;\u0026gt; Now when you refresh the browser, the \u0026ldquo;Hello Bird! should be K-State purple. And our terminal should report one more request, this time for example.css:\nRecieved Request for /example.hml Serving /example.html Recieved Request for /carrierpigeon.png Serving /carrierpigeon.png Recieved /example.css Serving /example.css You can also view the requests being made on the browser side. Open the Developer Tools and navigate to the Network tab (On Chrome, View \u0026gt; Developer \u0026gt; Developer Tools; On Firefox Tools \u0026gt; Web Developer \u0026gt; Toggle Tools). Refresh the page, and you\u0026rsquo;ll see each of the files requested, along with useful details like how long it took to download them.\n"
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/01-introduction/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/02-css-rule-format/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/03-css-selectors/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/04-applying-css-rules/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/05-css-cascading/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/06-css-specificity/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/07-css-units/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/08-css-functions/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/09-css-colors/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/10-css-text/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/11-css-box-model/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/12-css-positioning/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/13-css-layouts/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/3-css/14-responsive-css/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://ksu-cs-textbooks.github.io/cis527/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
