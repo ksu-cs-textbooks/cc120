@@ -43,4 +43,9 @@ section = [ "HTML", "Iframeable", "Teleprompter"]
     mediaType = "text/html"
     isPlainText = false
     isHtml = true
-  
+
+## Plausible config
+[params.plausible]
+  enable = false  # Whether to enable plausible tracking
+  # domain = "ksucs-hugo.russfeld.me"  # Plausible "domain" name/id in your dashboard
+  # selfhosted_domain = "plausible.russfeld.me"
