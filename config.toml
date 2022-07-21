@@ -1,6 +1,7 @@
 baseURL = "https://textbooks.cs.ksu.edu/cc120"
 languageCode = "en-us"
 title = "K-State CC 120 Textbook"
+canonifyURLS = true
 
 # Change the default theme to be use when building the site with Hugo
 theme = ["ksucs-hugo-theme", "plausible-hugo"]
@@ -12,8 +13,7 @@ page = [ "HTML", "Iframeable", "Teleprompter"]
 section = [ "HTML", "Iframeable", "Teleprompter"]
 
 [params]
-  landingPageURL = "/cc120"
-  description = "K-State CC 120 textbookURL"
+  description = "K-State CC 120 Textbook"
   author = "Nathan H. Bean"
   showVisitedLinks = false
   themeVariant = "purple"
