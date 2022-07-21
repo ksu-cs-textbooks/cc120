@@ -1,4 +1,4 @@
-baseURL = "https://ksu-cs-textbooks.github.io/cis527/"
+baseURL = "https://ksu-cs-textbooks.github.io/cc120/"
 languageCode = "en-us"
 title = "K-State CC 120 Textbook"
 canonifyURLs = true
@@ -18,7 +18,7 @@ section = [ "HTML", "Iframeable", "Teleprompter"]
   showVisitedLinks = false
   themeVariant = "purple"
   disableLanguageSwitchingButton = true
-  textbookURL = "https://ksu-cs-textbooks.github.io/cis527/"
+  textbookURL = "https://ksu-cs-textbooks.github.io/cc120/"
 
 [blackfriday]
   plainIDAnchors = true
