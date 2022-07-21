@@ -1,7 +1,7 @@
 baseURL = "https://textbooks.cs.ksu.edu/cc120"
 languageCode = "en-us"
 title = "K-State CC 120 Textbook"
-canonifyURLS = true
+canonifyURLs = true
 
 # Change the default theme to be use when building the site with Hugo
 theme = ["ksucs-hugo-theme", "plausible-hugo"]
