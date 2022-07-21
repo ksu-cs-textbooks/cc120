@@ -1,6 +1,6 @@
-baseURL = "https://ksucs-hugo.russfeld.me"
+baseURL = "https://textbooks.cs.ksu.edu/cc120/"
 languageCode = "en-us"
-title = "K-State CS Hugo Framework"
+title = "K-State CC 120 Textbook"
 
 # Change the default theme to be use when building the site with Hugo
 theme = ["ksucs-hugo-theme", "plausible-hugo"]
@@ -12,9 +12,10 @@ page = [ "HTML", "Iframeable", "Teleprompter"]
 section = [ "HTML", "Iframeable", "Teleprompter"]
 
 [params]
+  landingPageUrl = "/cc120"
   editURL = "https://github.com/russfeld/ksucs-hugo/tree/master/content/"
-  description = "K-State CS Hugo Framework"
-  author = "Russell Feldhausen"
+  description = "K-State CC 120 textbookURL"
+  author = "Nathan H. Bean"
   showVisitedLinks = false
   themeVariant = "purple"
   disableLanguageSwitchingButton = true
