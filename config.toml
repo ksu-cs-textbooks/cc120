@@ -18,6 +18,7 @@ section = [ "HTML", "Iframeable", "Teleprompter"]
   showVisitedLinks = false
   themeVariant = "purple"
   disableLanguageSwitchingButton = true
+  textbookURL = "https://textbooks.cs.ksu.edu/cc120"
 
 [blackfriday]
   plainIDAnchors = true
