@@ -11,16 +11,12 @@ Inline elements referred to elements that maintained the flow of text, i.e. the 
 
 `<p>The quick brown <b>fox</b> lept over the log</p>`
 
-|||create 
 The quick brown <b>fox</b> lept over the log
-|||
 
 In contrast, block elements break the flow of text. For example, the `<blockquote>` element used to inject a quote into the middle of the same paragraph:
 
 `<p>The quick brown fox <blockquote>What does the fox say? - YLVIS</blockquote> lept over the log</p>`
 
-|||create 
 The quick brown fox <blockquote>What does the fox say? - YLVIS</blockquote> lept over the log
-|||
 
 While HTML elements default to either block or inline behavior, this can be changed with the CSS `display` property.

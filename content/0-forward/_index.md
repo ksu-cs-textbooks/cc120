@@ -8,7 +8,7 @@ pre = "0. "
 
 ### Forward
 
-# CIS 400 Course Information
+# CC 120 Course Information
 
 Getting Oriented 
 
