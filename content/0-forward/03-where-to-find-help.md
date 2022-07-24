@@ -13,7 +13,6 @@ This textbook was authored for the **CC 120 - Web Page Development** course at K
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
 * [K-State IT Help Desk](https://www.k-state.edu/its/helpdesk/) - Email helpdesk@ksu.edu
 * [K-State Online Canvas Help](http://public.online.k-state.edu/help/)
 * [Instructure Canvas Guides](https://community.canvaslms.com/community/answers/guides)

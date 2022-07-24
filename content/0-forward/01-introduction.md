@@ -12,7 +12,7 @@ This textbook was authored for the **CC 120 - Web Page Development** course at K
 
 ## Course Resources 
 
-* [Syllabus]({{<ref "0-forward/07-syllabus.md">}})
+* [Syllabus]({{<ref "0-forward/07-syllabus">}})
 * [Textbook]({{<param textbookURL>}})
 
 ## Welcome Message

@@ -6,8 +6,6 @@ pre: "7. "
 
 ## CC 120 - Web Page Design - Spring 2022
 
-[Previous Versions]({{<relref "./old">}})
-
 ### Instructor Contact Information
 
 * **Instructor:** Nathan Bean (nhbean AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
