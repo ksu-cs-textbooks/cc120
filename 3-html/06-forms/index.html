@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="description" content="K-State CC 120 Textbook">
+<meta name="author" content="Nathan H. Bean">
+
+    <link rel="icon" href="https://ksu-cs-textbooks.github.io/cc120/images/favicon.png" type="image/png">
+
+    <title>Forms :: K-State CC 120 Textbook</title>
+
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/nucleus.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/fontawesome-all.min.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hybrid.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/featherlight.min.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/perfect-scrollbar.min.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/auto-complete.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/atom-one-dark-reasonable.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/tabs.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hugo-theme.css?1658694139" rel="stylesheet">
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-purple.css?1658694139" rel="stylesheet">
+    
+    
+    
+    
+
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery-3.3.1.min.js?1658694139"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+     
+    
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+          x.parentElement.classList += 'has-jax'})
+      });
+  
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body class="" data-url="https://ksu-cs-textbooks.github.io/cc120/3-html/06-forms/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://ksu-cs-textbooks.github.io/cc120/">
+  K-State CC 120 Textbook
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/lunr.min.js?1658694139"></script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/auto-complete.js?1658694139"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/ksu-cs-textbooks.github.io\/cc120\/";
+    
+</script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/search.js?1658694139"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='https://ksu-cs-textbooks.github.io/cc120/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/0-forward/" title="Course Information" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          0. Course Information
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/1-www/" title="The World-Wide-Web" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/1-www/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          1. The World-Wide-Web
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/2-http/" title="Hyper-Text Transfer Protocol" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/2-http/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          2. Hyper-Text Transfer Protocol
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-html/" title="Hyper-Text Markup Language" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/">
+        
+        
+          
+          <i class="fas fa-angle-down fa-fw"></i>
+          
+        
+          3. Hyper-Text Markup Language
+          
+
+      </a>
+    
+      
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/01-introduction/" title="Introduction" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/01-introduction/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        1. Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/02-element-structure/" title="HTML Element Structure" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/02-element-structure/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        2. HTML Element Structure
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/03-document-structure/" title="HTML Document Structure" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/03-document-structure/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        3. HTML Document Structure
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/04-flow-model/" title="Flow Model" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/04-flow-model/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        4. Flow Model
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/05-tables/" title="Tables" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/05-tables/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        5. Tables
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/06-forms/" title="Forms" class="dd-item active">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/06-forms/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        6. Forms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/07-common-html-elements/" title="Common HTML Elements" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/07-common-html-elements/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        7. Common HTML Elements
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-css/" title="Cascading Style Sheets" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          4. Cascading Style Sheets
+          
+
+      </a>
+    
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/russfeld/ksucs-hugo-theme">ksucs-hugo-theme</a>.</p>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                  <div id="top-github-link">
+                    <a id="themelink" class="github-link" title='Toggle Light or Dark Mode' href="#">
+                      <i class="fas fa-moon"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Teleprompter View' href="tele.html" target="blank">
+                      <i class="fas fa-tv"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Embed this page' href="embed.html" target="blank">
+                      <i class="fas fa-expand-arrows-alt"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                
+                  </div>
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://ksu-cs-textbooks.github.io/cc120/'>Homepage</a> > <a href='https://ksu-cs-textbooks.github.io/cc120/3-html/'>Hyper-Text Markup Language</a> > Forms
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-form-element">The Form Element</a></li>
+    <li><a href="#the-input-element">The Input Element</a></li>
+    <li><a href="#other-input-elements">Other &ldquo;Input&rdquo; Elements</a>
+      <ul>
+        <li><a href="#textarea">Textarea</a></li>
+        <li><a href="#select">Select</a></li>
+      </ul>
+    </li>
+    <li><a href="#labels">Labels</a></li>
+    <li><a href="#fieldsets">Fieldsets</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Forms
+            </h1>
+          
+
+        
+
+
+<p>Forms were also amongst the first additions to the HTML standard, and provide the ability to submit data to a web server.  A web form is composed of <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;select&gt;</code> and similar elements nested within a <code>&lt;form&gt;</code> element.</p>
+<h2 id="the-form-element">The Form Element</h2>
+<p>The form element primarily is used to organize input elements and specify how they should be submitted.  In its simplest form, it is simply a tag that other elements are nested within:</p>
+<p><code>&lt;form&gt;&lt;/form&gt;</code></p>
+<p>However, it can be modified with a number of attributes:</p>
+<ul>
+<li>
+<p><strong>action</strong> The <code>action</code> attribute specifies the url that this form data should be sent to. By default, it is the page the form exists on (i.e. if the form appears on <a href="http://foo.com/bar" target="_blank">http://foo.com/bar</a>, then it will submit to <a href="http://foo.com/bar%29" target="_blank">http://foo.com/bar)</a>.  The url can be relative to the current page, absolute, or even on a different webserver.  See the discussion of URLs in the HTTP section.</p>
+</li>
+<li>
+<p><strong>enctype</strong> The <code>enctype</code> attribute specifies the format that form data will be submitted in.  The most common values are <code>application/x-www-form-urlencoded</code> (the default), which serializes the key/value pairs using the urlencoding strategy, and <code>multipart/form-data</code>, which uses the multipart encoding scheme, and can interweave binary (file) data into the submission.  These encoding strategies are discussed more thoroughly in the chapter on submitting form data.</p>
+</li>
+<li>
+<p><strong>method</strong> The <code>method</code> attribute specifies the HTTP method used to submit the form.  The values are usually <code>GET</code> or <code>POST</code>. If the method is not specified, it will be a <code>GET</code> request.</p>
+</li>
+<li>
+<p><strong>target</strong> The target attribute specifies how the server response to the form submission will be displayed. By default, it loads in the current frame (the <code>_self</code>) value.  A value of <code>_blank</code> will load the response in a new tab.  If <code>&lt;iframe&gt;</code> elements are being used, there are additional values that work within <code>&lt;iframe&gt;</code> sets.</p>
+</li>
+</ul>
+<h2 id="the-input-element">The Input Element</h2>
+<p>Most inputs in a form are variations of the <code>&lt;input&gt;</code> element, specified with the <code>type</code> attribute.  Many additional specific types were introduced in the HTML5 specification, and may not be available in older browsers (in which case, they will be rendered as a <em>text</em> type input).  Currently available types are (an asterisk indicate a HTML5-defined type):</p>
+<ul>
+<li><strong>button</strong>: A push button with no default behavior.</li>
+<li><strong>checkbox</strong>: A check box allowing single values to be selected/deselected.  It has an extra attributed <code>checked</code>, which is a boolean specifying if it is checked.</li>
+<li><strong>color*</strong>: A control for specifying a color.</li>
+<li><strong>date*:</strong> A control for entering a date (year, month, and day, with no time).</li>
+<li><strong>datetime-local*</strong>: A control for entering a date and time, with no time zone.</li>
+<li><strong>email:</strong> HTML5 A field for editing an e-mail address.</li>
+<li><strong>file:</strong> A control that lets the user select a file. Use the accept attribute to define the types of files that the control can select.</li>
+<li><strong>hidden:</strong> A control that is not displayed but whose value is submitted to the server.</li>
+<li><strong>image:</strong> A graphical submit button. You must use the src attribute to define the source of the image and the alt attribute to define alternative text. You can use the height and width attributes to define the size of the image in pixels.</li>
+<li><strong>month*:</strong> A control for entering a month and year, with no time zone.</li>
+<li><strong>number*:</strong> A control for entering a number.</li>
+<li><strong>password:</strong> A single-line text field whose value is obscured.</li>
+<li><strong>radio:</strong> A radio button, allowing a single value to be selected out of multiple choices.</li>
+<li><strong>range*:</strong> A control for entering a number whose exact value is not important.</li>
+<li><strong>reset:</strong> A button that resets the contents of the form to default values.</li>
+<li><strong>search*:</strong> A single-line text field for entering search strings. Line-breaks are automatically removed from the input value.</li>
+<li><strong>submit:</strong> A button that submits the form.</li>
+<li><strong>tel*:</strong> A control for entering a telephone number.</li>
+<li><strong>text:</strong> A single-line text field. Line-breaks are automatically removed from the input value.</li>
+<li><strong>time*:</strong> A control for entering a time value with no time zone.</li>
+<li><strong>url*:</strong> A field for entering a URL.</li>
+<li><strong>week*:</strong> A control for entering a date consisting of a week-year number and a week number with no time zone.</li>
+</ul>
+<p>In addition to the <em>type</em> attribute, some other commonly used input attributes are:</p>
+<ul>
+<li><strong>name</strong> The name of the attribute, which is used to identify the submitted value (the name and value attributes define a key/value pair)</li>
+<li><strong>value</strong> The input&rsquo;s current value</li>
+<li><strong>placeholder</strong> A string to display in the input until a value is entered (typically used as a prompt).  The placeholder is never submitted as a value.</li>
+<li><strong>readonly</strong> A boolean attribute that when true, indicates the input value cannot be changed</li>
+<li><strong>required</strong> A boolean value indicating that the input is required to have a value before it can be submitted.</li>
+<li><strong>tabindex</strong> Indicates the order in which inputs can be reached by hitting the tab key.  For dense input forms, this can be important.</li>
+<li><strong>disabled</strong> A boolean value that when true, means the input is disabled (does not submit a value, cannot be interacted with, and is grayed out)</li>
+</ul>
+<h2 id="other-input-elements">Other &ldquo;Input&rdquo; Elements</h2>
+<p>In addition to the <code>&lt;input&gt;</code> element, some other elements exist that provide input-type functionality within a form, and implement the same attributes as an <code>&lt;input&gt;</code>.  These are:</p>
+<h3 id="textarea">Textarea</h3>
+<p>The <code>&lt;textarea&gt;</code> element provides a method for entering larger chunks of text than a <code>&lt;input type=&quot;text&quot;&gt;</code> does.  Most importantly, it preserves line-breaks (the <code>&lt;input type=&quot;text&quot;&gt;</code> removes them).  Instead of using the <code>value</code> attribute, the current value appears inside the opening and closing tags, i.e.:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">textarea</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;exampleText&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  This text is displayed within the textarea
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">textarea</span>&gt;
+</span></span></code></pre></div><p>In addition, the <code>rows</code> and <code>cols</code> attribute can be used to specify the size of the textarea in characters.</p>
+<h3 id="select">Select</h3>
+<p>The <code>&lt;select&gt;</code> element allows you to define a drop-down list.  It can contain as children, <code>&lt;option&gt;</code> and <code>&lt;optgroup&gt;</code> elements.  The <code>&lt;select&gt;</code> element should have its <code>name</code> attribute specified, and each <code>&lt;option&gt;</code> element should have a unique <code>value</code> attribute.  The selected <code>&lt;option&gt;</code>&rsquo;s value is then submitted with the <code>&lt;select&gt;</code>&rsquo;s name as a key/value pair.</p>
+<p>Each <code>&lt;select&gt;</code> element should also have a closing tag, and its child text is what is displayed to the user.</p>
+<p>The <code>&lt;optgroup&gt;</code> provides a way of nesting <code>&lt;option&gt;</code> elements under a category identifier (a <code>label</code> attribute specified on the <code>&lt;optgroup&gt;</code>).</p>
+<p>An example <code>&lt;select&gt;</code> using these features is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">select</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;headgear&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">option</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;none&#34;</span>&gt;None&lt;/<span style="color:#f92672">option</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">optgroup</span> <span style="color:#a6e22e">label</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Hats&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">option</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ball cap&#34;</span>&gt;Ball Cap&lt;/<span style="color:#f92672">option</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">option</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;derby&#34;</span>&gt;Derby&lt;/<span style="color:#f92672">option</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">option</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fedora&#34;</span>&gt;Fedora&lt;/<span style="color:#f92672">option</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">optgroup</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">optgroup</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Ceremonial&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">option</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;crown&#34;</span>&gt;Crown&lt;/<span style="color:#f92672">option</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">option</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mitre&#34;</span>&gt;Mitre&lt;/<span style="color:#f92672">option</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">option</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;war bonnet&#34;</span>&gt;War Bonnet&lt;/<span style="color:#f92672">option</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">optgroup</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">select</span>&gt;
+</span></span></code></pre></div><p>Finally, multiple selections can be allowed by specifying a <code>multiple</code> attribute as <code>true</code>.</p>
+<h2 id="labels">Labels</h2>
+<p>In addition to inputs, a <code>&lt;form&gt;</code> often uses <code>&lt;label&gt;</code> elements to help identify the inputs and their function.  A label will typically have its <code>for</code> attribute set to match the <code>name</code> attribute of the <code>&lt;input&gt;</code> it corresponds to.  When connected in this fashion, clicking the label will give focus to the input.  Also, when the <code>&lt;input type=&quot;checkbox&quot;&gt;</code>, clicking the label will also toggle the <code>checked</code> attribute of the checkbox.</p>
+<h2 id="fieldsets">Fieldsets</h2>
+<p>Finally, the <code>&lt;fieldset&gt;</code> element can be used to organize controls and labels into a single subcontainer within the form.  Much like <code>&lt;div&gt;</code> elements, this can be used to apply specific styles to the contained elements.</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/cc120/3-html/05-tables/" title="Tables"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/cc120/3-html/07-common-html-elements/" title="Common HTML Elements" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/clipboard.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.jquery.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery.sticky.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/featherlight.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/highlight.pack.js?1658694139"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/modernizr.custom-3.6.0.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/learn.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/hugo-learn.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/themer.js?1658694139"></script>
+
+    
+        
+            <script src="https://ksu-cs-textbooks.github.io/cc120/mermaid/mermaid.js?1658694139"></script>
+        
+        <script>
+            var mer_theme = localStorage.getItem('theme');
+            if(mer_theme !== 'dark'){
+                mer_theme = 'neutral'
+            }
+            mermaid.initialize({ 
+                startOnLoad: true,
+                'securityLevel': 'loose', 
+                'theme': mer_theme });
+        </script>
+    
+
+    
+
+    
+    
+
+    
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+  </body>
+</html>
+

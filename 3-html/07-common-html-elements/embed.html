@@ -1,0 +1,1424 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="description" content="K-State CC 120 Textbook">
+<meta name="author" content="Nathan H. Bean">
+
+    <link rel="icon" href="https://ksu-cs-textbooks.github.io/cc120/images/favicon.png" type="image/png">
+
+    <title>Common HTML Elements :: K-State CC 120 Textbook</title>
+
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/nucleus.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/fontawesome-all.min.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hybrid.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/featherlight.min.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/perfect-scrollbar.min.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/auto-complete.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/atom-one-dark-reasonable.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/tabs.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hugo-theme.css?1658694139" rel="stylesheet">
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-purple.css?1658694139" rel="stylesheet">
+    
+    
+    
+      <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-iframe.css?1658694139" rel="stylesheet">
+    
+    
+
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery-3.3.1.min.js?1658694139"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+     
+    
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+          x.parentElement.classList += 'has-jax'})
+      });
+  
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body class="" data-url="https://ksu-cs-textbooks.github.io/cc120/3-html/07-common-html-elements/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://ksu-cs-textbooks.github.io/cc120/">
+  K-State CC 120 Textbook
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/lunr.min.js?1658694139"></script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/auto-complete.js?1658694139"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/ksu-cs-textbooks.github.io\/cc120\/";
+    
+</script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/search.js?1658694139"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='https://ksu-cs-textbooks.github.io/cc120/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/0-forward/" title="Course Information" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          0. Course Information
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/1-www/" title="The World-Wide-Web" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/1-www/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          1. The World-Wide-Web
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/2-http/" title="Hyper-Text Transfer Protocol" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/2-http/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          2. Hyper-Text Transfer Protocol
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-html/" title="Hyper-Text Markup Language" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/">
+        
+        
+          
+          <i class="fas fa-angle-down fa-fw"></i>
+          
+        
+          3. Hyper-Text Markup Language
+          
+
+      </a>
+    
+      
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/01-introduction/" title="Introduction" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/01-introduction/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        1. Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/02-element-structure/" title="HTML Element Structure" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/02-element-structure/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        2. HTML Element Structure
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/03-document-structure/" title="HTML Document Structure" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/03-document-structure/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        3. HTML Document Structure
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/04-flow-model/" title="Flow Model" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/04-flow-model/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        4. Flow Model
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/05-tables/" title="Tables" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/05-tables/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        5. Tables
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/06-forms/" title="Forms" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/06-forms/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        6. Forms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/3-html/07-common-html-elements/" title="Common HTML Elements" class="dd-item active">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/07-common-html-elements/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        7. Common HTML Elements
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-css/" title="Cascading Style Sheets" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          4. Cascading Style Sheets
+          
+
+      </a>
+    
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/russfeld/ksucs-hugo-theme">ksucs-hugo-theme</a>.</p>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                  <div id="top-github-link">
+                    <a id="themelink" class="github-link" title='Toggle Light or Dark Mode' href="#">
+                      <i class="fas fa-moon"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Teleprompter View' href="tele.html" target="blank">
+                      <i class="fas fa-tv"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Embed this page' href="embed.html" target="blank">
+                      <i class="fas fa-expand-arrows-alt"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                
+                  </div>
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://ksu-cs-textbooks.github.io/cc120/'>Homepage</a> > <a href='https://ksu-cs-textbooks.github.io/cc120/3-html/'>Hyper-Text Markup Language</a> > Common HTML Elements
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#document-level-elements">Document-Level Elements</a>
+      <ul>
+        <li><a href="#lthtmlgt">&lt;html&gt;</a></li>
+        <li><a href="#ltheadgt">&lt;head&gt;</a></li>
+        <li><a href="#ltbodygt">&lt;body&gt;</a></li>
+      </ul>
+    </li>
+    <li><a href="#metadata-elements">Metadata Elements</a>
+      <ul>
+        <li><a href="#ltlinkgt">&lt;link&gt;</a></li>
+        <li><a href="#ltmetagt">&lt;meta&gt;</a></li>
+        <li><a href="#ltstylegt">&lt;style&gt;</a></li>
+        <li><a href="#lttitlegt">&lt;title&gt;</a></li>
+      </ul>
+    </li>
+    <li><a href="#sectioning-elements">Sectioning Elements</a>
+      <ul>
+        <li><a href="#headings">headings</a></li>
+        <li><a href="#ltmaingt">&lt;main&gt;</a></li>
+        <li><a href="#ltaside-gt">&lt;aside &gt;</a></li>
+        <li><a href="#ltarticlegt">&lt;article&gt;</a></li>
+        <li><a href="#ltheadergt">&lt;header&gt;</a></li>
+        <li><a href="#ltfootergt">&lt;footer&gt;</a></li>
+        <li><a href="#ltnavgt">&lt;nav&gt;</a></li>
+        <li><a href="#ltsectiongt">&lt;section&gt;</a></li>
+      </ul>
+    </li>
+    <li><a href="#text-content">Text Content</a>
+      <ul>
+        <li><a href="#ltblockquotegt">&lt;blockquote&gt;</a></li>
+        <li><a href="#ltfiguregt">&lt;figure&gt;</a></li>
+        <li><a href="#ltfigcaptiongt">&lt;figcaption&gt;</a></li>
+        <li><a href="#lthrgt">&lt;hr&gt;</a></li>
+        <li><a href="#lists">lists</a></li>
+        <li><a href="#ltdivgt">&lt;div&gt;</a></li>
+        <li><a href="#ltpregt">&lt;pre&gt;</a></li>
+      </ul>
+    </li>
+    <li><a href="#inline-text-elements">Inline Text Elements</a>
+      <ul>
+        <li><a href="#ltagt">&lt;a&gt;</a></li>
+        <li><a href="#text-callouts">text callouts</a></li>
+        <li><a href="#ltbrgt">&lt;br&gt;</a></li>
+        <li><a href="#ltcodegt">&lt;code&gt;</a></li>
+        <li><a href="#ltspangt">&lt;span&gt;</a></li>
+      </ul>
+    </li>
+    <li><a href="#media-elements">Media Elements</a>
+      <ul>
+        <li><a href="#ltimggt">&lt;img&gt;</a></li>
+        <li><a href="#ltaudiogt">&lt;audio&gt;</a></li>
+        <li><a href="#ltvideogt">&lt;video&gt;</a></li>
+        <li><a href="#ltsourcegt">&lt;source&gt;</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+
+        
+
+
+<p>This page details some of the most commonly used HTML elements. For a full reference, see MDN&rsquo;s <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML Element Reference</a>.</p>
+<h2 id="document-level-elements">Document-Level Elements</h2>
+<p>These elements describe the basic structure of the HTML document.</p>
+<h3 id="lthtmlgt">&lt;html&gt;</h3>
+<p>The <code>&lt;html&gt;</code> element contains the entire HTML document.  It should have exactly two children, the <code>&lt;head&gt;</code> and the <code>&lt;body&gt;</code> elements, appearing in that order.</p>
+<h3 id="ltheadgt">&lt;head&gt;</h3>
+<p>The <code>&lt;head&gt;</code> element contains any metadata describing the document.  The most common children elements are <code>&lt;title&gt;</code>, <code>&lt;meta&gt;</code>, and <code>&lt;link&gt;</code>.</p>
+<h3 id="ltbodygt">&lt;body&gt;</h3>
+<p>The <code>&lt;body&gt;</code> element should be the second child of the <code>&lt;html&gt;</code> element.  It contains the actual rendered content of the page, typically as nested HTML elements and text.  Elements that appear in the body can define structure, organize content, embed media, and play many other roles.</p>
+<h2 id="metadata-elements">Metadata Elements</h2>
+<p>These elements add properties to the document.</p>
+<h3 id="ltlinkgt">&lt;link&gt;</h3>
+<p>The <code>&lt;link&gt;</code> element links to an external resource using the <code>href</code> attribute and defines that resource&rsquo;s relationship with the document with the <code>rel</code> attibute.</p>
+<p>This is most commonly used to link a stylesheet which will modify how the page is rendered by the browser (see the chapter on CSS).  A stylesheet link takes the form:</p>
+<p><code>&lt;link href=&quot;path-to-stylesheet.css&quot; rel=&quot;stylesheet&quot;/&gt;</code></p>
+<p>It can also be used to link a favicon (the icon that appears on your browser tab):</p>
+<p><code>&lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;http://example.com/favicon.ico&quot; /&gt;</code></p>
+<h3 id="ltmetagt">&lt;meta&gt;</h3>
+<p>The <code>&lt;meta&gt;</code> elements is used to describe metadata not covered by other elements.  In the early days, its most common use was to list keywords for the website for search engines to use:</p>
+<p><code>&lt;meta keywords=&quot;html html5 web development webdev&quot;/&gt;</code></p>
+<p>However, this was greatly abused and search engines have stopped relying on them.  One of the most common uses today is to set the viewport to the size of the rendering device for responsive design (see the chapter on responsive design):</p>
+<p><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</code></p>
+<p>Also, best practice is to author HTML documents in utf-8 character format and specify that encoding with a metadata tag with the <code>charset</code> attribute:</p>
+<p><code>&lt;meta charset=&quot;utf-8&quot;&gt;</code></p>
+<h3 id="ltstylegt">&lt;style&gt;</h3>
+<p>The <code>style</code> element allows for embedding CSS text directly into the head section of the HTML page.  The Separation of Concerns discussion discusses the appropriateness of using this approach.</p>
+<h3 id="lttitlegt">&lt;title&gt;</h3>
+<p>The <code>&lt;title&gt;</code> element should only appear once in the <code>&lt;head&gt;</code> element, and its content should be text (no HTML elements).  It specifies the title of the document.  In modern browsers, the title is displayed on the browser tab displaying the document. In earlier browsers, it would appear in the window title bar.</p>
+<h2 id="sectioning-elements">Sectioning Elements</h2>
+<p>Many HTML Elements help define the structure of the document by breaking it into sections. These are intended to hold other elements and text. These elements are <em>block</em> type elements.</p>
+<h3 id="headings">headings</h3>
+<p>The <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, and <code>&lt;h6&gt;</code> elements are headings and subheadings with six possible levels of nesting.  They are used to enclose the title of the section.</p>
+<h3 id="ltmaingt">&lt;main&gt;</h3>
+<p>A <code>&lt;main&gt;</code> element identifies the content most central in the page. There should be only one per page (or, if multiple main elements are used, the others should have their <code>visible</code> attribute set to false).</p>
+<h3 id="ltaside-gt">&lt;aside &gt;</h3>
+<p>An <code>&lt;aside&gt;</code> element identifies content separate from the main focus of the page. It can be used for callouts, advertisements, and the like.</p>
+<h3 id="ltarticlegt">&lt;article&gt;</h3>
+<p>An <code>&lt;article&gt;</code> element identifies a stand-alone piece of content.  Unlike an aside, it is intended for syndication (reprinting) in other forms.</p>
+<h3 id="ltheadergt">&lt;header&gt;</h3>
+<p>The <code>&lt;header&gt;</code> element identifies a header for the page, often containing the site banner, navigation, etc.</p>
+<h3 id="ltfootergt">&lt;footer&gt;</h3>
+<p>The <code>&lt;footer&gt;</code> element identifies a footer for the page, often containing copyright and contact information.</p>
+<h3 id="ltnavgt">&lt;nav&gt;</h3>
+<p>The <code>&lt;nav&gt;</code> element typically contains navigation links and/or menus.</p>
+<h3 id="ltsectiongt">&lt;section&gt;</h3>
+<p>A <code>&lt;section&gt;</code> element is a general-purpose container for sectioning a page where a more specific container does not make sense.</p>
+<h2 id="text-content">Text Content</h2>
+<p>These HTML elements are used to organize text content.  Each of these is a <em>block element</em>, meaning it breaks up the flow of text on the page.</p>
+<h3 id="ltblockquotegt">&lt;blockquote&gt;</h3>
+<p>The <code>&lt;blockquote&gt;</code> is used to contain a long quotation.</p>
+<h3 id="ltfiguregt">&lt;figure&gt;</h3>
+<p>The <code>&lt;figure&gt;</code> is used to contain a figure (typically a <code>&lt;img&gt;</code> or other media element).</p>
+<h3 id="ltfigcaptiongt">&lt;figcaption&gt;</h3>
+<p>The <code>&lt;figcaption&gt;</code> provides a caption for a figure</p>
+<h3 id="lthrgt">&lt;hr&gt;</h3>
+<p>The <code>&lt;hr&gt;</code> provides a horizontal rule (line) to separate text.</p>
+<h3 id="lists">lists</h3>
+<p>There are three types of lists available in HTML, ordered, unordered, and definition.  Ordered lists number their contents, and consist of list item elements (<code>&lt;li&gt;</code>) nested in an ordered list element (<code>&lt;ol&gt;</code>).  Unordered lists are bulleted, and consist of list item elements (<code>&lt;li&gt;</code>) nested in an unordered list element (<code>&lt;ul&gt;</code>). List items can contain any kind of HTML elements, not just text.</p>
+<p>Definition lists nest a definition term (<code>&lt;dt&gt;</code>) and its corresponding definition (<code>&lt;dd&gt;</code>) inside a definition list (<code>&lt;dl&gt;</code>) element.  While rarely used, they can be handy when you want to provide lists of definitions (as in a glossary) in a way a search engine will recognize.</p>
+<h3 id="ltdivgt">&lt;div&gt;</h3>
+<p>The <code>&lt;div&gt;</code> element provides a wrapper around text content that is normally used to attach styles to.</p>
+<h3 id="ltpregt">&lt;pre&gt;</h3>
+<p>The <code>&lt;pre&gt;</code> tag informs the browser that its content has been preformatted, and its contents should be displayed exactly as written (i.e. whitespace is respected, and angle brackets (&lt;&gt;) are rendered rather than interpreted as HTML. It is often used in conjunction with a <code>&lt;code&gt;</code> element to display source code within a webpage.</p>
+<h2 id="inline-text-elements">Inline Text Elements</h2>
+<p>The following elements modify nested text while maintaining the flow of the page. As the name suggests, these are <em>inline</em> type elements.</p>
+<h3 id="ltagt">&lt;a&gt;</h3>
+<p>The <code>&lt;a&gt;</code> anchor element is used to link to another document on the web (i.e. &lsquo;anchoring&rsquo; it).  This element is what makes HTML hyper-text, so clearly it is important.  It should always have a source (<code>src</code>) attribute defined (use <code>&quot;#&quot;</code> if you are overriding its behavior with JavaScript).</p>
+<h3 id="text-callouts">text callouts</h3>
+<p>A number of elements seek to draw specific attention to a snippet of text, including <code>&lt;strong&gt;</code>, <code>&lt;mark&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;b&gt;</code>, <code>&lt;i&gt;</code></p>
+<h4 id="ltstronggt">&lt;strong&gt;</h4>
+<p>The <code>&lt;strong&gt;</code> element indicates the text is <em>important</em> in some way. Typically browsers will render its contents in boldface.</p>
+<h4 id="ltemgt">&lt;em&gt;</h4>
+<p>The <code>&lt;em&gt;</code> element indicates <em>stress emphasis</em> on the text.  Typically a browser will render it in italics.</p>
+<h4 id="ltmarkgt">&lt;mark&gt;</h4>
+<p>The <code>&lt;mark&gt;</code> element indicates text of specific <em>relevance</em>.  Typically the text appears highlighted.</p>
+<h4 id="ltbgt">&lt;b&gt;</h4>
+<p>The <em>bring to attention</em> element (<code>&lt;b&gt;</code>) strives to bring attention to the text. It lacks the semantic meaning of the other callouts, and typically is rendered as boldface (in early versions of HTML, it referred to bold).</p>
+<h4 id="ltigt">&lt;i&gt;</h4>
+<p>The <code>&lt;i&gt;</code> element sets off the contained text for some reason other than emphasis. It typically renders as italic (in early versions of HTML, the i referred to italics).</p>
+<h3 id="ltbrgt">&lt;br&gt;</h3>
+<p>The break element (<code>&lt;br&gt;</code>) inserts a line break into the text.  This is important as all whitespace in the text of an HTML document is collapsed into a single space when interpreted by a browser.</p>
+<h3 id="ltcodegt">&lt;code&gt;</h3>
+<p>The <code>&lt;code&gt;</code> element indicates the contained text is computer code.</p>
+<h3 id="ltspangt">&lt;span&gt;</h3>
+<p>The <code>&lt;span&gt;</code> element is the inline equivalent of the <code>&lt;div&gt;</code> element; it is used primarily to attach CSS rules to nested content.</p>
+<h2 id="media-elements">Media Elements</h2>
+<p>A number of elements bring media into the page.</p>
+<h3 id="ltimggt">&lt;img&gt;</h3>
+<p>The <code>&lt;img&gt;</code> element represents an image.  It should have a source (<code>src</code>) attribute defined, consisting of a URL where the image data can be retrieved, and an alternative text (<code>alt</code>) attribute with text to be displayed when the image cannot be loaded or when the element is read by a screen reader.</p>
+<h3 id="ltaudiogt">&lt;audio&gt;</h3>
+<p>The <code>&lt;audio&gt;</code> element represents audio data.  It should also have a source (<code>src</code>) attribute to provide the location of the video data.  Alternatively, it can contain multiple <code>&lt;source&gt;</code> elements defining alternative forms of the video data.</p>
+<h3 id="ltvideogt">&lt;video&gt;</h3>
+<p>The <code>&lt;video&gt;</code> element represents a video.  It should also have a source (<code>src</code>) attribute to provide the location of the video data.  Alternatively, it can contain multiple <code>&lt;source&gt;</code> elements defining alternative forms of the audio data.</p>
+<h3 id="ltsourcegt">&lt;source&gt;</h3>
+<p>The <code>&lt;source&gt;</code> element specifies one form of multimedia data, and should be nested inside a <code>&lt;video&gt;</code> or <code>&lt;audio&gt;</code> element.  Providing multiple sources in this way allows the browser to use the first one it understands (as most browsers do not support all possible media formats, this allows you to serve the broadest possible audience).  Each <code>&lt;source&gt;</code> element should have a source attribute (<code>src</code>) defining where its multimedia data can be located, as well as a <code>type</code> attribute defining what format the data is in.</p>
+
+
+<script>
+
+	 
+
+	iframeString = (height, uri) => `<iframe style="width: 100%; height: ${height}px; border: none;" src="${uri}"></iframe>`
+
+
+	function updateClipboard(newClip) {
+		navigator.clipboard.writeText(newClip).then(function() {
+		}, function() {
+			alert("clipboard failed");
+		});
+	  }	  
+
+	function onLoad() {
+		navigator.permissions.query({name: "clipboard-write"}).then(result => {
+			let uri = window.location.href;
+			let height = document.documentElement.scrollHeight;
+			if (result.state == "granted" || result.state == "prompt") {
+				updateClipboard(iframeString(height, uri));
+			}
+			else{
+				navigator.permissions.query({name:'clipboard-write'}).then(function(result) {
+					if (result.state == "granted" || result.state == "prompt") {
+						updateClipboard(iframeString(height, uri));
+					}
+				  });
+			}
+		  });
+	}
+	window.onload = onLoad();
+
+</script>
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/cc120/3-html/06-forms/" title="Forms"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/cc120/4-css/" title="Cascading Style Sheets" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/clipboard.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.jquery.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery.sticky.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/featherlight.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/highlight.pack.js?1658694139"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/modernizr.custom-3.6.0.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/learn.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/hugo-learn.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/themer.js?1658694139"></script>
+
+    
+        
+            <script src="https://ksu-cs-textbooks.github.io/cc120/mermaid/mermaid.js?1658694139"></script>
+        
+        <script>
+            var mer_theme = localStorage.getItem('theme');
+            if(mer_theme !== 'dark'){
+                mer_theme = 'neutral'
+            }
+            mermaid.initialize({ 
+                startOnLoad: true,
+                'securityLevel': 'loose', 
+                'theme': mer_theme });
+        </script>
+    
+
+    
+
+    
+    
+
+    
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+  </body>
+</html>
+
+
+
+

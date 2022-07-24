@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="description" content="K-State CC 120 Textbook">
+<meta name="author" content="Nathan H. Bean">
+
+    <link rel="icon" href="https://ksu-cs-textbooks.github.io/cc120/images/favicon.png" type="image/png">
+
+    <title>Navigating Canvas &amp; Codio :: K-State CC 120 Textbook</title>
+
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/nucleus.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/fontawesome-all.min.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hybrid.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/featherlight.min.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/perfect-scrollbar.min.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/auto-complete.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/atom-one-dark-reasonable.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/tabs.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hugo-theme.css?1658694139" rel="stylesheet">
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-purple.css?1658694139" rel="stylesheet">
+    
+    
+    
+    
+
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery-3.3.1.min.js?1658694139"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+     
+    
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+          x.parentElement.classList += 'has-jax'})
+      });
+  
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body class="" data-url="https://ksu-cs-textbooks.github.io/cc120/0-forward/02-navigating-canvas-codio/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://ksu-cs-textbooks.github.io/cc120/">
+  K-State CC 120 Textbook
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/lunr.min.js?1658694139"></script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/auto-complete.js?1658694139"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/ksu-cs-textbooks.github.io\/cc120\/";
+    
+</script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/search.js?1658694139"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='https://ksu-cs-textbooks.github.io/cc120/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/0-forward/" title="Course Information" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/">
+        
+        
+          
+          <i class="fas fa-angle-down fa-fw"></i>
+          
+        
+          0. Course Information
+          
+
+      </a>
+    
+      
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/0-forward/01-introduction/" title="Course Introduction" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/01-introduction/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        1. Course Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/0-forward/02-navigating-canvas-codio/" title="Navigating Canvas &amp; Codio" class="dd-item active">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/02-navigating-canvas-codio/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        2. Navigating Canvas &amp; Codio
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/0-forward/03-where-to-find-help/" title="Where to Find Help" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/03-where-to-find-help/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        3. Where to Find Help
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/0-forward/04-what-youll-learn/" title="What You&#39;ll Learn" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/04-what-youll-learn/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        4. What You&#39;ll Learn
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/0-forward/05-textbooks/" title="Course Textbooks" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/05-textbooks/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        5. Course Textbooks
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/0-forward/06-plagiarism/" title="Plagiarism Policy" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/06-plagiarism/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        6. Plagiarism Policy
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/0-forward/07-syllabus/" title="Spring 2022 Syllabus" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/07-syllabus/">
+        
+        
+          <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        
+          7. Spring 2022 Syllabus
+          
+
+      </a>
+    
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/1-www/" title="The World-Wide-Web" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/1-www/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          1. The World-Wide-Web
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/2-http/" title="Hyper-Text Transfer Protocol" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/2-http/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          2. Hyper-Text Transfer Protocol
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-html/" title="Hyper-Text Markup Language" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          3. Hyper-Text Markup Language
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-css/" title="Cascading Style Sheets" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          4. Cascading Style Sheets
+          
+
+      </a>
+    
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/russfeld/ksucs-hugo-theme">ksucs-hugo-theme</a>.</p>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                  <div id="top-github-link">
+                    <a id="themelink" class="github-link" title='Toggle Light or Dark Mode' href="#">
+                      <i class="fas fa-moon"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Teleprompter View' href="tele.html" target="blank">
+                      <i class="fas fa-tv"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Embed this page' href="embed.html" target="blank">
+                      <i class="fas fa-expand-arrows-alt"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                
+                  </div>
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://ksu-cs-textbooks.github.io/cc120/'>Homepage</a> > <a href='https://ksu-cs-textbooks.github.io/cc120/0-forward/'>Course Information</a> > Navigating Canvas & Codio
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Navigating Canvas &amp; Codio
+            </h1>
+          
+
+        
+
+
+
+<div class="notices noiframe" ><p>Web Only</p><p>This textbook was authored for the <strong>CC 120 - Web Page Development</strong> course at Kansas State University.  This front matter is specific to that course.  If you are not enrolled in the course, please disregard this section.</p>
+</div>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/dqEBz0R41d4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<!-- Fall 2019 fi5sKoI_sk8 -->
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="https://codio.com/docs/" target="_blank">Codio Documentation</a></li>
+</ul>
+<h4 id="video-script">Video Script</h4>
+<p>This course makes extensive use of several features of Canvas which you may or may not have worked with before. To give you the best experience in this course, this video will briefly describe those features and the best way to access them.</p>
+<p>When you first access the course on Canvas, you will be shown this homepage. It contains quick links to the course syllabus. This is handy if you just need to jump to a particular area.</p>
+<p>Let&rsquo;s walk through the options in the main menu to the left. The first section is Modules, which is where you&rsquo;ll primarily interact with the course. You&rsquo;ll notice that I&rsquo;ve disabled several of the common menu items in this course, such as Files and Assignments. This is to simplify things for you as students, so you remember that all the course content is available in one place.</p>
+<p>When you first arrive at the Modules section, you&rsquo;ll see all of the content in the course laid out in order. If you like, you can minimize the modules you aren&rsquo;t working on by clicking the arrow to the left of the module name. I&rsquo;ll do so, leaving the introductory module open.</p>
+<p>As you look at each module, you&rsquo;ll see that it gives quite a bit of information about the course. At the top of each module is an item telling you what parts of the module you must complete to continue. In this case, it says &ldquo;Complete All Items.&rdquo; Likewise, the following modules may list a number of prerequisite modules, which you must complete before you can access it.</p>
+<p>Within each module is a set of items, which must be completed in listed order. Under each item you&rsquo;ll see information about what you must do in order to complete that item. For many of them, it will simply say <em>view</em>, which means you must view the item at least once to continue. Others may say <em>contribute</em>, <em>submit</em>, or give a minimum score required to continue. For assignments, it also helpfully gives the number of points available, and the due date.</p>
+<p>Let&rsquo;s click on the first item, Course Introduction, to get started. You&rsquo;ve already been to this page by this point. Many course pages will consist of an embedded video, followed by links to any resources used or referenced in the video, including the slides and a downloadable version of the video. Finally, a rough video script will be posted on the page for your quick reference.</p>
+<p>While I cannot force you to watch each video in its entirety, I highly recommend doing so. The script on the page may not accurately reflect all of the content in the video, nor can it show how to perform some tasks which are purely visual.</p>
+<p>When you are ready to move to the next step in a module, click the <strong>Next</strong> button at the bottom of the page. Canvas will automatically add <strong>Next</strong> and <strong>Previous</strong> buttons to each piece of content which is accessed through the Modules section, which makes it very easy to work through the course content. I&rsquo;ll click through a couple of items here.</p>
+<p>At any point, you may click on the Modules link in the menu to the left to return to the Modules section of the site. You&rsquo;ll notice that I&rsquo;ve viewed the first few items in the first module, so I can access more items here. This is handy if you want to go back and review the content you&rsquo;ve already seen, or if you leave and want to resume where you left off. Canvas will put green checkmarks to the right of items you&rsquo;ve completed.</p>
+<p>Continuing down the menu to the left, you&rsquo;ll find the usual Canvas links to view your grades in the course, as well as a list of fellow students taking the course.</p>
+<p>===</p>
+<p>Now, let&rsquo;s go back to Canvas and load up one of the Codio projects. To load the first Codio projects, click the <strong>Next</strong> button at the bottom of this page to go to the next part of this module, which is the Codio Introduction tutorial. On that page, there will be a button to click, which opens Codio in a new browser window or tab.</p>
+<p>Once Codio loads, it should give you the option to start the <em>Guide</em> for that module. You&rsquo;ll definitely want to select that option whenever you load a Codio project for the first time.</p>
+<p>From there, you can follow the steps in that guide to learn more about the Codio interface. The first page of the guide continues this video. I&rsquo;ll see you there!</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/cc120/0-forward/01-introduction/" title="Course Introduction"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/cc120/0-forward/03-where-to-find-help/" title="Where to Find Help" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/clipboard.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.jquery.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery.sticky.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/featherlight.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/highlight.pack.js?1658694139"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/modernizr.custom-3.6.0.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/learn.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/hugo-learn.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/themer.js?1658694139"></script>
+
+    
+        
+            <script src="https://ksu-cs-textbooks.github.io/cc120/mermaid/mermaid.js?1658694139"></script>
+        
+        <script>
+            var mer_theme = localStorage.getItem('theme');
+            if(mer_theme !== 'dark'){
+                mer_theme = 'neutral'
+            }
+            mermaid.initialize({ 
+                startOnLoad: true,
+                'securityLevel': 'loose', 
+                'theme': mer_theme });
+        </script>
+    
+
+    
+
+    
+    
+
+    
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+  </body>
+</html>
+

@@ -1,0 +1,1445 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="description" content="K-State CC 120 Textbook">
+<meta name="author" content="Nathan H. Bean">
+
+    <link rel="icon" href="https://ksu-cs-textbooks.github.io/cc120/images/favicon.png" type="image/png">
+
+    <title>CSS Colors :: K-State CC 120 Textbook</title>
+
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/nucleus.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/fontawesome-all.min.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hybrid.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/featherlight.min.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/perfect-scrollbar.min.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/auto-complete.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/atom-one-dark-reasonable.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/tabs.css?1658694139" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hugo-theme.css?1658694139" rel="stylesheet">
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-purple.css?1658694139" rel="stylesheet">
+    
+    
+    
+      <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-iframe.css?1658694139" rel="stylesheet">
+    
+    
+
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery-3.3.1.min.js?1658694139"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+     
+    
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+          x.parentElement.classList += 'has-jax'})
+      });
+  
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body class="" data-url="https://ksu-cs-textbooks.github.io/cc120/4-css/09-css-colors/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://ksu-cs-textbooks.github.io/cc120/">
+  K-State CC 120 Textbook
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/lunr.min.js?1658694139"></script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/auto-complete.js?1658694139"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/ksu-cs-textbooks.github.io\/cc120\/";
+    
+</script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/search.js?1658694139"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='https://ksu-cs-textbooks.github.io/cc120/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/0-forward/" title="Course Information" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          0. Course Information
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/1-www/" title="The World-Wide-Web" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/1-www/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          1. The World-Wide-Web
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/2-http/" title="Hyper-Text Transfer Protocol" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/2-http/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          2. Hyper-Text Transfer Protocol
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-html/" title="Hyper-Text Markup Language" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          3. Hyper-Text Markup Language
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-css/" title="Cascading Style Sheets" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/">
+        
+        
+          
+          <i class="fas fa-angle-down fa-fw"></i>
+          
+        
+          4. Cascading Style Sheets
+          
+
+      </a>
+    
+      
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/01-introduction/" title="Introduction" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/01-introduction/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        1. Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/02-css-rule-format/" title="CSS Rules" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/02-css-rule-format/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        2. CSS Rules
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/03-css-selectors/" title="CSS Selectors" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/03-css-selectors/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        3. CSS Selectors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/04-applying-css-rules/" title="Applying CSS Rules" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/04-applying-css-rules/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        4. Applying CSS Rules
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/05-css-cascading/" title="CSS Cascade" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/05-css-cascading/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        5. CSS Cascade
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/06-css-specificity/" title="CSS Specificity" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/06-css-specificity/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        6. CSS Specificity
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/07-css-units/" title="CSS Units" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/07-css-units/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        7. CSS Units
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/08-css-functions/" title="CSS Functions" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/08-css-functions/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        8. CSS Functions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/09-css-colors/" title="CSS Colors" class="dd-item active">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/09-css-colors/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        9. CSS Colors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/10-css-text/" title="CSS and Text" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/10-css-text/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        10. CSS and Text
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/11-css-box-model/" title="CSS Box Model" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/11-css-box-model/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        11. CSS Box Model
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/12-css-positioning/" title="CSS Positioning" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/12-css-positioning/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        12. CSS Positioning
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/13-css-layouts/" title="CSS Layouts" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/13-css-layouts/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        13. CSS Layouts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/4-css/14-responsive-css/" title="Responsive Web Design" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/14-responsive-css/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        14. Responsive Web Design
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+    
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/russfeld/ksucs-hugo-theme">ksucs-hugo-theme</a>.</p>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                  <div id="top-github-link">
+                    <a id="themelink" class="github-link" title='Toggle Light or Dark Mode' href="#">
+                      <i class="fas fa-moon"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Teleprompter View' href="tele.html" target="blank">
+                      <i class="fas fa-tv"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Embed this page' href="embed.html" target="blank">
+                      <i class="fas fa-expand-arrows-alt"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                
+                  </div>
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://ksu-cs-textbooks.github.io/cc120/'>Homepage</a> > <a href='https://ksu-cs-textbooks.github.io/cc120/4-css/'>Cascading Style Sheets</a> > CSS Colors
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents"></nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+
+        
+
+
+<p>CSS also has many properties that can be set to a color, i.e. <code>color</code>, <code>background-color</code>, <code>border-color</code>, <code>box-shadow</code>, etc. Colors consist of three or four values corresponding to the amount of red, green, and blue light blended to create the color. The optional fourth value is the alpha, and is typically used to specify transparency.</p>
+<p>Colors are stored as 24-bit values, with 8 bits for each of the four channels (R,G,B,and A), representing 256 possible values (2^8) for each channel.</p>
+<p>Colors can be specified in one of several ways:</p>
+<ul>
+<li>
+<p><strong>Color Keywords</strong> like <code>red</code>, <code>dark-gray</code>, <code>chartreuse</code> correspond to well-defined values.  You can find the full list <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords" target="_blank">in the MDN Documentation</a>.</p>
+</li>
+<li>
+<p><strong>Hexidecimal Values</strong> like <code>#6495ed</code>, which corresponds to cornflower blue.  The first two places represent the red component, the second the green, and the third the blue.  If an additional two places are provided the last pair represents the alpha component.  Each pair of hex values can represent 256 possible values (16^2), and is converted directly to the binary color representation in memory.</p>
+</li>
+<li>
+<p><strong>RGB Function</strong> a third option is to use the <code>RGB()</code> CSS function.  This take decimal arguments for each channel which should be in the range 0-255</p>
+</li>
+<li>
+<p><strong>HSL Function</strong> a fourth option is the <code>HSL()</code> function, which specifies colors in terms of an alternative scheme of <a href="https://en.wikipedia.org/wiki/HSL_and_HSV#Basic_principle" target="_blank">hue, saturation, and lightness</a>.</p>
+</li>
+<li>
+<p><strong>RGBA and HSLA Functions</strong> finally, the <code>RGBA()</code> and <code>HSLA()</code> functions take the same arguments as their siblings, plus a value for the alpha channel between 0 and 1.</p>
+</li>
+</ul>
+
+
+<script>
+
+	 
+
+	iframeString = (height, uri) => `<iframe style="width: 100%; height: ${height}px; border: none;" src="${uri}"></iframe>`
+
+
+	function updateClipboard(newClip) {
+		navigator.clipboard.writeText(newClip).then(function() {
+		}, function() {
+			alert("clipboard failed");
+		});
+	  }	  
+
+	function onLoad() {
+		navigator.permissions.query({name: "clipboard-write"}).then(result => {
+			let uri = window.location.href;
+			let height = document.documentElement.scrollHeight;
+			if (result.state == "granted" || result.state == "prompt") {
+				updateClipboard(iframeString(height, uri));
+			}
+			else{
+				navigator.permissions.query({name:'clipboard-write'}).then(function(result) {
+					if (result.state == "granted" || result.state == "prompt") {
+						updateClipboard(iframeString(height, uri));
+					}
+				  });
+			}
+		  });
+	}
+	window.onload = onLoad();
+
+</script>
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/cc120/4-css/08-css-functions/" title="CSS Functions"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/cc120/4-css/10-css-text/" title="CSS and Text" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/clipboard.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.jquery.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery.sticky.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/featherlight.min.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/highlight.pack.js?1658694139"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/modernizr.custom-3.6.0.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/learn.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/hugo-learn.js?1658694139"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/themer.js?1658694139"></script>
+
+    
+        
+            <script src="https://ksu-cs-textbooks.github.io/cc120/mermaid/mermaid.js?1658694139"></script>
+        
+        <script>
+            var mer_theme = localStorage.getItem('theme');
+            if(mer_theme !== 'dark'){
+                mer_theme = 'neutral'
+            }
+            mermaid.initialize({ 
+                startOnLoad: true,
+                'securityLevel': 'loose', 
+                'theme': mer_theme });
+        </script>
+    
+
+    
+
+    
+    
+
+    
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+  </body>
+</html>
+
+
+
+
