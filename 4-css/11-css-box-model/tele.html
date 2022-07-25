@@ -18,26 +18,26 @@
     <title>CSS Box Model :: K-State CC 120 Textbook</title>
 
     
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/nucleus.css?1658694140" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/fontawesome-all.min.css?1658694140" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hybrid.css?1658694140" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/featherlight.min.css?1658694140" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/perfect-scrollbar.min.css?1658694140" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/auto-complete.css?1658694140" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/atom-one-dark-reasonable.css?1658694140" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme.css?1658694140" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/tabs.css?1658694140" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hugo-theme.css?1658694140" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/nucleus.css?1658759546" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/fontawesome-all.min.css?1658759546" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hybrid.css?1658759546" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/featherlight.min.css?1658759546" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/perfect-scrollbar.min.css?1658759546" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/auto-complete.css?1658759546" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/atom-one-dark-reasonable.css?1658759546" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme.css?1658759546" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/tabs.css?1658759546" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hugo-theme.css?1658759546" rel="stylesheet">
     
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-purple.css?1658694140" rel="stylesheet">
-    
-    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-purple.css?1658759546" rel="stylesheet">
     
     
-      <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-tele.css?1658694140" rel="stylesheet">
+    
+    
+      <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-tele.css?1658759546" rel="stylesheet">
     
 
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery-3.3.1.min.js?1658694140"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery-3.3.1.min.js?1658759546"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -91,14 +91,14 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/lunr.min.js?1658694140"></script>
-<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/auto-complete.js?1658694140"></script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/lunr.min.js?1658759546"></script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/auto-complete.js?1658759546"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/ksu-cs-textbooks.github.io\/cc120\/";
     
 </script>
-<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/search.js?1658694140"></script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/search.js?1658759546"></script>
 
     
   </div>
@@ -694,7 +694,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <p>As the browser lays out HTML elements in a page, it uses the <strong>CSS Box Model</strong> to determine the size and space between elements.  The CSS box is composed of four nested areas (or outer edges): the content edge, padding edge, border edge, and margin edge.</p>
 <h2 id="box-areas">Box Areas</h2>
-<p><img src="https://ksu-cs-textbooks.github.io/cc120//static/images/B.11.1.png" alt="CSS Box Model"></p>
+<p><img src="https://ksu-cs-textbooks.github.io/cc120/images/4.11.1.png" alt="CSS Box Model"></p>
 <p><strong>Content Area</strong> contains the actual content of the element (the text, image, etc).  By default the CSS properties <code>width</code> and <code>height</code> set this size, and the <code>min-width</code>, <code>min-height</code>, <code>max-width</code>, <code>max-height</code> constrain it (but see the discussion of <code>box-sizing</code> below).</p>
 <p><strong>Padding Area</strong> provides space between the content and the border of the HTML element.  It is set by the <code>padding</code> properties (<code>padding-top</code>, <code>padding-right</code>, <code>padding-bottom</code>, and <code>padding-left</code>, as well as the shorthand versions).</p>
 <p><strong>Border Area</strong> draws a border around the element.  Its size is set with the <code>border-width</code> property.  Borders can also be dashed, inset, and given rounded corners. See the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border" target="_blank">MDN Border Documentation</a> for details.</p>
@@ -1366,21 +1366,21 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/clipboard.min.js?1658694140"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.min.js?1658694140"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.jquery.min.js?1658694140"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery.sticky.js?1658694140"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/featherlight.min.js?1658694140"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/highlight.pack.js?1658694140"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/clipboard.min.js?1658759546"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.min.js?1658759546"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.jquery.min.js?1658759546"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery.sticky.js?1658759546"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/featherlight.min.js?1658759546"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/highlight.pack.js?1658759546"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/modernizr.custom-3.6.0.js?1658694140"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/learn.js?1658694140"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/hugo-learn.js?1658694140"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/themer.js?1658694140"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/modernizr.custom-3.6.0.js?1658759546"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/learn.js?1658759546"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/hugo-learn.js?1658759546"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/themer.js?1658759546"></script>
 
     
         
-            <script src="https://ksu-cs-textbooks.github.io/cc120/mermaid/mermaid.js?1658694140"></script>
+            <script src="https://ksu-cs-textbooks.github.io/cc120/mermaid/mermaid.js?1658759546"></script>
         
         <script>
             var mer_theme = localStorage.getItem('theme');
@@ -1395,8 +1395,8 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
 
     
-        <script src="https://ksu-cs-textbooks.github.io/cc120/js/tele-scroll.js?1658694140"></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc120/js/hideyt.js?1658694140"></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc120/js/tele-scroll.js?1658759546"></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc120/js/hideyt.js?1658759546"></script>
     
 
     
