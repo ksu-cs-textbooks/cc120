@@ -19,4 +19,4 @@ Colors can be specified in one of several ways:
 
 * __HSL Function__ a fourth option is the `HSL()` function, which specifies colors in terms of an alternative scheme of [hue, saturation, and lightness](https://en.wikipedia.org/wiki/HSL_and_HSV#Basic_principle). 
 
-* __RGBA and HSLA Functions__ finally, the `RGBA()` and `HSLA()` functions take the same arguments as their siblings, plus a value for the alpha channel between 0 and 1.
+* __RGBA and HSLA Functions__ finally, the `RGBA()` and `HSLA()` functions take the same arguments as their siblings, plus a value for the alpha channel between 0 and 1.  This alpha channel represents the opacity/transparency of the color, with 0 being fully transparent and 1 being fully opaque. Thus, a value of .75 represents 3/4 opacity, or 1/4 transparency.
