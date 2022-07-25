@@ -179,6 +179,16 @@ Linked CSS Documents The &amp;lt;link&amp;gt; HTML element can be used to link t
     </item>
     
     <item>
+      <title>Arrays - Lists by Another Name</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/04-arrays-and-lists/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/04-arrays-and-lists/</guid>
+      <description>CONSOLE You might have noticed we used an array in discussing the for .. in loop, but didn&amp;rsquo;t talk about it in our data type discussion. This is because in JavaScript, an array is not a primitive data type. Rather, it&amp;rsquo;s a special kind of object.
+This is one of those aspects of JavaScript that breaks strongly with imperative languages. Brandon Eich drew heavily from Scheme, which is a functional language that focuses heavily on list processing&amp;hellip; and the JavaScript array actually has more to do with lists than it does arrays.</description>
+    </item>
+    
+    <item>
       <title>Flow Model</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/3-html/04-flow-model/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -442,15 +452,6 @@ In this understanding, CSS is often tasked with the role of laying out elements 
       
       <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/02-browser-requests/</guid>
       <description>Before we get too deep in the details of what a request is, and how it works, let&amp;rsquo;s explore the primary kind of request you&amp;rsquo;re already used to making - requests originating from a browser. Every time you use a browser to browse the Internet, you are creating a series of HTTP (or HTTPS) requests that travel across the networks between you and a web server, which responds to your requests.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/04-arrays-and-lists/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/04-arrays-and-lists/</guid>
-      <description></description>
     </item>
     
     <item>
