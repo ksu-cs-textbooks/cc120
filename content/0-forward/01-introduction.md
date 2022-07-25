@@ -18,3 +18,4 @@ This textbook was authored for the **CC 120 - Web Page Development** course at K
 ## Welcome Message
 Hello students, and welcome to CC 120 - Web Page Development.  My name is Nathan Bean, and I will be your instructor for this course.
 
+{{<youtube BrT7rEV-y2U>}}
