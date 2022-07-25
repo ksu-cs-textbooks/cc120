@@ -18,7 +18,7 @@ By default a block-level element stretches the width of the parent element, and 
 A common use is to float figures and images within a page, i.e.:
 
 ```html 
-<img src="images/Marc-Andreessen.jpg"/>
+<img src="/images/Marc-Andreessen.jpg"/>
 <p>People tend to think of the web as a way to get information or perhaps as a place  to carry out ecommerce. But really, the web is about accessing applications. Think of each website as an application, and every single click, every single interaction with that site, is an opportunity to be on the very latest version of that application.</p>
 <span>- Marc Andreessen</span>
 ```
