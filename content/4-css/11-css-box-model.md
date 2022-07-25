@@ -9,7 +9,7 @@ As the browser lays out HTML elements in a page, it uses the __CSS Box Model__ t
 
 ## Box Areas
 
-![CSS Box Model]({{<static "images/B.11.1.png">}})
+![CSS Box Model](/images/4.11.1.png)
 
 __Content Area__ contains the actual content of the element (the text, image, etc).  By default the CSS properties `width` and `height` set this size, and the `min-width`, `min-height`, `max-width`, `max-height` constrain it (but see the discussion of `box-sizing` below).  
 

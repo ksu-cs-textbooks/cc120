@@ -10,7 +10,7 @@ By default HTML elements are positioned in the page using the HTML flow algorith
 ## The Positioning Context 
 First, we need to understand the positioning context, this is basically the area an element is positioned within.  The `left`, `top`, `right`, and `bottom` properties affect where an element appears within its context.  
 
-![Positioning Context](images/4.12.1.png)
+![Positioning Context](/images/4.12.1.png)
 
 You can think of the context as a box.  The `left` property determines how far the element is from the left side of this context, the `top` from the top, `right` from the right, and `bottom` from the bottom. These values can be numeric or percentage values, and can be negative.
 

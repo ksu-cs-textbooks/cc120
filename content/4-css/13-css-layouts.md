@@ -110,7 +110,7 @@ footer {
 
 The Flexible Box Layout (flexbox) is intended to offer a greater degree of control and _flexibility_ (pun intended) to laying out web pages.  Its purpose is to provide an efficient way of laying out, aligning, and distributing elements within a container.  Moreover, it can carry out this goal even when the sizes of the child elements are unknown or dynamic. 
 
-![flexbox diagram](images/4.13.1.png)
+![flexbox diagram](/images/4.13.1.png)
 
 The flexbox model therefore consists of two levels of nested elements - an outer _container_ element and inner content _item_ elements (the content item elements themselves can have many descendant elements).  The flexbox properties help define how the content item elements are laid out within their parent container.
 

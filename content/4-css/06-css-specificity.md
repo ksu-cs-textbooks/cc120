@@ -46,7 +46,7 @@ The specificity of a selector increases by the type and number of selectors invo
 
 Each of these is trumped by in-line CSS rules, which can be thought of as the highest specificity.  Thus, we can think of specificity as a 4-element tuple (A, B, C, D):
 
-![Specificity Tuple](images/4.6.1.png)
+![Specificity Tuple](/images/4.6.1.png)
 
 We can then calculate the values of A,B,C,D:
 * Count 1 if the declaration is from a ‘style’ attribute (inline style) rather than a rule with a selector, 0 otherwise (= A).
