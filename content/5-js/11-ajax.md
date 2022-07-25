@@ -122,21 +122,3 @@ Finally, the [XMLHttpRequest.send()](https://developer.mozilla.org/en-US/docs/We
 ```js
 xhr.send();
 ```
-
-{{% notice info %}}
-A second major benefit of the JQuery library (after simplifying DOM querying and manipulation) was its effort to simplify AJAX.  It provides a robust wrapper around the `XMLHttpRequest` object with the [jQuery.ajax()](https://api.jquery.com/jquery.ajax/) method.  Consider the AJAX request we defined in this chapter:
-
-```js 
-var xhr = new XMLHttpRequest();
-xhr.addEventListener('load', () => {
-    // do something with xhr object
-});
-xhr.addEventListener('error', () => {
-    // report the error
-});
-xhr.open('GET', 'https://imgs.xkcd.com/comics/blogofractal.png');
-xhr.setRequestHeader('Accept', 'image/png');
-xhr.send();
-```
-
-
