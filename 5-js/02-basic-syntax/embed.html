@@ -1,0 +1,1799 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="description" content="K-State CC 120 Textbook">
+<meta name="author" content="Nathan H. Bean">
+
+    <link rel="icon" href="https://ksu-cs-textbooks.github.io/cc120/images/favicon.png" type="image/png">
+
+    <title>Basic Syntax :: K-State CC 120 Textbook</title>
+
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/nucleus.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/fontawesome-all.min.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hybrid.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/featherlight.min.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/perfect-scrollbar.min.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/auto-complete.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/atom-one-dark-reasonable.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/tabs.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hugo-theme.css?1658776671" rel="stylesheet">
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-purple.css?1658776671" rel="stylesheet">
+    
+    
+    
+      <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-iframe.css?1658776671" rel="stylesheet">
+    
+    
+
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery-3.3.1.min.js?1658776671"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+     
+    
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+          x.parentElement.classList += 'has-jax'})
+      });
+  
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body class="" data-url="https://ksu-cs-textbooks.github.io/cc120/5-js/02-basic-syntax/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://ksu-cs-textbooks.github.io/cc120/">
+  K-State CC 120 Textbook
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/lunr.min.js?1658776671"></script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/auto-complete.js?1658776671"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/ksu-cs-textbooks.github.io\/cc120\/";
+    
+</script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/search.js?1658776671"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='https://ksu-cs-textbooks.github.io/cc120/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/0-forward/" title="Course Information" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          0. Course Information
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/1-www/" title="The World-Wide-Web" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/1-www/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          1. The World-Wide-Web
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/2-http/" title="Hyper-Text Transfer Protocol" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/2-http/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          2. Hyper-Text Transfer Protocol
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-html/" title="Hyper-Text Markup Language" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          3. Hyper-Text Markup Language
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-css/" title="Cascading Style Sheets" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          4. Cascading Style Sheets
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-js/" title="JavaScript" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/">
+        
+        
+          
+          <i class="fas fa-angle-down fa-fw"></i>
+          
+        
+          <b>5. </b>JavaScript
+          
+
+      </a>
+    
+      
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/01-introduction/" title="Introduction" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/01-introduction/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        1. Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/02-basic-syntax/" title="Basic Syntax" class="dd-item active">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/02-basic-syntax/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        2. Basic Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/03-functions/" title="JavaScript Functions" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/03-functions/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        3. JavaScript Functions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/05-objects-and-classes/" title="Objects and Classes" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/05-objects-and-classes/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        5. Objects and Classes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/06-attaching-scripts/" title="Attaching Scripts" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/06-attaching-scripts/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        6. Attaching Scripts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/07-the-dom/" title="The Document Object Model" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        7. The Document Object Model
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/08-strict-mode/" title="Strict Mode" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/08-strict-mode/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        8. Strict Mode
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/09-regexp/" title="Regular Expressions" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/09-regexp/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        9. Regular Expressions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/10-json/" title="JSON" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/10-json/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        10. JSON
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/04-arrays-and-lists/" title="" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/04-arrays-and-lists/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/11-ajax/" title="" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+    
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/russfeld/ksucs-hugo-theme">ksucs-hugo-theme</a>.</p>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                  <div id="top-github-link">
+                    <a id="themelink" class="github-link" title='Toggle Light or Dark Mode' href="#">
+                      <i class="fas fa-moon"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Teleprompter View' href="tele.html" target="blank">
+                      <i class="fas fa-tv"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Embed this page' href="embed.html" target="blank">
+                      <i class="fas fa-expand-arrows-alt"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                
+                  </div>
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://ksu-cs-textbooks.github.io/cc120/'>Homepage</a> > <a href='https://ksu-cs-textbooks.github.io/cc120/5-js/'>JavaScript</a> > Basic Syntax
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#interpreted-language">Interpreted Language</a></li>
+    <li><a href="#terminating-lines-of-code">Terminating Lines of Code</a></li>
+    <li><a href="#data-types">Data Types</a>
+      <ul>
+        <li><a href="#numbers">Numbers</a></li>
+        <li><a href="#strings">Strings</a></li>
+        <li><a href="#booleans">Booleans</a></li>
+        <li><a href="#undefined">Undefined</a></li>
+        <li><a href="#null">Null</a></li>
+        <li><a href="#objects">Objects</a></li>
+        <li><a href="#symbols">Symbols</a></li>
+      </ul>
+    </li>
+    <li><a href="#variables">Variables</a></li>
+    <li><a href="#type-conversions">Type Conversions</a></li>
+    <li><a href="#control-structures">Control Structures</a>
+      <ul>
+        <li><a href="#if-else-statements">If Else Statements</a></li>
+        <li><a href="#loops">Loops</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+
+        
+
+
+<style>
+  .console {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 1000;
+    width: 100%;
+    height: 30vh;
+    background-color: #8451a1;
+    padding: 1rem;
+    transform: translateY(calc(30vh - 5px));
+    transition: transform 2s;
+  }
+  .console iframe {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  .console > .console-tab {
+    position: absolute;
+    top: -1.2rem;
+    right: 0px;
+    color: white;
+    background-color: #8451a1;
+    padding: 0 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .console.active {
+    transform: none;
+  }
+</style>
+<div class="console">
+<div class="console-tab">CONSOLE</div>
+<iframe src="https://jsconsole.com/"></iframe>
+</div>
+<script>
+  document.querySelector('.console-tab').addEventListener('click', (event) => {
+    console.log(event);
+    event.target.parentElement.classList.toggle('active');
+  });
+</script>
+<p>Because Netscape was adopting Java at the same time they were developing what would become JavaScript, there was a push to make the syntax stay somewhat consistent between the two languages.  As a result, JavaScript has much of the look and feel of an imperative language like C, C#, or Java.</p>
+<p>However, this similarity can be deceptive, because how JavaScript operates can be quite different than those languages.  This can lead to frustration for imperative programmers learning JavaScript.  As we go over the basics of the language, I will strive to call out these tricky differences.</p>
+<p>To assist you in learning JavaScript syntax, we&rsquo;ve added an interactive console to this textbook where you can type in arbitrary JavaScript code and see the result of its execution, much like the console that Developer Tools provide.  You can click the word &ldquo;Console&rdquo; on the purple tab below to expand it, and click it again to minimize it.</p>
+<h2 id="interpreted-language">Interpreted Language</h2>
+<p>JavaScript is an interpreted language, which means instead of being compiled into machine code, it is interpreted by a special program - an interpreter.  Each browser has its own interpreter implementation.</p>
+<p>Let&rsquo;s start with a traditional example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;hello world&#34;</span>);
+</span></span></code></pre></div><p>Copy/paste or type this code into the console provided at the bottom of the page. What is the output?</p>
+<p>As you might expect, this prints the string &ldquo;hello world&rdquo; to standard output.  Notice we didn&rsquo;t need to put this code into a <code>main</code> function - JavaScript code is executed as it is encountered by the interpreter.</p>
+<h2 id="terminating-lines-of-code">Terminating Lines of Code</h2>
+<p>Also, the semicolon is an optional way to end an expression.  A new line is other way to do so, so these two programs:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Hello&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;World&#34;</span>)
+</span></span></code></pre></div><p>and</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Hello&#34;</span>);<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;World&#34;</span>);
+</span></span></code></pre></div><p>are equivalent.  We can also use both a semicolon and a new line (as in the first example).  A common technique for making JavaScript files smaller, known as <em>minifying</em> takes advantage of this fact to write an entire program in a single line!  We&rsquo;ll discuss how and when to do so later.</p>
+<h2 id="data-types">Data Types</h2>
+<p>Like any programming language, JavaScript has a number of predefined data types.  We can also query the data type of a value at runtime, using the <code>typeof</code> keyword.  Try typing some of these lines into the console:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">typeof</span> <span style="color:#ae81ff">5</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">typeof</span> <span style="color:#ae81ff">1.3</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">typeof</span> <span style="color:#e6db74">&#34;Hello&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">typeof</span> <span style="color:#66d9ef">true</span>;
+</span></span></code></pre></div><h3 id="numbers">Numbers</h3>
+<p>Numbers include integers and floats, though JavaScript mostly uses the distinction for how a value is stored in memory and presents the programmer with the <code>number</code> type.  This category also includes some special values, like <code>NaN</code> (not a number) and <code>Infinity</code>.   We can perform all the standard arithmetic operations on any number (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>).<br>
+These operations are also &ldquo;safe&rdquo; in the sense that they will not throw an error. For example, try typing <code>4/0</code> in the terminal below.  The value you see as a result is still a number!</p>
+<p>The JavaScript interpreter will switch between an integer and float representation internally as it makes sense to.  For example, type <code>4.0</code> and you&rsquo;ll see the console echoes <code>4</code> to you, showing it is storing the number as an integer.  Try typing <code>4.1</code>, and you&rsquo;ll see it stores it as a float.</p>
+<h3 id="strings">Strings</h3>
+<p>The <code>string</code> type in JavaScript can be declared literally using single (<code>'</code>) or double (<code>&quot;</code>) quotes, and as of ES6, tick marks (<code>`</code>).</p>
+<p>Double and single-quoted strings work exactly the same. They must be on the same line, though you can add newline characters to both using <code>\n</code>.  The backslash is used as an escape character, so to include it in a string you must use a double-backslash instead <code>\\</code>.  Finally, in a single-quoted string you can escape a single quote, i.e. <code>'Bob\'s Diner'</code>, and similarly for double-quotes: <code>&quot;\&quot;That's funny,\&quot; she said.&quot;</code>  Judicious choices of single-or double-quoted strings can avoid much of this complication.</p>
+<p>You can also directly reference unicode characters with <code>\u[ref number]</code>.  Try typing the sequence <code>&quot;\u1F63C&quot;</code>.</p>
+<p>Finally, strings enclosed with tick marks (<code>`</code>) are <em>template literals</em> that have a few special properties.  First, they can span multiple lines, i.e.:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#e6db74">`This is a 
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">multiline string
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">example`</span>
+</span></span></code></pre></div><p>The line breaks will be interpreted as new line characters.  Secondly, you can embed arbitrary JavaScript inside of them using <code>${}</code>.  Give it a try:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#e6db74">`The sum of 2 and 3 is </span><span style="color:#e6db74">${</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">3</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>
+</span></span></code></pre></div>
+<div class="notices info" ><p>Info</p><p>In JavaScript there is no character type.  In practice, the role characters normally play in programs is filled by strings of length one.</p>
+</div>
+
+<h3 id="booleans">Booleans</h3>
+<p>JavaScript also has the boolean literals <code>true</code> and <code>false</code>.  It also implements the boolean logical operators <code>&amp;&amp;</code> (logical and) <code>||</code> (logical or), and <code>!</code> (logical not).</p>
+<h3 id="undefined">Undefined</h3>
+<p>JavaScript has a special value <code>undefined</code> that means a value hasn&rsquo;t been set.  You probably saw it when you entered the <code>console.log(&quot;Hello World&quot;)</code> example above, which spit out:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>&gt;  Hello World!
+</span></span><span style="display:flex;"><span>&lt;· undefined
+</span></span></code></pre></div><p>As the console echoes the value of the prior line, it was printing the return value of <code>console.log()</code>.  Since <code>console.log()</code> doesn&rsquo;t return a value, this results in <code>undefined</code>.</p>
+<h3 id="null">Null</h3>
+<p>JavaScript also defines a <code>null</code> type, even though <code>undefined</code> fills many of the roles <code>null</code> fills in other languages.  However, the programmer must explicitly supply a <code>null</code> value.  So if a variable is <code>null</code>, you know it was done <em>intentionally</em>, if it is <code>undefined</code>, it may be that it was accidentally not initialized.</p>
+<h3 id="objects">Objects</h3>
+<p>The <code>object</code> type is used to store more than one value, and functions much like a dictionary in other languages.  Objects can be declared literally with curly braces, i.e.:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">first</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Jim&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">last</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Hawkins&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">age</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">16</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>An object is essentially a collection of key/value pairs, known as <strong>properties</strong>.  We&rsquo;ll discuss objects in more depth in the <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/05-objects-and-classes/">Objects and Classes</a> section.</p>
+<h3 id="symbols">Symbols</h3>
+<p>Finally, the <code>symbol</code> type is a kind of identifier.  We&rsquo;ll discuss it more later.</p>
+<h2 id="variables">Variables</h2>
+<p>JavaScript uses <em>dynamic typing</em>.  This means the type of a variable is not declared in source code, rather it is determined at runtime.  Thus, all variables in JavaScript are declared with the <code>var</code> keyword, regardless of type:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;A string&#34;</span>;  <span style="color:#75715e">// A string
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">b</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>;           <span style="color:#75715e">// A number
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">c</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;        <span style="color:#75715e">// A boolean
+</span></span></span></code></pre></div><p>In addition, the type of a variable can be changed at any point in the code, i.e. the statements:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;A string&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>; 
+</span></span></code></pre></div><p>is perfectly legal and workable.  The type of <code>a</code>, changes from a string to a float when its value is changed.</p>
+<p>In addition to the <code>var</code> keyword, constants are declared with <code>const</code>.  Constants must have a value assigned with their declaration and cannot be changed.</p>
+<p>Finally, ECMA6 introduced the <code>let</code> keyword, which operates similar to <code>var</code> but is locally scoped (see the discussion of functional scope for details).</p>
+<h2 id="type-conversions">Type Conversions</h2>
+<p>JavaScript does its best to use the specified variable, which may result in a type conversion.  For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#e6db74">&#34;foo&#34;</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">3</span>
+</span></span></code></pre></div><p>Will result in the string <code>'foo3'</code>, as the <code>+</code> operator means concatenation for strings. However, <code>/</code> has no override for strings, so</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#e6db74">&#34;foo&#34;</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">3</span>
+</span></span></code></pre></div><p>Will result in <code>NaN</code> (not a number).</p>
+<p>Additionally, when you attempt to use a different data type as a boolean, JavaScript will interpret its &rsquo;truthiness&rsquo;.  The values <code>null</code>, <code>undefined</code>, and <code>0</code> are considered <code>false</code>.  All other values will be interpreted as <code>true</code>.</p>
+<h2 id="control-structures">Control Structures</h2>
+<p>JavaScript implements many of the familiar control structures of conditionals and loops.</p>
+
+<div class="notices warning" ><p>Warning</p><p>Be aware that variables declared within a block of code using <code>var</code> are subject to function scope, and exist outside of the conditional branch/loop body.  This can lead to unexpected behavior.</p>
+</div>
+
+<h3 id="if-else-statements">If Else Statements</h3>
+<p>The JavaScript <code>if</code> and <code>if else</code> statements look just like their Java counterparts:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">logical</span> <span style="color:#a6e22e">test</span><span style="color:#f92672">&gt;</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;</span><span style="color:#66d9ef">true</span> <span style="color:#a6e22e">branch</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">logical</span> <span style="color:#a6e22e">test</span><span style="color:#f92672">&gt;</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;</span><span style="color:#66d9ef">true</span> <span style="color:#a6e22e">branch</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span>  {
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;</span><span style="color:#66d9ef">false</span> <span style="color:#a6e22e">branch</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="loops">Loops</h3>
+<p>As do <code>while</code> and <code>do while</code> loops:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">while</span>(<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">logical</span> <span style="color:#a6e22e">test</span><span style="color:#f92672">&gt;</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">loop</span> <span style="color:#a6e22e">body</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">do</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">loop</span> <span style="color:#a6e22e">body</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>}(<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">logical</span> <span style="color:#a6e22e">test</span><span style="color:#f92672">&gt;</span>);
+</span></span></code></pre></div><p>And <code>for</code> loops:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">loop</span> <span style="color:#a6e22e">body</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>JavaScript also introduces a <code>for ... in</code> loop, which loops over properties within an object.  I.e.:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">jim</span> <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">first</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Jim&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">last</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Hawkins&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">age</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">16</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#a6e22e">key</span> <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">jim</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`The property </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">key</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> has value </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">jim</span>[<span style="color:#a6e22e">key</span>]<span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>and the <code>for ... of</code> which does the same for arrays and other iterables:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">fruits</span> <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;apple&#34;</span>, <span style="color:#e6db74">&#34;orange&#34;</span>, <span style="color:#e6db74">&#34;pear&#34;</span>];
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#a6e22e">value</span> <span style="color:#66d9ef">of</span> <span style="color:#a6e22e">fruits</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`The fruit is a </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">value</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Try writing some control structures to conditionally log messages to the console!</p>
+
+
+<script>
+
+	 
+
+	iframeString = (height, uri) => `<iframe style="width: 100%; height: ${height}px; border: none;" src="${uri}"></iframe>`
+
+
+	function updateClipboard(newClip) {
+		navigator.clipboard.writeText(newClip).then(function() {
+		}, function() {
+			alert("clipboard failed");
+		});
+	  }	  
+
+	function onLoad() {
+		navigator.permissions.query({name: "clipboard-write"}).then(result => {
+			let uri = window.location.href;
+			let height = document.documentElement.scrollHeight;
+			if (result.state == "granted" || result.state == "prompt") {
+				updateClipboard(iframeString(height, uri));
+			}
+			else{
+				navigator.permissions.query({name:'clipboard-write'}).then(function(result) {
+					if (result.state == "granted" || result.state == "prompt") {
+						updateClipboard(iframeString(height, uri));
+					}
+				  });
+			}
+		  });
+	}
+	window.onload = onLoad();
+
+</script>
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/cc120/5-js/01-introduction/" title="Introduction"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/cc120/5-js/03-functions/" title="JavaScript Functions" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/clipboard.min.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.min.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.jquery.min.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery.sticky.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/featherlight.min.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/highlight.pack.js?1658776671"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/modernizr.custom-3.6.0.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/learn.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/hugo-learn.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/themer.js?1658776671"></script>
+
+    
+        
+            <script src="https://ksu-cs-textbooks.github.io/cc120/mermaid/mermaid.js?1658776671"></script>
+        
+        <script>
+            var mer_theme = localStorage.getItem('theme');
+            if(mer_theme !== 'dark'){
+                mer_theme = 'neutral'
+            }
+            mermaid.initialize({ 
+                startOnLoad: true,
+                'securityLevel': 'loose', 
+                'theme': mer_theme });
+        </script>
+    
+
+    
+
+    
+    
+
+    
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+  </body>
+</html>
+
+
+
+

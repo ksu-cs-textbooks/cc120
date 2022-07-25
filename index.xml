@@ -48,6 +48,16 @@ The core concept of CSS is that defines rules altering the appearance of HTML el
     </item>
     
     <item>
+      <title>Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/01-introduction/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/01-introduction/</guid>
+      <description>As the World Wide Web was gaining popularity in the mid-nineties, browser manufacturers started experimenting with interpreting program scripts embedded within webpages. By far the most successful of these was JavaScript, initially developed by Brandon Eich for Netscape.
+Brandon Eich was hired to integrate the Scheme programming language into the Netscape browser. But when Netscape cut a deal with Sun Microsystems to bring Java Applets to their browser, his mission was altered to create a more Java-like language.</description>
+    </item>
+    
+    <item>
       <title>Navigating Canvas &amp; Codio</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/02-navigating-canvas-codio/</link>
       <pubDate>Thu, 16 Jan 2020 10:53:26 -0500</pubDate>
@@ -56,6 +66,16 @@ The core concept of CSS is that defines rules altering the appearance of HTML el
       <description>Web Only
 This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.
 Resources Codio Documentation Video Script This course makes extensive use of several features of Canvas which you may or may not have worked with before. To give you the best experience in this course, this video will briefly describe those features and the best way to access them.</description>
+    </item>
+    
+    <item>
+      <title>Basic Syntax</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/02-basic-syntax/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/02-basic-syntax/</guid>
+      <description>CONSOLE Because Netscape was adopting Java at the same time they were developing what would become JavaScript, there was a push to make the syntax stay somewhat consistent between the two languages. As a result, JavaScript has much of the look and feel of an imperative language like C, C#, or Java.
+However, this similarity can be deceptive, because how JavaScript operates can be quite different than those languages. This can lead to frustration for imperative programmers learning JavaScript.</description>
     </item>
     
     <item>
@@ -115,6 +135,26 @@ Simple Selectors The most basic CSS selectors come in several flavors, which we&
       <description>When authoring an HTML page, HTML elements should be organized into an HTML Document. This format is defined in the HTML standard. HTML that does not follow this format are technically invalid, and may not be interpreted and rendered correctly by all browsers. Accordingly, it is important to follow the standard.
 The basic structure of a valid HTML5 document is:
 &amp;lt;!doctype HTML&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Page Title Goes Here&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt;Page body and tags go here.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Functions</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/03-functions/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/03-functions/</guid>
+      <description>CONSOLE While JavaScript may look like an imperative language on the surface, much of how it behaves is based on functional languages like Scheme. This leads to some of the common sources of confusion for programmers new to the language. Let&amp;rsquo;s explore just what its functional roots mean.
+JavaScript implements first-class functions, which means they can be assigned to a variable, passed as function arguments, returned from other functions, and even nested inside other functions.</description>
+    </item>
+    
+    <item>
+      <title>Summary</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/1-www/03-summary/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/1-www/03-summary/</guid>
+      <description>This textbook will guide you through the three core client-side web technologies (HTML, CSS, &amp;amp; JS), as well as discuss the role HTTP plays in retrieving resources for a web client (like a browser) from the web. It is organized into chapters focused on each of those technologies in turn:
+The World-Wide-Web Hyper-Text Transfer Protocol Hyper-Text Markup Language Cascading Style Sheets JavaScript Once you understand client-side web technologies, you may want to turn your attention to the server side.</description>
     </item>
     
     <item>
@@ -179,6 +219,16 @@ This course does not have a required print textbook. The resources presented in 
     </item>
     
     <item>
+      <title>Objects and Classes</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/05-objects-and-classes/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/05-objects-and-classes/</guid>
+      <description>CONSOLE JavaScript is also an object-oriented language, but the way it implements objects is derived from the ideas of the Self programming language, rather than the C++ origins of Java and C#&amp;rsquo;s object-oriented approaches.
+Object Properties Let&amp;rsquo;s start with what an object is in JavaScript. It&amp;rsquo;s basically a collection of properties - key/value pairs, similar to the concept of a Dictionary in other languages. The properties play both the role of fields and methods of the object, as a property can be assigned a primitive value or a function.</description>
+    </item>
+    
+    <item>
       <title>Tables</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/3-html/05-tables/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -187,6 +237,16 @@ This course does not have a required print textbook. The resources presented in 
       <description>Tables were amongst the first addition to HTML (along with images), as they were necessary for the primary role of early HTML, disseminating research.
 A table requires a lot of elements to be nested in a specific manner. It is best expressed through an example:
 &amp;lt;table&amp;gt; &amp;lt;thead&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;Name&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;Role&amp;lt;/th&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/thead&amp;gt; &amp;lt;tbody&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Darth Vader&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Antagonist&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Luke Skywalker&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Coming-of-age protagonist&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Princess Lea&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Heroic resistance fighter&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Obi-Wan Kenobi&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Wise old man&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Han Solo&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Likeable scoundrel&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Chewbacca&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;The muscle&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Threepio&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Comedic foil&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Artoo Deetoo&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Plot driver&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tbody&amp;gt; &amp;lt;/table&amp;gt; It renders as:</description>
+    </item>
+    
+    <item>
+      <title>Attaching Scripts</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/06-attaching-scripts/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/06-attaching-scripts/</guid>
+      <description>Much like there are multiple ways to apply CSS to a web app, there are multiple ways to bring JavaScript into one. We can use a &amp;lt;script&amp;gt; tag with a specified src attribute to load a separate document, put our code into the &amp;lt;script&amp;gt; tag directly, or even add code to attributes of an HTML element. Let&amp;rsquo;s look at each option.
+Script Tag with Source We can add a &amp;lt;script&amp;gt; tag with a src attribute that gives a url pointing to a JavaScript file.</description>
     </item>
     
     <item>
@@ -244,6 +304,16 @@ There are actually a lot of units available in CSS, and we&amp;rsquo;ll summariz
     </item>
     
     <item>
+      <title>The Document Object Model</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/</guid>
+      <description>Now that we&amp;rsquo;ve reviewed the basic syntax and structure of the JavaScript language, and how to load it into a page, we can turn our attention to what it was created for - to interact with web pages in the browser. This leads us to the Document Object Model (DOM).
+The DOM is a tree-like structure that is created by the browser when it parses the HTML page. Then, as CSS rules are interpreted and applied, they are attached to the individual nodes of the tree.</description>
+    </item>
+    
+    <item>
       <title>CSS Functions</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/4-css/08-css-functions/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -251,6 +321,28 @@ There are actually a lot of units available in CSS, and we&amp;rsquo;ll summariz
       <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/08-css-functions/</guid>
       <description>CSS provides a number of useful functions that calculate values. Functions are written in the form name(arg1, arg2, ...) and are provided as values to CSS properties. For example, this CSS code sets the height of the content area to the available space on screen for content after subtracting a header and footer:
 #header {height: 150px} #footer {height: 100px} #content { height: calc(100vh - 150px - 100px); } Here 100vh is the height of the viewport, and the header and footer are defined in terms of pixels.</description>
+    </item>
+    
+    <item>
+      <title>Document Object Model</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/3-html/08-the-dom/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/3-html/08-the-dom/</guid>
+      <description>The Document Object Model (or DOM) is a data structure representing the content of a web page, created by the browser as it parses the website. The browser then makes this data structure accessible to scripts running on the page. The DOM is essentially a tree composed of objects representing the HTML elements and text on the page.
+Consider this HTML:
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Hello DOM!&amp;lt;/title&amp;gt; &amp;lt;link href=&amp;#34;site.css&amp;#34;/&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;banner&amp;#34;&amp;gt; &amp;lt;h1&amp;gt;Hello DOM!</description>
+    </item>
+    
+    <item>
+      <title>Strict Mode</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/08-strict-mode/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/08-strict-mode/</guid>
+      <description>JavaScript has been around a long time, and a lot of JavaScript code has been written by inexperienced programmers. Browser manufacturers compensated for this by allowing lenient interpretation of JavaScript programs, and by ignoring many errors as they occurred.
+While this made poorly-written scripts run, arguably they didn&amp;rsquo;t run well. In ECMA5, strict mode was introduced to solve the problems of lenient interpretation.
+Strict mode according to the Mozilla Developer Network:</description>
     </item>
     
     <item>
@@ -264,6 +356,17 @@ Colors are stored as 24-bit values, with 8 bits for each of the four channels (R
     </item>
     
     <item>
+      <title>Regular Expressions</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/09-regexp/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/09-regexp/</guid>
+      <description>CONSOLE The JavaScript String prototype has some very powerful methods, such as String.prototype.includes() which recognizes when a string contains a substring - i.e.:
+&amp;#34;foobarwhen&amp;#34;.includes(&amp;#34;bar&amp;#34;) would evaluate to true. But what if you needed a more general solution? Say, to see if the text matched a phone number pattern like XXX-XXX-XXXX? That&amp;rsquo;s where Regular Expressions come in.
+Regular Expressions are a sequence of characters that define a pattern that can be searched for within a string.</description>
+    </item>
+    
+    <item>
       <title>CSS and Text</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/4-css/10-css-text/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -271,6 +374,17 @@ Colors are stored as 24-bit values, with 8 bits for each of the four channels (R
       <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/10-css-text/</guid>
       <description>As the original purpose of the World-Wide-Web was to disseminate written information, it should be no surprise that CSS would provide many properties for working with text. Some of the most commonly employed properties are:
 font-family defines the font to use for the text. Its value is one or more font family or generic font names, i.e. font-family: Tahoma, serif, font-family: cursive or font-family: &amp;quot;Comic Sans&amp;quot;. Font family names are typically capitalized and, if they contain spaces or special characters, double-quoted.</description>
+    </item>
+    
+    <item>
+      <title>JSON</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/10-json/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/10-json/</guid>
+      <description>CONSOLE JSON is an acronym for JavaScript Object Notation, a serialization format that was developed in conjunction with ECMAScript 3. It is a standard format, as set by ECMA-404.
+JSON Format Essentially, it is a format for transmitting JavaScript objects. Consider the JavaScript object literal notation:
+var whilma = { name: &amp;#34;Wilma Flintstone&amp;#34;, relationship: &amp;#34;wife&amp;#34; } var pebbles = { name: &amp;#34;Pebbles Flintstone&amp;#34;, age: 3, relationship: &amp;#34;daughter&amp;#34; } var fred = { name: &amp;#34;Fred Flintstone&amp;#34;, job: &amp;#34;Quarry Worker&amp;#34;, payRate: 8, dependents: [whilma, pebbles] } If we were to express the same object in JSON:</description>
     </item>
     
     <item>
@@ -328,6 +442,24 @@ In this understanding, CSS is often tasked with the role of laying out elements 
       
       <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/02-browser-requests/</guid>
       <description>Before we get too deep in the details of what a request is, and how it works, let&amp;rsquo;s explore the primary kind of request you&amp;rsquo;re already used to making - requests originating from a browser. Every time you use a browser to browse the Internet, you are creating a series of HTTP (or HTTPS) requests that travel across the networks between you and a web server, which responds to your requests.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/04-arrays-and-lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/04-arrays-and-lists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -1,0 +1,1731 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="description" content="K-State CC 120 Textbook">
+<meta name="author" content="Nathan H. Bean">
+
+    <link rel="icon" href="https://ksu-cs-textbooks.github.io/cc120/images/favicon.png" type="image/png">
+
+    <title>Regular Expressions :: K-State CC 120 Textbook</title>
+
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/nucleus.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/fontawesome-all.min.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hybrid.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/featherlight.min.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/perfect-scrollbar.min.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/auto-complete.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/atom-one-dark-reasonable.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/tabs.css?1658776671" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hugo-theme.css?1658776671" rel="stylesheet">
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-purple.css?1658776671" rel="stylesheet">
+    
+    
+    
+    
+      <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-tele.css?1658776671" rel="stylesheet">
+    
+
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery-3.3.1.min.js?1658776671"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+     
+    
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+          x.parentElement.classList += 'has-jax'})
+      });
+  
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body class="" data-url="https://ksu-cs-textbooks.github.io/cc120/5-js/09-regexp/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://ksu-cs-textbooks.github.io/cc120/">
+  K-State CC 120 Textbook
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/lunr.min.js?1658776671"></script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/auto-complete.js?1658776671"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/ksu-cs-textbooks.github.io\/cc120\/";
+    
+</script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/search.js?1658776671"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='https://ksu-cs-textbooks.github.io/cc120/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/0-forward/" title="Course Information" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          0. Course Information
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/1-www/" title="The World-Wide-Web" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/1-www/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          1. The World-Wide-Web
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/2-http/" title="Hyper-Text Transfer Protocol" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/2-http/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          2. Hyper-Text Transfer Protocol
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-html/" title="Hyper-Text Markup Language" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          3. Hyper-Text Markup Language
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-css/" title="Cascading Style Sheets" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          4. Cascading Style Sheets
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-js/" title="JavaScript" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/">
+        
+        
+          
+          <i class="fas fa-angle-down fa-fw"></i>
+          
+        
+          <b>5. </b>JavaScript
+          
+
+      </a>
+    
+      
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/01-introduction/" title="Introduction" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/01-introduction/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        1. Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/02-basic-syntax/" title="Basic Syntax" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/02-basic-syntax/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        2. Basic Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/03-functions/" title="JavaScript Functions" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/03-functions/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        3. JavaScript Functions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/05-objects-and-classes/" title="Objects and Classes" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/05-objects-and-classes/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        5. Objects and Classes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/06-attaching-scripts/" title="Attaching Scripts" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/06-attaching-scripts/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        6. Attaching Scripts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/07-the-dom/" title="The Document Object Model" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        7. The Document Object Model
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/08-strict-mode/" title="Strict Mode" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/08-strict-mode/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        8. Strict Mode
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/09-regexp/" title="Regular Expressions" class="dd-item active">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/09-regexp/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        9. Regular Expressions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/10-json/" title="JSON" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/10-json/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        10. JSON
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/04-arrays-and-lists/" title="" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/04-arrays-and-lists/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/11-ajax/" title="" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+    
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/russfeld/ksucs-hugo-theme">ksucs-hugo-theme</a>.</p>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                  <div id="top-github-link">
+                    <a id="themelink" class="github-link" title='Toggle Light or Dark Mode' href="#">
+                      <i class="fas fa-moon"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Teleprompter View' href="tele.html" target="blank">
+                      <i class="fas fa-tv"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Embed this page' href="embed.html" target="blank">
+                      <i class="fas fa-expand-arrows-alt"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                
+                  </div>
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://ksu-cs-textbooks.github.io/cc120/'>Homepage</a> > <a href='https://ksu-cs-textbooks.github.io/cc120/5-js/'>JavaScript</a> > Regular Expressions
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#writing-regular-expressions-and-scriptular">Writing Regular Expressions and Scriptular</a></li>
+    <li><a href="#regular-expressions-and-input-validation">Regular Expressions and Input Validation</a></li>
+    <li><a href="#regular-expressions-and-form-validation">Regular Expressions and Form Validation</a></li>
+    <li><a href="#constructing-regexp">Constructing RegExp</a></li>
+    <li><a href="#regexp-flags">RegExp flags</a></li>
+    <li><a href="#capture-groups">Capture Groups</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Regular Expressions
+            </h1>
+          
+
+        
+
+
+<style>
+  .console {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 1000;
+    width: 100%;
+    height: 30vh;
+    background-color: #8451a1;
+    padding: 1rem;
+    transform: translateY(calc(30vh - 5px));
+    transition: transform 2s;
+  }
+  .console iframe {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  .console > .console-tab {
+    position: absolute;
+    top: -1.2rem;
+    right: 0px;
+    color: white;
+    background-color: #8451a1;
+    padding: 0 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .console.active {
+    transform: none;
+  }
+</style>
+<div class="console">
+<div class="console-tab">CONSOLE</div>
+<iframe src="https://jsconsole.com/"></iframe>
+</div>
+<script>
+  document.querySelector('.console-tab').addEventListener('click', (event) => {
+    console.log(event);
+    event.target.parentElement.classList.toggle('active');
+  });
+</script>
+<p>The JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank">String</a> prototype has some very powerful methods, such as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes" target="_blank">String.prototype.includes()</a> which recognizes when a string contains a substring - i.e.:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#e6db74">&#34;foobarwhen&#34;</span>.<span style="color:#a6e22e">includes</span>(<span style="color:#e6db74">&#34;bar&#34;</span>)
+</span></span></code></pre></div><p>would evaluate to true.  But what if you needed a more general solution?  Say, to see if the text matched a phone number pattern like XXX-XXX-XXXX?  That&rsquo;s where <a href="https://en.wikipedia.org/wiki/Regular_expression" target="_blank">Regular Expressions</a> come in.</p>
+<p>Regular Expressions are a sequence of characters that define a <em>pattern</em> that can be searched for within a string.  Unlike substrings, these patterns can have a <em>lot</em> of flexibility.  For example, the phone number pattern above can be expressed as a JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp" target="_blank">RegExp</a> like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#e6db74">/\d{3}-\d{3}-\d{4}/</span>
+</span></span></code></pre></div><p>Let&rsquo;s break down what each part means.  First, the enclosing forward slashes (<code>/</code>) indicate this is a RegExp literal, the same way single or double quotes indicate a string literal.  The backslash d (<code>\d</code>) indicates a decimal character, and will match a 0,1,2,3,4,5,6,7,8, or 9.  The three in brackets <code>{3}</code> is a quantifier, indicating there should be three of the proceeding character - so three decimal characters.  And the dash (<code>-</code>) matches the actual dash character.</p>
+<h2 id="writing-regular-expressions-and-scriptular">Writing Regular Expressions and Scriptular</h2>
+<p>As you can see, regular expressions make use of a decent number of special characters, and can be tricky to write.  One of the greatest tools in your arsenal when dealing with Regular Expressions is the web app <a href="https://scriptular.com/" target="_blank">Scriptular.com</a> (click the link to open it in a new tab).  It lists characters with special meanings for regular expressions on the right, and provides an interactive editor on the left, where you can try out regular expressions against target text.</p>
+<p>You can, of course, do the same thing on the console, but I find that using Scriptular to prototype regular expressions is faster.  You can also clone the <a href="https://github.com/jonmagic/scriptular" target="_blank">Scriptular Github repo</a> and use it locally rather than on the internet.  A word of warning, however, always test your regular expressions in the context you are going to use them - sometimes something that works in Scriptular doesn&rsquo;t quite in the field (especially with older browsers and Node versions).</p>
+<h2 id="regular-expressions-and-input-validation">Regular Expressions and Input Validation</h2>
+<p>So how are regular expressions used in Web Development?  One common use is to <em>validate</em> user input - to make sure the user has entered values in the format we want.  To see if a user entered string matches the phone format we declared above, for example, we can use the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test" target="_blank">RegExp.prototype.test()</a> method.  It returns the boolean <code>true</code> if a match is found, <code>false</code> otherwise:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(<span style="color:#e6db74">/\d{3}-\d{3}-\d{4}/</span>.<span style="color:#a6e22e">test</span>(<span style="color:#a6e22e">userEnteredString</span>)) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;String was valid&#34;</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;String was Invalid&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>But what if we wanted to allow phone numbers in more than one format?  Say X-XXX-XXX-XXXX, (XXX)XXX-XXXX, and X(XXX)XXX-XXXX)?</p>
+<p>We can do this as well:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#e6db74">/\d?-?\d{3}-\d{3}-\d{4}|\d?\s?\(\d{3}\)\s?\d{3}-\d{4}/</span>
+</span></span></code></pre></div><p>The pipe (<code>|</code>) in the middle of the RexExp acts like an OR; we can match against the pattern before OR the pattern after.  The first pattern is almost the same as the one we started with, but with a new leading <code>\d</code> and <code>-</code>.  These use the quantifier <code>?</code>, which indicates 0 or 1 instances of the character.</p>
+<p>The second pattern is similar, except we use a backslash s (<code>/s</code>) to match whitespace characters (we could also use the literal space <code> </code>, <code>\s</code> also matches tabs and newlines).  And we look for parenthesis, but as parenthesis have special meaning for RegExp syntax, we must escape them with a backslash: (<code>\(</code> and <code>\)</code>).</p>
+<h2 id="regular-expressions-and-form-validation">Regular Expressions and Form Validation</h2>
+<p>In fact, the use of Regular Expressions to validate user input is such a common use-case that when HTML5 introduced <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation" target="_blank">form data validation</a> it included the <code>pattern</code> attribute for HTML5 forms.  It instructs the browser to mark a form field as invalid unless input matching the pattern is entered.  Thus, the HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">label</span> <span style="color:#a6e22e">for</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;phone&#34;</span>&gt;Please enter a phone number
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;phone&#34;</span> <span style="color:#a6e22e">pattern</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;\d{3}-\d{3}-\d{4}&#34;</span> <span style="color:#a6e22e">placeholder</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxx-xxx-xxxx&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">label</span>&gt;
+</span></span></code></pre></div><p>Will ensure that only validly formatted phone numbers can be submitted. Also, note that we omitted the leading and trailing forward slashes (<code>/</code>) with the <code>pattern</code> attribute.</p>
+<p>However, be aware that older browsers may not have support for <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation" target="_blank">HTML5 form data validation</a> (though all modern ones do), and that a savvy user can easily disable HTML5 form validation with the Developer Tools.  Thus, you should aways validate on both the client-side (for good user experience) <em>and</em> the server-side (to ensure clean data).  We&rsquo;ll discuss data validation more in our chapter on persisting data on the server.</p>
+<h2 id="constructing-regexp">Constructing RegExp</h2>
+<p>Besides using literal notation, We can also <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp" target="_blank">construct regular expressions</a> from a string of characters:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">regexp</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> RegExp(<span style="color:#e6db74">&#34;\d{3}-\d{3}-\d{4}&#34;</span>)
+</span></span></code></pre></div><p>This is especially useful if we won&rsquo;t know the pattern until runtime, as we can create our regular expression &ldquo;on the fly.&rdquo;</p>
+<h2 id="regexp-flags">RegExp flags</h2>
+<p>You can also specify one or more flags when defining a JavaScript Regular Expression, by listing the flag after the literal, i.e. in the RegExp:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#e6db74">/\d{3}-\d{3}-\d{4}/g</span> 
+</span></span></code></pre></div><p>The flag <code>g</code> means <em>global</em>, and will find <em>all</em> matches, not just the first.  So if we wanted to find all phone numbers in a body of text, we could do:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#e6db74">/\d{3}-\d{3}-\d{4}/g</span>.<span style="color:#a6e22e">match</span>(<span style="color:#a6e22e">bodyOfText</span>);
+</span></span></code></pre></div><p>Here the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match" target="_blank">RegExp.prototype.match()</a> function returns an array of phone numbers that matched the pattern and were found in <code>bodyOfText</code>.</p>
+<p>The flags defined for JavaScript regular expressions are:</p>
+<ul>
+<li><code>g</code> global match - normally RegExp execution stops after the first match.</li>
+<li><code>i</code> ignore case - upper and lowercase versions of a letter are treated equivalently</li>
+<li><code>m</code> multiline - makes the beginning end operators (<code>^</code> and <code>$</code>) operate on lines rather than the whole string.</li>
+<li><code>s</code> dotAll - allows <code>.</code> to match newlines (normally <code>.</code> is a wildcard matching everything <em>but</em> newline characters)</li>
+<li><code>u</code> unicode - treat pattern as a sequence of unicode code points</li>
+<li><code>y</code>sticky - matches only from the <code>lastIndex</code> property of the Regular Expression</li>
+</ul>
+<h2 id="capture-groups">Capture Groups</h2>
+<p>We saw above how we can retrieve the strings that matched our regular expression patterns
+Matching patterns represents only <em>part</em> of the power of regular expressions.  One of the most useful features is the ability to <em>capture</em> pieces of the pattern, and expose them to the programmer.</p>
+<p>Consider, for example, the common case where we have a comma delimited value (CSV) file where we need to tweak some values.  Say perhaps we have one like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>Name,weight,height
+</span></span><span style="display:flex;"><span>John Doe,150,6&#39;2&#34;
+</span></span><span style="display:flex;"><span>Sara Smith,102,5&#39;8&#34;
+</span></span><span style="display:flex;"><span>&#34;Mark Zed, the Third&#34;,250,5&#39;11&#34;
+</span></span><span style="display:flex;"><span>... 100&#39;s more values....
+</span></span></code></pre></div><p>which is part of a scientific study where they need the weight in Kg and the height in meters.  We could make the changes by hand - but who wants to do that?  We could also do the changes by opening the file in Excel, but that would also involve a lot of copy/paste and deletion, opening the door to human error. Or we can tweak the values with JavaScript.</p>
+<p>Notice how the Mark Zed entry, because it has a comma in the name, is wrapped in double quotes, while the other names aren&rsquo;t?  This would make using something like <a href="">String.prototype.split()</a> impossible to use without a ton of additional logic, because it splits on the supplied delimiter (in this case, a comma), and would catch these additional commas.  However, because a RegExp matches a <em>pattern</em>, we can account for this issue.</p>
+<p>But we want to go one step farther, and <em>capture</em> the weight and height values.  We can create a <em>capture group</em> by surrounding part of our pattern with parenthesis, i.e. the RegExp:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#e6db74">/^([\d\s\w]+|&#34;[\d\s\w,]+&#34;),(\d+),(\d+&#39;\d+)&#34;$/gm</span>
+</span></span></code></pre></div><p>Will match each line in the file.  Let&rsquo;s take a look at each part:</p>
+<p><code>/^ ... $/mg</code> the <code>m</code> flag indicates that <code>^</code> and <code>$</code> should mark the start and end of each line.  This makes sure we only capture values from the same line as par to a match, and the <code>g</code> flag means we want to find all matching lines in the file.</p>
+<p><code>([\d\s\w]+|&quot;[\d\s\w,]+&quot;)</code> is our first capture group, and we see it has two options (separated by <code>|</code>).  The square brackets (<code>[]</code>) represent a set of characters, and we&rsquo;ll match any character(s) listed inside.  So <code>[\d\s\w]</code> means any decimal (<code>\d</code>), whitespace (<code>\s</code>), or word (<code>\w</code>) character, and the <code>+</code> means one or more of these.  The second option is <em>almost</em> the same as the first, but surrounded by double quotes (<code>&quot;</code>) and includes commas (<code>,</code>) in the set of matching characters.  This means the first group will always match our name field, even if it has commas.</p>
+<p><code>,(\d+),</code> is pretty simple - we match the comma between name and weight columns, capture the weight value, and then the comma between weight and height.</p>
+<p><code>(\d+'\d+)&quot;</code> is a bit more interesting.  We capture the feet value (<code>\d+</code>), the apostrophe (<code>'</code>) indicating the unit of feet, and the inches value (<code>\d+</code>).  While we match the units for inches (<code>&quot;</code>), it is not part of the capture group.</p>
+<p>So our line-by-line captures would be:</p>
+<pre>
+Line 0: No match
+Line 1: John Doe, 150, 6'2
+Line 2: Sara Smith, 102, 5'8
+Line 3: "Mark Zed, the Third", 250, 5'11
+</pre>
+<p>We can use this knowledge with <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace" target="_blank">String.prototype.replace()</a> to reformat the values in our file.  The <code>replace()</code> can work as you are probably used to - taking two strings - one to search for and one to use as a replacement.  But it can also take a RegExp as a <em>pattern</em> to search for and replace.  And the replacement value can also be a <em>function</em>, which receives as its parameters 1) the full match to the pattern, and 2) the capture group values, as subsequent parameters.</p>
+<p>Thus, for the Line 1 match, it would be invoked with parameters: <code>(&quot;John Doe,150,6'2\&quot;&quot;, &quot;John Doe&quot;, &quot;150&quot;, &quot;6'2\&quot;&quot;)</code>.  We can use this understanding to write our conversion function:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">convertRow</span>(<span style="color:#a6e22e">match</span>, <span style="color:#a6e22e">name</span>, <span style="color:#a6e22e">weight</span>, <span style="color:#a6e22e">height</span>) {
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>   <span style="color:#75715e">// Convert weight from lbs to Kgs 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">lbs</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">weight</span>, <span style="color:#ae81ff">10</span>);
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">kgs</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">lbs</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">2.205</span>;
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>   <span style="color:#75715e">// Convert height from feet and inches to meters 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">parts</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">height</span>.<span style="color:#a6e22e">split</span>(<span style="color:#e6db74">&#34;&#39;&#34;</span>);
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">feet</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">parts</span>[<span style="color:#ae81ff">0</span>], <span style="color:#ae81ff">10</span>);
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">inches</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">parts</span>[<span style="color:#ae81ff">1</span>], <span style="color:#ae81ff">10</span>);
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">totalInches</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">inches</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">12</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">feet</span>;
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">meters</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">totalInches</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1.094</span>;
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>   <span style="color:#75715e">// Return the new line values:
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   <span style="color:#66d9ef">return</span> <span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">name</span><span style="color:#e6db74">}</span><span style="color:#e6db74">,</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">kgs</span><span style="color:#e6db74">}</span><span style="color:#e6db74">,</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">meters</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>And now we can invoke that function as part of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace" target="_blank">String.prototype.replace()</a> on the body of the file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">newBody</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">oldBody</span>.<span style="color:#a6e22e">replace</span>(<span style="color:#e6db74">/^([\d\s\w]+|&#34;[\d\s\w,]+&#34;),(\d+),(\d+&#39;\d+)&#34;$/gm</span>, <span style="color:#a6e22e">convertRow</span>);
+</span></span></code></pre></div><p>And our <code>newBody</code> variable contains the revised file body (we&rsquo;ll talk about how to <em>get</em> the file body in the first place, either in the browser or with Node, later on).</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/cc120/5-js/08-strict-mode/" title="Strict Mode"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/cc120/5-js/10-json/" title="JSON" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/clipboard.min.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.min.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.jquery.min.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery.sticky.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/featherlight.min.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/highlight.pack.js?1658776671"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/modernizr.custom-3.6.0.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/learn.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/hugo-learn.js?1658776671"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/themer.js?1658776671"></script>
+
+    
+        
+            <script src="https://ksu-cs-textbooks.github.io/cc120/mermaid/mermaid.js?1658776671"></script>
+        
+        <script>
+            var mer_theme = localStorage.getItem('theme');
+            if(mer_theme !== 'dark'){
+                mer_theme = 'neutral'
+            }
+            mermaid.initialize({ 
+                startOnLoad: true,
+                'securityLevel': 'loose', 
+                'theme': mer_theme });
+        </script>
+    
+
+    
+        <script src="https://ksu-cs-textbooks.github.io/cc120/js/tele-scroll.js?1658776671"></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc120/js/hideyt.js?1658776671"></script>
+    
+
+    
+    
+
+    
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+  </body>
+</html>
+
+
+
+

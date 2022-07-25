@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="description" content="K-State CC 120 Textbook">
+<meta name="author" content="Nathan H. Bean">
+
+    <link rel="icon" href="https://ksu-cs-textbooks.github.io/cc120/images/favicon.png" type="image/png">
+
+    <title>The Document Object Model :: K-State CC 120 Textbook</title>
+
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/nucleus.css?1658776670" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/fontawesome-all.min.css?1658776670" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hybrid.css?1658776670" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/featherlight.min.css?1658776670" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/perfect-scrollbar.min.css?1658776670" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/auto-complete.css?1658776670" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/atom-one-dark-reasonable.css?1658776670" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme.css?1658776670" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/tabs.css?1658776670" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/hugo-theme.css?1658776670" rel="stylesheet">
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-purple.css?1658776670" rel="stylesheet">
+    
+    
+    
+    
+
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery-3.3.1.min.js?1658776670"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+     
+    
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+          x.parentElement.classList += 'has-jax'})
+      });
+  
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body class="" data-url="https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://ksu-cs-textbooks.github.io/cc120/">
+  K-State CC 120 Textbook
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/lunr.min.js?1658776670"></script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/auto-complete.js?1658776670"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/ksu-cs-textbooks.github.io\/cc120\/";
+    
+</script>
+<script type="text/javascript" src="https://ksu-cs-textbooks.github.io/cc120/js/search.js?1658776670"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='https://ksu-cs-textbooks.github.io/cc120/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/0-forward/" title="Course Information" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/0-forward/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          0. Course Information
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/1-www/" title="The World-Wide-Web" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/1-www/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          1. The World-Wide-Web
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/2-http/" title="Hyper-Text Transfer Protocol" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/2-http/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          2. Hyper-Text Transfer Protocol
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-html/" title="Hyper-Text Markup Language" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/3-html/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          3. Hyper-Text Markup Language
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-css/" title="Cascading Style Sheets" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/4-css/">
+        
+        
+          
+          <i class="fas fa-angle-right fa-fw"></i>
+          
+        
+          4. Cascading Style Sheets
+          
+
+      </a>
+    
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-js/" title="JavaScript" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/">
+        
+        
+          
+          <i class="fas fa-angle-down fa-fw"></i>
+          
+        
+          <b>5. </b>JavaScript
+          
+
+      </a>
+    
+      
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/01-introduction/" title="Introduction" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/01-introduction/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        1. Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/02-basic-syntax/" title="Basic Syntax" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/02-basic-syntax/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        2. Basic Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/03-functions/" title="JavaScript Functions" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/03-functions/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        3. JavaScript Functions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/05-objects-and-classes/" title="Objects and Classes" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/05-objects-and-classes/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        5. Objects and Classes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/06-attaching-scripts/" title="Attaching Scripts" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/06-attaching-scripts/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        6. Attaching Scripts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/07-the-dom/" title="The Document Object Model" class="dd-item active">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        7. The Document Object Model
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/08-strict-mode/" title="Strict Mode" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/08-strict-mode/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        8. Strict Mode
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/09-regexp/" title="Regular Expressions" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/09-regexp/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        9. Regular Expressions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/10-json/" title="JSON" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/10-json/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        10. JSON
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/04-arrays-and-lists/" title="" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/04-arrays-and-lists/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/5-js/11-ajax/" title="" class="dd-item ">
+        <a href="https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/">
+        <i class="fas fa-angle-down fa-fw" style="color: transparent;"></i>
+        
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+    
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/russfeld/ksucs-hugo-theme">ksucs-hugo-theme</a>.</p>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                  <div id="top-github-link">
+                    <a id="themelink" class="github-link" title='Toggle Light or Dark Mode' href="#">
+                      <i class="fas fa-moon"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Teleprompter View' href="tele.html" target="blank">
+                      <i class="fas fa-tv"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                    <a class="github-link" title='Embed this page' href="embed.html" target="blank">
+                      <i class="fas fa-expand-arrows-alt"></i>
+                      <span id="top-github-link-text"></span>
+                    </a>
+                
+                  </div>
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://ksu-cs-textbooks.github.io/cc120/'>Homepage</a> > <a href='https://ksu-cs-textbooks.github.io/cc120/5-js/'>JavaScript</a> > The Document Object Model
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-document-instance">The Document Instance</a></li>
+    <li><a href="#the-dom-tree">The Dom Tree</a>
+      <ul>
+        <li><a href="#selecting-elements-on-the-page">Selecting Elements on the Page</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#modifying-dom-element-properties">Modifying DOM Element Properties</a></li>
+        <li><a href="#altering-the-document-structure">Altering the Document Structure</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              The Document Object Model
+            </h1>
+          
+
+        
+
+
+<p>Now that we&rsquo;ve reviewed the basic syntax and structure of the JavaScript language, and how to load it into a page, we can turn our attention to what it was created for - to interact with web pages in the browser.  This leads us to the <em>Document Object Model (DOM)</em>.</p>
+<p>The DOM is a tree-like structure that is created by the browser when it parses the HTML page.  Then, as CSS rules are interpreted and applied, they are attached to the individual nodes of the tree.  Finally, as the page&rsquo;s JavaScript executes, it may modify the tree structure and node properties.  The browser uses this structure and properties as part of its rendering process.</p>
+<h2 id="the-document-instance">The Document Instance</h2>
+<p>The DOM is exposed to JavaScript through an instance of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document" target="_blank">Document</a> class, which is attached to the <code>document</code> property of the window (in the browser, the window is the top-level, a.k.a global scope.  Its properties can be accessed with our without referencing the <code>window</code> object, i.e. <code>window.document</code> and <code>document</code> refer to the same object).</p>
+<p>This document instance serves as the entry point for working with the DOM.</p>
+<h2 id="the-dom-tree">The Dom Tree</h2>
+<p>The DOM tree nodes are instances of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element" target="_blank">Element</a> class, which extends from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node" target="_blank">Node</a> class, which in turn extends the <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget" target="_blank">EventTarget</a> class. This inheritance chain reflects the <a href="https://en.wikipedia.org/wiki/Separation_of_concerns" target="_blank">Separation of Concerns</a> design principle: the EventTarget class provides the functionality for responding to events, the Node class provides for managing and traversing the tree structure, and the Element class maintains the element&rsquo;s appearance and properties.</p>
+<div id="interfaceDiagram" style="display: inline-block; position: relative; width: 100%; padding-bottom: 11.666666666666666%; vertical-align: middle; overflow: hidden;"><svg style="display: inline-block; position: absolute; top: 0; left: 0;" viewBox="-50 0 600 70" preserveAspectRatio="xMinYMin meet"><a xlink:href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget" target="_top"><rect x="1" y="1" width="110" height="50" fill="#fff" stroke="#D4DDE4" stroke-width="2px"></rect><text x="56" y="30" font-size="12px" font-family="Consolas,Monaco,Andale Mono,monospace" fill="#4D4E53" text-anchor="middle" alignment-baseline="middle">EventTarget</text></a><polyline points="111,25  121,20  121,30  111,25" stroke="#D4DDE4" fill="none"></polyline><line x1="121" y1="25" x2="151" y2="25" stroke="#D4DDE4"></line><a xlink:href="https://developer.mozilla.org/en-US/docs/Web/API/Node" target="_top"><rect x="151" y="1" width="75" height="50" fill="#fff" stroke="#D4DDE4" stroke-width="2px"></rect><text x="188.5" y="30" font-size="12px" font-family="Consolas,Monaco,Andale Mono,monospace" fill="#4D4E53" text-anchor="middle" alignment-baseline="middle">Node</text></a><polyline points="226,25  236,20  236,30  226,25" stroke="#D4DDE4" fill="none"></polyline><line x1="236" y1="25" x2="266" y2="25" stroke="#D4DDE4"></line><a xlink:href="https://developer.mozilla.org/en-US/docs/Web/API/Element" target="_top"><rect x="266" y="1" width="75" height="50" fill="#F4F7F8" stroke="#D4DDE4" stroke-width="2px"></rect><text x="303.5" y="30" font-size="12px" font-family="Consolas,Monaco,Andale Mono,monospace" fill="#4D4E53" text-anchor="middle" alignment-baseline="middle">Element</text></a></svg></div>
+<h3 id="selecting-elements-on-the-page">Selecting Elements on the Page</h3>
+<p>One of the most important skills in working with the DOM is understanding how to get a reference to an element on the page.  There are many approaches, but some of the most common are:</p>
+<h4 id="selecting-an-element-by-its-id">Selecting an Element by its ID</h4>
+<p>If an element has an <code>id</code> attribute, we can select it with the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById" target="_blank">Document.getElementByID()</a> method.  Let&rsquo;s select our button this way. Add this code to your <em>playground.js</em> file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">button</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;some-button&#34;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">button</span>);
+</span></span></code></pre></div><p>You should see the line <code>[object HTMLButtonElement]</code> - the actual instance of the DOM node representing our button (the class HTMLButtonElement is an extension of Element representing a button).</p>
+<h4 id="selecting-a-single-element-by-css-selector">Selecting a Single Element by CSS Selector</h4>
+<p>While there are additional selectors for selecting by tag name, class name(s), and other attributes, in practice these have largely been displaced by functions that select elements using a CSS selector.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector" target="_blank">Document.querySelector()</a> will return the <em>first</em> element matching the CSS selector, i.e.:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">button</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;#some-button&#39;</span>);
+</span></span></code></pre></div><p>Works exactly like the <code>document.getElementById()</code> example. But we could also do:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">input</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;input[type=text]&#39;</span>);
+</span></span></code></pre></div><p>Which would grab the first <code>&lt;input&gt;</code> with attribute <code>type=text</code>.</p>
+<h4 id="selecting-multiple-elements-by-css-selector">Selecting Multiple Elements by CSS Selector</h4>
+<p>But what if we wanted to select more than one element at a time?  Enter <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll" target="_blank">document.querySelectorAll()</a>.  It returns a <a href="https://developer.mozilla.org/en-US/docs/Web/API/NodeList" target="_blank">NodeList</a> containing all matching nodes.  So the code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">paras</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelectorAll</span>(<span style="color:#e6db74">&#39;p.highlight&#39;</span>);
+</span></span></code></pre></div><p>Will populate the variable <code>paras</code> with a <code>NodeList</code> containing all <code>&lt;p&gt;</code> elements on the page with the highlight class.</p>
+
+<div class="notices warning" ><p>Warning</p><p>While a <code>NodeList</code> is an iterable object that behaves much like an array, it is not an array.  Its items can also be directly accessed with bracket notation (<code>[]</code>) or <a href="https://developer.mozilla.org/en-US/docs/Web/API/NodeList/item" target="_blank">NodeList.item()</a>.  It can be iterated over with a <code>for .. of</code> loop, and in newer browsers, <a href="https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach" target="_blank">NodeList.forEach()</a>.  Alternatively, it can be converted into an array with <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from" target="_blank">Array.from()</a>.</p>
+</div>
+
+<h4 id="elementqueryselector-and-elementqueryselectorall">Element.querySelector() and Element.querySelectorAll()</h4>
+<p>The query selector methods are also implemented on the element class, with <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector" target="_blank">Element.querySelector()</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll" target="_blank">Element.querySelectorAll()</a>.  Instead of searching the entire document, these only search their descendants for matching elements.</p>
+<h3 id="events">Events</h3>
+<p>Once we have a reference to an element, we can add an event listener with <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener" target="_blank">EventTarget.addEventListener()</a>.  This takes as its first argument, the name of the event to listen for, and as the second, a method to invoke when the event occurs.  There are additional optional arguments as well (such as limiting an event listener to firing only once), see the MDN documentation for more details.</p>
+<p>For example, if we wanted to log when the user clicks our button, we could use the code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;some-button&#34;</span>).<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;click&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">event</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">event</span>.<span style="color:#a6e22e">preventDefault</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Button was clicked!&#34;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><p>Notice we are once again using method chaining - we could also assign the element to a <code>var</code> and invoke <code>addEventListener()</code> on the variable.  The event we want to listen for is identified by its name - the string <code>'click'</code>.  Finally, our event handler function will be invoked with an event object as its first argument.</p>
+<p>Also, note the use of <code>event.preventDefault()</code>.  Invoking this method on the event tells it that we are taking care of its responsibilities, so no need to trigger the default action. If we don&rsquo;t do this, the event will continue to bubble up the DOM, triggering any additional event handlers.  For example, if we added a <code>'click'</code> event to an <code>&lt;a&gt;</code> element and did not invoke <code>event.preventDefault()</code>, when we clicked the <code>&lt;a&gt;</code> tag we would run our custom event handler and then the browser would load the page that the <code>&lt;a&gt;</code> element&rsquo;s <code>href</code> attribute pointed to.</p>
+<h4 id="common-event-names">Common Event Names</h4>
+<p>The most common events you&rsquo;ll likely use are</p>
+<ul>
+<li><code>&quot;click&quot;</code> triggered when an item is clicked on</li>
+<li><code>&quot;input&quot;</code> triggered when an input element receives input</li>
+<li><code>&quot;change&quot;</code> triggered when an input&rsquo;s value changes</li>
+<li><code>&quot;load&quot;</code> triggered when the source of a image or other media has finished loading</li>
+<li><code>&quot;mouseover&quot;</code> and <code>&quot;mouseout&quot;</code> triggered when the mouse moves over an element or moves off an element</li>
+<li><code>&quot;mousedown&quot;</code> and <code>&quot;mouseup&quot;</code> triggered when the mouse button is initially pressed and when it is released (primarily used for drawing and drag-and-drop)</li>
+<li><code>&quot;mousemove&quot;</code> triggered when the mouse moves (used primarily for drawing and drag-and-drop)</li>
+<li><code>&quot;keydown&quot;</code>, <code>&quot;keyup&quot;</code>, and <code>&quot;keypressed&quot;</code> triggered when a key is first pushed down, released, and held.</li>
+</ul>
+<p>Note that the mouse and key events are only passed to elements when they have <em>focus</em>.  If you want to always catch these events, attach them to the <code>window</code> object.</p>
+<p>There are many more events - refer to the MDN documentation of the specific element you are interested in to see the full list that applies to that element.</p>
+<h4 id="event-objects">Event Objects</h4>
+<p>The function used as the event handler is invoked with an object representing the event.  In most cases, this is a descendant class of <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event" target="_blank">Event</a> that has additional properties specific to the event type.  Let&rsquo;s explore this a bit with our text input.  Add this code to your <em>playground.js</em>, reload the page, and type something into the text input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;some-input&#34;</span>).<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;input&#34;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">event</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">event</span>.<span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">value</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><p>Here we access the event&rsquo;s <code>target</code> property, which gives us the target element for the event, the original <code>&lt;input&gt;</code>.  The input element has the <code>value</code> property, which corresponds to the <code>value</code> attribute of the HTML that was parsed to create it, and it changes as text is entered into the <code>&lt;input&gt;</code>.</p>
+<h3 id="modifying-dom-element-properties">Modifying DOM Element Properties</h3>
+<p>One of the primary uses of the DOM is to alter properties of <a href="https://developer.mozilla.org/en/docs/Web/API/Element" target="_blank">element</a> objects in the page. Any changes to the DOM structure and properties are almost immediately applied to the appearance of the web page. Thus, we use this approach to alter the document in various ways.</p>
+<h4 id="attributes">Attributes</h4>
+<p>The attributes of an HTML element can be accessed and changed through the DOM, with the methods <a href="https://developer.mozilla.org/en/docs/Web/API/Element/getAttribute" target="_blank">element.getAttribute()</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute" target="_blank">element.hasAttribute()</a> and <a href="https://developer.mozilla.org/en/docs/Web/API/Element/setAttribute" target="_blank">element.setAttribute()</a>.</p>
+<p>Let&rsquo;s revisit the button in our playground, and add an event listener to change the input element&rsquo;s <code>value</code> attribute:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;some-button&#34;</span>).<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;click&#34;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">event</span>) {
+</span></span><span style="display:flex;"><span>  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;some-input&#34;</span>).<span style="color:#a6e22e">setAttribute</span>(<span style="color:#e6db74">&#34;value&#34;</span>, <span style="color:#e6db74">&#34;Hello World!&#34;</span>)
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><p>Notice too that <em>both</em> event handlers we have assigned to the button trigger when you click it.  We can add as many event handlers as we like to a project.</p>
+<h4 id="styles">Styles</h4>
+<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style" target="_blank">style</a> property provides access to the element&rsquo;s inline styles.  Thus, we can set style properties on the element:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;some-button&#34;</span>).<span style="color:#a6e22e">style</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;background-color: yellow&#34;</span>;
+</span></span></code></pre></div><p>Remember from our discussion of the CSS cascade that inline styles have the highest priority.</p>
+<h4 id="class-names">Class Names</h4>
+<p>Alternatively, we can change the CSS classes applied to the element by changing its <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList" target="_blank">element.classList</a> property, which is an instance of a DOMTokensList, which exposes the methods:</p>
+<ul>
+<li><code>add()</code> which takes one or more string arguments which are class names added to the class list</li>
+<li><code>remove()</code> which takes one or more string arguments which are class names removed from the class list</li>
+<li><code>toggle()</code> which takes one or more strings as arguments and toggles the class name in the list (i.e. if the class name is there, it is removed, and if not, it is added)</li>
+</ul>
+<p>By adding, removing, or toggling class names on an element, we can alter what CSS rules apply to it based on its CSS selector.</p>
+<h3 id="altering-the-document-structure">Altering the Document Structure</h3>
+<p>Another common use for the DOM is to add, remove, or relocate elements in the DOM tree.  This in turn alters the page that is rendered.  For example, let&rsquo;s add a paragraph element to the page just after the <code>&lt;h1&gt;</code> element:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">p</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;p&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">p</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Now I see you&#34;</span>;
+</span></span><span style="display:flex;"><span>document.<span style="color:#a6e22e">body</span>.<span style="color:#a6e22e">insertBefore</span>(<span style="color:#a6e22e">p</span>, document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;h1&#39;</span>).<span style="color:#a6e22e">nextSibling</span>);
+</span></span></code></pre></div><p>Let&rsquo;s walk through this code line-by-line.</p>
+<ol>
+<li>Here we use <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement" target="_blank">Document.createElement()</a> to create a new element for the DOM.  At this point, the element is <em>unattached</em> to the document, which means it will not be rendered.</li>
+<li>Now we alter the new <code>&lt;p&gt;</code> tag, adding the words <code>&quot;Now I see you&quot;</code> with the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML" target="_blank">Element.innerHTML</a> property.</li>
+<li>Then we attach the new <code>&lt;p&gt;</code> tag to the DOM tree, using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore" target="_blank">Node.insertBefore()</a> method and <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling" target="_blank">Node.nextSibling</a> property.</li>
+</ol>
+<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node" target="_blank">Node</a> interface provides a host of properties and methods for traversing, adding to, and removing from, the DOM tree.  Some of the most commonly used are:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode" target="_blank">Node.parent</a> the parent of this Node</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes" target="_blank">Node.childNodes</a> a <a href="NodeList">NodeList</a> of this node&rsquo;s children</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling" target="_blank">Node.nextSibling</a> returns the node following this one at the same level in the DOM tree</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling" target="_blank">Node.previousSibling</a> returns the node proceeding this one in the DOM tree at the same level</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild" target="_blank">Node.appendChild()</a> adds the an element as the last child of the node</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild" target="_blank">Node.removeChild()</a> removes a child from the node and returns it (this means the element becomes <em>unattached</em>)</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/replaceChild" target="_blank">Node.replaceChild()</a> replaces a child element with another</li>
+</ul>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/cc120/5-js/06-attaching-scripts/" title="Attaching Scripts"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/cc120/5-js/08-strict-mode/" title="Strict Mode" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/clipboard.min.js?1658776670"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.min.js?1658776670"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.jquery.min.js?1658776670"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/jquery.sticky.js?1658776670"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/featherlight.min.js?1658776670"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/highlight.pack.js?1658776670"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/modernizr.custom-3.6.0.js?1658776670"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/learn.js?1658776670"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/hugo-learn.js?1658776670"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/themer.js?1658776670"></script>
+
+    
+        
+            <script src="https://ksu-cs-textbooks.github.io/cc120/mermaid/mermaid.js?1658776670"></script>
+        
+        <script>
+            var mer_theme = localStorage.getItem('theme');
+            if(mer_theme !== 'dark'){
+                mer_theme = 'neutral'
+            }
+            mermaid.initialize({ 
+                startOnLoad: true,
+                'securityLevel': 'loose', 
+                'theme': mer_theme });
+        </script>
+    
+
+    
+
+    
+    
+
+    
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+  </body>
+</html>
+
