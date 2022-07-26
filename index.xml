@@ -111,8 +111,19 @@ Hello World The &amp;lt;h1&amp;gt; is the opening tag and the &amp;lt;/h1&amp;gt
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       
       <guid>https://ksu-cs-textbooks.github.io/cc120/1-www/02-the-technologies-of-the-web/</guid>
-      <description>When Tim-Berners Lee presented his original ideas for the World-Wide Web, it consisted of a protocol for requesting web documents - HTTP, and a markup language those documents could be written in - HTML. These initial technologies continue to be the foundation of the world-wide web, and have been enhanced by technologies to style webpages - CSS - and modify them - JavaScript.
+      <description>When Tim-Berners Lee presented his original ideas for the World-Wide Web, it consisted of a protocol for requesting web documents - HTTP, and a markup language those documents could be written in - HTML. These initial technologies continue to be the foundation of the world-wide web, and have been enhanced by additional languages to style webpages - CSS - and modify them - JavaScript.
 Each of these technologies has continued to evolve under the guidance of the W3C.</description>
+    </item>
+    
+    <item>
+      <title>URIs and URLs</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/02-uris-and-urls/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/02-uris-and-urls/</guid>
+      <description>Before a web request can be made, the browser needs to know where the resource requested can be found. This is the role that a Universal Resource Locator (a URL) plays. A URL is a specific kind of Universal Resource Indicator (URI) that specifies how a specific resource can be retrieved.
+Info
+URLs and URIs The terms URL and URI are often used interchangeably in practice. However, a URL is a specific subset of URIs that indicate how to retrieve a resource over a network; while a URI identifies a unique resource, it does not necessarily indicate how to retrieve it.</description>
     </item>
     
     <item>
@@ -124,6 +135,19 @@ Each of these technologies has continued to evolve under the guidance of the W3C
       <description>In the example from the previous section, we saw:
 p { color: red; background-color: green; } Here the p is a CSS Selector, which tells us what elements on the page the CSS rules should be applied to.
 Simple Selectors The most basic CSS selectors come in several flavors, which we&amp;rsquo;ll take a look at next. Simple selectors are a string composed of alphanumeric characters, dashes (-), and underscores (_). Certain selectors also use additional special characters.</description>
+    </item>
+    
+    <item>
+      <title>Developer Tools Network Panel</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/03-network-panel/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/03-network-panel/</guid>
+      <description>Now that we&amp;rsquo;ve discussed the request-response pattern and address resolution, let&amp;rsquo;s turn our attention to how requests are processed in the browser. The following tutorial from Google describes the network panel in Chrome:
+Also, open the Get Started Demo page it references.
+Or, if you prefer you can work through the written version of the tutorial
+Similar developer tools exist in other browsers:
+Firefox Safari Edge </description>
     </item>
     
     <item>
@@ -148,16 +172,6 @@ JavaScript implements first-class functions, which means they can be assigned to
     </item>
     
     <item>
-      <title>Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/1-www/03-summary/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/1-www/03-summary/</guid>
-      <description>This textbook will guide you through the three core client-side web technologies (HTML, CSS, &amp;amp; JS), as well as discuss the role HTTP plays in retrieving resources for a web client (like a browser) from the web. It is organized into chapters focused on each of those technologies in turn:
-The World-Wide-Web Hyper-Text Transfer Protocol Hyper-Text Markup Language Cascading Style Sheets JavaScript Once you understand client-side web technologies, you may want to turn your attention to the server side.</description>
-    </item>
-    
-    <item>
       <title>Where to Find Help</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/03-where-to-find-help/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -166,6 +180,16 @@ The World-Wide-Web Hyper-Text Transfer Protocol Hyper-Text Markup Language Casca
       <description>Web Only
 This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.
 Resources K-State IT Help Desk - Email helpdesk@ksu.edu K-State Online Canvas Help Instructure Canvas Guides Codio Documentation Codio Support K-State Libraries K-State CS Support K-State CS Advising K-State Engineering Student Services K-State Office of Student Life K-State Report It Video Script As you work on the materials in this course, you may run into questions or problems and need assistance.</description>
+    </item>
+    
+    <item>
+      <title>Why Standards?</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/1-www/03-why-standards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/1-www/03-why-standards/</guid>
+      <description>The Web Standards the W3C and ECMA International maintain are a critical piece of the web infrastructure. Having a standard for how HTML, CSS, and JavaScript should be interpreted by a web browser means that every browser can display the same webpage in the same way - allowing you the choice of your favorite browser without worrying your web browsing experience would be impacted.
+This was not always the case; during the early days of the world-wide-web in a period known as the Browser Wars the browsers Netscape Navigator and Internet Explorer both added features to their browsers not defined in the standards, and web developers had to decide which browser to build against.</description>
     </item>
     
     <item>
@@ -189,6 +213,16 @@ This is one of those aspects of JavaScript that breaks strongly with imperative 
     </item>
     
     <item>
+      <title>Browser Requests</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/04-browser-requests/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/04-browser-requests/</guid>
+      <description>Now that you are familiar with the network panel, let&amp;rsquo;s explore the primary kind of request you&amp;rsquo;re already used to making - requests originating from a browser. Every time you use a browser to browse the Internet, you are creating a series of HTTP (or HTTPS) requests that travel across the networks between you and a web server, which responds to your requests.
+When you type in an address in your browser (or click a hyperlink), this initiates a HTTP request against the server located at that address.</description>
+    </item>
+    
+    <item>
       <title>Flow Model</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/3-html/04-flow-model/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -197,6 +231,16 @@ This is one of those aspects of JavaScript that breaks strongly with imperative 
       <description>Given that the role of HTML is markup, i.e. providing structure and formatting to text, HTML elements can broadly be categorized into two categories depending on how they affect the flow of text - inline and block.
 Inline elements referred to elements that maintained the flow of text, i.e. the bring attention to (&amp;lt;b&amp;gt;) element used in a paragraph of text, would bold the text without breaking the flow:
 &amp;lt;p&amp;gt;The quick brown &amp;lt;b&amp;gt;fox&amp;lt;/b&amp;gt; lept over the log&amp;lt;/p&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Summary</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/1-www/04-summary/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/1-www/04-summary/</guid>
+      <description>This textbook will guide you through the three core client-side web technologies (HTML, CSS, &amp;amp; JS), as well as discuss the role HTTP plays in retrieving resources for a web client (like a browser) from the web. It is organized into chapters focused on each of those technologies in turn:
+The World-Wide-Web Hyper-Text Transfer Protocol Hyper-Text Markup Language Cascading Style Sheets JavaScript Once you understand client-side web technologies, you may want to turn your attention to the server side.</description>
     </item>
     
     <item>
@@ -236,6 +280,16 @@ This course does not have a required print textbook. The resources presented in 
       <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/05-objects-and-classes/</guid>
       <description>CONSOLE JavaScript is also an object-oriented language, but the way it implements objects is derived from the ideas of the Self programming language, rather than the C++ origins of Java and C#&amp;rsquo;s object-oriented approaches.
 Object Properties Let&amp;rsquo;s start with what an object is in JavaScript. It&amp;rsquo;s basically a collection of properties - key/value pairs, similar to the concept of a Dictionary in other languages. The properties play both the role of fields and methods of the object, as a property can be assigned a primitive value or a function.</description>
+    </item>
+    
+    <item>
+      <title>Status Codes</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/05-status-codes/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/05-status-codes/</guid>
+      <description>A HTTP response includes a status code - a numeric code and a human-readable description. The codes themselves are 3-digit numbers, with the first number indicating a general category the response status falls into. Essentially, the status code indicates that the request is being fulfilled, or the reason it cannot be.
+1XX Status Codes Codes falling in the 100&amp;rsquo;s provide some kind of information, often in response to a HEAD or upgrade request.</description>
     </item>
     
     <item>
@@ -291,6 +345,16 @@ Resources K-State Honor &amp;amp; Integrity System Video Script &amp;ldquo;On my
     </item>
     
     <item>
+      <title>Request Methods</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/06-request-methods/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/06-request-methods/</guid>
+      <description>When a web client like a browser makes a request, it must specify the request method, indicating what kind of request this is (sometimes we refer to the method as a HTTP Verb).
+The two most common are GET and POST requests, as these are typically the only kinds supported by browsers. Other request methods include PUT, PATCH, and DELETE, which are typically used by other kinds of web clients. We&amp;rsquo;ll focus on just GET and POST requests here.</description>
+    </item>
+    
+    <item>
       <title>Common HTML Elements</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/3-html/07-common-html-elements/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -311,6 +375,18 @@ Document-Level Elements These elements describe the basic structure of the HTML 
       <description>When specifying CSS rules, you often need to provide a unit of measurement. Any time you provide a measurement in a CSS rule, you must provide the units that measurement is being expressed in, following the value. For example:
 #banner { width: 300px; } sets the width of the element with id banner to 300 pixels.
 There are actually a lot of units available in CSS, and we&amp;rsquo;ll summarize the most common in this section.</description>
+    </item>
+    
+    <item>
+      <title>Request Headers</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/07-request-headers/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/07-request-headers/</guid>
+      <description>Request headers take the form of key-value pairs, and represent specific aspects of the request. For example:
+Accept-Encoding: gzip Indicates that the browser knows how to accepted content compressed in the Gzip format.
+Note that request headers are a subset of message headers that apply specifically to requests. There are also message headers that apply only to HTTP responses, and some that apply to both.
+As HTTP is intended as an extensible protocol, there are a lot of potential headers.</description>
     </item>
     
     <item>
@@ -398,6 +474,16 @@ var whilma = { name: &amp;#34;Wilma Flintstone&amp;#34;, relationship: &amp;#34;
     </item>
     
     <item>
+      <title>AJAX</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/</guid>
+      <description>Asynchronous JavaScript and XML (AJAX) is a term coined by Jesse James Garrett to describe a technique of using the XMLHttpRequest object to request resources directly from JavaScript. As the name implies, this was originally used to request XML content, but the technique can be used with any kind of data.
+The XMLHttpRequest The XMLHttpRequest object is modeled after how the window object makes web requests. You can think of it as a state machine that can be in one of several possible states, defined by both a constant and an unsigned short value:</description>
+    </item>
+    
+    <item>
       <title>CSS Box Model</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/4-css/11-css-box-model/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -442,25 +528,8 @@ In this understanding, CSS is often tasked with the role of laying out elements 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/01-introduction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/02-browser-requests/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/02-browser-requests/</guid>
-      <description>Before we get too deep in the details of what a request is, and how it works, let&amp;rsquo;s explore the primary kind of request you&amp;rsquo;re already used to making - requests originating from a browser. Every time you use a browser to browse the Internet, you are creating a series of HTTP (or HTTPS) requests that travel across the networks between you and a web server, which responds to your requests.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/</guid>
-      <description></description>
+      <description>At the heart of the world wide web is the Hyper-Text Transfer Protocol (HTTP). This is a protocol defining how HTTP servers (which host web pages) interact with HTTP clients (which display web pages).
+It starts with a request initiated from the web browser or other client. This request is sent over the Internet using the TCP protocol to a web server. Once the web server receives the request, it must decide the appropriate response - ideally sending the requested resource back to the browser to be displayed.</description>
     </item>
     
   </channel>
