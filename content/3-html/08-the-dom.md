@@ -29,11 +29,11 @@ Consider this HTML:
 
 When it is parsed by the browser, it is transformed into this tree:
 
-![The DOM for the supplied HTML](/images/2.8.1.png)
+![The DOM for the supplied HTML](/images/3.8.1.png)
 
 ### The DOM Tree and Developer Tools
 
-Most browsers also expose the DOM tree through their developer tools.  Try opening the example page in Chrome or your favorite browser using <a href='{{<static "examples/1.2.1/index.html">}}' target='_blank'>this link</a>.
+Most browsers also expose the DOM tree through their developer tools.  Try opening the example page in Chrome or your favorite browser using <a href='/examples/3.8.1/index.html' target='_blank'>this link</a>.
 
 Now open the developer tools for your browser:
 * **Chrome** `CTRL + SHIFT + i` or right-click and select 'Inspect' from the context menu.
@@ -43,7 +43,7 @@ Now open the developer tools for your browser:
 
 You should see a new panel open in your browser, and under its 'elements' tab the DOM tree is displayed:
 
-![The Elements tab of the Chrome Developer Tools](/images/2.8.2.png)
+![The Elements tab of the Chrome Developer Tools](/images/3.8.2.png)
 
 Collapsed nodes can be expanded by clicking on the arrow next to them.  
 Try moving your mouse around the nodes in the DOM tree, and you'll see the corresponding element highlighted in the page.  You can also _dynamically edit_ the DOM tree from the elements tab by right-clicking on a node.

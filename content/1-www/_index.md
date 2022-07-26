@@ -8,4 +8,4 @@ pre = "1. "
 
 ### The World-Wide-Web
 
-Proudly Serving Documents Since 1991
+Proudly serving resources since 1991

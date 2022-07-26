@@ -37,11 +37,11 @@ The XMLHttpRequest object implements the `EventTarget` interface, just like the 
 
 * `abort` - fired when the request has been aborted (you can abort a request with the [XMLHttpRequest.abort()](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/abort) method)
 * `error` - fired when the request encountered an error 
-* `load` - fired when the request completes sucessfully
-* `loadend` - fired wehn the request has completed, either because of success or after an abort or error.
-* `loadstart` - fired wehn the request has started to load data
-* `progress` - fired periodically as the request recieves data 
-* `timeout` - fired wehn the progress is expired due to taking too long
+* `load` - fired when the request completes successfully
+* `loadend` - fired when the request has completed, either because of success or after an abort or error.
+* `loadstart` - fired when the request has started to load data
+* `progress` - fired periodically as the request receives data 
+* `timeout` - fired when the progress is expired due to taking too long
 
 Several of these events have properties you can assign a function to directly to capture the event:
 
@@ -104,20 +104,20 @@ Much like when we manually made requests, we first need to open the connection t
 xhr.open('GET', 'https://imgs.xkcd.com/comics/blogofractal.png');
 ```
 
-The first arguement is the [HTTP request method]({{<ref "/02-http/04-request-methods" >}}) to use, and the second is the [URL]({{<ref "/02-http/05-uris-and-urls">}}) to open.  
+The first argument is the [HTTP request method]({{<ref "/2-http/06-request-methods" >}}) to use, and the second is the [URL]({{<ref "/2-http/02-uris-and-urls">}}) to open.  
 
 There are also three optional parameters that can be used to follow - a boolean determining if the request should be made asynchronously (default `true`) and a user and password for HTTP authentication.  Since AJAX requests are normally made asynchronously, and HTTP authentication has largely been displaced by more secure authentication approaches, these are rarely used.
 
 #### Setting Headers 
 
-After the `XMLHttpRequest` has been opened, but before it is sent, you can use [XMLHttpRequest.setRequestHeader()](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/setRequestHeader) to set any [request headers]({{<ref "/02-http/06-request-headers">}}) you need.  For example, we might set an `Accept` header to `image/png` to indicate we would like image data as our response:
+After the `XMLHttpRequest` has been opened, but before it is sent, you can use [XMLHttpRequest.setRequestHeader()](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/setRequestHeader) to set any [request headers]({{<ref "/2-http/07-request-headers">}}) you need.  For example, we might set an `Accept` header to `image/png` to indicate we would like image data as our response:
 
 ```js
 xhr.setRequestHeader('Accept', 'image/png');
 ```
 
 #### Sending the XMLHttpRequest 
-Finally, the [XMLHttpRequest.send()](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/send) method will send the request asynchronously (unless the `async` parameter in `XMLHttpRequest.open()` was set to `false`).  As the response is recieved (or fails) the appropriate event handlers will be triggered.  To finish our example:
+Finally, the [XMLHttpRequest.send()](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/send) method will send the request asynchronously (unless the `async` parameter in `XMLHttpRequest.open()` was set to `false`).  As the response is received (or fails) the appropriate event handlers will be triggered.  To finish our example:
 
 ```js
 xhr.send();
