@@ -29,6 +29,16 @@ Course Resources Syllabus Textbook Welcome Message Hello students, and welcome t
     
     <item>
       <title>Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/01-introduction/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/01-introduction/</guid>
+      <description>At the heart of the world wide web is the Hyper-Text Transfer Protocol (HTTP). This is a protocol defining how HTTP servers (which host web pages) interact with HTTP clients (which display web pages).
+It starts with a request initiated from the web browser or other client. This request is sent over the Internet using the TCP protocol to a web server. Once the web server receives the request, it must decide the appropriate response - ideally sending the requested resource back to the browser to be displayed.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/3-html/01-introduction/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       
@@ -520,16 +530,6 @@ In this understanding, CSS is often tasked with the role of laying out elements 
       
       <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/14-responsive-css/</guid>
       <description>Modern websites are displayed on a wide variety of devices, with screen sizes from 640x480 pixels (VGA resolution) to 3840x2160 pixels (4K resolution). It should be obvious therefore that one-size-fits-all approach to laying out web applications does not work well. Instead, the current best practice is a technique known as Responsive Web Design. When using this strategy your web app should automatically adjusts the layout of the page based on how large the device screen it is rendered on.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/01-introduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/01-introduction/</guid>
-      <description>At the heart of the world wide web is the Hyper-Text Transfer Protocol (HTTP). This is a protocol defining how HTTP servers (which host web pages) interact with HTTP clients (which display web pages).
-It starts with a request initiated from the web browser or other client. This request is sent over the Internet using the TCP protocol to a web server. Once the web server receives the request, it must decide the appropriate response - ideally sending the requested resource back to the browser to be displayed.</description>
     </item>
     
   </channel>

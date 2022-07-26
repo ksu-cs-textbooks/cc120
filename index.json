@@ -56,6 +56,13 @@
 	"content": " While working for CERN (the European Organization for Nuclear Research), Tim Burners-Lee proposed bringing the ideas of hyper-text documents together with emerging Internet technologies like the Transmission Control Protocol (TCP) and the Domain Name System (DNS) to create the World-Wide Web. He defined the Hyper Text Transfer Protocol (HTTP), the first web server, and the first web browser, in 1990 demonstrating the feasibility of the idea. Since that time, the web has grown to contain around 1.7 billion webpages1.\nThe web is more a social creation than a technical one. I designed it for a social effect — to help people work together — and not as a technical toy. The ultimate goal of the Web is to support and improve our weblike existence in the world. We clump into families, associations, and companies. We develop trust across the miles and distrust around the corner. -Sir Tim Berners-Lee\nTim Burners-Lee went on to found the World Wide Web Consortium (W3C) to continue developing and maintaining web standards. He has been the recipient of numerous prestigious international awards and was knighted by Queen Elizabeth in 2004 for his contributions to society.\nSee https://siteefy.com/how-many-websites-are-there/ for a current estimate.\u0026#160;\u0026#x21a9;\u0026#xfe0e;\n"
 },
 {
+	"uri": "https://ksu-cs-textbooks.github.io/cc120/2-http/01-introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "At the heart of the world wide web is the Hyper-Text Transfer Protocol (HTTP). This is a protocol defining how HTTP servers (which host web pages) interact with HTTP clients (which display web pages).\nIt starts with a request initiated from the web browser or other client. This request is sent over the Internet using the TCP protocol to a web server. Once the web server receives the request, it must decide the appropriate response - ideally sending the requested resource back to the browser to be displayed. The following diagram displays this typical request-response pattern.\nThis HTTP request-response pattern is at the core of how all web applications communicate. Even those that use websockets begin with an HTTP request.\nNote\nThe HTTP standard, along with many other web technologies, is maintained by the World-Wide-Web Consortium (abbrivated W3C), stakeholders who create and maintain web standards. The full description of the Hyper-Text Transfer Protocol can be found here w3c\u0026rsquo;s protocols page.\n"
+},
+{
 	"uri": "https://ksu-cs-textbooks.github.io/cc120/3-html/01-introduction/",
 	"title": "Introduction",
 	"tags": [],
@@ -397,13 +404,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Web Page Development CC 120 Course Textbook\nNathan Bean\nKansas State University\n© 2022\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.\n"
-},
-{
-	"uri": "https://ksu-cs-textbooks.github.io/cc120/2-http/01-introduction/",
-	"title": "",
-	"tags": [],
-	"description": "",
-	"content": "At the heart of the world wide web is the Hyper-Text Transfer Protocol (HTTP). This is a protocol defining how HTTP servers (which host web pages) interact with HTTP clients (which display web pages).\nIt starts with a request initiated from the web browser or other client. This request is sent over the Internet using the TCP protocol to a web server. Once the web server receives the request, it must decide the appropriate response - ideally sending the requested resource back to the browser to be displayed. The following diagram displays this typical request-response pattern.\nThis HTTP request-response pattern is at the core of how all web applications communicate. Even those that use websockets begin with an HTTP request.\n|||definition The HTTP standard, along with many other web technologies, is maintained by the World-Wide-Web Consortium (abbrivated W3C), stakeholders who create and maintain web standards. The full description of the Hyper-Text Transfer Protocol can be found here w3c\u0026rsquo;s protocols page. |||\n"
 },
 {
 	"uri": "https://ksu-cs-textbooks.github.io/cc120/categories/",
