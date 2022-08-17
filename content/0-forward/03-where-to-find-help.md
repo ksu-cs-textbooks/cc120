@@ -9,7 +9,6 @@ date: 2018-08-24T10:53:26-05:00
 This textbook was authored for the **CC 120 - Web Page Development** course at Kansas State University.  This front matter is specific to that course.  If you are not enrolled in the course, please disregard this section.
 {{% /notice %}}
 
-{{< youtube m6dGMJBjQUo >}}
 
 #### Resources
 
@@ -29,7 +28,7 @@ This textbook was authored for the **CC 120 - Web Page Development** course at K
 
 As you work on the materials in this course, you may run into questions or problems and need assistance. This video reviews the various types of help available to you in this course.
 
-First and foremost, anytime you have a questions or need assistance in the Computational Core program, please send an email to the appropriate help group for this course. In this case, it would be cc410-help, or cc410-help@ksuemailprod.onmicrosoft.com. That email goes to the instructors and GTAs, and is your best chance to get a quick response. We'll respond to your email within one business day. 
+First and foremost, anytime you have a questions or need assistance in the Computational Core program, please send an email to the appropriate help group for this course. In this case, it would be cc120-help, or cc120-help@ksuemailprod.onmicrosoft.com. That email goes to the instructors and GTAs, and is your best chance to get a quick response. We'll respond to your email within one business day. 
 
 Beyond email, there are a few resources you should be aware of. First, if you have any issues working with K-State Canvas, K-State IT resources, or any other technology related to the delivery of the course, your first source of help is the K-State IT Helpdesk. They can easily be reached via email at helpdesk@ksu.edu. Beyond them, there are many online resources for using Canvas, all of which are linked in the resources section below the video. As a last resort, you may also want to email the help group, but in most cases we may simply redirect you to the K-State helpdesk for assistance.
 

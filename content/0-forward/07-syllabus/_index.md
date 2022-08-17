@@ -66,22 +66,19 @@ A common axiom in learner-centered teaching is **"the person doing the work is t
 
 There is no shortcut to becoming a web developer. Only by **doing the work** will you develop the skills and knowledge to make you a successful computer scientist. This course is built around that principle, and gives you ample opportunity to do the work, with as much support as we can offer.
 
-**Tutorials, Quizzes & Examples:** Each module will include many tutorial assignments, quizzes, and examples that will take you step-by-step through using a particular concept or technique. The point is not simply to complete the example, but to practice the technique and coding involved. You will be expected to implement these techniques on your own in the milestone assignment of the module - so this practice helps prepare you for those assignments.
+**Quizzes** Many modules will include quizzes which cover the theory, concepts, and vocabulary used in web development. This is all information you should be familiar with as a future web developer.  Most quizzes will allow multiple retakes.
 
-**Milestone Assignments:** Throughout the semester you will be building a personal website iteratively; every week a new milestone (a collection of features embodying a new version of a software application) will be due. Each milestone builds upon the prior milestone’s code base, so it is critical that you complete each milestone in a timely manner! This process also reflects the way software development is done in the real world - breaking large projects into more readily achievable milestones helps manage the development process.
+**Tutorials & Examples:** Each module will include many tutorial assignments and examples that will take you step-by-step through using a particular concept or technique. The point is not simply to complete the example, but to practice the technique and coding involved. You will be expected to implement these techniques on your own in project assignments, so it is important that you take the time to learn from these.
 
-Following along that real-world theme, programming assignments in this class will also be graded according to their conformance to coding style, documentation, and testing requirements. Each milestone’s rubric will include points assigned to each of these factors. It is not enough to simply write code that compiles and meets the specification; good code is readable, maintainable, efficient, and secure. The principles and practices of web design that we will be learning in this course have been developed specifically to help address these concerns.
-
-**Concept Quizzes:** There will be a couple of concept quizzes throughout the semester to check your understanding of various programming topics. These will allow you to demonstrate your problem-solving skills and your ability to apply what you've learned to novel situations.
+**Project Assignments:** Throughout the semester you will be building a number of web pages, including a personal website. Note that all web pages you build for this course should be _valid_ - your HTML, CSS, and JavaScript _must_ conform to the standards. Additionally, you will be expected to address accessibility and security in your projects once we've covered these topics.
 
 ### Grading
 
 In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
-* 20% - Tutorials & Quizzes
-* 20% - Examples
-* 20% - Concept Quizzes
-* 40% - Website Milestones
+* 30% - Quizzes
+* 30% - Tutorials & Exercises
+* 40% - Projects
 
 Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
 

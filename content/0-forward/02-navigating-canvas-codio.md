@@ -9,7 +9,6 @@ date: 2020-01-16T10:53:26-05:00
 This textbook was authored for the **CC 120 - Web Page Development** course at Kansas State University.  This front matter is specific to that course.  If you are not enrolled in the course, please disregard this section.
 {{% /notice %}}
 
-{{< youtube dqEBz0R41d4>}}
 
 <!-- Fall 2019 fi5sKoI_sk8 -->
 
@@ -33,8 +32,6 @@ Within each module is a set of items, which must be completed in listed order. U
 
 Let's click on the first item, Course Introduction, to get started. You've already been to this page by this point. Many course pages will consist of an embedded video, followed by links to any resources used or referenced in the video, including the slides and a downloadable version of the video. Finally, a rough video script will be posted on the page for your quick reference.
 
-While I cannot force you to watch each video in its entirety, I highly recommend doing so. The script on the page may not accurately reflect all of the content in the video, nor can it show how to perform some tasks which are purely visual.
-
 When you are ready to move to the next step in a module, click the **Next** button at the bottom of the page. Canvas will automatically add **Next** and **Previous** buttons to each piece of content which is accessed through the Modules section, which makes it very easy to work through the course content. I'll click through a couple of items here.
 
 At any point, you may click on the Modules link in the menu to the left to return to the Modules section of the site. You'll notice that I've viewed the first few items in the first module, so I can access more items here. This is handy if you want to go back and review the content you've already seen, or if you leave and want to resume where you left off. Canvas will put green checkmarks to the right of items you've completed.
@@ -47,4 +44,4 @@ Now, let's go back to Canvas and load up one of the Codio projects. To load the 
 
 Once Codio loads, it should give you the option to start the *Guide* for that module. You'll definitely want to select that option whenever you load a Codio project for the first time.
 
-From there, you can follow the steps in that guide to learn more about the Codio interface. The first page of the guide continues this video. I'll see you there!
+From there, you can follow the steps in that guide to learn more about the Codio interface. 
