@@ -34,7 +34,7 @@ We can access an element in an array with bracket notation, i.e.:
 
 ```js 
 var arr = [1, "foo", true, 3.2, null];
-console.log(arr[3])
+console.log(arr[2])
 ```
 
 will print `true`.  We index arrays starting at 0, just as we are used to .  
