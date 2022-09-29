@@ -36,7 +36,7 @@ In this course students gain experience writing web pages using the three core c
 * Hyper-Text Transfer Protocol (HTTP)
 * Hyper Text Markup Language (HTML)
 * Cascading Style Sheets (CSS)
-  * CSS Animations
+* CSS Animations
 * JavaScript (JS)
 * The Document Object Model (DOM)
 * Web Accessability
