@@ -6,8 +6,6 @@ chapter = true
 pre = "5. "
 +++
 
-### Appendix C
-
-# JavaScript
+### JavaScript
 
 Bringing interaction to web pages since 1995.
