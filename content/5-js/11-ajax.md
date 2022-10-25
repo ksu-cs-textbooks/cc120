@@ -12,9 +12,9 @@ Asynchronous JavaScript and XML (AJAX) is a term coined by Jesse James Garrett t
 The `XMLHttpRequest` object is modeled after how the `window` object makes web requests.  You can think of it as a state machine that can be in one of several possible states, defined by both a constant and an unsigned short value: 
 
 * **UNSENT** or **0** The client has been created, but no request has been made.  Analogus to a just-opened browser before you type an address in the address bar.
-* **OPENED** or **1** The request has been made, but the response has not been recieved.  The browser analogue would be you have just pressed enter after typing the address.
+* **OPENED** or **1** The request has been made, but the response has not been received.  The browser analogue would be you have just pressed enter after typing the address.
 * **HEADERS_RECIEVED** or **2** The first part of the response has been processed.  We'll talk about headers in the next chapter.
-* **LOADING** or **3** The content of the response is being downloaded.  In the browser, this would be the stage where the HTML is being recieved and parsed into the DOM.
+* **LOADING** or **3** The content of the response is being downloaded.  In the browser, this would be the stage where the HTML is being received and parsed into the DOM.
 * **DONE** or **4** The resource is fully loaded.  In the DOM, this would be equivalent to the `'load'` event.
 
 ![The XMLHttpRequest ready states]({{<static "images/3.8.1.png">}})
@@ -26,7 +26,7 @@ The XMLHttpRequest object also has a number of properties that are helpful:
 * `readyState` - the current state of the property
 * `response` - the body of the response, an `ArrayBuffer`, `Blob`, `Document`, or `DOMString` based on the value of the `responseType`
 * `responseType` - the mime type of response
-* `status` - returns an unsigned short with the HTTP response status (or 0 if the response has not been recieved)
+* `status` - returns an unsigned short with the HTTP response status (or 0 if the response has not been received)
 * `statusText` - returns a string containing the response string fro the server, i.e. `"200 OK"`
 * `timeout` - the number of milliseconds the request can take before being terminated
 
