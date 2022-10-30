@@ -613,5 +613,44 @@ In this understanding, CSS is often tasked with the role of laying out elements 
       <description>Modern websites are displayed on a wide variety of devices, with screen sizes from 640x480 pixels (VGA resolution) to 3840x2160 pixels (4K resolution). It should be obvious therefore that one-size-fits-all approach to laying out web applications does not work well. Instead, the current best practice is a technique known as Responsive Web Design. When using this strategy your web app should automatically adjusts the layout of the page based on how large the device screen it is rendered on.</description>
     </item>
     
+    <item>
+      <title>CSS Transformations</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/15-css-transformations/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/15-css-transformations/</guid>
+      <description>With powerful graphics cards becoming commonplace, the W3C standards expanded the CSS rules to take advantage of their abilities. Specifically, the CSS transform property allows us to apply a transformation (scaling, rotating, translating, stretching, skewing, or any combination) to elements on a page. These are performed using a mathematical operation based on the use of matrices. Graphics cards are optimized to perform these matrix operations in parallel, allowing them to quickly transform graphical objects in 3-dimensional space.</description>
+    </item>
+    
+    <item>
+      <title>CSS Transitions</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/16-css-transitions/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/16-css-transitions/</guid>
+      <description>While most CSS rules are applied as the page is loaded, some are applied at a future point. One example is pseudo-classes that apply in limited circumstances - like :hover which applies only when the mouse is over an element, or :valid and :invalid which are applied to input elements based on their validation status. Another common instance is when elements are added to the page using JavaScript, as discussed in Chapter 5 - JavaScript.</description>
+    </item>
+    
+    <item>
+      <title>CSS Timing Functions</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/17-timing-functions/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/17-timing-functions/</guid>
+      <description>The transition property (and the animations we&amp;rsquo;ll look at shortly) both make use of timing functions - functions that define how the values of a CSS property change over time as we transition from one state to the next.
+The simplest (and default) transition function is linear, which means the value smoothly transitions from its starting value to its ending value. It is specified as linear.
+While linear is easy to reason about and represent mathematically, transitions often look more realistic if the start or end more slowly, speeding up in the middle.</description>
+    </item>
+    
+    <item>
+      <title>CSS Animation</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/18-css-animation/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/18-css-animation/</guid>
+      <description>As the web became more interactive, there was an increased desire to animate elements on webpages. Animations are a powerful tool for increasing visual interest and also conveying information. Consider the Apple sign-in dialog, which on an incorrect username/password combination shakes back and forth briefly, mimicking a human&amp;rsquo;s head shaking.
+Early animations in the web relied on using JavaScript to change properties of elements on the page. While these techniques are still used, they are increasingly supplanted by new CSS rules that are easier to write and provide more precise control.</description>
+    </item>
+    
   </channel>
 </rss>
