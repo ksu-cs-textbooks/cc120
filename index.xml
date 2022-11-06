@@ -78,6 +78,16 @@ The power of the Web is in its universality.</description>
     </item>
     
     <item>
+      <title>Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/01-introduction/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/01-introduction/</guid>
+      <description>In computer graphics, we have two primary approaches to representing graphical information, raster and vector representations.
+Raster graphics take their name from the scan pattern of a cathode-ray tube, such as was used in older television sets and computer monitors. These, as well as modern monitors, rely on a regular grid of pixels composed of three colors of light (red, green, and blue) that are mixed at different intensities to create all colors of the visible spectrum.</description>
+    </item>
+    
+    <item>
       <title>Navigating Canvas &amp; Codio</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/02-navigating-canvas-codio/</link>
       <pubDate>Thu, 16 Jan 2020 10:53:26 -0500</pubDate>
@@ -138,6 +148,15 @@ Hello World The &amp;lt;h1&amp;gt; is the opening tag and the &amp;lt;/h1&amp;gt
     </item>
     
     <item>
+      <title>Raster Graphic Files</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/02-raster-graphic-files/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/02-raster-graphic-files/</guid>
+      <description>Unsurprisingly, graphic files that store their data in a raster format borrow heavily from the representations discussed previously. Typically, a graphic file consists of two parts, a head and a body. This is very much like how the &amp;lt;head&amp;gt; of a HTML file provides metadata about the page and the &amp;lt;body&amp;gt; contains the actual page contents. For a raster graphic file, the head of the file contains metadata describing the image itself - the color format, along with the width and height of the image.</description>
+    </item>
+    
+    <item>
       <title>The Vision of Sir Tim Berners Lee</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/1-www/02-the-technologies-of-the-web/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -191,6 +210,16 @@ Firefox Safari Edge </description>
       <description>When authoring an HTML page, HTML elements should be organized into an HTML Document. This format is defined in the HTML standard. HTML that does not follow this format are technically invalid, and may not be interpreted and rendered correctly by all browsers. Accordingly, it is important to follow the standard.
 The basic structure of a valid HTML5 document is:
 &amp;lt;!doctype HTML&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Page Title Goes Here&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt;Page body and tags go here.</description>
+    </item>
+    
+    <item>
+      <title>HTML Raster Graphics</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/03-html-raster-graphics/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/03-html-raster-graphics/</guid>
+      <description>The most obvious use of raster graphics in HTML is the &amp;lt;img&amp;gt; element, a HTML element that embodies a single raster graphic image. It is defined with the an img tag:
+&amp;lt;img src=&amp;#34;&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; The src attribute is a relative or absolute url of an image file, and the alt attribute provides a textual description of what the image portrays. It is what the browser displays if the image file does not load, and is also important for screen readers (as discussed in Chapter 6).</description>
     </item>
     
     <item>
@@ -296,6 +325,15 @@ The World-Wide-Web Hyper-Text Transfer Protocol Hyper-Text Markup Language Casca
     </item>
     
     <item>
+      <title>The Canvas Element</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/04-the-canvas-element/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/04-the-canvas-element/</guid>
+      <description>The &amp;lt;canvas&amp;gt; element represents a raster graphic, much like the &amp;lt;img&amp;gt; element. But instead of representing an existing image file, the &amp;lt;canvas&amp;gt; is a blank slate - a grid of pixels on which you can draw using JavaScript. Becuase a canvas doesn&amp;rsquo;t determine its size from an image file, you need to always declare it with a width and height attribute (otherwise, it has a width and height of 0):</description>
+    </item>
+    
+    <item>
       <title>What You&#39;ll Learn</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/04-what-youll-learn/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -353,6 +391,15 @@ Object Properties Let&amp;rsquo;s start with what an object is in JavaScript. It
       <description>Tables were amongst the first addition to HTML (along with images), as they were necessary for the primary role of early HTML, disseminating research.
 A table requires a lot of elements to be nested in a specific manner. It is best expressed through an example:
 &amp;lt;table&amp;gt; &amp;lt;thead&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;Name&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;Role&amp;lt;/th&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/thead&amp;gt; &amp;lt;tbody&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Darth Vader&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Antagonist&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Luke Skywalker&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Coming-of-age protagonist&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Princess Lea&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Heroic resistance fighter&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Obi-Wan Kenobi&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Wise old man&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Han Solo&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Likeable scoundrel&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Chewbacca&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;The muscle&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Threepio&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Comedic foil&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Artoo Deetoo&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Plot driver&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tbody&amp;gt; &amp;lt;/table&amp;gt; It renders as:</description>
+    </item>
+    
+    <item>
+      <title>The Pen Metaphor</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/05-the-pen-metaphor/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/05-the-pen-metaphor/</guid>
+      <description>Most 2D graphics libraries adopt a &amp;ldquo;pen&amp;rdquo; metaphor to model how they interact with the graphics they draw. Think of an imaginary pen that you use to draw on the screen. When you put the pen down and move it across the screen you draw a line - the stroke. When you lift the pen, you no longer make a mark. The movements of the pen across the canvas also define a path.</description>
     </item>
     
     <item>
@@ -426,6 +473,17 @@ The two most common are GET and POST requests, as these are typically the only k
     </item>
     
     <item>
+      <title>Stroke and Fill</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/06-stroke-and-fill/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/06-stroke-and-fill/</guid>
+      <description>The stroke and fill work with the current path of the context, defining how the outline and interior of a shape defined by the path are drawn.
+Stroke The stroke() draws all of the path segments where the pen was &amp;ldquo;down&amp;rdquo;. The appearance of the stroke can be altered with specific properties of the canvas:
+strokeStyle allows you to set the color of the stroke, i.e. ctx.strokeStyle = &#39;orange&#39;;. You can use one of the named colors, i.</description>
+    </item>
+    
+    <item>
       <title>Common HTML Elements</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/3-html/07-common-html-elements/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -471,6 +529,16 @@ As HTTP is intended as an extensible protocol, there are a lot of potential head
     </item>
     
     <item>
+      <title>Shape Functions</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/07-shape-functions/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/07-shape-functions/</guid>
+      <description>For ease of use, the context also supplies a number of functions for drawing shapes. Some of these just define the shape as a series of subpaths to be used with the stroke() and fill() functions.
+Arcs and Circles Of these, we&amp;rsquo;ve already seen the arc(x, y, radius, startAngle, endAngle) function. It can be used to draw an arc, or when filled, a wedge - like a pie slice. When a startAngle of 0 and endAngle of 2 * Math.</description>
+    </item>
+    
+    <item>
       <title>The Document Object Model</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -478,6 +546,16 @@ As HTTP is intended as an extensible protocol, there are a lot of potential head
       <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/</guid>
       <description>Now that we&amp;rsquo;ve reviewed the basic syntax and structure of the JavaScript language, and how to load it into a page, we can turn our attention to what it was created for - to interact with web pages in the browser. This leads us to the Document Object Model (DOM).
 The DOM is a tree-like structure that is created by the browser when it parses the HTML page. Then, as CSS rules are interpreted and applied, they are attached to the individual nodes of the tree.</description>
+    </item>
+    
+    <item>
+      <title>Canvas Text</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/08-text/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/08-text/</guid>
+      <description>While the canvas is primarily used to draw graphics, there are times we want to use text as well. We have two methods to draw text: fillText(text, x, y) and strokeText(text, x, y). The text parameter is the text to render, and the x and y are the upper left corner of the text.
+As with the fillRect() and strokeRect() functions, fillText() and strokeText() fill and stroke the text, respectively, and the text does not affect the current path.</description>
     </item>
     
     <item>
@@ -523,6 +601,17 @@ We also learned that many of these techniques benefit all users. Strong color co
     </item>
     
     <item>
+      <title>Canvas and Images</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/09-images/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/09-images/</guid>
+      <description>The &amp;lt;canvas&amp;gt; and &amp;lt;img&amp;gt; elements are both raster representations of graphics, which introduces an interesting possibility - copying the data of an image into the canvas. This can be done with the drawImage() family of functions.
+The first of these is drawImage(image, x, y). This copies the entire image held in the image variable onto the canvas, starting at (x, y).
+&amp;lt;canvas id=&amp;#34;image-example-1&amp;#34; width=&amp;#34;500&amp;#34; height=&amp;#34;300&amp;#34;&amp;gt;&amp;lt;/canvas&amp;gt; &amp;lt;script&amp;gt; var canvas1 = document.getElementById(&amp;#39;image-example-1&amp;#39;); var ctx1 = canvas1.</description>
+    </item>
+    
+    <item>
       <title>CSS Colors</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/4-css/09-css-colors/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -565,6 +654,16 @@ var whilma = { name: &amp;#34;Wilma Flintstone&amp;#34;, relationship: &amp;#34;
     </item>
     
     <item>
+      <title>Transforms and State</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/10-transforms/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/10-transforms/</guid>
+      <description>Much like we can use CSS to apply transformations to HTML elements, we can use transforms to change how we draw into a canvas. The rendering context has a transformation matrix much like those we discussed in the CSS chapter, and it applies this transform to any point it is tasked with drawing.
+We can replace the current transformation matrix with the setTransform() function, or multiply it by a new transformation (effectively combining the current transformation with the new one) by calling transform().</description>
+    </item>
+    
+    <item>
       <title>AJAX</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -572,6 +671,16 @@ var whilma = { name: &amp;#34;Wilma Flintstone&amp;#34;, relationship: &amp;#34;
       <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/</guid>
       <description>Asynchronous JavaScript and XML (AJAX) is a term coined by Jesse James Garrett to describe a technique of using the XMLHttpRequest object to request resources directly from JavaScript. As the name implies, this was originally used to request XML content, but the technique can be used with any kind of data.
 The XMLHttpRequest The XMLHttpRequest object is modeled after how the window object makes web requests. You can think of it as a state machine that can be in one of several possible states, defined by both a constant and an unsigned short value:</description>
+    </item>
+    
+    <item>
+      <title>Animation</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/11-animation/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/11-animation/</guid>
+      <description>The canvas element provides a powerful tool for creating animations by allowing us to erase and re-draw its contents over and over. Ideally, we only want to redraw the canvas contents only as quickly as the screen is updated (typically every 1/30th or 1/60th of a second). The window.requestAnimationFrame(callback) provides an approach for doing this - it triggers the supplied callback every time the monitor refreshes.
+Inside that callback, we want to erase the canvas and then draw the updated scene.</description>
     </item>
     
     <item>
@@ -650,6 +759,42 @@ While linear is easy to reason about and represent mathematically, transitions o
       <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/18-css-animation/</guid>
       <description>As the web became more interactive, there was an increased desire to animate elements on webpages. Animations are a powerful tool for increasing visual interest and also conveying information. Consider the Apple sign-in dialog, which on an incorrect username/password combination shakes back and forth briefly, mimicking a human&amp;rsquo;s head shaking.
 Early animations in the web relied on using JavaScript to change properties of elements on the page. While these techniques are still used, they are increasingly supplanted by new CSS rules that are easier to write and provide more precise control.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/12-vector-graphics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/12-vector-graphics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/13-svg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/13-svg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/14-svg-and-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/14-svg-and-css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/15-svg-and-js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/15-svg-and-js/</guid>
+      <description></description>
     </item>
     
   </channel>
