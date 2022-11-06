@@ -15,10 +15,10 @@ The `src` attribute is a relative or absolute url of an image file, and the `alt
 
 Any HTML element can also be given a raster graphic to use as a background through the CSS `background-image` property:
 
-```html
+```css
 background-image(url([route/to/file]));
 ```
 
-The  `url()` function converts a relative or absolute path (`[route/to/file]`) for the browser to retrieve with a hTTP request (relative paths are relative to the file containing the rule declaration).  By default, the image will have its origin in the upper left corner of the HTML element the rule is applied to, and will extend pixel-by-pixel until the edge of the containing element is reached (this means that to display the full image, you may need to set the `width` and `height` attributes for the element as well).  If the image is smaller than the containing element, it will be tiled.  Tiling can be conditionally turned off through the  `background-repeat property`, in the X, Y, or both axes.  You can also stretch, crop, and shift the image’s origin with other background properties.
+The  `url()` function converts a relative or absolute path (`[route/to/file]`) for the browser to retrieve with a HTTP request (relative paths are relative to the file containing the rule declaration).  By default, the image will have its origin in the upper left corner of the HTML element the rule is applied to, and will extend pixel-by-pixel until the edge of the containing element is reached (this means that to display the full image, you may need to set the `width` and `height` attributes for the element as well).  If the image is smaller than the containing element, it will be tiled.  Tiling can be conditionally turned off through the  `background-repeat property`, in the X, Y, or both axes.  You can also stretch, crop, and shift the image’s origin with other background properties.
 
 In addition to these two strategies for including graphics in a web site, HTML provides a third option in the `<canvas>` element. We'll discuss that next.
