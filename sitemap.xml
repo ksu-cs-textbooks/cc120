@@ -183,7 +183,7 @@
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/07-syllabus/</loc>
   </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/08-text/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/08-canvas-text/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/08-css-functions/</loc>
@@ -198,7 +198,7 @@
     <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/08-summary/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/09-images/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/09-canvas-images/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/09-css-colors/</loc>
@@ -213,13 +213,13 @@
     <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/10-json/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/10-transforms/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/10-canvas-transforms/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/11-animation/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/11-canvas-animation/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/11-css-box-model/</loc>
@@ -228,16 +228,34 @@
     <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/12-css-positioning/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/12-vector-graphics/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/13-css-layouts/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/13-svg/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/14-responsive-css/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/14-svg-paths/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/15-css-transformations/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/15-svg-shapes/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/16-css-transitions/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/17-svg-animation/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/16-svg-transforms/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/17-timing-functions/</loc>
@@ -246,16 +264,17 @@
     <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/18-css-animation/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/19-svg-and-css/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/18-svg-and-html/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/20-svg-and-js/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/</loc>
     <lastmod>2022-07-05T10:53:05-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/12-vector-graphics/</loc>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/13-svg/</loc>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/14-svg-and-css/</loc>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/15-svg-and-js/</loc>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/categories/</loc>
   </url><url>

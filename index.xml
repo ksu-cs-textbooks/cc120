@@ -550,10 +550,10 @@ The DOM is a tree-like structure that is created by the browser when it parses t
     
     <item>
       <title>Canvas Text</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/08-text/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/08-canvas-text/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/08-text/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/08-canvas-text/</guid>
       <description>While the canvas is primarily used to draw graphics, there are times we want to use text as well. We have two methods to draw text: fillText(text, x, y) and strokeText(text, x, y). The text parameter is the text to render, and the x and y are the upper left corner of the text.
 As with the fillRect() and strokeRect() functions, fillText() and strokeText() fill and stroke the text, respectively, and the text does not affect the current path.</description>
     </item>
@@ -602,10 +602,10 @@ We also learned that many of these techniques benefit all users. Strong color co
     
     <item>
       <title>Canvas and Images</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/09-images/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/09-canvas-images/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/09-images/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/09-canvas-images/</guid>
       <description>The &amp;lt;canvas&amp;gt; and &amp;lt;img&amp;gt; elements are both raster representations of graphics, which introduces an interesting possibility - copying the data of an image into the canvas. This can be done with the drawImage() family of functions.
 The first of these is drawImage(image, x, y). This copies the entire image held in the image variable onto the canvas, starting at (x, y).
 &amp;lt;canvas id=&amp;#34;image-example-1&amp;#34; width=&amp;#34;500&amp;#34; height=&amp;#34;300&amp;#34;&amp;gt;&amp;lt;/canvas&amp;gt; &amp;lt;script&amp;gt; var canvas1 = document.getElementById(&amp;#39;image-example-1&amp;#39;); var ctx1 = canvas1.</description>
@@ -655,10 +655,10 @@ var whilma = { name: &amp;#34;Wilma Flintstone&amp;#34;, relationship: &amp;#34;
     
     <item>
       <title>Transforms and State</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/10-transforms/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/10-canvas-transforms/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/10-transforms/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/10-canvas-transforms/</guid>
       <description>Much like we can use CSS to apply transformations to HTML elements, we can use transforms to change how we draw into a canvas. The rendering context has a transformation matrix much like those we discussed in the CSS chapter, and it applies this transform to any point it is tasked with drawing.
 We can replace the current transformation matrix with the setTransform() function, or multiply it by a new transformation (effectively combining the current transformation with the new one) by calling transform().</description>
     </item>
@@ -675,10 +675,10 @@ The XMLHttpRequest The XMLHttpRequest object is modeled after how the window obj
     
     <item>
       <title>Animation</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/11-animation/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/11-canvas-animation/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/11-animation/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/11-canvas-animation/</guid>
       <description>The canvas element provides a powerful tool for creating animations by allowing us to erase and re-draw its contents over and over. Ideally, we only want to redraw the canvas contents only as quickly as the screen is updated (typically every 1/30th or 1/60th of a second). The window.requestAnimationFrame(callback) provides an approach for doing this - it triggers the supplied callback every time the monitor refreshes.
 Inside that callback, we want to erase the canvas and then draw the updated scene.</description>
     </item>
@@ -704,6 +704,16 @@ The Positioning Context First, we need to understand the positioning context, th
     </item>
     
     <item>
+      <title>Vector Graphics</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/12-vector-graphics/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/12-vector-graphics/</guid>
+      <description>Up to this point, we&amp;rsquo;ve been discussing raster graphics, which are represented by a grid of pixels. In contrast, vector graphics are stored as a series of instructions to re-create the graphic. For most vector approaches, these instructions look similar to those we issued to our JavaScript rendering context when working with the &amp;lt;canvas&amp;gt; element - including the idea of paths, stroke, and fill.
+The vector approach has its own benefits and drawbacks when compared to raster graphics.</description>
+    </item>
+    
+    <item>
       <title>CSS Layouts</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/4-css/13-css-layouts/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -711,6 +721,16 @@ The Positioning Context First, we need to understand the positioning context, th
       <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/13-css-layouts/</guid>
       <description>We often speak of the separation of concerns principle in the context of web development as setting up the roles of HTML, CSS, and JavaScript. In this understanding, HTML provides the organization of content, CSS provides for the presentation of the content, and JavaScript provides for user interaction.
 In this understanding, CSS is often tasked with the role of laying out elements on the page. More specifically, it overrides the default flow of HTML elements (see our earlier discussion of block vs.</description>
+    </item>
+    
+    <item>
+      <title>SVG</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/13-svg/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/13-svg/</guid>
+      <description>The Scalable Vector Graphics (SVG) image format is a file format for creating a vector graphic. It uses the same ideas about path, stroke, and fill and coordinate that we discussed with the canvas. It also is a text format based on XML, as was HTML. So the contents of a XML file will look familiar to you. Here is an example:
+&amp;lt;svg viewBox=&amp;#34;0 0 500 200&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34;&amp;gt; &amp;lt;path d=&amp;#34;M 100 50 L 100 150 L 300 150 Z&amp;#34; stroke=&amp;#34;black&amp;#34; fill=&amp;#34;#dd3333&amp;#34;/&amp;gt; &amp;lt;/svg&amp;gt; Let&amp;rsquo;s take a close look at the file format.</description>
     </item>
     
     <item>
@@ -723,6 +743,15 @@ In this understanding, CSS is often tasked with the role of laying out elements 
     </item>
     
     <item>
+      <title>SVG Paths</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/14-svg-paths/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/14-svg-paths/</guid>
+      <description>SVGs use the same pen metaphor we saw with the &amp;lt;canvas&amp;gt; and one of the most basic approaches to drawing in an SVG is the &amp;lt;path&amp;gt; element. Each &amp;lt;path&amp;gt; should contain a d attribute, which holds the commands used to draw the path. These are very similar to the commands we used with the &amp;lt;canvas&amp;gt; and the CanvasRenderingContext2D we used earlier, but instead of being written as a function call, they are written as a capital letter (indicating what command to carry out) followed by numbers specifying the action.</description>
+    </item>
+    
+    <item>
       <title>CSS Transformations</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/4-css/15-css-transformations/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -732,12 +761,41 @@ In this understanding, CSS is often tasked with the role of laying out elements 
     </item>
     
     <item>
+      <title>SVG Shapes</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/15-svg-shapes/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/15-svg-shapes/</guid>
+      <description>Much like the CanvasRenderingContext2d we used with the &amp;lt;canvas&amp;gt; earlier allowed us to render rectangles outside of the path, the SVG format also provides mechanisms for rendering common shapes. These are specified using their own tags (like HTML elements), and there are a wide variety of shapes available:
+Rectangle The &amp;lt;rect&amp;gt; element defines a rectangle, specified by the now-familiar x, y,, width and height attributes, and with optional rounded corners with radius specified by the rx attribute.</description>
+    </item>
+    
+    <item>
       <title>CSS Transitions</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/4-css/16-css-transitions/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       
       <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/16-css-transitions/</guid>
       <description>While most CSS rules are applied as the page is loaded, some are applied at a future point. One example is pseudo-classes that apply in limited circumstances - like :hover which applies only when the mouse is over an element, or :valid and :invalid which are applied to input elements based on their validation status. Another common instance is when elements are added to the page using JavaScript, as discussed in Chapter 5 - JavaScript.</description>
+    </item>
+    
+    <item>
+      <title>SVG Animation</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/17-svg-animation/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/17-svg-animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SVG Transforms</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/16-svg-transforms/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/16-svg-transforms/</guid>
+      <description>As with CSS and the canvas, SVGs also support transformations. In an SVG, these are specified by the transform attribute and thus apply to a specific element. For example, to rotate our ellipse from the previous section by 15 degrees around its center, we would use:
+&amp;lt;svg viewBox=&amp;#34;0 0 200 100&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; height=&amp;#34;200&amp;#34;&amp;gt; &amp;lt;ellipse cx=&amp;#34;100&amp;#34; cy=&amp;#34;50&amp;#34; rx=&amp;#34;100&amp;#34; ry=&amp;#34;50&amp;#34; fill=&amp;#34;cornflowerblue&amp;#34; transform=&amp;#34;rotate(15 100 50)&amp;#34;/&amp;gt; &amp;lt;/svg&amp;gt; Notice how the ellipse is clipped at the view box - this is another important role the view box plays.</description>
     </item>
     
     <item>
@@ -762,39 +820,33 @@ Early animations in the web relied on using JavaScript to change properties of e
     </item>
     
     <item>
-      <title></title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/12-vector-graphics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>SVG and CSS</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/19-svg-and-css/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/12-vector-graphics/</guid>
-      <description></description>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/19-svg-and-css/</guid>
+      <description>When using inline SVG, you can apply CSS to the SVG using any of the methods we&amp;rsquo;ve used with HTML - inline styles, the &amp;lt;style&amp;gt; element, or a CSS file. The rules work exactly the same - you select a SVG element using a CSS selector, and apply style rules. SVG elements have tag name, and can also specify id and class attributes just like HTML. For example:
+&amp;lt;style&amp;gt; rect { fill: purple; stroke: black; stroke-width: 5; } #my-circle { fill: violet; stroke: #333; } &amp;lt;/style&amp;gt; &amp;lt;svg viewBox=&amp;#34;0 0 300 100&amp;#34; xmlns=&amp;#34;http://www.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/13-svg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>SVG and HTML</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/18-svg-and-html/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/13-svg/</guid>
-      <description></description>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/18-svg-and-html/</guid>
+      <description>As described earlier, SVG is an image file format. Thus, it can be used as the src for an &amp;lt;img&amp;gt; element in HTML:
+&amp;lt;img src=&amp;#34;/images/triangle.svg&amp;#34; alt=&amp;#34;A triangle&amp;#34;&amp;gt; However, the SVG itself is just text. And that text shares a lot of characteristics with HTML, as both are derived from XML. As SVG became more commonplace, the W3C added support for inline SVGs - placing SVG code directly in a HTML document:</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/14-svg-and-css/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>SVG and JavaScript</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/20-svg-and-js/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/14-svg-and-css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/15-svg-and-js/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/15-svg-and-js/</guid>
-      <description></description>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/20-svg-and-js/</guid>
+      <description>Likewise, inline SVG elements are part of the DOM tree, and can be manipulated with JavaScript in almost the same way as any HTML element. You can retrieve a SVG node with the various query methods: document.getElementsByName(name), document.getElementById(id), document.getElementsByClassName(className), document.querySelector(), and document.querySelectorAll(selector). This works just like it does with HTML elements.
+However, to work with the attributes of a SVG element, you must use the setAttributeNS(ns, attr) and getAttributeNS(ns, attr) respectively, as the SVG attributes are part of the SVG namespace, not the HTML (default) namespace.</description>
     </item>
     
   </channel>
