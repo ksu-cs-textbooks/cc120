@@ -785,7 +785,9 @@ Rectangle The &amp;lt;rect&amp;gt; element defines a rectangle, specified by the
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       
       <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/17-svg-animation/</guid>
-      <description></description>
+      <description>SVG has several build-in approaches to add animation to a drawing, the &amp;lt;animate&amp;gt; and &amp;lt;animateMotion&amp;gt; elements.
+The &amp;lt;animate&amp;gt; Element The &amp;lt;animate&amp;gt; element is used to animate the attributes of an element over time. It must be declared as a child of the element it will animate, i.e.:
+&amp;lt;svg viewBox=&amp;#34;0 0 100 100&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; height=&amp;#34;200&amp;#34;&amp;gt; &amp;lt;circle cx=&amp;#34;50&amp;#34; cy=&amp;#34;50&amp;#34; r=&amp;#34;50&amp;#34; fill=&amp;#34;cornflowerblue&amp;#34;&amp;gt; &amp;lt;animate attributeName=&amp;#34;r&amp;#34; values=&amp;#34;10;50;20;50;10&amp;#34; dur=&amp;#34;10s&amp;#34; repeatCount=&amp;#34;indefinite&amp;#34;/&amp;gt; &amp;lt;/circle&amp;gt; &amp;lt;/svg&amp;gt; Here we have a 10 second duration repeating animation that alters the radius of a circle between a number of different values.</description>
     </item>
     
     <item>
