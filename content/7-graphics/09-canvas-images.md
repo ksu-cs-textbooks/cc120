@@ -88,3 +88,7 @@ The third, `drawImage(image, sx, sy, sWidth, sHeight, x, y, width, height)` draw
 {{% notice warning %}}
 If the image is not loaded when the `drawImage()` call is made, nothing will be drawn to the canvas.  This is why in the examples, we move the `drawImage()` call into the `onload` callback of the image - this function will only be invoked when the image finishes loading.
 {{% /notice %}}
+
+{{% notice tip %}}
+Because a `<canvas>` element is itself a grid of pixels just like an `<img>` element, you can _also_ use a `<canvas>` in a `drawImage()` call! This can be used to implement _double-buffering_, a technique where you draw the entire scene into a `<canvas>` element that is not shown in the webpage (known as the back buffer), and then copying the completed scene into the on-screen `<canvas>` (the front buffer).
+{{% /notice %}}

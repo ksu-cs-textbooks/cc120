@@ -1,3 +1,6 @@
 {
-    "explorer.sortOrder": "mixed"
+    "explorer.sortOrder": "mixed",
+    "cSpell.words": [
+        "Bézier"
+    ]
 }
