@@ -13,4 +13,6 @@ The vector approach has its own benefits and drawbacks when compared to raster g
 * __Better Scaling__ Perhaps the biggest benefit is that the problems we see when scaling a raster graphic don't happen with vector graphics.  If we want to make the graphic ten times larger, then when we convert it into a raster, we can scale up the drawing instructions to ten times the normal size.
 * __Less Photorealistic__ Vector graphics are best suited for images with well-defined shapes with little shading - things like clipart and cartoon characters. To approach photorealism requires a lot of small shapes drawn in different colors, and will require both more memory and computation.  In contrast, a raster graphic is excellent at photorealism. Digital cameras actually create a raster graphic from a grid of color sensors behind the lens.
 
+![Vector and Raster graphic comparison](/images/7.12.1.png)
+
 Because of the scaling benefits, vector graphics are used for commonly used for fonts, icons, and logos, and other images that may be presented at vastly different scales.
