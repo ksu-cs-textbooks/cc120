@@ -724,6 +724,15 @@ In this understanding, CSS is often tasked with the role of laying out elements 
     </item>
     
     <item>
+      <title>JavaScript Libraries</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/13-libraries/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/13-libraries/</guid>
+      <description>Up to this point, we&amp;rsquo;ve been focused on core JavaScript functionality. However, there are lots of additional JavaScript libraries you can use in your web development efforts. A library is a collection of source code that is intended to be used in other projects. Unlike core libraries, these are written by third parties, and often released under an open-source license which describes how they can legally be used in your projects.</description>
+    </item>
+    
+    <item>
       <title>SVG</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/13-svg/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -849,6 +858,15 @@ Early animations in the web relied on using JavaScript to change properties of e
       <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/20-svg-and-js/</guid>
       <description>Likewise, inline SVG elements are part of the DOM tree, and can be manipulated with JavaScript in almost the same way as any HTML element. You can retrieve a SVG node with the various query methods: document.getElementsByName(name), document.getElementById(id), document.getElementsByClassName(className), document.querySelector(), and document.querySelectorAll(selector). This works just like it does with HTML elements.
 However, to work with the attributes of a SVG element, you must use the setAttributeNS(ns, attr) and getAttributeNS(ns, attr) respectively, as the SVG attributes are part of the SVG namespace, not the HTML (default) namespace.</description>
+    </item>
+    
+    <item>
+      <title>CSS Libraries</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/19-libraries/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/19-libraries/</guid>
+      <description>While you can write custom CSS to accomplish nearly any look you want for your webpages, many developers prefer to use a pre-written CSS library that provides rules covering many common user interface needs. For example, CSS-based menus are very challenging to write well, but a well-designed library makes the task very approachable. CSS libraries also provide a consistent UI look and feel across websites, which helps people browsing your website quickly identify how to move around.</description>
     </item>
     
   </channel>
