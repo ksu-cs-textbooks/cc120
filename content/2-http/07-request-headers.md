@@ -15,7 +15,7 @@ Indicates that the browser knows how to accepted content compressed in the [Gzip
 
 Note that request headers are a subset of _message headers_ that apply specifically to requests.  There are also message headers that apply only to HTTP responses, and some that apply to both.
 
-As HTTP is intended as an extensible protocol, there are a _lot_ of potential headers.  IANA maintains the [offical list of message headers](https://www.iana.org/assignments/message-headers/message-headers.xhtml) as well as [a list of proposed message headers](https://www.iana.org/assignments/message-headers/message-headers.xhtml).  You can also find a categorized list in the [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+As HTTP is intended as an extensible protocol, there are a _lot_ of potential headers.  IANA maintains the [official list of message headers](https://www.iana.org/assignments/message-headers/message-headers.xhtml) as well as [a list of proposed message headers](https://www.iana.org/assignments/message-headers/message-headers.xhtml).  You can also find a categorized list in the [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
 
 While there are many possible request headers, some of the more commonly used are:
 

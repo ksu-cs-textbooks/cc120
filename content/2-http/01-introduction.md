@@ -14,5 +14,5 @@ It starts with a request initiated from the web browser or other client.  This r
 This HTTP request-response pattern is at the core of how all web applications communicate.  Even those that use websockets begin with an HTTP request.
 
 {{% notice note %}}
-The HTTP standard, along with many other web technologies, is maintained by the [World-Wide-Web Consortium](https://www.w3.org/) (abbrivated W3C), stakeholders who create and maintain web standards.  The full description of the Hyper-Text Transfer Protocol can be found here [w3c's protocols page](https://www.w3.org/Protocols/).
+The HTTP standard, along with many other web technologies, is maintained by the [World-Wide-Web Consortium](https://www.w3.org/) (abbreviated W3C), stakeholders who create and maintain web standards.  The full description of the Hyper-Text Transfer Protocol can be found here [w3c's protocols page](https://www.w3.org/Protocols/).
 {{% /notice %}}
