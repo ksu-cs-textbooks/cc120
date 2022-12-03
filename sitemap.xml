@@ -26,6 +26,9 @@
     <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/</loc>
     <lastmod>2018-08-24T10:53:05-05:00</lastmod>
   </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/</loc>
+    <lastmod>2018-08-24T10:53:05-05:00</lastmod>
+  </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/01-introduction/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
@@ -50,6 +53,9 @@
     <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/01-introduction/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/01-introduction/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/02-navigating-canvas-codio/</loc>
     <lastmod>2020-01-16T10:53:26-05:00</lastmod>
   </url><url>
@@ -66,6 +72,9 @@
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/02-raster-graphic-files/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/02-server-hardware/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/1-www/02-the-technologies-of-the-web/</loc>
@@ -92,6 +101,9 @@
     <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/03-perceivable/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/03-static-ip/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/03-where-to-find-help/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
@@ -104,6 +116,9 @@
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/04-browser-requests/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/04-domain-names/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/04-flow-model/</loc>
@@ -128,6 +143,9 @@
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/05-objects-and-classes/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/05-ports/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/05-status-codes/</loc>
@@ -160,6 +178,9 @@
     <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/06-robust/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/06-server-programs/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/06-stroke-and-fill/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
@@ -170,6 +191,9 @@
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/07-dev-tools/</loc>
+    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/07-managed-hosting/</loc>
     <lastmod>2018-08-24T10:53:26-05:00</lastmod>
   </url><url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/07-request-headers/</loc>

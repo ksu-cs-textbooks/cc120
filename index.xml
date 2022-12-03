@@ -88,6 +88,16 @@ Raster graphics take their name from the scan pattern of a cathode-ray tube, suc
     </item>
     
     <item>
+      <title>Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/01-introduction/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/01-introduction/</guid>
+      <description>Earlier, when we looked at HTTP in Chapter 2, we discussed how HTTP connects the client (typically a web browser) to a server, a specialized program running on a computer connected to the internet that serves web pages (and other files) in response to a HTTP request. This server is what makes your webpages available on the World Wide Web.
+Somewhat confusingly, web developers and IT professionals commonly refer to both the program serving HTTP requests and the hardware it runs on as a server.</description>
+    </item>
+    
+    <item>
       <title>Navigating Canvas &amp; Codio</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/02-navigating-canvas-codio/</link>
       <pubDate>Thu, 16 Jan 2020 10:53:26 -0500</pubDate>
@@ -154,6 +164,15 @@ Hello World The &amp;lt;h1&amp;gt; is the opening tag and the &amp;lt;/h1&amp;gt
       
       <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/02-raster-graphic-files/</guid>
       <description>Unsurprisingly, graphic files that store their data in a raster format borrow heavily from the representations discussed previously. Typically, a graphic file consists of two parts, a head and a body. This is very much like how the &amp;lt;head&amp;gt; of a HTML file provides metadata about the page and the &amp;lt;body&amp;gt; contains the actual page contents. For a raster graphic file, the head of the file contains metadata describing the image itself - the color format, along with the width and height of the image.</description>
+    </item>
+    
+    <item>
+      <title>Server Hardware</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/02-server-hardware/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/02-server-hardware/</guid>
+      <description>The server hardware is really nothing more than a computer - essentially the same as your desktop or laptop. It has a CPU, RAM, hard drives, and a network card, just like your PC - often they are exactly the same hardware as you might find in a PC. But in many cases, they may be designed for sustained repeated and heavy use - basically a more robust (and expensive) version of consumer hardware.</description>
     </item>
     
     <item>
@@ -243,6 +262,16 @@ Vision We often think of vision as the primary sense for engaging with web conte
     </item>
     
     <item>
+      <title>Static IP Addresses</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/03-static-ip/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/03-static-ip/</guid>
+      <description>You may remember from our discussion of URIs and URLs in Chapter 2 that a HTTP request must be made against a host. This host is specified either by a fully-qualified domain name, or by an Internet Protocol (IP) address. But what exactly is an IP address?
+An IP address is an address of a specific computer on the internet. Without such an address, we would not be able to send HTTP requests or responses to a computer, because we would have no idea where to send it.</description>
+    </item>
+    
+    <item>
       <title>Where to Find Help</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/03-where-to-find-help/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -291,6 +320,16 @@ This is one of those aspects of JavaScript that breaks strongly with imperative 
       <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/04-browser-requests/</guid>
       <description>Now that you are familiar with the network panel, let&amp;rsquo;s explore the primary kind of request you&amp;rsquo;re already used to making - requests originating from a browser. Every time you use a browser to browse the Internet, you are creating a series of HTTP (or HTTPS) requests that travel across the networks between you and a web server, which responds to your requests.
 When you type in an address in your browser (or click a hyperlink), this initiates a HTTP request against the server located at that address.</description>
+    </item>
+    
+    <item>
+      <title>Domain Names</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/04-domain-names/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/04-domain-names/</guid>
+      <description>A domain name is a human-readable name that can be used instead of an IP address when making HTTP requests. While not actually required for hosting a website, a domain name is definitely something you&amp;rsquo;ll want to have. After all, you don&amp;rsquo;t want people to have to memorize an IP address to reach your website.
+Domain names are essentially leased (rented) from a domain registrar - a company that sells domain names.</description>
     </item>
     
     <item>
@@ -370,6 +409,16 @@ This course does not have a required print textbook. The resources presented in 
       <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/05-objects-and-classes/</guid>
       <description>CONSOLE JavaScript is also an object-oriented language, but the way it implements objects is derived from the ideas of the Self programming language, rather than the C++ origins of Java and C#&amp;rsquo;s object-oriented approaches.
 Object Properties Let&amp;rsquo;s start with what an object is in JavaScript. It&amp;rsquo;s basically a collection of properties - key/value pairs, similar to the concept of a Dictionary in other languages. The properties play both the role of fields and methods of the object, as a property can be assigned a primitive value or a function.</description>
+    </item>
+    
+    <item>
+      <title>Ports</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/05-ports/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/05-ports/</guid>
+      <description>The term port is another that has multiple meanings in Computer Science and can lead to some confusion. It can refer to a physical port on the computer that you plug something into, i.e. a USB port or a CAT5e networking port. But it has another meaning for software running on a network (like the internet).
+Your computer probably is running multiple programs that communicate across a network or the internet - i.</description>
     </item>
     
     <item>
@@ -473,6 +522,15 @@ The two most common are GET and POST requests, as these are typically the only k
     </item>
     
     <item>
+      <title>Server Programs</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/06-server-programs/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/06-server-programs/</guid>
+      <description>Once you have your static IP address, your domain name, and your firewall configured, you are ready to start responding to HTTP requests. This process is handled by a server program - it accepts incoming HTTP an HTTPS requests by determining and sending a response. In the simplest form, a web server program simply responds with static files that are saved in a particular location - often a folder named public_html, html, or www.</description>
+    </item>
+    
+    <item>
       <title>Stroke and Fill</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/06-stroke-and-fill/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
@@ -514,6 +572,15 @@ There are actually a lot of units available in CSS, and we&amp;rsquo;ll summariz
       <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/07-dev-tools/</guid>
       <description>Just as you can use W3C&amp;rsquo;s validator to help validate your HTML, tools exist to help evaluate the accessibility of your websites. The easiest of these are integrated into the developer tools of your browser. The following video covers using Chrome developer tools to address accessibility bugs:
 We&amp;rsquo;ve also talked about Screen Readers and Magnifiers, which are typically integrated into your operating system. You can use these to experience your web page the same way a disabled user might.</description>
+    </item>
+    
+    <item>
+      <title>Managed Hosting</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/07-managed-hosting/</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/07-managed-hosting/</guid>
+      <description>Now that you have a more nuanced understanding of what it takes to host a website, we can explore options for making the process easier, and potentially more reliable. It is important to understand that few web developers actually tackle every step of the process. Instead, most turn to some form of managed hosting - allowing a business whose primary role is hosting web servers to do some of the work.</description>
     </item>
     
     <item>
