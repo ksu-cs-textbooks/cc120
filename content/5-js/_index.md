@@ -2,7 +2,8 @@
 title = "JavaScript"
 date = 2018-08-24T10:53:05-05:00
 weight = 5
-chapter = true
+archetype = "chapter"
+ordinal = "5"
 pre = "5. "
 +++
 

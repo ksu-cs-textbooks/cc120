@@ -2,13 +2,11 @@
 title = "Course Information"
 date = 2022-07-05T10:53:05-05:00
 weight = 1
-chapter = true
+archetype = "chapter"
+ordinal = "0"
 pre = "0. "
 +++
 
-### Forward
-
-# CC 120 Course Information
 
 Getting Oriented 
 

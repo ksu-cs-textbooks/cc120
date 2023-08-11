@@ -2,7 +2,8 @@
 title = "Hyper-Text Markup Language"
 date = 2022-07-05T10:53:05-05:00
 weight = 3
-chapter = true
+archetype = "chapter"
+ordinal = "3"
 pre = "3. "
 +++
 

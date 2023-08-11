@@ -9,7 +9,7 @@ date: 2018-08-24T10:53:26-05:00
 This textbook was authored for the **CC 120 - Web Page Development** course at Kansas State University.  This front matter is specific to that course.  If you are not enrolled in the course, please disregard this section.
 {{% /notice %}}
 
-This course does not have a required print textbook.  The resources presented in the modules are also organized into an online textbook that can be accessed here: [{{< param textbookURL >}}]({{< param textbookURL >}}).  You may find this a useful reference if you prefer a traditional textbook layout.  Additionally, since the textbook exists outside of Canvas' access control, you can continue to utilize it after the course ends.
+This course does not have a required print textbook.  The resources presented in the modules are also organized into an online textbook that can be accessed here: [{{< ref "/" >}}]({{< ref "/" >}}).  You may find this a useful reference if you prefer a traditional textbook layout.  Additionally, since the textbook exists outside of Canvas' access control, you can continue to utilize it after the course ends.
 
 {{% notice warning %}}
 Please note that the materials presented in Canvas have additional graded assignments and exercises worked into the reading order that do not appear in the online edition of the textbook.  You are responsible for completing these!

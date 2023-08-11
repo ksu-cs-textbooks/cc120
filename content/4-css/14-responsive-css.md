@@ -62,7 +62,7 @@ By combining the use of media queries, and CSS layout techniques, you can drasti
 
 The media query size features relate to the _viewport_, a rectangle representing the browser's visible area.  For a desktop browser, this is usually equivalent to the _client area_ of the browser window (the area of the window excluding the borders and menu bar).  For mobile devices, however, the viewport is often much bigger than the actual screen size, and then scaled to fit on the screen:
 
-![The mobile viewport scaling strategy]({{<static "images/1.5.1.jpg">}})
+![The mobile viewport scaling strategy](/images/1.5.1.jpg)
 
 This strategy helps legacy websites reasonably appear on mobile devices.  However, with responsive designs, we want the viewport and the device size to match exactly.  We can clue mobile browsers into this desire by adding a specific meta tag to the `<head>` of the HTML:
 

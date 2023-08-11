@@ -22,11 +22,11 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.101.0'
+          hugo-version: '0.117.0'
           # extended: true
 
       - name: Build
-        run: hugo --config github.toml
+        run: hugo -b "https://ksu-cs-textbooks.github.io/cc120/"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

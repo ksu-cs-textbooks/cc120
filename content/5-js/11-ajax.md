@@ -17,7 +17,7 @@ The `XMLHttpRequest` object is modeled after how the `window` object makes web r
 * **LOADING** or **3** The content of the response is being downloaded.  In the browser, this would be the stage where the HTML is being received and parsed into the DOM.
 * **DONE** or **4** The resource is fully loaded.  In the DOM, this would be equivalent to the `'load'` event.
 
-![The XMLHttpRequest ready states]({{<static "images/3.8.1.png">}})
+![The XMLHttpRequest ready states](/images/3.8.1.png)
 
 #### XMLHttpRequest Properties 
 

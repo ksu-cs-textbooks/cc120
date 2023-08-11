@@ -1,9 +1,7 @@
 +++
-title = "Homepage"
-date = 2022-07-05T10:53:05-05:00
+title = "CC 120: Web Page Development"
+archetype = "home"
 +++
-
-# Web Page Development
 
 CC 120 Course Textbook
 
