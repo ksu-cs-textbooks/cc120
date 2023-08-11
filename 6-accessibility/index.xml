@@ -1,0 +1,588 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accessibility on K-State CC 120 Textbook</title>
+    <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/index.html</link>
+    <description>Recent content in Accessibility on K-State CC 120 Textbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Aug 2018 10:53:05 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cc120/6-accessibility/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/01-introduction/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/01-introduction/index.html</guid>
+      <description>An important consideration when designing a website is how people will work with it. We want to design our websites in a way that they are useable by everyone in our anticipated audience - bet that everyone in the world, university students, employees at our company, or customers of our business. But there is a segment of each of these audiences that is often overlooked - those with disabilities.
+The power of the Web is in its universality.</description>
+    </item>
+    <item>
+      <title>Accessibility Standards</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/02-standards/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/02-standards/index.html</guid>
+      <description>The W3C has crafted a number of accessibility standards, as introduced in the following video Introduction to Web Accessibility and W3C Standards created by the Web Accessibility Initiative:
+The specific W3C standards covering web accessibility are:
+Web Content Accessibility Guidelines (WCAG) The WACG is built around four principles for content delivered through the web. It should be 1:
+Perceivable - Information and user interface components must be presentable to users in ways they can perceive.</description>
+    </item>
+    <item>
+      <title>Perceivable Content</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/03-perceivable/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/03-perceivable/index.html</guid>
+      <description>What makes web content perceivable? Broadly speaking, the user must be able to see the content through one of their senses. We primarily think about this in terms of sight - the user should be able to see the content of the rendered page. But what we hear can also be a critical piece of perception.
+Vision We often think of vision as the primary sense for engaging with web content - after all we read text and view pictures and videos.</description>
+    </item>
+    <item>
+      <title>Operable Content</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/04-operable/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/04-operable/index.html</guid>
+      <description>In short, the user should be able to interact effectively with your website. There are two primary tools we use to interact with websites - the mouse and the keyboard. Additionally, many assistive technologies mimic one or both of these.
+Keyboard-Only Control While most of us use a mouse as our primary control tool for working with any software, many users cannot use a mouse effectively. For these users, it is important that the entire web page can be controlled using the keyboard.</description>
+    </item>
+    <item>
+      <title>Understandable Content</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/05-understandable/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/05-understandable/index.html</guid>
+      <description>Understandable content means that the user can easily make sense of it. This clearly includes of reading and understanding the text of the page. You should strive to use proper grammar, correct spelling, and write to your audience&amp;rsquo;s expected reading level (or slightly below).
+But this requirement also covers users understanding how to make use of interactive elements, especially graphical user interfaces. Making your content understandable benefits all users of your website, and is a staple to good web design.</description>
+    </item>
+    <item>
+      <title>Robust Content</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/06-robust/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/06-robust/index.html</guid>
+      <description>Finally, content should be able to be accessible even as technology advances. A robust website will continue to function well into the future. This is best done by following the existing accessibility standards.</description>
+    </item>
+    <item>
+      <title>Development Tools</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/07-dev-tools/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/07-dev-tools/index.html</guid>
+      <description>Just as you can use W3C&amp;rsquo;s validator to help validate your HTML, tools exist to help evaluate the accessibility of your websites. The easiest of these are integrated into the developer tools of your browser. The following video covers using Chrome developer tools to address accessibility bugs:
+We&amp;rsquo;ve also talked about Screen Readers and Magnifiers, which are typically integrated into your operating system. You can use these to experience your web page the same way a disabled user might.</description>
+    </item>
+    <item>
+      <title>Summary</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/08-summary/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/08-summary/index.html</guid>
+      <description>In this chapter, we discussed the need to build our websites to be accessible to all users. We also discussed many common disabilities that users may have, and strategies for addressing these in your web design. We also reviewed tools that we can take advantage of to build accessible websites.
+We also learned that many of these techniques benefit all users. Strong color contrast can help both the vision impaired, and also help make your site visible on a screen outside on a bright day.</description>
+    </item>
+  </channel>
+</rss>

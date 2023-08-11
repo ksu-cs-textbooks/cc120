@@ -1,4 +1,4 @@
-
+// [x] russfeld
 var autoScroll = 0;
 var defaultAutoScroll = 15;
 
@@ -98,8 +98,8 @@ var onDocumentKeyDown = function( event ) {
       autoScroll = 0;
       break;
     case 77:
-      $('#body').toggleClass('mirror');
-      if($('#body').hasClass('mirror')){
+      document.getElementById("tele").classList.toggle("mirror");
+      if(document.getElementById("tele").classList.contains("mirror")){
         localStorage.setItem('mirror', 'on');
       }else{
         localStorage.setItem('mirror', 'off');
@@ -115,6 +115,7 @@ var onDocumentMouseClick = function( event ) {
       autoScroll += defaultAutoScroll;
       if(autoScroll > 5 * defaultAutoScroll){
         autoScroll = 0;
+        prevTime = undefined;
         if (autoScrollTimer) {
           clearInterval(autoScrollTimer);
         }
@@ -133,17 +134,17 @@ var onDocumentMouseClick = function( event ) {
   }
 }
 
-jQuery(document).ready(function() {
+document.addEventListener("DOMContentLoaded", function() {
   document.addEventListener( 'keydown', onDocumentKeyDown, false );
   document.addEventListener( 'click', onDocumentMouseClick, false);
 
   var mirror = localStorage.getItem('mirror');
     if(mirror == "on"){
-        $('#body').addClass('mirror');
+      document.getElementById("tele").classList.add("mirror");
     } else if (mirror == "off"){
-      $('#body').removeClass('mirror');
+      document.getElementById("tele").classList.remove("mirror");
     } else {
-      $('#body').addClass('mirror');
+      document.getElementById("tele").classList.add("mirror");
     }
 });
 
@@ -158,9 +159,9 @@ var isScrolling = false;
 var prevPos = 0, currentPos = 0;
 var currentTime, prevTime, timeDiff;
 
-window.addEventListener("scroll", function (e) {
+document.getElementById("body-inner").addEventListener("scroll", function (e) {
     // window.pageYOffset is the fallback value for IE
-    currentPos = window.scrollY || window.pageYOffset;
+    currentPos =document.getElementById("body-inner").scrollTop;
 });
 
 //window.addEventListener("wheel", handleManualScroll);
@@ -196,7 +197,8 @@ function setAutoScroll(newValue) {
                 currentPos += autoScrollSpeed * timeDiff;
                 if (Math.abs(currentPos - prevPos) >= minDelta) {
                     isScrolling = true;
-                    window.scrollTo(0, currentPos);
+                    elem = document.getElementById("body-inner");
+                    elem.scrollTo(0, currentPos);
                     isScrolling = false;
                     prevPos = currentPos;
                     prevTime = currentTime;

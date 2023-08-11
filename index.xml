@@ -1,940 +1,586 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homepage on K-State CC 120 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc120/</link>
-    <description>Recent content in Homepage on K-State CC 120 Textbook</description>
+    <title>CC 120: Web Page Development on K-State CC 120 Textbook</title>
+    <link>https://ksu-cs-textbooks.github.io/cc120/index.html</link>
+    <description>Recent content in CC 120: Web Page Development on K-State CC 120 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jul 2022 10:53:05 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cc120/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc120/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Course Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/01-introduction/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/0-forward/01-introduction/</guid>
-      <description>Web Only
-This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.
-Course Resources Syllabus Textbook Welcome Message Hello students, and welcome to CC 120 - Web Page Development. My name is Nathan Bean, and I will be your instructor for this course.</description>
+      <title>Course Information</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/index.html</link>
+      <pubDate>Tue, 05 Jul 2022 10:53:05 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/0-forward/index.html</guid>
+      <description>Getting Oriented
+Web Only This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.</description>
     </item>
-    
     <item>
-      <title>Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/1-www/01-introduction/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/1-www/01-introduction/</guid>
-      <description>While working for CERN (the European Organization for Nuclear Research), Tim Burners-Lee proposed bringing the ideas of hyper-text documents together with emerging Internet technologies like the Transmission Control Protocol (TCP) and the Domain Name System (DNS) to create the World-Wide Web. He defined the Hyper Text Transfer Protocol (HTTP), the first web server, and the first web browser, in 1990 demonstrating the feasibility of the idea. Since that time, the web has grown to contain around 1.</description>
+      <title>The World-Wide-Web</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/1-www/index.html</link>
+      <pubDate>Tue, 05 Jul 2022 10:53:05 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/1-www/index.html</guid>
+      <description>Proudly serving resources since 1991</description>
     </item>
-    
     <item>
-      <title>Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/01-introduction/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/01-introduction/</guid>
-      <description>At the heart of the world wide web is the Hyper-Text Transfer Protocol (HTTP). This is a protocol defining how HTTP servers (which host web pages) interact with HTTP clients (which display web pages).
-It starts with a request initiated from the web browser or other client. This request is sent over the Internet using the TCP protocol to a web server. Once the web server receives the request, it must decide the appropriate response - ideally sending the requested resource back to the browser to be displayed.</description>
+      <title>Hyper-Text Transfer Protocol</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/index.html</link>
+      <pubDate>Tue, 05 Jul 2022 10:53:05 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/index.html</guid>
+      <description>Responding to requests since 1991</description>
     </item>
-    
     <item>
-      <title>Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/3-html/01-introduction/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/3-html/01-introduction/</guid>
-      <description>Hyper-Text Markup Language (HTML) alongside Hyper-Text Transfer Protocol (HTTP) formed the core of Sir Tim Berners-Lee&amp;rsquo;s world-wide web. As the name implies, HTTP is a markup language, one that combines the text of what is being said with instructions on how to display it.
-The other aspect of HTML is its hyper-text nature. Hyper-text refers to text that links to additional resources - primarily the links in the document, but also embedded multimedia.</description>
+      <title>Hyper-Text Markup Language</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/3-html/index.html</link>
+      <pubDate>Tue, 05 Jul 2022 10:53:05 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/3-html/index.html</guid>
+      <description>Hyper-Text Markup Language Providing structured content to the web since 1993</description>
     </item>
-    
     <item>
-      <title>Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/01-introduction/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/01-introduction/</guid>
-      <description>Style sheets are collections of rules for modifying how a SGML document appears. Cascading Style Sheets (CSS) are the specific implementation adopted by the W3C for HTML.
-The core concept of CSS is that defines rules altering the appearance of HTML elements that can be selectively applied. These rules are held in a document (the style sheet) and are applied in a well-defined priority order (the cascading part of CSS).</description>
+      <title>Cascading Style Sheets</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/index.html</link>
+      <pubDate>Tue, 05 Jul 2022 10:53:05 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/index.html</guid>
+      <description>Cascading Style Sheets Bringing style to the web since 1998</description>
     </item>
-    
     <item>
-      <title>Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/01-introduction/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/01-introduction/</guid>
-      <description>As the World Wide Web was gaining popularity in the mid-nineties, browser manufacturers started experimenting with interpreting program scripts embedded within webpages. By far the most successful of these was JavaScript, initially developed by Brandon Eich for Netscape.
-Brandon Eich was hired to integrate the Scheme programming language into the Netscape browser. But when Netscape cut a deal with Sun Microsystems to bring Java Applets to their browser, his mission was altered to create a more Java-like language.</description>
+      <title>JavaScript</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:05 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/index.html</guid>
+      <description>JavaScript Bringing interaction to web pages since 1995.</description>
     </item>
-    
     <item>
-      <title>Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/01-introduction/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/01-introduction/</guid>
-      <description>An important consideration when designing a website is how people will work with it. We want to design our websites in a way that they are useable by everyone in our anticipated audience - bet that everyone in the world, university students, employees at our company, or customers of our business. But there is a segment of each of these audiences that is often overlooked - those with disabilities.
-The power of the Web is in its universality.</description>
+      <title>Accessibility</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:05 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/index.html</guid>
+      <description>Accessibility Making the web useable for all people.</description>
     </item>
-    
     <item>
-      <title>Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/01-introduction/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/01-introduction/</guid>
-      <description>In computer graphics, we have two primary approaches to representing graphical information, raster and vector representations.
-Raster graphics take their name from the scan pattern of a cathode-ray tube, such as was used in older television sets and computer monitors. These, as well as modern monitors, rely on a regular grid of pixels composed of three colors of light (red, green, and blue) that are mixed at different intensities to create all colors of the visible spectrum.</description>
+      <title>Graphics</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:05 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/index.html</guid>
+      <description>Graphics Bringing visual expression to the web.</description>
     </item>
-    
     <item>
-      <title>Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/01-introduction/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/01-introduction/</guid>
-      <description>Earlier, when we looked at HTTP in Chapter 2, we discussed how HTTP connects the client (typically a web browser) to a server, a specialized program running on a computer connected to the internet that serves web pages (and other files) in response to a HTTP request. This server is what makes your webpages available on the World Wide Web.
-Somewhat confusingly, web developers and IT professionals commonly refer to both the program serving HTTP requests and the hardware it runs on as a server.</description>
+      <title>Web Hosting</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:05 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/index.html</guid>
+      <description>Hosting Providing your Website to the World</description>
     </item>
-    
-    <item>
-      <title>Navigating Canvas &amp; Codio</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/02-navigating-canvas-codio/</link>
-      <pubDate>Thu, 16 Jan 2020 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/0-forward/02-navigating-canvas-codio/</guid>
-      <description>Web Only
-This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.
-Resources Codio Documentation Video Script This course makes extensive use of several features of Canvas which you may or may not have worked with before. To give you the best experience in this course, this video will briefly describe those features and the best way to access them.</description>
-    </item>
-    
-    <item>
-      <title>Accessibility Standards</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/02-standards/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/02-standards/</guid>
-      <description>The W3C has crafted a number of accessibility standards, as introduced in the following video Introduction to Web Accessibility and W3C Standards created by the Web Accessibility Initiative:
-The specific W3C standards covering web accessibility are:
-Web Content Accessibility Guidelines (WCAG) The WACG is built around four principles for content delivered through the web. It should be 1:
-Perceivable - Information and user interface components must be presentable to users in ways they can perceive.</description>
-    </item>
-    
-    <item>
-      <title>Basic Syntax</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/02-basic-syntax/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/02-basic-syntax/</guid>
-      <description>CONSOLE Because Netscape was adopting Java at the same time they were developing what would become JavaScript, there was a push to make the syntax stay somewhat consistent between the two languages. As a result, JavaScript has much of the look and feel of an imperative language like C, C#, or Java.
-However, this similarity can be deceptive, because how JavaScript operates can be quite different than those languages. This can lead to frustration for imperative programmers learning JavaScript.</description>
-    </item>
-    
-    <item>
-      <title>CSS Rules</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/02-css-rule-format/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/02-css-rule-format/</guid>
-      <description>CSS properties consist of key-value pairs separated by a colon (:). For example:
-color: red
-indicates that the styled HTML elements should be given a red color.
-Multiple properties are separated by semicolons (;), i.e.:
-color: red; background-color: green; Rules are CSS properties grouped within curly braces ({}) and proceeded by a CSS selector to identify the HTML element(s) they should be applied to:
-p { color: red; background-color: green; } In this example, all paragraph elements (&amp;lt;p&amp;gt;) should have red text on a green background (how festive!</description>
-    </item>
-    
-    <item>
-      <title>HTML Element Structure</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/3-html/02-element-structure/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/3-html/02-element-structure/</guid>
-      <description>HTML was built from the SGML (Structured Generalized Markup Language) standard, which provides the concept of &amp;ldquo;tags&amp;rdquo; to provide markup and structure within a text document. Each element in HTML is defined by a unique opening and closing tag, which in turn are surrounded by angle brackets (&amp;lt;&amp;gt;).
-For example, a top-level heading in HTML would be written:
-&amp;lt;h1&amp;gt;Hello World&amp;lt;/h1&amp;gt;
-And render:
-Hello World The &amp;lt;h1&amp;gt; is the opening tag and the &amp;lt;/h1&amp;gt; is the closing tag.</description>
-    </item>
-    
-    <item>
-      <title>Raster Graphic Files</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/02-raster-graphic-files/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/02-raster-graphic-files/</guid>
-      <description>Unsurprisingly, graphic files that store their data in a raster format borrow heavily from the representations discussed previously. Typically, a graphic file consists of two parts, a head and a body. This is very much like how the &amp;lt;head&amp;gt; of a HTML file provides metadata about the page and the &amp;lt;body&amp;gt; contains the actual page contents. For a raster graphic file, the head of the file contains metadata describing the image itself - the color format, along with the width and height of the image.</description>
-    </item>
-    
-    <item>
-      <title>Server Hardware</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/02-server-hardware/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/02-server-hardware/</guid>
-      <description>The server hardware is really nothing more than a computer - essentially the same as your desktop or laptop. It has a CPU, RAM, hard drives, and a network card, just like your PC - often they are exactly the same hardware as you might find in a PC. But in many cases, they may be designed for sustained repeated and heavy use - basically a more robust (and expensive) version of consumer hardware.</description>
-    </item>
-    
-    <item>
-      <title>The Vision of Sir Tim Berners Lee</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/1-www/02-the-technologies-of-the-web/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/1-www/02-the-technologies-of-the-web/</guid>
-      <description>When Tim-Berners Lee presented his original ideas for the World-Wide Web, it consisted of a protocol for requesting web documents - HTTP, and a markup language those documents could be written in - HTML. These initial technologies continue to be the foundation of the world-wide web, and have been enhanced by additional languages to style webpages - CSS - and modify them - JavaScript.
-Each of these technologies has continued to evolve under the guidance of the W3C.</description>
-    </item>
-    
-    <item>
-      <title>URIs and URLs</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/02-uris-and-urls/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/02-uris-and-urls/</guid>
-      <description>Before a web request can be made, the browser needs to know where the resource requested can be found. This is the role that a Universal Resource Locator (a URL) plays. A URL is a specific kind of Universal Resource Indicator (URI) that specifies how a specific resource can be retrieved.
-Info
-URLs and URIs The terms URL and URI are often used interchangeably in practice. However, a URL is a specific subset of URIs that indicate how to retrieve a resource over a network; while a URI identifies a unique resource, it does not necessarily indicate how to retrieve it.</description>
-    </item>
-    
-    <item>
-      <title>CSS Selectors</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/03-css-selectors/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/03-css-selectors/</guid>
-      <description>In the example from the previous section, we saw:
-p { color: red; background-color: green; } Here the p is a CSS Selector, which tells us what elements on the page the CSS rules should be applied to.
-Simple Selectors The most basic CSS selectors come in several flavors, which we&amp;rsquo;ll take a look at next. Simple selectors are a string composed of alphanumeric characters, dashes (-), and underscores (_). Certain selectors also use additional special characters.</description>
-    </item>
-    
-    <item>
-      <title>Developer Tools Network Panel</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/03-network-panel/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/03-network-panel/</guid>
-      <description>Now that we&amp;rsquo;ve discussed the request-response pattern and address resolution, let&amp;rsquo;s turn our attention to how requests are processed in the browser. The following tutorial from Google describes the network panel in Chrome:
-Also, open the Get Started Demo page it references.
-Or, if you prefer you can work through the written version of the tutorial
-Similar developer tools exist in other browsers:
-Firefox Safari Edge </description>
-    </item>
-    
-    <item>
-      <title>HTML Document Structure</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/3-html/03-document-structure/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/3-html/03-document-structure/</guid>
-      <description>When authoring an HTML page, HTML elements should be organized into an HTML Document. This format is defined in the HTML standard. HTML that does not follow this format are technically invalid, and may not be interpreted and rendered correctly by all browsers. Accordingly, it is important to follow the standard.
-The basic structure of a valid HTML5 document is:
-&amp;lt;!doctype HTML&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Page Title Goes Here&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt;Page body and tags go here.</description>
-    </item>
-    
-    <item>
-      <title>HTML Raster Graphics</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/03-html-raster-graphics/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/03-html-raster-graphics/</guid>
-      <description>The most obvious use of raster graphics in HTML is the &amp;lt;img&amp;gt; element, a HTML element that embodies a single raster graphic image. It is defined with the an img tag:
-&amp;lt;img src=&amp;#34;&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; The src attribute is a relative or absolute url of an image file, and the alt attribute provides a textual description of what the image portrays. It is what the browser displays if the image file does not load, and is also important for screen readers (as discussed in Chapter 6).</description>
-    </item>
-    
-    <item>
-      <title>JavaScript Functions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/03-functions/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/03-functions/</guid>
-      <description>CONSOLE While JavaScript may look like an imperative language on the surface, much of how it behaves is based on functional languages like Scheme. This leads to some of the common sources of confusion for programmers new to the language. Let&amp;rsquo;s explore just what its functional roots mean.
-JavaScript implements first-class functions, which means they can be assigned to a variable, passed as function arguments, returned from other functions, and even nested inside other functions.</description>
-    </item>
-    
-    <item>
-      <title>Perceivable Content</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/03-perceivable/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/03-perceivable/</guid>
-      <description>What makes web content perceivable? Broadly speaking, the user must be able to see the content through one of their senses. We primarily think about this in terms of sight - the user should be able to see the content of the rendered page. But what we hear can also be a critical piece of perception.
-Vision We often think of vision as the primary sense for engaging with web content - after all we read text and view pictures and videos.</description>
-    </item>
-    
-    <item>
-      <title>Static IP Addresses</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/03-static-ip/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/03-static-ip/</guid>
-      <description>You may remember from our discussion of URIs and URLs in Chapter 2 that a HTTP request must be made against a host. This host is specified either by a fully-qualified domain name, or by an Internet Protocol (IP) address. But what exactly is an IP address?
-An IP address is an address of a specific computer on the internet. Without such an address, we would not be able to send HTTP requests or responses to a computer, because we would have no idea where to send it.</description>
-    </item>
-    
-    <item>
-      <title>Where to Find Help</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/03-where-to-find-help/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/0-forward/03-where-to-find-help/</guid>
-      <description>Web Only
-This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.
-Resources K-State IT Help Desk - Email helpdesk@ksu.edu K-State Online Canvas Help Instructure Canvas Guides Codio Documentation Codio Support K-State Libraries K-State CS Support K-State CS Advising K-State Engineering Student Services K-State Office of Student Life K-State Report It Video Script As you work on the materials in this course, you may run into questions or problems and need assistance.</description>
-    </item>
-    
-    <item>
-      <title>Why Standards?</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/1-www/03-why-standards/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/1-www/03-why-standards/</guid>
-      <description>The Web Standards the W3C and ECMA International maintain are a critical piece of the web infrastructure. Having a standard for how HTML, CSS, and JavaScript should be interpreted by a web browser means that every browser can display the same webpage in the same way - allowing you the choice of your favorite browser without worrying your web browsing experience would be impacted.
-This was not always the case; during the early days of the world-wide-web in a period known as the Browser Wars the browsers Netscape Navigator and Internet Explorer both added features to their browsers not defined in the standards, and web developers had to decide which browser to build against.</description>
-    </item>
-    
-    <item>
-      <title>Applying CSS Rules</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/04-applying-css-rules/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/04-applying-css-rules/</guid>
-      <description>There are multiple ways CSS rules can be applied to HTML elements. A document containing CSS rules can be attached to a HTML document with a &amp;lt;link&amp;gt; element, embedded directly into the html page with a &amp;lt;style&amp;gt; element, or applied directly to a HTML element with the style attribute. Let&amp;rsquo;s look at each option.
-Linked CSS Documents The &amp;lt;link&amp;gt; HTML element can be used to link the HTML page it appears in to a text file of CSS rules.</description>
-    </item>
-    
-    <item>
-      <title>Arrays - Lists by Another Name</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/04-arrays-and-lists/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/04-arrays-and-lists/</guid>
-      <description>CONSOLE You might have noticed we used an array in discussing the for .. in loop, but didn&amp;rsquo;t talk about it in our data type discussion. This is because in JavaScript, an array is not a primitive data type. Rather, it&amp;rsquo;s a special kind of object.
-This is one of those aspects of JavaScript that breaks strongly with imperative languages. Brandon Eich drew heavily from Scheme, which is a functional language that focuses heavily on list processing&amp;hellip; and the JavaScript array actually has more to do with lists than it does arrays.</description>
-    </item>
-    
-    <item>
-      <title>Browser Requests</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/04-browser-requests/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/04-browser-requests/</guid>
-      <description>Now that you are familiar with the network panel, let&amp;rsquo;s explore the primary kind of request you&amp;rsquo;re already used to making - requests originating from a browser. Every time you use a browser to browse the Internet, you are creating a series of HTTP (or HTTPS) requests that travel across the networks between you and a web server, which responds to your requests.
-When you type in an address in your browser (or click a hyperlink), this initiates a HTTP request against the server located at that address.</description>
-    </item>
-    
-    <item>
-      <title>Domain Names</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/04-domain-names/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/04-domain-names/</guid>
-      <description>A domain name is a human-readable name that can be used instead of an IP address when making HTTP requests. While not actually required for hosting a website, a domain name is definitely something you&amp;rsquo;ll want to have. After all, you don&amp;rsquo;t want people to have to memorize an IP address to reach your website.
-Domain names are essentially leased (rented) from a domain registrar - a company that sells domain names.</description>
-    </item>
-    
-    <item>
-      <title>Flow Model</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/3-html/04-flow-model/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/3-html/04-flow-model/</guid>
-      <description>Given that the role of HTML is markup, i.e. providing structure and formatting to text, HTML elements can broadly be categorized into two categories depending on how they affect the flow of text - inline and block.
-Inline elements referred to elements that maintained the flow of text, i.e. the bring attention to (&amp;lt;b&amp;gt;) element used in a paragraph of text, would bold the text without breaking the flow:
-&amp;lt;p&amp;gt;The quick brown &amp;lt;b&amp;gt;fox&amp;lt;/b&amp;gt; lept over the log&amp;lt;/p&amp;gt;</description>
-    </item>
-    
-    <item>
-      <title>Operable Content</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/04-operable/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/04-operable/</guid>
-      <description>In short, the user should be able to interact effectively with your website. There are two primary tools we use to interact with websites - the mouse and the keyboard. Additionally, many assistive technologies mimic one or both of these.
-Keyboard-Only Control While most of us use a mouse as our primary control tool for working with any software, many users cannot use a mouse effectively. For these users, it is important that the entire web page can be controlled using the keyboard.</description>
-    </item>
-    
-    <item>
-      <title>Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/1-www/04-summary/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/1-www/04-summary/</guid>
-      <description>This textbook will guide you through the three core client-side web technologies (HTML, CSS, &amp;amp; JS), as well as discuss the role HTTP plays in retrieving resources for a web client (like a browser) from the web. It is organized into chapters focused on each of those technologies in turn:
-The World-Wide-Web Hyper-Text Transfer Protocol Hyper-Text Markup Language Cascading Style Sheets JavaScript Once you understand client-side web technologies, you may want to turn your attention to the server side.</description>
-    </item>
-    
-    <item>
-      <title>The Canvas Element</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/04-the-canvas-element/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/04-the-canvas-element/</guid>
-      <description>The &amp;lt;canvas&amp;gt; element represents a raster graphic, much like the &amp;lt;img&amp;gt; element. But instead of representing an existing image file, the &amp;lt;canvas&amp;gt; is a blank slate - a grid of pixels on which you can draw using JavaScript. Becuase a canvas doesn&amp;rsquo;t determine its size from an image file, you need to always declare it with a width and height attribute (otherwise, it has a width and height of 0):</description>
-    </item>
-    
-    <item>
-      <title>What You&#39;ll Learn</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/04-what-youll-learn/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/0-forward/04-what-youll-learn/</guid>
-      <description>Week &amp;amp; Topic The World Wide Web Web Pages and Browsers Basic CSS CSS Layouts Introduction to JavaScript JavaScript and the DOM Querying and Modifying the DOM Web Accessibility Working with Forms Making Requests with JavaScript CSS Animations Web Graphics Web Hosting JavaScript Libraries CSS Libraries </description>
-    </item>
-    
-    <item>
-      <title>Course Textbooks</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/05-textbooks/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/0-forward/05-textbooks/</guid>
-      <description>Web Only
-This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.
-This course does not have a required print textbook. The resources presented in the modules are also organized into an online textbook that can be accessed here: https://ksu-cs-textbooks.github.io/cc120/. You may find this a useful reference if you prefer a traditional textbook layout.</description>
-    </item>
-    
-    <item>
-      <title>CSS Cascade</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/05-css-cascading/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/05-css-cascading/</guid>
-      <description>Now that we know how to create an apply CSS rules to our HTML, let&amp;rsquo;s explore how they actually are used. A core idea behind CSS is the cascade algorithm, the cascading in cascading style sheets (CSS). The core idea behind the cascade algorithm is that as the browser encounters and parses CSS rules, they are collectively applied to the elements they match with. If the same rule is set multiple times, say color, the cascading algorithm decides which should be applied.</description>
-    </item>
-    
-    <item>
-      <title>Objects and Classes</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/05-objects-and-classes/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/05-objects-and-classes/</guid>
-      <description>CONSOLE JavaScript is also an object-oriented language, but the way it implements objects is derived from the ideas of the Self programming language, rather than the C++ origins of Java and C#&amp;rsquo;s object-oriented approaches.
-Object Properties Let&amp;rsquo;s start with what an object is in JavaScript. It&amp;rsquo;s basically a collection of properties - key/value pairs, similar to the concept of a Dictionary in other languages. The properties play both the role of fields and methods of the object, as a property can be assigned a primitive value or a function.</description>
-    </item>
-    
-    <item>
-      <title>Ports</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/05-ports/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/05-ports/</guid>
-      <description>The term port is another that has multiple meanings in Computer Science and can lead to some confusion. It can refer to a physical port on the computer that you plug something into, i.e. a USB port or a CAT5e networking port. But it has another meaning for software running on a network (like the internet).
-Your computer probably is running multiple programs that communicate across a network or the internet - i.</description>
-    </item>
-    
-    <item>
-      <title>Status Codes</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/05-status-codes/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/05-status-codes/</guid>
-      <description>A HTTP response includes a status code - a numeric code and a human-readable description. The codes themselves are 3-digit numbers, with the first number indicating a general category the response status falls into. Essentially, the status code indicates that the request is being fulfilled, or the reason it cannot be.
-1XX Status Codes Codes falling in the 100&amp;rsquo;s provide some kind of information, often in response to a HEAD or upgrade request.</description>
-    </item>
-    
-    <item>
-      <title>Tables</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/3-html/05-tables/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/3-html/05-tables/</guid>
-      <description>Tables were amongst the first addition to HTML (along with images), as they were necessary for the primary role of early HTML, disseminating research.
-A table requires a lot of elements to be nested in a specific manner. It is best expressed through an example:
-&amp;lt;table&amp;gt; &amp;lt;thead&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;Name&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;Role&amp;lt;/th&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/thead&amp;gt; &amp;lt;tbody&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Darth Vader&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Antagonist&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Luke Skywalker&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Coming-of-age protagonist&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Princess Lea&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Heroic resistance fighter&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Obi-Wan Kenobi&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Wise old man&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Han Solo&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Likeable scoundrel&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Chewbacca&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;The muscle&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Threepio&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Comedic foil&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;Artoo Deetoo&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Plot driver&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tbody&amp;gt; &amp;lt;/table&amp;gt; It renders as:</description>
-    </item>
-    
-    <item>
-      <title>The Pen Metaphor</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/05-the-pen-metaphor/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/05-the-pen-metaphor/</guid>
-      <description>Most 2D graphics libraries adopt a &amp;ldquo;pen&amp;rdquo; metaphor to model how they interact with the graphics they draw. Think of an imaginary pen that you use to draw on the screen. When you put the pen down and move it across the screen you draw a line - the stroke. When you lift the pen, you no longer make a mark. The movements of the pen across the canvas also define a path.</description>
-    </item>
-    
-    <item>
-      <title>Understandable Content</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/05-understandable/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/05-understandable/</guid>
-      <description>Understandable content means that the user can easily make sense of it. This clearly includes of reading and understanding the text of the page. You should strive to use proper grammar, correct spelling, and write to your audience&amp;rsquo;s expected reading level (or slightly below).
-But this requirement also covers users understanding how to make use of interactive elements, especially graphical user interfaces. Making your content understandable benefits all users of your website, and is a staple to good web design.</description>
-    </item>
-    
-    <item>
-      <title>Attaching Scripts</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/06-attaching-scripts/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/06-attaching-scripts/</guid>
-      <description>Much like there are multiple ways to apply CSS to a web app, there are multiple ways to bring JavaScript into one. We can use a &amp;lt;script&amp;gt; tag with a specified src attribute to load a separate document, put our code into the &amp;lt;script&amp;gt; tag directly, or even add code to attributes of an HTML element. Let&amp;rsquo;s look at each option.
-Script Tag with Source We can add a &amp;lt;script&amp;gt; tag with a src attribute that gives a url pointing to a JavaScript file.</description>
-    </item>
-    
-    <item>
-      <title>CSS Specificity</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/06-css-specificity/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/06-css-specificity/</guid>
-      <description>But what about two rules that conflict that appear in the same level of the cascade order? For example, given the CSS:
-p { color: black; } .warning { color: red; } what would the color of &amp;lt;p class=&amp;quot;warning&amp;quot;&amp;gt; be? You might say it would be red because the .warning CSS rules come after the p rules. And that would be true if the two rules had the same specificity. An example of that is:</description>
-    </item>
-    
-    <item>
-      <title>Forms</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/3-html/06-forms/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/3-html/06-forms/</guid>
-      <description>Forms were also amongst the first additions to the HTML standard, and provide the ability to submit data to a web server. A web form is composed of &amp;lt;input&amp;gt;, &amp;lt;textarea&amp;gt;, &amp;lt;select&amp;gt; and similar elements nested within a &amp;lt;form&amp;gt; element.
-The Form Element The form element primarily is used to organize input elements and specify how they should be submitted. In its simplest form, it is simply a tag that other elements are nested within:</description>
-    </item>
-    
-    <item>
-      <title>Plagiarism Policy</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/06-plagiarism/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/0-forward/06-plagiarism/</guid>
-      <description>Web Only
-This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.
-Resources K-State Honor &amp;amp; Integrity System Video Script &amp;ldquo;On my honor, as a student, I have neither given nor received unauthorized aid on this academic work.&amp;rdquo; - K-State Honor Pledge</description>
-    </item>
-    
-    <item>
-      <title>Request Methods</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/06-request-methods/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/06-request-methods/</guid>
-      <description>When a web client like a browser makes a request, it must specify the request method, indicating what kind of request this is (sometimes we refer to the method as a HTTP Verb).
-The two most common are GET and POST requests, as these are typically the only kinds supported by browsers. Other request methods include PUT, PATCH, and DELETE, which are typically used by other kinds of web clients. We&amp;rsquo;ll focus on just GET and POST requests here.</description>
-    </item>
-    
-    <item>
-      <title>Robust Content</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/06-robust/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/06-robust/</guid>
-      <description>Finally, content should be able to be accessible even as technology advances. A robust website will continue to function well into the future. This is best done by following the existing accessibility standards.</description>
-    </item>
-    
-    <item>
-      <title>Server Programs</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/06-server-programs/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/06-server-programs/</guid>
-      <description>Once you have your static IP address, your domain name, and your firewall configured, you are ready to start responding to HTTP requests. This process is handled by a server program - it accepts incoming HTTP an HTTPS requests by determining and sending a response. In the simplest form, a web server program simply responds with static files that are saved in a particular location - often a folder named public_html, html, or www.</description>
-    </item>
-    
-    <item>
-      <title>Stroke and Fill</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/06-stroke-and-fill/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/06-stroke-and-fill/</guid>
-      <description>The stroke and fill work with the current path of the context, defining how the outline and interior of a shape defined by the path are drawn.
-Stroke The stroke() draws all of the path segments where the pen was &amp;ldquo;down&amp;rdquo;. The appearance of the stroke can be altered with specific properties of the canvas:
-strokeStyle allows you to set the color of the stroke, i.e. ctx.strokeStyle = &#39;orange&#39;;. You can use one of the named colors, i.</description>
-    </item>
-    
-    <item>
-      <title>Common HTML Elements</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/3-html/07-common-html-elements/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/3-html/07-common-html-elements/</guid>
-      <description>This page details some of the most commonly used HTML elements. For a full reference, see MDN&amp;rsquo;s HTML Element Reference.
-Document-Level Elements These elements describe the basic structure of the HTML document.
-&amp;lt;html&amp;gt; The &amp;lt;html&amp;gt; element contains the entire HTML document. It should have exactly two children, the &amp;lt;head&amp;gt; and the &amp;lt;body&amp;gt; elements, appearing in that order.
-&amp;lt;head&amp;gt; The &amp;lt;head&amp;gt; element contains any metadata describing the document. The most common children elements are &amp;lt;title&amp;gt;, &amp;lt;meta&amp;gt;, and &amp;lt;link&amp;gt;.</description>
-    </item>
-    
-    <item>
-      <title>CSS Units</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/07-css-units/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/07-css-units/</guid>
-      <description>When specifying CSS rules, you often need to provide a unit of measurement. Any time you provide a measurement in a CSS rule, you must provide the units that measurement is being expressed in, following the value. For example:
-#banner { width: 300px; } sets the width of the element with id banner to 300 pixels.
-There are actually a lot of units available in CSS, and we&amp;rsquo;ll summarize the most common in this section.</description>
-    </item>
-    
-    <item>
-      <title>Development Tools</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/07-dev-tools/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/07-dev-tools/</guid>
-      <description>Just as you can use W3C&amp;rsquo;s validator to help validate your HTML, tools exist to help evaluate the accessibility of your websites. The easiest of these are integrated into the developer tools of your browser. The following video covers using Chrome developer tools to address accessibility bugs:
-We&amp;rsquo;ve also talked about Screen Readers and Magnifiers, which are typically integrated into your operating system. You can use these to experience your web page the same way a disabled user might.</description>
-    </item>
-    
-    <item>
-      <title>Managed Hosting</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/07-managed-hosting/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/07-managed-hosting/</guid>
-      <description>Now that you have a more nuanced understanding of what it takes to host a website, we can explore options for making the process easier, and potentially more reliable. It is important to understand that few web developers actually tackle every step of the process. Instead, most turn to some form of managed hosting - allowing a business whose primary role is hosting web servers to do some of the work.</description>
-    </item>
-    
-    <item>
-      <title>Request Headers</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/2-http/07-request-headers/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/07-request-headers/</guid>
-      <description>Request headers take the form of key-value pairs, and represent specific aspects of the request. For example:
-Accept-Encoding: gzip Indicates that the browser knows how to accepted content compressed in the Gzip format.
-Note that request headers are a subset of message headers that apply specifically to requests. There are also message headers that apply only to HTTP responses, and some that apply to both.
-As HTTP is intended as an extensible protocol, there are a lot of potential headers.</description>
-    </item>
-    
-    <item>
-      <title>Shape Functions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/07-shape-functions/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/07-shape-functions/</guid>
-      <description>For ease of use, the context also supplies a number of functions for drawing shapes. Some of these just define the shape as a series of subpaths to be used with the stroke() and fill() functions.
-Arcs and Circles Of these, we&amp;rsquo;ve already seen the arc(x, y, radius, startAngle, endAngle) function. It can be used to draw an arc, or when filled, a wedge - like a pie slice. When a startAngle of 0 and endAngle of 2 * Math.</description>
-    </item>
-    
-    <item>
-      <title>The Document Object Model</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/</guid>
-      <description>Now that we&amp;rsquo;ve reviewed the basic syntax and structure of the JavaScript language, and how to load it into a page, we can turn our attention to what it was created for - to interact with web pages in the browser. This leads us to the Document Object Model (DOM).
-The DOM is a tree-like structure that is created by the browser when it parses the HTML page. Then, as CSS rules are interpreted and applied, they are attached to the individual nodes of the tree.</description>
-    </item>
-    
-    <item>
-      <title>Canvas Text</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/08-canvas-text/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/08-canvas-text/</guid>
-      <description>While the canvas is primarily used to draw graphics, there are times we want to use text as well. We have two methods to draw text: fillText(text, x, y) and strokeText(text, x, y). The text parameter is the text to render, and the x and y are the upper left corner of the text.
-As with the fillRect() and strokeRect() functions, fillText() and strokeText() fill and stroke the text, respectively, and the text does not affect the current path.</description>
-    </item>
-    
-    <item>
-      <title>CSS Functions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/08-css-functions/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/08-css-functions/</guid>
-      <description>CSS provides a number of useful functions that calculate values. Functions are written in the form name(arg1, arg2, ...) and are provided as values to CSS properties. For example, this CSS code sets the height of the content area to the available space on screen for content after subtracting a header and footer:
-#header {height: 150px} #footer {height: 100px} #content { height: calc(100vh - 150px - 100px); } Here 100vh is the height of the viewport, and the header and footer are defined in terms of pixels.</description>
-    </item>
-    
-    <item>
-      <title>Document Object Model</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/3-html/08-the-dom/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/3-html/08-the-dom/</guid>
-      <description>The Document Object Model (or DOM) is a data structure representing the content of a web page, created by the browser as it parses the website. The browser then makes this data structure accessible to scripts running on the page. The DOM is essentially a tree composed of objects representing the HTML elements and text on the page.
-Consider this HTML:
-&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Hello DOM!&amp;lt;/title&amp;gt; &amp;lt;link href=&amp;#34;site.css&amp;#34;/&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;banner&amp;#34;&amp;gt; &amp;lt;h1&amp;gt;Hello DOM!</description>
-    </item>
-    
-    <item>
-      <title>Strict Mode</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/08-strict-mode/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/08-strict-mode/</guid>
-      <description>JavaScript has been around a long time, and a lot of JavaScript code has been written by inexperienced programmers. Browser manufacturers compensated for this by allowing lenient interpretation of JavaScript programs, and by ignoring many errors as they occurred.
-While this made poorly-written scripts run, arguably they didn&amp;rsquo;t run well. In ECMA5, strict mode was introduced to solve the problems of lenient interpretation.
-Strict mode according to the Mozilla Developer Network:</description>
-    </item>
-    
-    <item>
-      <title>Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/08-summary/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/08-summary/</guid>
-      <description>In this chapter, we discussed the need to build our websites to be accessible to all users. We also discussed many common disabilities that users may have, and strategies for addressing these in your web design. We also reviewed tools that we can take advantage of to build accessible websites.
-We also learned that many of these techniques benefit all users. Strong color contrast can help both the vision impaired, and also help make your site visible on a screen outside on a bright day.</description>
-    </item>
-    
-    <item>
-      <title>Canvas and Images</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/09-canvas-images/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/09-canvas-images/</guid>
-      <description>The &amp;lt;canvas&amp;gt; and &amp;lt;img&amp;gt; elements are both raster representations of graphics, which introduces an interesting possibility - copying the data of an image into the canvas. This can be done with the drawImage() family of functions.
-The first of these is drawImage(image, x, y). This copies the entire image held in the image variable onto the canvas, starting at (x, y).
-&amp;lt;canvas id=&amp;#34;image-example-1&amp;#34; width=&amp;#34;500&amp;#34; height=&amp;#34;300&amp;#34;&amp;gt;&amp;lt;/canvas&amp;gt; &amp;lt;script&amp;gt; var canvas1 = document.getElementById(&amp;#39;image-example-1&amp;#39;); var ctx1 = canvas1.</description>
-    </item>
-    
-    <item>
-      <title>CSS Colors</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/09-css-colors/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/09-css-colors/</guid>
-      <description>CSS also has many properties that can be set to a color, i.e. color, background-color, border-color, box-shadow, etc. Colors consist of three or four values corresponding to the amount of red, green, and blue light blended to create the color. The optional fourth value is the alpha, and is typically used to specify transparency.
-Colors are stored as 24-bit values, with 8 bits for each of the four channels (R,G,B,and A), representing 256 possible values (2^8) for each channel.</description>
-    </item>
-    
-    <item>
-      <title>Regular Expressions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/09-regexp/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/09-regexp/</guid>
-      <description>CONSOLE The JavaScript String prototype has some very powerful methods, such as String.prototype.includes() which recognizes when a string contains a substring - i.e.:
-&amp;#34;foobarwhen&amp;#34;.includes(&amp;#34;bar&amp;#34;) would evaluate to true. But what if you needed a more general solution? Say, to see if the text matched a phone number pattern like XXX-XXX-XXXX? That&amp;rsquo;s where Regular Expressions come in.
-Regular Expressions are a sequence of characters that define a pattern that can be searched for within a string.</description>
-    </item>
-    
-    <item>
-      <title>CSS and Text</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/10-css-text/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/10-css-text/</guid>
-      <description>As the original purpose of the World-Wide-Web was to disseminate written information, it should be no surprise that CSS would provide many properties for working with text. Some of the most commonly employed properties are:
-font-family defines the font to use for the text. Its value is one or more font family or generic font names, i.e. font-family: Tahoma, serif, font-family: cursive or font-family: &amp;quot;Comic Sans&amp;quot;. Font family names are typically capitalized and, if they contain spaces or special characters, double-quoted.</description>
-    </item>
-    
-    <item>
-      <title>JSON</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/10-json/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/10-json/</guid>
-      <description>CONSOLE JSON is an acronym for JavaScript Object Notation, a serialization format that was developed in conjunction with ECMAScript 3. It is a standard format, as set by ECMA-404.
-JSON Format Essentially, it is a format for transmitting JavaScript objects. Consider the JavaScript object literal notation:
-var whilma = { name: &amp;#34;Wilma Flintstone&amp;#34;, relationship: &amp;#34;wife&amp;#34; } var pebbles = { name: &amp;#34;Pebbles Flintstone&amp;#34;, age: 3, relationship: &amp;#34;daughter&amp;#34; } var fred = { name: &amp;#34;Fred Flintstone&amp;#34;, job: &amp;#34;Quarry Worker&amp;#34;, payRate: 8, dependents: [whilma, pebbles] } If we were to express the same object in JSON:</description>
-    </item>
-    
-    <item>
-      <title>Transforms and State</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/10-canvas-transforms/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/10-canvas-transforms/</guid>
-      <description>Much like we can use CSS to apply transformations to HTML elements, we can use transforms to change how we draw into a canvas. The rendering context has a transformation matrix much like those we discussed in the CSS chapter, and it applies this transform to any point it is tasked with drawing.
-We can replace the current transformation matrix with the setTransform() function, or multiply it by a new transformation (effectively combining the current transformation with the new one) by calling transform().</description>
-    </item>
-    
-    <item>
-      <title>AJAX</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/</guid>
-      <description>Asynchronous JavaScript and XML (AJAX) is a term coined by Jesse James Garrett to describe a technique of using the XMLHttpRequest object to request resources directly from JavaScript. As the name implies, this was originally used to request XML content, but the technique can be used with any kind of data.
-The XMLHttpRequest The XMLHttpRequest object is modeled after how the window object makes web requests. You can think of it as a state machine that can be in one of several possible states, defined by both a constant and an unsigned short value:</description>
-    </item>
-    
-    <item>
-      <title>Animation</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/11-canvas-animation/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/11-canvas-animation/</guid>
-      <description>The canvas element provides a powerful tool for creating animations by allowing us to erase and re-draw its contents over and over. Ideally, we only want to redraw the canvas contents only as quickly as the screen is updated (typically every 1/30th or 1/60th of a second). The window.requestAnimationFrame(callback) provides an approach for doing this - it triggers the supplied callback every time the monitor refreshes.
-Inside that callback, we want to erase the canvas and then draw the updated scene.</description>
-    </item>
-    
-    <item>
-      <title>CSS Box Model</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/11-css-box-model/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/11-css-box-model/</guid>
-      <description>As the browser lays out HTML elements in a page, it uses the CSS Box Model to determine the size and space between elements. The CSS box is composed of four nested areas (or outer edges): the content edge, padding edge, border edge, and margin edge.
-Box Areas Content Area contains the actual content of the element (the text, image, etc). By default the CSS properties width and height set this size, and the min-width, min-height, max-width, max-height constrain it (but see the discussion of box-sizing below).</description>
-    </item>
-    
-    <item>
-      <title>CSS Positioning</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/12-css-positioning/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/12-css-positioning/</guid>
-      <description>By default HTML elements are positioned in the page using the HTML flow algorithm. You can find a detailed discussion in the MDN Documentation. However, you may want to override this and manually position elements, which you can do with the CSS properties position, left, top, right, and bottom.
-The Positioning Context First, we need to understand the positioning context, this is basically the area an element is positioned within. The left, top, right, and bottom properties affect where an element appears within its context.</description>
-    </item>
-    
-    <item>
-      <title>Vector Graphics</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/12-vector-graphics/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/12-vector-graphics/</guid>
-      <description>Up to this point, we&amp;rsquo;ve been discussing raster graphics, which are represented by a grid of pixels. In contrast, vector graphics are stored as a series of instructions to re-create the graphic. For most vector approaches, these instructions look similar to those we issued to our JavaScript rendering context when working with the &amp;lt;canvas&amp;gt; element - including the idea of paths, stroke, and fill.
-The vector approach has its own benefits and drawbacks when compared to raster graphics.</description>
-    </item>
-    
-    <item>
-      <title>CSS Layouts</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/13-css-layouts/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/13-css-layouts/</guid>
-      <description>We often speak of the separation of concerns principle in the context of web development as setting up the roles of HTML, CSS, and JavaScript. In this understanding, HTML provides the organization of content, CSS provides for the presentation of the content, and JavaScript provides for user interaction.
-In this understanding, CSS is often tasked with the role of laying out elements on the page. More specifically, it overrides the default flow of HTML elements (see our earlier discussion of block vs.</description>
-    </item>
-    
-    <item>
-      <title>JavaScript Libraries</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/5-js/13-libraries/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/5-js/13-libraries/</guid>
-      <description>Up to this point, we&amp;rsquo;ve been focused on core JavaScript functionality. However, there are lots of additional JavaScript libraries you can use in your web development efforts. A library is a collection of source code that is intended to be used in other projects. Unlike core libraries, these are written by third parties, and often released under an open-source license which describes how they can legally be used in your projects.</description>
-    </item>
-    
-    <item>
-      <title>SVG</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/13-svg/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/13-svg/</guid>
-      <description>The Scalable Vector Graphics (SVG) image format is a file format for creating a vector graphic. It uses the same ideas about path, stroke, and fill and coordinate that we discussed with the canvas. It also is a text format based on XML, as was HTML. So the contents of a XML file will look familiar to you. Here is an example:
-&amp;lt;svg viewBox=&amp;#34;0 0 500 200&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34;&amp;gt; &amp;lt;path d=&amp;#34;M 100 50 L 100 150 L 300 150 Z&amp;#34; stroke=&amp;#34;black&amp;#34; fill=&amp;#34;#dd3333&amp;#34;/&amp;gt; &amp;lt;/svg&amp;gt; Let&amp;rsquo;s take a close look at the file format.</description>
-    </item>
-    
-    <item>
-      <title>Responsive Web Design</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/14-responsive-css/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/14-responsive-css/</guid>
-      <description>Modern websites are displayed on a wide variety of devices, with screen sizes from 640x480 pixels (VGA resolution) to 3840x2160 pixels (4K resolution). It should be obvious therefore that one-size-fits-all approach to laying out web applications does not work well. Instead, the current best practice is a technique known as Responsive Web Design. When using this strategy your web app should automatically adjusts the layout of the page based on how large the device screen it is rendered on.</description>
-    </item>
-    
-    <item>
-      <title>SVG Paths</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/14-svg-paths/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/14-svg-paths/</guid>
-      <description>SVGs use the same pen metaphor we saw with the &amp;lt;canvas&amp;gt; and one of the most basic approaches to drawing in an SVG is the &amp;lt;path&amp;gt; element. Each &amp;lt;path&amp;gt; should contain a d attribute, which holds the commands used to draw the path. These are very similar to the commands we used with the &amp;lt;canvas&amp;gt; and the CanvasRenderingContext2D we used earlier, but instead of being written as a function call, they are written as a capital letter (indicating what command to carry out) followed by numbers specifying the action.</description>
-    </item>
-    
-    <item>
-      <title>CSS Transformations</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/15-css-transformations/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/15-css-transformations/</guid>
-      <description>With powerful graphics cards becoming commonplace, the W3C standards expanded the CSS rules to take advantage of their abilities. Specifically, the CSS transform property allows us to apply a transformation (scaling, rotating, translating, stretching, skewing, or any combination) to elements on a page. These are performed using a mathematical operation based on the use of matrices. Graphics cards are optimized to perform these matrix operations in parallel, allowing them to quickly transform graphical objects in 3-dimensional space.</description>
-    </item>
-    
-    <item>
-      <title>SVG Shapes</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/15-svg-shapes/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/15-svg-shapes/</guid>
-      <description>Much like the CanvasRenderingContext2d we used with the &amp;lt;canvas&amp;gt; earlier allowed us to render rectangles outside of the path, the SVG format also provides mechanisms for rendering common shapes. These are specified using their own tags (like HTML elements), and there are a wide variety of shapes available:
-Rectangle The &amp;lt;rect&amp;gt; element defines a rectangle, specified by the now-familiar x, y,, width and height attributes, and with optional rounded corners with radius specified by the rx attribute.</description>
-    </item>
-    
-    <item>
-      <title>CSS Transitions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/16-css-transitions/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/16-css-transitions/</guid>
-      <description>While most CSS rules are applied as the page is loaded, some are applied at a future point. One example is pseudo-classes that apply in limited circumstances - like :hover which applies only when the mouse is over an element, or :valid and :invalid which are applied to input elements based on their validation status. Another common instance is when elements are added to the page using JavaScript, as discussed in Chapter 5 - JavaScript.</description>
-    </item>
-    
-    <item>
-      <title>SVG Animation</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/17-svg-animation/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/17-svg-animation/</guid>
-      <description>SVG has several build-in approaches to add animation to a drawing, the &amp;lt;animate&amp;gt; and &amp;lt;animateMotion&amp;gt; elements.
-The &amp;lt;animate&amp;gt; Element The &amp;lt;animate&amp;gt; element is used to animate the attributes of an element over time. It must be declared as a child of the element it will animate, i.e.:
-&amp;lt;svg viewBox=&amp;#34;0 0 100 100&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; height=&amp;#34;200&amp;#34;&amp;gt; &amp;lt;circle cx=&amp;#34;50&amp;#34; cy=&amp;#34;50&amp;#34; r=&amp;#34;50&amp;#34; fill=&amp;#34;cornflowerblue&amp;#34;&amp;gt; &amp;lt;animate attributeName=&amp;#34;r&amp;#34; values=&amp;#34;10;50;20;50;10&amp;#34; dur=&amp;#34;10s&amp;#34; repeatCount=&amp;#34;indefinite&amp;#34;/&amp;gt; &amp;lt;/circle&amp;gt; &amp;lt;/svg&amp;gt; Here we have a 10 second duration repeating animation that alters the radius of a circle between a number of different values.</description>
-    </item>
-    
-    <item>
-      <title>SVG Transforms</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/16-svg-transforms/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/16-svg-transforms/</guid>
-      <description>As with CSS and the canvas, SVGs also support transformations. In an SVG, these are specified by the transform attribute and thus apply to a specific element. For example, to rotate our ellipse from the previous section by 15 degrees around its center, we would use:
-&amp;lt;svg viewBox=&amp;#34;0 0 200 100&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; height=&amp;#34;200&amp;#34;&amp;gt; &amp;lt;ellipse cx=&amp;#34;100&amp;#34; cy=&amp;#34;50&amp;#34; rx=&amp;#34;100&amp;#34; ry=&amp;#34;50&amp;#34; fill=&amp;#34;cornflowerblue&amp;#34; transform=&amp;#34;rotate(15 100 50)&amp;#34;/&amp;gt; &amp;lt;/svg&amp;gt; Notice how the ellipse is clipped at the view box - this is another important role the view box plays.</description>
-    </item>
-    
-    <item>
-      <title>CSS Timing Functions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/17-timing-functions/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/17-timing-functions/</guid>
-      <description>The transition property (and the animations we&amp;rsquo;ll look at shortly) both make use of timing functions - functions that define how the values of a CSS property change over time as we transition from one state to the next.
-The simplest (and default) transition function is linear, which means the value smoothly transitions from its starting value to its ending value. It is specified as linear.
-While linear is easy to reason about and represent mathematically, transitions often look more realistic if the start or end more slowly, speeding up in the middle.</description>
-    </item>
-    
-    <item>
-      <title>CSS Animation</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/18-css-animation/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/18-css-animation/</guid>
-      <description>As the web became more interactive, there was an increased desire to animate elements on webpages. Animations are a powerful tool for increasing visual interest and also conveying information. Consider the Apple sign-in dialog, which on an incorrect username/password combination shakes back and forth briefly, mimicking a human&amp;rsquo;s head shaking.
-Early animations in the web relied on using JavaScript to change properties of elements on the page. While these techniques are still used, they are increasingly supplanted by new CSS rules that are easier to write and provide more precise control.</description>
-    </item>
-    
-    <item>
-      <title>SVG and CSS</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/19-svg-and-css/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/19-svg-and-css/</guid>
-      <description>When using inline SVG, you can apply CSS to the SVG using any of the methods we&amp;rsquo;ve used with HTML - inline styles, the &amp;lt;style&amp;gt; element, or a CSS file. The rules work exactly the same - you select a SVG element using a CSS selector, and apply style rules. SVG elements have tag name, and can also specify id and class attributes just like HTML. For example:
-&amp;lt;style&amp;gt; rect { fill: purple; stroke: black; stroke-width: 5; } #my-circle { fill: violet; stroke: #333; } &amp;lt;/style&amp;gt; &amp;lt;svg viewBox=&amp;#34;0 0 300 100&amp;#34; xmlns=&amp;#34;http://www.</description>
-    </item>
-    
-    <item>
-      <title>SVG and HTML</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/18-svg-and-html/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/18-svg-and-html/</guid>
-      <description>As described earlier, SVG is an image file format. Thus, it can be used as the src for an &amp;lt;img&amp;gt; element in HTML:
-&amp;lt;img src=&amp;#34;/images/triangle.svg&amp;#34; alt=&amp;#34;A triangle&amp;#34;&amp;gt; However, the SVG itself is just text. And that text shares a lot of characteristics with HTML, as both are derived from XML. As SVG became more commonplace, the W3C added support for inline SVGs - placing SVG code directly in a HTML document:</description>
-    </item>
-    
-    <item>
-      <title>SVG and JavaScript</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/7-graphics/20-svg-and-js/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/7-graphics/20-svg-and-js/</guid>
-      <description>Likewise, inline SVG elements are part of the DOM tree, and can be manipulated with JavaScript in almost the same way as any HTML element. You can retrieve a SVG node with the various query methods: document.getElementsByName(name), document.getElementById(id), document.getElementsByClassName(className), document.querySelector(), and document.querySelectorAll(selector). This works just like it does with HTML elements.
-However, to work with the attributes of a SVG element, you must use the setAttributeNS(ns, attr) and getAttributeNS(ns, attr) respectively, as the SVG attributes are part of the SVG namespace, not the HTML (default) namespace.</description>
-    </item>
-    
-    <item>
-      <title>CSS Libraries</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/4-css/19-libraries/</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      
-      <guid>https://ksu-cs-textbooks.github.io/cc120/4-css/19-libraries/</guid>
-      <description>While you can write custom CSS to accomplish nearly any look you want for your webpages, many developers prefer to use a pre-written CSS library that provides rules covering many common user interface needs. For example, CSS-based menus are very challenging to write well, but a well-designed library makes the task very approachable. CSS libraries also provide a consistent UI look and feel across websites, which helps people browsing your website quickly identify how to move around.</description>
-    </item>
-    
   </channel>
 </rss>

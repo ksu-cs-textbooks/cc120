@@ -1,0 +1,576 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Hosting on K-State CC 120 Textbook</title>
+    <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/index.html</link>
+    <description>Recent content in Web Hosting on K-State CC 120 Textbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Aug 2018 10:53:05 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cc120/8-hosting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/01-introduction/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/01-introduction/index.html</guid>
+      <description>Earlier, when we looked at HTTP in Chapter 2 , we discussed how HTTP connects the client (typically a web browser) to a server, a specialized program running on a computer connected to the internet that serves web pages (and other files) in response to a HTTP request. This server is what makes your webpages available on the World Wide Web.
+Somewhat confusingly, web developers and IT professionals commonly refer to both the program serving HTTP requests and the hardware it runs on as a server.</description>
+    </item>
+    <item>
+      <title>Server Hardware</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/02-server-hardware/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/02-server-hardware/index.html</guid>
+      <description>The server hardware is really nothing more than a computer - essentially the same as your desktop or laptop. It has a CPU, RAM, hard drives, and a network card, just like your PC - often they are exactly the same hardware as you might find in a PC. But in many cases, they may be designed for sustained repeated and heavy use - basically a more robust (and expensive) version of consumer hardware.</description>
+    </item>
+    <item>
+      <title>Static IP Addresses</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/03-static-ip/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/03-static-ip/index.html</guid>
+      <description>You may remember from our discussion of URIs and URLs in Chapter 2 that a HTTP request must be made against a host. This host is specified either by a fully-qualified domain name, or by an Internet Protocol (IP) address. But what exactly is an IP address?
+An IP address is an address of a specific computer on the internet. Without such an address, we would not be able to send HTTP requests or responses to a computer, because we would have no idea where to send it.</description>
+    </item>
+    <item>
+      <title>Domain Names</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/04-domain-names/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/04-domain-names/index.html</guid>
+      <description>A domain name is a human-readable name that can be used instead of an IP address when making HTTP requests. While not actually required for hosting a website, a domain name is definitely something you&amp;rsquo;ll want to have. After all, you don&amp;rsquo;t want people to have to memorize an IP address to reach your website.
+Domain names are essentially leased (rented) from a domain registrar - a company that sells domain names.</description>
+    </item>
+    <item>
+      <title>Ports</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/05-ports/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/05-ports/index.html</guid>
+      <description>The term port is another that has multiple meanings in Computer Science and can lead to some confusion. It can refer to a physical port on the computer that you plug something into, i.e. a USB port or a CAT5e networking port. But it has another meaning for software running on a network (like the internet).
+Your computer probably is running multiple programs that communicate across a network or the internet - i.</description>
+    </item>
+    <item>
+      <title>Server Programs</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/06-server-programs/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/06-server-programs/index.html</guid>
+      <description>Once you have your static IP address, your domain name, and your firewall configured, you are ready to start responding to HTTP requests. This process is handled by a server program - it accepts incoming HTTP an HTTPS requests by determining and sending a response. In the simplest form, a web server program simply responds with static files that are saved in a particular location - often a folder named public_html, html, or www.</description>
+    </item>
+    <item>
+      <title>Managed Hosting</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/07-managed-hosting/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/07-managed-hosting/index.html</guid>
+      <description>Now that you have a more nuanced understanding of what it takes to host a website, we can explore options for making the process easier, and potentially more reliable. It is important to understand that few web developers actually tackle every step of the process. Instead, most turn to some form of managed hosting - allowing a business whose primary role is hosting web servers to do some of the work.</description>
+    </item>
+  </channel>
+</rss>

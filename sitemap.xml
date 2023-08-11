@@ -1,313 +1,929 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/</loc>
-    <lastmod>2022-07-05T10:53:05-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/1-www/</loc>
-    <lastmod>2022-07-05T10:53:05-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/</loc>
-    <lastmod>2022-07-05T10:53:05-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/</loc>
-    <lastmod>2022-07-05T10:53:05-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/</loc>
-    <lastmod>2022-07-05T10:53:05-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/</loc>
-    <lastmod>2018-08-24T10:53:05-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/</loc>
-    <lastmod>2018-08-24T10:53:05-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/</loc>
-    <lastmod>2018-08-24T10:53:05-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/</loc>
-    <lastmod>2018-08-24T10:53:05-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/01-introduction/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/1-www/01-introduction/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/01-introduction/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/01-introduction/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/01-introduction/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/01-introduction/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/01-introduction/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/01-introduction/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/01-introduction/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/02-navigating-canvas-codio/</loc>
-    <lastmod>2020-01-16T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/02-standards/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/02-basic-syntax/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/02-css-rule-format/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/02-element-structure/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/02-raster-graphic-files/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/02-server-hardware/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/1-www/02-the-technologies-of-the-web/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/02-uris-and-urls/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/03-css-selectors/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/03-network-panel/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/03-document-structure/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/03-html-raster-graphics/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/03-functions/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/03-perceivable/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/03-static-ip/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/03-where-to-find-help/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/1-www/03-why-standards/</loc>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/04-applying-css-rules/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/04-arrays-and-lists/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/04-browser-requests/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/04-domain-names/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/04-flow-model/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/04-operable/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/1-www/04-summary/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/04-the-canvas-element/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/04-what-youll-learn/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/05-textbooks/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/05-css-cascading/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/05-objects-and-classes/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/05-ports/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/05-status-codes/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/05-tables/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/05-the-pen-metaphor/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/05-understandable/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/06-attaching-scripts/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/06-css-specificity/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/06-forms/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/06-plagiarism/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/06-request-methods/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/06-robust/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/06-server-programs/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/06-stroke-and-fill/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/07-common-html-elements/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/07-css-units/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/07-dev-tools/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/07-managed-hosting/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/07-request-headers/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/07-shape-functions/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/07-syllabus/</loc>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/08-canvas-text/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/08-css-functions/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/08-the-dom/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/08-strict-mode/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/08-summary/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/09-canvas-images/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/09-css-colors/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/09-regexp/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/10-css-text/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/10-json/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/10-canvas-transforms/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/11-canvas-animation/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/11-css-box-model/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/12-css-positioning/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/12-vector-graphics/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/13-css-layouts/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/13-libraries/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/13-svg/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/14-responsive-css/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/14-svg-paths/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/15-css-transformations/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/15-svg-shapes/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/16-css-transitions/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/17-svg-animation/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/16-svg-transforms/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/17-timing-functions/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/18-css-animation/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/19-svg-and-css/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/18-svg-and-html/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/20-svg-and-js/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/19-libraries/</loc>
-    <lastmod>2018-08-24T10:53:26-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/</loc>
-    <lastmod>2022-07-05T10:53:05-05:00</lastmod>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/categories/</loc>
-  </url><url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/tags/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/1-www/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/01-introduction/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/1-www/01-introduction/index.html</loc>
+    <lastmod>2022-07-21T13:52:11-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/01-introduction/index.html</loc>
+    <lastmod>2022-12-03T14:07:54-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/01-introduction/index.html</loc>
+    <lastmod>2022-07-22T01:13:06-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/01-introduction/index.html</loc>
+    <lastmod>2022-07-24T15:21:52-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/01-introduction/index.html</loc>
+    <lastmod>2022-07-25T14:17:28-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/01-introduction/index.html</loc>
+    <lastmod>2022-10-09T16:08:11-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/01-introduction/index.html</loc>
+    <lastmod>2022-11-10T16:13:44-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/01-introduction/index.html</loc>
+    <lastmod>2022-12-03T14:07:54-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/02-navigating-canvas-codio/index.html</loc>
+    <lastmod>2022-08-17T11:04:44-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/02-standards/index.html</loc>
+    <lastmod>2022-10-09T16:08:11-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/02-basic-syntax/index.html</loc>
+    <lastmod>2022-07-25T14:17:28-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/02-css-rule-format/index.html</loc>
+    <lastmod>2022-07-24T15:21:52-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/02-element-structure/index.html</loc>
+    <lastmod>2022-07-22T01:32:35-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/02-raster-graphic-files/index.html</loc>
+    <lastmod>2022-11-06T13:54:27-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/02-server-hardware/index.html</loc>
+    <lastmod>2022-12-03T14:07:54-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/1-www/02-the-technologies-of-the-web/index.html</loc>
+    <lastmod>2022-07-26T15:29:44-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/02-uris-and-urls/index.html</loc>
+    <lastmod>2022-07-26T15:31:40-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/03-css-selectors/index.html</loc>
+    <lastmod>2022-07-24T15:21:52-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/03-network-panel/index.html</loc>
+    <lastmod>2022-07-26T15:31:40-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/03-document-structure/index.html</loc>
+    <lastmod>2022-07-22T01:13:06-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/03-html-raster-graphics/index.html</loc>
+    <lastmod>2022-11-06T13:54:27-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/03-functions/index.html</loc>
+    <lastmod>2022-07-25T14:17:28-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/03-perceivable/index.html</loc>
+    <lastmod>2022-10-09T16:08:11-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/03-static-ip/index.html</loc>
+    <lastmod>2022-12-03T14:07:54-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/03-where-to-find-help/index.html</loc>
+    <lastmod>2022-08-17T11:04:44-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/1-www/03-why-standards/index.html</loc>
+    <lastmod>2022-07-26T15:31:40-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/04-applying-css-rules/index.html</loc>
+    <lastmod>2022-07-24T15:21:52-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/04-arrays-and-lists/index.html</loc>
+    <lastmod>2022-09-29T14:45:21-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/04-browser-requests/index.html</loc>
+    <lastmod>2022-07-26T15:31:40-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/04-domain-names/index.html</loc>
+    <lastmod>2022-12-03T14:07:54-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/04-flow-model/index.html</loc>
+    <lastmod>2022-07-22T01:13:06-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/04-operable/index.html</loc>
+    <lastmod>2022-10-09T16:08:11-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/1-www/04-summary/index.html</loc>
+    <lastmod>2022-07-26T15:31:40-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/04-the-canvas-element/index.html</loc>
+    <lastmod>2022-11-06T13:54:27-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/04-what-youll-learn/index.html</loc>
+    <lastmod>2022-07-25T11:00:03-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/05-textbooks/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/05-css-cascading/index.html</loc>
+    <lastmod>2022-07-24T15:21:52-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/05-objects-and-classes/index.html</loc>
+    <lastmod>2022-07-25T14:17:28-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/05-ports/index.html</loc>
+    <lastmod>2022-12-03T14:07:54-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/05-status-codes/index.html</loc>
+    <lastmod>2022-07-26T15:31:40-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/05-tables/index.html</loc>
+    <lastmod>2022-07-22T01:13:06-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/05-the-pen-metaphor/index.html</loc>
+    <lastmod>2022-11-06T13:54:27-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/05-understandable/index.html</loc>
+    <lastmod>2022-10-09T16:08:11-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/06-attaching-scripts/index.html</loc>
+    <lastmod>2022-07-25T14:17:28-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/06-css-specificity/index.html</loc>
+    <lastmod>2022-07-25T09:32:04-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/06-forms/index.html</loc>
+    <lastmod>2022-07-22T01:13:06-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/06-plagiarism/index.html</loc>
+    <lastmod>2022-07-21T15:56:16-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/06-request-methods/index.html</loc>
+    <lastmod>2022-07-26T15:31:40-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/06-robust/index.html</loc>
+    <lastmod>2022-10-09T16:08:11-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/06-server-programs/index.html</loc>
+    <lastmod>2022-12-03T14:07:54-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/06-stroke-and-fill/index.html</loc>
+    <lastmod>2022-11-06T13:54:27-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/07-common-html-elements/index.html</loc>
+    <lastmod>2022-07-22T01:13:06-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/07-css-units/index.html</loc>
+    <lastmod>2022-07-24T15:21:52-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/07-dev-tools/index.html</loc>
+    <lastmod>2022-10-09T16:08:11-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/07-managed-hosting/index.html</loc>
+    <lastmod>2022-12-03T14:07:54-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/07-request-headers/index.html</loc>
+    <lastmod>2022-12-03T14:07:54-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/07-shape-functions/index.html</loc>
+    <lastmod>2022-11-06T13:54:27-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/index.html</loc>
+    <lastmod>2022-07-25T14:17:28-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/07-syllabus/index.html</loc>
+    <lastmod>2022-09-29T14:44:55-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/08-canvas-text/index.html</loc>
+    <lastmod>2022-11-13T15:40:36-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/08-css-functions/index.html</loc>
+    <lastmod>2022-07-24T15:21:52-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/08-the-dom/index.html</loc>
+    <lastmod>2022-07-26T15:29:44-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/08-strict-mode/index.html</loc>
+    <lastmod>2022-07-25T14:17:28-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/08-summary/index.html</loc>
+    <lastmod>2022-10-09T16:08:11-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/09-canvas-images/index.html</loc>
+    <lastmod>2022-11-13T15:40:36-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/09-css-colors/index.html</loc>
+    <lastmod>2022-07-25T09:36:22-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/09-regexp/index.html</loc>
+    <lastmod>2022-07-25T14:17:28-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/10-css-text/index.html</loc>
+    <lastmod>2022-07-24T15:21:52-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/10-json/index.html</loc>
+    <lastmod>2022-07-25T14:17:28-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/10-canvas-transforms/index.html</loc>
+    <lastmod>2022-11-13T15:40:36-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/11-ajax/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/11-canvas-animation/index.html</loc>
+    <lastmod>2022-11-13T15:40:36-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/11-css-box-model/index.html</loc>
+    <lastmod>2022-07-25T09:32:04-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/12-css-positioning/index.html</loc>
+    <lastmod>2022-07-25T09:32:04-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/12-vector-graphics/index.html</loc>
+    <lastmod>2022-11-27T14:30:10-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/13-css-layouts/index.html</loc>
+    <lastmod>2022-07-25T09:41:09-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/13-libraries/index.html</loc>
+    <lastmod>2022-11-27T15:07:24-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/13-svg/index.html</loc>
+    <lastmod>2022-11-13T15:40:36-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/14-responsive-css/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/14-svg-paths/index.html</loc>
+    <lastmod>2022-11-13T15:40:36-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/15-css-transformations/index.html</loc>
+    <lastmod>2022-10-30T17:21:56-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/15-svg-shapes/index.html</loc>
+    <lastmod>2022-11-13T15:40:36-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/16-css-transitions/index.html</loc>
+    <lastmod>2022-10-30T17:21:56-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/17-svg-animation/index.html</loc>
+    <lastmod>2022-11-13T16:39:23-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/16-svg-transforms/index.html</loc>
+    <lastmod>2022-11-13T15:40:36-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/17-timing-functions/index.html</loc>
+    <lastmod>2022-10-30T17:21:56-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/18-css-animation/index.html</loc>
+    <lastmod>2022-10-30T17:21:56-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/19-svg-and-css/index.html</loc>
+    <lastmod>2022-11-13T15:40:36-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/18-svg-and-html/index.html</loc>
+    <lastmod>2022-11-13T15:40:36-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/20-svg-and-js/index.html</loc>
+    <lastmod>2022-11-13T15:40:36-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/19-libraries/index.html</loc>
+    <lastmod>2022-11-27T15:07:24-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/categories/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/index.html</loc>
+    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/tags/index.html</loc>
   </url>
 </urlset>
