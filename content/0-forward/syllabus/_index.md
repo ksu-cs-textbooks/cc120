@@ -179,6 +179,24 @@ Students may choose to do some development work on their own computer. The recom
 
 We are part of the SafeZone community network of trained K-State  faculty/staff/students who are available to listen and support you. As a SafeZone Ally, I can help you connect with resources on campus to  address problems you face that interfere with your academic success,  particularly issues of sexual violence, hateful acts, or concerns faced  by individuals due to sexual orientation/gender identity. My goal is to  help you be successful and to maintain a safe and equitable campus.
 
+### Incomplete Policy
+
+Students should strive to complete this course in its entirety before the end of the semester in which they are enrolled. However, since retaking the course would be costly and repetitive for students, we would like to give students a chance to succeed with a little help rather than immediately fail students who are struggling.
+
+If you are unable to complete the course in a timely manner, please contact the instructor to discuss an incomplete grade. Incomplete grades are given solely at the instructor's discretion. See the official [K-State Grading Policy](https://www.k-state.edu/registrar/students/academicpolicy/#GRADING) for more information. In general, _poor time management alone is not a sufficient reason for an incomplete grade_.
+
+Unless otherwise noted in writing on a signed [Incomplete Agreement Form](https://www.k-state.edu/registrar/faculty-staff/forms/Incomplete%20agreement%20form.docx), the following stipulations apply to any incomplete grades given in Computational Core courses:
+
+1. Students may receive at most two incompletes in Computational Core courses throughout their time in the program
+2. Students will be given 6 calendar weeks from the end of the enrolled semester's finals week to complete the course
+3. Any modules in a future CC course which depend on incomplete work will not be accessible until the previous course is finished
+  1. For example, if a student is given an incomplete in CC 210, then all modules in CC 310 will be inaccessible until CC 210 is complete
+4. Students understand that access to instructor and GTA assistance may be limited after the end of an academic semester due to holidays and other obligations
+5. If a student fails to resolve an incomplete grade after 6 weeks, they will be assigned an 'F' in the course. In addition, they will be dropped from any other Computational Core courses which require the failed course as a prerequisite or corequisite.
+
+
+
+
 {{< syllabus exclude="copyright facecoverings" >}}
 
 ## Subject to Change
