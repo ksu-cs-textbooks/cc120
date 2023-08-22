@@ -17,8 +17,7 @@ Our **preferred method of contact** will be through the [Edstem Discussion board
 **Please allow at least one full business day for responses to any inquiry.**
 {{% /notice %}}
 
-**Professor:**  Dr. Josh Weese (he/him) – [weeser@ksu.edu](mailto:weeser@ksu.edu) (teaches sections A/C/E )
-
+**Professor:**  Dr. Josh Weese (he/him) 
 - **Office:** 2214 Engineering Hall (DUE)
 - **Office Hours:** weeser.net/calendar
   - **Want to meet with me outside office hours?** https://calendly.com/weeser
@@ -44,7 +43,7 @@ If you need help getting started with the platform, please go through the follow
 - [Student guide to Ed Discussion](https://edstem.org/us/help/student-discussion)
 - [Content Editor Guide](https://edstem.org/us/help/content-editor)
 - [Push Notifications](https://edstem.org/us/help/push-notifications)
-- 
+  
 ### Course Overview
 
 The Internet, web browsers, and web-page-development technology: web-page design and implementation with Hypertext Markup Language (HTML), and CSS. Integration of program script into web pages. Introduction to graphics design, animation, and server utilization.
