@@ -56,7 +56,7 @@ Please note that the materials presented in Canvas have additional graded assign
 {{% /notice %}}
 
 #### CS Departmental Textbook Server
-The CC 120 course textbook is only one of several textbooks authored by your instructors and made available on the departmental server.  For example, your CC 110 textbook is also available there for you to go back and review.  You can access any of these textbooks at the site <a href="https://textbooks.cs.ksu.edu" target="_blank">https://textbooks.cs.ksu.edu</a>
+The CC 120 course textbook is only one of several textbooks authored by your instructors and made available on the departmental server.  For example, your CC 120 textbook is also available there for you to go back and review.  You can access any of these textbooks at the site <a href="https://textbooks.cs.ksu.edu" target="_blank">https://textbooks.cs.ksu.edu</a>
 
 #### O'Riley for Higher Education
 
