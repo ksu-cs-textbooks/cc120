@@ -1,7 +1,7 @@
 ---
 title: "Fall 2023 Syllabus"
 weight: 70
-pre: "7. "
+pre: "0.1"
 ---
 
 ## CC 120 - Web Page Design - Fall 2023
@@ -162,7 +162,7 @@ In this course, all work submitted by a student should be created solely by the 
 Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via email. Not understanding the policy does not mean that it won't apply to you!
 {{% /notice %}}
 
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. **Any assignment submitted late will have that assignment's grade reduced by 10% of the total possible points on that project for each day it is late. This penalty will be assessed automatically in the Canvas gradebook.** For the purposes of record keeping, a combination of the time of a submission via Canvas and the creation of a release in GitHub will be used to determine if the assignment was submitted on time.
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. **Any assignment submitted late will have that assignment's grade reduced by 10% of the total possible points on that project for each day it is late (pro-rated by hour). This penalty will be assessed automatically in the Canvas gradebook.** For the purposes of record keeping, a combination of the time of a submission via Canvas and the creation of a release in GitHub will be used to determine if the assignment was submitted on time.
 
 However, even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
 
