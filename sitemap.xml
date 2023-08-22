@@ -15,26 +15,6 @@
 	
 		
 		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
 		
 
 	
@@ -504,7 +484,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/index.html</loc>
-    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+    <lastmod>2023-08-22T10:34:17-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/1-www/index.html</loc>
@@ -536,10 +516,6 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/index.html</loc>
-    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/01-introduction/index.html</loc>
     <lastmod>2023-08-11T12:28:45-05:00</lastmod>
   </url>
   <url>
@@ -635,10 +611,6 @@
     <lastmod>2022-12-03T14:07:54-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/03-where-to-find-help/index.html</loc>
-    <lastmod>2022-08-17T11:04:44-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/1-www/03-why-standards/index.html</loc>
     <lastmod>2022-07-26T15:31:40-05:00</lastmod>
   </url>
@@ -673,10 +645,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/04-the-canvas-element/index.html</loc>
     <lastmod>2022-11-06T13:54:27-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/05-textbooks/index.html</loc>
-    <lastmod>2023-08-21T15:26:29-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/4-css/05-css-cascading/index.html</loc>
@@ -717,10 +685,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/06-forms/index.html</loc>
     <lastmod>2022-07-22T01:13:06-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/06-plagiarism/index.html</loc>
-    <lastmod>2022-07-21T15:56:16-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/2-http/06-request-methods/index.html</loc>
@@ -767,8 +731,8 @@
     <lastmod>2022-07-25T14:17:28-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/07-syllabus/index.html</loc>
-    <lastmod>2023-08-22T07:58:55-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/0-forward/syllabus/index.html</loc>
+    <lastmod>2023-08-22T10:34:17-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/7-graphics/08-canvas-text/index.html</loc>
@@ -903,7 +867,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/index.html</loc>
-    <lastmod>2023-08-11T12:28:45-05:00</lastmod>
+    <lastmod>2023-08-22T10:34:17-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/tags/index.html</loc>
