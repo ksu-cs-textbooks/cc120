@@ -12,7 +12,7 @@ pre: "0.1"
 
 Our **preferred method of contact** will be through the [Edstem Discussion board](https://k-state.instructure.com/courses/148444/external_tools/18647?display=borderless). Any questions or feedback can be posted there. More detail on using this platform can be found below and in Canvas.
 
-**All emails** for the course should be sent to [cc110-help@KSUemailProd.onmicrosoft.com](mailto:cc110-help@KSUemailProd.onmicrosoft.com?subject=CC%20110%20Help) (sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email. You are welcome to send emails that may contain more sensitive information directly to intended recipients.
+**All emails** for the course should be sent to [cc120-help@KSUemailProd.onmicrosoft.com](mailto:cc120-help@KSUemailProd.onmicrosoft.com?subject=CC%20110%20Help) (sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email. You are welcome to send emails that may contain more sensitive information directly to intended recipients.
 
 **Please allow at least one full business day for responses to any inquiry.**
 {{% /notice %}}
