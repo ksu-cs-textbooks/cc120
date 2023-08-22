@@ -35,16 +35,6 @@
 	
 		
 		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
 		
 
 	
@@ -541,7 +531,7 @@ Info URLs and URIs The terms URL and URI are often used interchangeably in pract
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc120/2-http/03-network-panel/index.html</guid>
       <description>Now that we&amp;rsquo;ve discussed the request-response pattern and address resolution, let&amp;rsquo;s turn our attention to how requests are processed in the browser. The following tutorial from Google describes the network panel in Chrome:
-YouTube Video Also, open the Get Started Demo page it references.
+Also, open the Get Started Demo page it references.
 Or, if you prefer you can work through the written version of the tutorial
 Similar developer tools exist in other browsers:
 Firefox Safari Edge </description>

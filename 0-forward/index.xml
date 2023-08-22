@@ -35,16 +35,6 @@
 	
 		
 		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
 		
 
 	
@@ -528,27 +518,12 @@
 Course Resources Syllabus Textbook Welcome Message Hello students, and welcome to CC 120 - Web Page Development. My name is Nathan Bean, and I will be your instructor for this course.</description>
     </item>
     <item>
-      <title>Navigating Canvas &amp; Codio</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/02-navigating-canvas-codio/index.html</link>
-      <pubDate>Thu, 16 Jan 2020 10:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc120/0-forward/02-navigating-canvas-codio/index.html</guid>
-      <description>Web Only This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.
-Resources Codio Documentation Video Script This course makes extensive use of several features of Canvas which you may or may not have worked with before. To give you the best experience in this course, this video will briefly describe those features and the best way to access them.</description>
-    </item>
-    <item>
       <title>Where to Find Help</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/03-where-to-find-help/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc120/0-forward/03-where-to-find-help/index.html</guid>
       <description>Web Only This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.
 Resources K-State IT Help Desk - Email helpdesk@ksu.edu K-State Online Canvas Help Instructure Canvas Guides Codio Documentation Codio Support K-State Libraries K-State CS Support K-State CS Advising K-State Engineering Student Services K-State Office of Student Life K-State Report It Video Script As you work on the materials in this course, you may run into questions or problems and need assistance.</description>
-    </item>
-    <item>
-      <title>What You&#39;ll Learn</title>
-      <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/04-what-youll-learn/index.html</link>
-      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc120/0-forward/04-what-youll-learn/index.html</guid>
-      <description>Week &amp;amp; Topic The World Wide Web Web Pages and Browsers Basic CSS CSS Layouts Introduction to JavaScript JavaScript and the DOM Querying and Modifying the DOM Web Accessibility Working with Forms Making Requests with JavaScript CSS Animations Web Graphics Web Hosting JavaScript Libraries CSS Libraries </description>
     </item>
     <item>
       <title>Course Textbooks</title>
@@ -563,15 +538,15 @@ Resources K-State IT Help Desk - Email helpdesk@ksu.edu K-State Online Canvas He
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc120/0-forward/06-plagiarism/index.html</guid>
       <description>Web Only This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.
-YouTube Video Resources K-State Honor &amp;amp; Integrity System Video Script &amp;ldquo;On my honor, as a student, I have neither given nor received unauthorized aid on this academic work.&amp;rdquo; - K-State Honor Pledge</description>
+Resources K-State Honor &amp;amp; Integrity System Video Script &amp;ldquo;On my honor, as a student, I have neither given nor received unauthorized aid on this academic work.&amp;rdquo; - K-State Honor Pledge</description>
     </item>
     <item>
-      <title>Spring 2022 Syllabus</title>
+      <title>Fall 2023 Syllabus</title>
       <link>https://ksu-cs-textbooks.github.io/cc120/0-forward/07-syllabus/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc120/0-forward/07-syllabus/index.html</guid>
-      <description>CC 120 - Web Page Design - Spring 2022 Instructor Contact Information Instructor: Nathan Bean (nhbean AT ksu DOT edu)
-I use he/him pronouns. Feel free to share your own pronouns with me, and I&amp;rsquo;ll do my best to use them! Office: DUE 2216 Phone: (785) 483-9265 (Call/Text) Website: https://nathanhbean.com Virtual Office Hours: By appointment via Zoom . Preferred Methods of Communication: Email: Students should email cc120-help (cc120-help@KSUemailProd.onmicrosoft.com ). We will try to respond within one business day.</description>
+      <description>CC 120 - Web Page Design - Fall 2023 Contact Info Our preferred method of contact will be through the Edstem Discussion board . Any questions or feedback can be posted there. More detail on using this platform can be found below and in Canvas.
+All emails for the course should be sent to cc110-help@KSUemailProd.onmicrosoft.com (sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email.</description>
     </item>
   </channel>
 </rss>
