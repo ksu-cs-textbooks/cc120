@@ -495,18 +495,18 @@
     <link href="https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/index.print.html" rel="alternate" type="text/html" title="The Document Object Model :: K-State CC 120 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/embed.html" rel="alternate" type="text/html" title="The Document Object Model :: K-State CC 120 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/fontawesome-all.min.css?1692729838" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc120/css/fontawesome-all.min.css?1692729838" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/nucleus.css?1692729838" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/auto-complete.css?1692729838" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc120/css/auto-complete.css?1692729838" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/perfect-scrollbar.min.css?1692729838" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/fonts.css?1692729838" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc120/css/fonts.css?1692729838" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme.css?1692729838" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-auto.css?1692729838" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/variant.css?1692729838" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/print.css?1692729838" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/ie.css?1692729838" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/url.js?1692729838"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/variant.js?1692729838"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/fontawesome-all.min.css?1696614123" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc120/css/fontawesome-all.min.css?1696614123" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/nucleus.css?1696614123" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/auto-complete.css?1696614123" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc120/css/auto-complete.css?1696614123" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/perfect-scrollbar.min.css?1696614123" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/fonts.css?1696614123" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc120/css/fonts.css?1696614123" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme.css?1696614123" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/theme-auto.css?1696614123" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/variant.css?1696614123" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/print.css?1696614123" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/ie.css?1696614123" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/url.js?1696614123"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/variant.js?1696614123"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -525,7 +525,7 @@
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc120/css/custom.css?1692729838" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc120/css/custom.css?1696614123" rel="stylesheet">
 
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc120/5-js/07-the-dom/index.html">
@@ -547,7 +547,7 @@
 <p>The DOM is a tree-like structure that is created by the browser when it parses the HTML page.  Then, as CSS rules are interpreted and applied, they are attached to the individual nodes of the tree.  Finally, as the page&rsquo;s JavaScript executes, it may modify the tree structure and node properties.  The browser uses this structure and properties as part of its rendering process.</p>
 <h2 id="the-document-instance">The Document Instance</h2>
 <p>The DOM is exposed to JavaScript through an instance of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document" target="_blank">Document</a>
- class, which is attached to the <code>document</code> property of the window (in the browser, the window is the top-level, a.k.a global scope.  Its properties can be accessed with our without referencing the <code>window</code> object, i.e. <code>window.document</code> and <code>document</code> refer to the same object).</p>
+ class, which is attached to the <code>document</code> property of the window (in the browser, the window is the top-level, a.k.a global scope.  Its properties can be accessed with or without referencing the <code>window</code> object, i.e. <code>window.document</code> and <code>document</code> refer to the same object).</p>
 <p>This document instance serves as the entry point for working with the DOM.</p>
 <h2 id="the-dom-tree">The Dom Tree</h2>
 <p>The DOM tree nodes are instances of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element" target="_blank">Element</a>
@@ -692,11 +692,11 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/clipboard.min.js?1692729838" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.min.js?1692729838" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/theme.js?1692729838" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/clipboard.min.js?1696614123" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/perfect-scrollbar.min.js?1696614123" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/theme.js?1696614123" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc120/js/tele-scroll.js?1692729838 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc120/js/tele-scroll.js?1696614123 defer"></script>
     
   </body>
 </html>
