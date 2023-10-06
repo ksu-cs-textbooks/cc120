@@ -10,7 +10,7 @@ Now that we've reviewed the basic syntax and structure of the JavaScript languag
 The DOM is a tree-like structure that is created by the browser when it parses the HTML page.  Then, as CSS rules are interpreted and applied, they are attached to the individual nodes of the tree.  Finally, as the page's JavaScript executes, it may modify the tree structure and node properties.  The browser uses this structure and properties as part of its rendering process.
 
 ## The Document Instance 
-The DOM is exposed to JavaScript through an instance of the [Document](https://developer.mozilla.org/en-US/docs/Web/API/Document) class, which is attached to the `document` property of the window (in the browser, the window is the top-level, a.k.a global scope.  Its properties can be accessed with our without referencing the `window` object, i.e. `window.document` and `document` refer to the same object).
+The DOM is exposed to JavaScript through an instance of the [Document](https://developer.mozilla.org/en-US/docs/Web/API/Document) class, which is attached to the `document` property of the window (in the browser, the window is the top-level, a.k.a global scope.  Its properties can be accessed with or without referencing the `window` object, i.e. `window.document` and `document` refer to the same object).
 
 This document instance serves as the entry point for working with the DOM.
 
