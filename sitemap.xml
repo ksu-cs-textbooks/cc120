@@ -480,6 +480,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
@@ -745,6 +750,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/3-html/08-the-dom/index.html</loc>
     <lastmod>2022-07-26T15:29:44-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc120/8-hosting/08-github-pages/index.html</loc>
+    <lastmod>2023-11-30T09:49:36-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc120/5-js/08-strict-mode/index.html</loc>

@@ -480,6 +480,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -541,6 +546,13 @@ Your computer probably is running multiple programs that communicate across a ne
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/07-managed-hosting/index.html</guid>
       <description>Now that you have a more nuanced understanding of what it takes to host a website, we can explore options for making the process easier, and potentially more reliable. It is important to understand that few web developers actually tackle every step of the process. Instead, most turn to some form of managed hosting - allowing a business whose primary role is hosting web servers to do some of the work.</description>
+    </item>
+    <item>
+      <title>GitHub Pages</title>
+      <link>https://ksu-cs-textbooks.github.io/cc120/8-hosting/08-github-pages/index.html</link>
+      <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc120/8-hosting/08-github-pages/index.html</guid>
+      <description>There are endless number of website hosting options out there with varying ranges of prices and effort to maintain. For now, we are going to go with a middle ground option with GitHub Pages. GitHub pages offers an easy way of hosting static websites (static websites have no back-end server logic, like databases, users, etc.). You can host one public facing website for free with a basic account and more if you have a pro account.</description>
     </item>
   </channel>
 </rss>

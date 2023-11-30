@@ -480,6 +480,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 var relearn_search_index = [
   {
     "content": " Web Only This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.\nWelcome to CC120! Please take the time to read through the syllabus . Content for this course will be delivered through a variety of platforms, all can be found by starting in Canvas. This textbook as well as Codio (link in Canvas) will be the primary sources of information.\n",
@@ -942,6 +947,13 @@ var relearn_search_index = [
     "tags": null,
     "title": "Document Object Model",
     "uri": "/3-html/08-the-dom/index.html"
+  },
+  {
+    "content": "There are endless number of website hosting options out there with varying ranges of prices and effort to maintain. For now, we are going to go with a middle ground option with GitHub Pages. GitHub pages offers an easy way of hosting static websites (static websites have no back-end server logic, like databases, users, etc.). You can host one public facing website for free with a basic account and more if you have a pro account. Here, we are going to walk through how to get a webpage setup on GitHub Pages.\n1. Getting an Account Getting an account on GitHub is pretty easy. To sign up, follow this link: https://github.com/signup . If you still have a few years left before you graduate, I highly recommend you use your K-State email address for your account so you can get the free student developer pack https://education.github.com/pack which has lots of free goodies. If you already have an account, you should be able to change your email address to take advantage of this perk.\n2. Creating the Repository To get starting making our webpage, we need a repository. Repositories are quite similar to file folders in Cloud Storage like OneDrive or Google Drive, they are a central storage location where people can collaborate, track changes, and develop software (among other things). The git version control system is developed with programming in mind and is a much better storage solution compared to your standard cloud storage built for documents and other types of data. You wont become a git pro in this chapter, but you can at least get an idea for what it is.\nTo make your repository, sign-in to GitHub and click the “+” button in the top right corner, then click “New Repository ”. That should take you to a page that looks like this: To finish creating the repository, you need to name it “\u003cuser\u003e.github.io” where \u003cuser\u003e is your GitHub username. For example, mine is named “weeser.github.io”. For settings, leave the repository as “Public” and also check the “Add a README File” box. Then you can click the “Create repository” button at the bottom. 3. Configuring Page Settings Before we make any of our web pages, we need to configure a few things on our repository because GitHub pages are not enabled by default.\nOpen your repo’s settings. The link to these can be found under your repository name. If you do not see the “Settings” tab, click the … to reveal the drop down menu. On the settings page, there should be a menu on the left. Under the “Code and automation” section, click on “Pages” Now, under “Build and deployment”, under “Source” select the “Deploy from a branch” option.\nYou can now use the branch dropdown menu to select a publishing source. For this example, select the “main” branch. You do not need to select a folder for your publishing source. It should, by default, be “/(root)” That’s it for now as far as settings go! You should see something like the following when looking at the “Page” settings, you should see something like the following…though note that your url will look quite different than mine since I use a custom domain. Yours should be something like “http://\u003cuser\u003e.github.io”. ",
+    "description": "",
+    "tags": null,
+    "title": "GitHub Pages",
+    "uri": "/8-hosting/08-github-pages/index.html"
   },
   {
     "content": "JavaScript has been around a long time, and a lot of JavaScript code has been written by inexperienced programmers. Browser manufacturers compensated for this by allowing lenient interpretation of JavaScript programs, and by ignoring many errors as they occurred.\nWhile this made poorly-written scripts run, arguably they didn’t run well. In ECMA5, strict mode was introduced to solve the problems of lenient interpretation.\nStrict mode according to the Mozilla Developer Network :\nEliminates some JavaScript silent errors by changing them to throw errors. Fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that’s not strict mode. Prohibits some syntax likely to be defined in future versions of ECMAScript. You can place the interpreter in strict mode by including this line at the start of your JavaScript file:\n\"use strict\";In interpreters that don’t support strict mode, this expression will be interpreted as a string and do nothing.\n",
