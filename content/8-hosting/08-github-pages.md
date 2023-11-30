@@ -67,7 +67,3 @@ There are a lot of ways to work on adding content to your repository. You can up
 4. Visit your webpage by going to "**http://\<user\>.github.io**". You should see the "**Hello World** message.
 
 You are now off to the races! After this course, you will be able to use this repository to host any static website that you want. It is a great place to host a portfolio or CV to share with employers when interviewing and applying for jobs. We really only scratched the surface on what is possible with GitHub pages. If you want to learn more, you can explore their documentation [https://docs.github.com/en/pages](https://docs.github.com/en/pages) or check out more tutorials over on YouTube.
-
-```
-
-```
