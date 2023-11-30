@@ -47,23 +47,24 @@ Before we make any of our web pages, we need to configure a few things on our re
 
 There are a lot of ways to work on adding content to your repository. You can upload files or create new ones right in your web browser. For our purposes, we will choose to create one inside our browser. If you want to work locally on your computer, you can choose to upload files instead, or you can watch this tutorial [https://youtu.be/RGOj5yH7evk?si=t-eH2zMQGiF8kUiX](https://youtu.be/RGOj5yH7evk?si=t-eH2zMQGiF8kUiX) on how to use git.
 
-1. Follow the instructions here [https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files) to create a new file.
-2. Name this file **index.html** and add the following code to it
+1.  Follow the instructions here [https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files) to create a new file.
+2.  Name this file **index.html** and add the following code to it: ```html
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Home Page</title>
+        </head>
 
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Home Page</title>
-    </head>
+        <body>
+            <h1>Hello World!</h1>
+        </body>
 
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+    </html>
+
 ```
 
 3. To save the file, commit the changes directly to the main branch as shown in the instructions on step #1.
 4. Visit your webpage by going to "**http://\<user\>.github.io**". You should see the "**Hello World** message.
 
 You are now off to the races! After this course, you will be able to use this repository to host any static website that you want. It is a great place to host a portfolio or CV to share with employers when interviewing and applying for jobs. We really only scratched the surface on what is possible with GitHub pages. If you want to learn more, you can explore their documentation [https://docs.github.com/en/pages](https://docs.github.com/en/pages) or check out more tutorials over on YouTube.
+```
