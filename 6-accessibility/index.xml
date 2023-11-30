@@ -508,7 +508,7 @@ The power of the Web is in its universality.</description>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/02-standards/index.html</guid>
       <description>The W3C has crafted a number of accessibility standards, as introduced in the following video Introduction to Web Accessibility and W3C Standards created by the Web Accessibility Initiative:
-YouTube Video The specific W3C standards covering web accessibility are:
+The specific W3C standards covering web accessibility are:
 Web Content Accessibility Guidelines (WCAG) The WACG is built around four principles for content delivered through the web. It should be 1:
 Perceivable - Information and user interface components must be presentable to users in ways they can perceive.</description>
     </item>
@@ -549,7 +549,7 @@ But this requirement also covers users understanding how to make use of interact
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc120/6-accessibility/07-dev-tools/index.html</guid>
       <description>Just as you can use W3C&amp;rsquo;s validator to help validate your HTML, tools exist to help evaluate the accessibility of your websites. The easiest of these are integrated into the developer tools of your browser. The following video covers using Chrome developer tools to address accessibility bugs:
-YouTube Video We&amp;rsquo;ve also talked about Screen Readers and Magnifiers, which are typically integrated into your operating system. You can use these to experience your web page the same way a disabled user might.</description>
+We&amp;rsquo;ve also talked about Screen Readers and Magnifiers, which are typically integrated into your operating system. You can use these to experience your web page the same way a disabled user might.</description>
     </item>
     <item>
       <title>Summary</title>
