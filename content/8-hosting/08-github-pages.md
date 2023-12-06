@@ -41,7 +41,12 @@ Before we make any of our web pages, we need to configure a few things on our re
    ![Branch Folder](/images/hosting/pages-settings-build-branch-folder.png)
 
 6. That's it for now as far as settings go! You should see something like the following when looking at the "**Page**" settings, you should see something like the following...though note that your url will look quite different than mine since I use a custom domain. Yours should be something like "**http://\<user\>.github.io**". You might have to refresh your page if you don't see the webpage url. But you should be able to visit your site now, but there won't be any content there yet.
-   ![Site Live in Settings](/images/hosting/site-live.png)
+   {{% notice info %}}
+
+If you still don't see a URL for your page being "live" yet, try to complete the next step in [adding content](4.-Adding-Content). You might also try editing and committing the content a couple times (adding a space or something) to force GitHub to recompile your website. Then go back and refresh your page settings to see if the link shows. Sometimes GitHub may take a few minutes to compile your site.
+
+{{% /notice %}}
+![Site Live in Settings](/images/hosting/site-live.png)
 
 ## 4. Adding Content
 
