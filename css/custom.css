@@ -2,33 +2,70 @@
 
 /* Align text on chapter pages to center */
 .chapter p {
-    text-align: center !important;
+  text-align: center !important;
 }
 
-/* Add Links for TELE and EMBED to top bar */
-.navigation,
-#top-tele-link,
-#top-embed-link {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    display: block;
-    float: right;
+/* Fix Font Weights for Lato */
+body {
+  font-weight: 400;
+}
+#R-body h2 {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+#R-body h3 {
+  font-weight: 700;
+  font-size: 2.0rem;
 }
 
-/* Update breadcrumb width to account for new buttons */
-#body #breadcrumbs {
-    width: calc(100% - 7*3.25rem);
+/* Sidebar Arrows */
+#R-sidebar #R-topics ul > li {
+  margin-left: 1rem; 
+}
+
+/* Sidebar Titles */
+#R-sidebar #R-topics ul > li > a b {
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+/* Git Footer */
+.git-footer {
+  padding: 1px 1em;
+  background-color: rgba( 134, 134, 134, .066 ) 
+}
+.git-footer p {
+  margin: 0.5em 0px;
+}
+
+/* Theme Version Footer */
+.theme-version-footer {
+  float: right;
+  opacity: 0.25;
+}
+
+/* Menu Footer */
+#R-footer {
+  font-size: 13px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  min-width: 230px;
+  max-width: 300px;
+  text-align: left;
+}
+#R-footer p {
+  margin: 0;
 }
 
 /* EMBED page should be 100% width */
 .embed {
-    width: 100%;
+  width: 100%;
 }
 
 /* Remove sidebar margins on EMBED and TELE pages */
-.tele #body,
-.embed #body {
+.tele #R-body,
+.embed #R-body {
     margin-left: 0px;
     min-width: 100%;
     max-width: 100%;
@@ -37,8 +74,8 @@
 
 /* Override screen width limit */
 @media screen and ( min-width: 1300px ){ 
-    .tele #body .flex-block-wrapper,
-    .embed #body .flex-block-wrapper {
+    .tele #R-body .flex-block-wrapper,
+    .embed #R-body .flex-block-wrapper {
         min-width: 100%;
         max-width: 100%;
         width: 100%;
@@ -51,7 +88,7 @@
 }
 
 /* Mirror TELE display */
-.mirror{
+.mirror {
     -moz-transform: scale(-1, 1);
     -webkit-transform: scale(-1, 1);
     -o-transform: scale(-1, 1);
@@ -83,12 +120,12 @@
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
-.tele #body-inner::-webkit-scrollbar {
+.tele #R-body-inner::-webkit-scrollbar {
     display: none;
   }
   
 /* Hide scrollbar for IE, Edge and Firefox */
-.tele #body-inner {
+.tele #R-body-inner {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
@@ -105,115 +142,4 @@
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
-}
-
-/* Git Footer */
-.git-footer {
-    padding: 1px 1em;
-    background-color: rgba( 134, 134, 134, .066 ) 
-}
-.git-footer p {
-    margin: 0.5em 0px;
-}
-
-/* Fix Font Weights for Lato */
-body {
-    font-weight: 400;
-}
-#body h2 {
-    font-weight: 700;
-    font-size: 2.4rem;
-}
-#body h3 {
-    font-weight: 700;
-    font-size: 2.0rem;
-}
-
-/* Sidebar Arrows */
-#sidebar ul.topics > li {
-    margin-left: 1rem; 
-}
-
-/* Keyboard */
-kbd {
-    /* Source: https:/*dylanatsmith.com/wrote/styling-the-kbd-element
-    /* Set up custom properties for colours so we can switch them in dark mode */
-    --kbd-color-background: var(--MAIN-BG-color);
-    /* These interpolated variables reference a SCSS map of HSL-based greys */
-    --kbd-color-border:     #CCCCCC;
-    --kbd-color-text:       var(--MAIN-TEXT-color);
-  
-    /* In dark mode, a straight-up inversion doesn’t work for
-    the “physical” key look so they need to be adjusted
-    @media (prefers-color-scheme: dark) {
-      --kbd-color-background: #{color(grey, 55)};
-      --kbd-color-border:     #{color(grey, 25)};
-      --kbd-color-text:       #{color(grey, 14)};
-    } */
-  
-    /* Match the page defaults in light mode but
-       switch to a light-ish grey in dark mode */
-    background-color: var(--kbd-color-background);
-    color: var(--kbd-color-text);
-  
-    /* Round off the corners like physical keys have */
-    border-radius: 0.25rem;
-  
-    /* Add a simple border */
-    border: 1px solid var(--kbd-color-border);
-  
-    /* A sharp shadow (with no blur) really gives 
-       the old school keyboard look */
-    box-shadow: 0 2px 0 1px var(--kbd-color-border);
-  
-    /* Remove the text cursor — totally optional
-    /* but I wanted it for my hover effect */
-    cursor: default;
-  
-    /* By default, browsers style <kbd> with a monospace typeface */
-    font-family: var(--CODE-font, "Consolas", menlo, monospace);
-  
-    /* If we do all this with the default font size
-    /* (mine is 18px on desktop) it’ll look massive
-    /* and bump into lines above and below */
-    font-size: 0.75em;
-  
-    /* Remove any extra space so I can accurately tweak the padding */
-    line-height: 1;
-  
-    /* Make narrow numbers and letters look less odd */
-    min-width: 0.75rem;
-    /* `min-width` doesn’t work on inline elements */
-    /* display: block; */
-    /* Keep the characters centred when narrower than the `max-width` */
-    text-align: center;
-  
-    /* Seemed to look more key-like with more horizontal padding 🤷 */
-    padding: 2px 5px;
-  
-    /* These two lines pull the whole element up now that they’re
-    /* bottom-heavy due to the `box-shadow`. This looks better
-    /* against the cap height of regular paragraph text. */
-    position: relative;
-    top: -1px;
-  
-    /* This is my favourite part of the whole thing. The key gets
-    /* “pushed” down and the shadow gets reduced so it looks like
-    /* it might when typing on a physical keyboard. */
-    &:hover {
-      box-shadow: 0 1px 0 0.5px var(--kbd-color-border);
-      top: 1px;
-    }
-}
-
-/* Sidebar Titles */
-#sidebar ul.topics > li > a b {
-    font-weight: 400;
-    opacity: 0.5;
-}
-
-/* Theme Version Footer */
-.theme-version-footer {
-    float: right;
-    opacity: 0.25;
 }
