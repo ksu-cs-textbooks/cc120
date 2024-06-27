@@ -110,7 +110,7 @@ The `object` type is used to store more than one value, and functions much like 
 }
 ```
 
-An object is essentially a collection of key/value pairs, known as __properties__.  We'll discuss objects in more depth in the [Objects and Classes]({{<ref "5-js/05-objects-and-classes">}}) section.
+An object is essentially a collection of key/value pairs, known as __properties__.  We'll discuss objects in more depth in the [Objects and Classes]({{% ref "5-js/05-objects-and-classes" %}}) section.
 
 ### Symbols
 

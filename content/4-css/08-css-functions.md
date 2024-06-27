@@ -18,7 +18,7 @@ CSS provides a number of useful functions that calculate values.  Functions are 
 Here `100vh` is the height of the viewport, and the header and footer are defined in terms of pixels. 
 
 {{% notice note %}}
-You might want to apply the `box-sizing: border-box` on these elements if they have padding and borders, or these additional dimensions will need to be included in the calculation. See the section on the [CSS Box Model]({{<ref "4-css/11-css-box-model.md">}}) for more details.
+You might want to apply the `box-sizing: border-box` on these elements if they have padding and borders, or these additional dimensions will need to be included in the calculation. See the section on the [CSS Box Model]({{% ref "4-css/11-css-box-model.md" %}}) for more details.
 {{% /notice %}}
 
 ## Math Functions 

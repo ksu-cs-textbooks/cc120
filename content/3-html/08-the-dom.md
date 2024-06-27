@@ -56,4 +56,4 @@ The page is rendered from the DOM, so editing the DOM changes how the page appea
 For convenience, this textbook will use the [Chrome browser](https://www.google.com/chrome) for all developer tool reference images and discussions, but the other browsers offer much of the same functionality.  If you prefer to use a different browser's web tools, look up the details in that browser's documentation.
 {{% /notice %}}
 
-You've now seen how the browser creates the DOM tree by parsing the HTML document and that DOM tree is used to render the page.  We'll revisit this concept in the chapters on [CSS]({{<ref 4-css>}}) and [JavaScript]({{<ref 5-js>}}) when we see how those technologies interact with the DOM.
+You've now seen how the browser creates the DOM tree by parsing the HTML document and that DOM tree is used to render the page.  We'll revisit this concept in the chapters on [CSS]({{% ref 4-css %}}) and [JavaScript]({{% ref 5-js %}}) when we see how those technologies interact with the DOM.

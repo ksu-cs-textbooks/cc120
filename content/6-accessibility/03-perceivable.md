@@ -13,7 +13,7 @@ We often think of vision as the primary sense for engaging with web content - af
 
 #### Screen Resolutions
 
-Let's start by revisiting an idea we covered in Chapter 4, [responsive design]({{<ref "4-css/14-responsive-css">}}).  When a website that does not use responsive design is viewed on a cell phone screen, it is rendered at a larger screen size, then scaled down to fit in the actual viewport. This helps preserve the layout of the page as it was designed, but also means the text is scaled too small to read, and the user must zoom in and pan to see it. Responsive design avoids this pitfall by using a more appropriate layout on a smaller screen.
+Let's start by revisiting an idea we covered in Chapter 4, [responsive design]({{% ref "4-css/14-responsive-css" %}}).  When a website that does not use responsive design is viewed on a cell phone screen, it is rendered at a larger screen size, then scaled down to fit in the actual viewport. This helps preserve the layout of the page as it was designed, but also means the text is scaled too small to read, and the user must zoom in and pan to see it. Responsive design avoids this pitfall by using a more appropriate layout on a smaller screen.
 
 #### Browser Zoom
 

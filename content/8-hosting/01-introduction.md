@@ -5,7 +5,7 @@ weight: 10
 date: 2018-08-24T10:53:26-05:00
 ---
 
-Earlier, when we [looked at HTTP in Chapter 2]({{<ref "2-http">}}), we discussed how HTTP connects the client (typically a web browser) to a _server_, a specialized program running on a computer connected to the internet that serves web pages (and other files) in response to a HTTP request. This server is what makes your webpages available on the World Wide Web.
+Earlier, when we [looked at HTTP in Chapter 2]({{% ref "2-http" %}}), we discussed how HTTP connects the client (typically a web browser) to a _server_, a specialized program running on a computer connected to the internet that serves web pages (and other files) in response to a HTTP request. This server is what makes your webpages available on the World Wide Web.
 
 Somewhat confusingly, web developers and IT professionals commonly refer to _both_ the program serving HTTP requests _and_ the hardware it runs on as a _server_. To help avoid this confusion in this chapter, we'll refer to the computer running the server as the _server hardware_ and the software program serving HTTP requests as the _server program_.
 

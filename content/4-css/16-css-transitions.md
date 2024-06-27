@@ -5,7 +5,7 @@ weight: 160
 date: 2018-08-24T10:53:26-05:00
 ---
 
-While most CSS rules are applied as the page is loaded, some are applied at a future point.  One example is pseudo-classes that apply in limited circumstances - like `:hover` which applies only when the mouse is over an element, or `:valid` and `:invalid` which are applied to input elements based on their validation status. Another common instance is when elements are added to the page using JavaScript, as discussed in [Chapter 5 - JavaScript]({{<ref "5-js" >}}).
+While most CSS rules are applied as the page is loaded, some are applied at a future point.  One example is pseudo-classes that apply in limited circumstances - like `:hover` which applies only when the mouse is over an element, or `:valid` and `:invalid` which are applied to input elements based on their validation status. Another common instance is when elements are added to the page using JavaScript, as discussed in [Chapter 5 - JavaScript]({{% ref "5-js"  %}}).
 
 In these instances, we may want the change in styling rules to not apply instantly, but rather transition between states over a short duration. The `transition` property provides us this functionality.  It has three sub-properties:
 

@@ -11,7 +11,7 @@ The most obvious use of raster graphics in HTML is the `<img>` element, a HTML e
 <img src="" alt="">
 ```
 
-The `src` attribute is a relative or absolute url of an image file, and the `alt` attribute provides a textual description of what the image portrays.  It is what the browser displays if the image file does not load, and is also important for screen readers (as discussed in [Chapter 6]({{<ref "6-accessibility">}})).  
+The `src` attribute is a relative or absolute url of an image file, and the `alt` attribute provides a textual description of what the image portrays.  It is what the browser displays if the image file does not load, and is also important for screen readers (as discussed in [Chapter 6]({{% ref "6-accessibility" %}})).  
 
 Any HTML element can also be given a raster graphic to use as a background through the CSS `background-image` property:
 

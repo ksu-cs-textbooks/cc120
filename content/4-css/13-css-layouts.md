@@ -7,7 +7,7 @@ date: 2018-08-24T10:53:26-05:00
 
 We often speak of the [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) principle in the context of web development as setting up the roles of HTML, CSS, and JavaScript.  In this understanding, HTML provides the organization of content, CSS provides for the presentation of the content, and JavaScript provides for user interaction.
 
-In this understanding, CSS is often tasked with the role of laying out elements on the page.  More specifically, it overrides the default flow of HTML elements (see our earlier discussion of [block vs. inline elements]({{<ref "3-html/04-flow-model.md">}}) in the HTML chapter), altering how the browser arranges elements on the page.  
+In this understanding, CSS is often tasked with the role of laying out elements on the page.  More specifically, it overrides the default flow of HTML elements (see our earlier discussion of [block vs. inline elements]({{% ref "3-html/04-flow-model.md" %}}) in the HTML chapter), altering how the browser arranges elements on the page.  
 
 The three most common layout approaches currently used in modern web development are _float_, _flexbox_, and _grid_, named for the CSS properties that make them possible.  You may also encounter _absolutely positioned_ layouts and _table layouts_, so we will briefly discuss those as well.
 

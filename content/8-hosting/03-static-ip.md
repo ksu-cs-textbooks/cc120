@@ -5,7 +5,7 @@ weight: 30
 date: 2018-08-24T10:53:26-05:00
 ---
 
-You may remember from our discussion of [URIs and URLs in Chapter 2]({{<ref "2-http/02-uris-and-urls">}}) that a HTTP request must be made against a _host_.  This host is specified either by a fully-qualified domain name, or by an Internet Protocol (IP) address. But what exactly is an IP address?
+You may remember from our discussion of [URIs and URLs in Chapter 2]({{% ref "2-http/02-uris-and-urls" %}}) that a HTTP request must be made against a _host_.  This host is specified either by a fully-qualified domain name, or by an Internet Protocol (IP) address. But what exactly is an IP address?
 
 An IP address is an address of a specific computer on the internet. Without such an address, we would not be able to send HTTP requests or responses to a computer, because we would have no idea where to send it. This is much like a mailing addresses in the real world - you need to know where to send a letter for the post office to deliver it.
 

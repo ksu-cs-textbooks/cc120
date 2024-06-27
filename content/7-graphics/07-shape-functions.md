@@ -60,7 +60,7 @@ There is also an `ellipse(x, y, radiusX, radiusY, startAngle, endAngle)` functio
 ## Rectangle
 The `rect(x, y, width, height)` function draws a rectangle with upper left corner at `(x, y)` and dimensions `width` and `height`. In addition to the `rect()` function, there are some shorthand functions that _also_ stroke or fill the rect _without altering the current path_.
 
-The first of these is `fillRect(x, y, width, height)` which uses the same arguments as `rect()` and fills the resulting rectangle with the current fill style. We used this in the [introduction]({{<ref "7-graphics/01-introduction">}}).
+The first of these is `fillRect(x, y, width, height)` which uses the same arguments as `rect()` and fills the resulting rectangle with the current fill style. We used this in the [introduction]({{% ref "7-graphics/01-introduction" %}}).
 
 The second is the `clearRect(x, y, width, height)` function, which fills the rect defined by the arguments with _transparent black_ (`rgba(0,0,0,0)`), effectively erasing everything in that rectangle on the canvas.
 

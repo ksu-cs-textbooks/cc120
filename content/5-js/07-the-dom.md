@@ -157,7 +157,7 @@ Let's walk through this code line-by-line.
 
 The [Node](https://developer.mozilla.org/en-US/docs/Web/API/Node) interface provides a host of properties and methods for traversing, adding to, and removing from, the DOM tree.  Some of the most commonly used are:
 * [Node.parent](https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode) the parent of this Node 
-* [Node.childNodes](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes) a [NodeList](NodeList) of this node's children
+* [Node.childNodes](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes) a [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) of this node's children
 * [Node.nextSibling](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling) returns the node following this one at the same level in the DOM tree
 * [Node.previousSibling](https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling) returns the node proceeding this one in the DOM tree at the same level
 * [Node.appendChild()](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) adds the an element as the last child of the node

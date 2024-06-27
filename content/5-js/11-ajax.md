@@ -104,13 +104,13 @@ Much like when we manually made requests, we first need to open the connection t
 xhr.open('GET', 'https://imgs.xkcd.com/comics/blogofractal.png');
 ```
 
-The first argument is the [HTTP request method]({{<ref "/2-http/06-request-methods" >}}) to use, and the second is the [URL]({{<ref "/2-http/02-uris-and-urls">}}) to open.  
+The first argument is the [HTTP request method]({{% ref "/2-http/06-request-methods"  %}}) to use, and the second is the [URL]({{% ref "/2-http/02-uris-and-urls" %}}) to open.  
 
 There are also three optional parameters that can be used to follow - a boolean determining if the request should be made asynchronously (default `true`) and a user and password for HTTP authentication.  Since AJAX requests are normally made asynchronously, and HTTP authentication has largely been displaced by more secure authentication approaches, these are rarely used.
 
 #### Setting Headers 
 
-After the `XMLHttpRequest` has been opened, but before it is sent, you can use [XMLHttpRequest.setRequestHeader()](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/setRequestHeader) to set any [request headers]({{<ref "/2-http/07-request-headers">}}) you need.  For example, we might set an `Accept` header to `image/png` to indicate we would like image data as our response:
+After the `XMLHttpRequest` has been opened, but before it is sent, you can use [XMLHttpRequest.setRequestHeader()](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/setRequestHeader) to set any [request headers]({{% ref "/2-http/07-request-headers" %}}) you need.  For example, we might set an `Accept` header to `image/png` to indicate we would like image data as our response:
 
 ```js
 xhr.setRequestHeader('Accept', 'image/png');
