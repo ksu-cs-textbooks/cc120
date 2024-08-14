@@ -19,8 +19,9 @@ Our **preferred method of contact** will be through the [Edstem Discussion board
 
 **Professor:**  Dr. Safia Malallah (She/her) 
 - **Office:** 2161 Engineering Hall (DUE)
-- **Office Hours:** weeser.net/calendar
-  - **Want to meet with me outside office hours?** https://calendly.com/safiamalallah
+- **Office Hours:** 
+- <p><iframe style="width: 100%; height: 600px; border: none;" src="https://outlook.office365.com/owa/calendar/2d1b7aa5485444a6a79e6554e7f71d03@ksu.edu/ca2e565b04514938a719a481024f8f6712110196831606713063/calendar.html"></iframe></p>
+- **Want to meet with me outside office hours?:** https://calendly.com/safiamalallah
 
 ### Getting Help
 - Review the course materials posted on K-State Canvas and the course website 
