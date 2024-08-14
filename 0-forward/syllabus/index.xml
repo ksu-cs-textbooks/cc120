@@ -13,6 +13,11 @@
 
   
 	
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -490,9 +495,16 @@
   <channel>
     <title>Fall 2023 Syllabus :: K-State CC 120 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc120/0-forward/syllabus/</link>
-    <description>CC 120 - Web Page Design - Fall 2023 Contact Info Our preferred method of contact will be through the Edstem Discussion board. Any questions or feedback can be posted there. More detail on using this platform can be found below and in Canvas.&#xA;All emails for the course should be sent to cc120-help@KSUemailProd.onmicrosoft.com (sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email.</description>
+    <description>CC 120 - Web Page Design - Fall 2024 Contact Info Our preferred method of contact will be through the Edstem Discussion board. Any questions or feedback can be posted there. More detail on using this platform can be found below and in Canvas.&#xA;All emails for the course should be sent to cc120-help@KSUemailProd.onmicrosoft.com (sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc120/0-forward/syllabus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fall 2023 Syllabus</title>
+      <link>https://textbooks.cs.ksu.edu/cc120/0-forward/syllabus/old/f23/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc120/0-forward/syllabus/old/f23/</guid>
+      <description>CC 120 - Web Page Design - Fall 2023 Contact Info Our preferred method of contact will be through the Edstem Discussion board. Any questions or feedback can be posted there. More detail on using this platform can be found below and in Canvas.&#xA;All emails for the course should be sent to cc120-help@KSUemailProd.onmicrosoft.com (sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email.</description>
+    </item>
   </channel>
 </rss>
