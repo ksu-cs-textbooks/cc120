@@ -9,7 +9,7 @@ Now that we've discussed the request-response pattern and address resolution, le
 
 {{<youtube e1gAyQuIFQo>}}
 
-Also, open the <a href="https://devtools.glitch.me/network/getstarted.html" target="_blank">Get Started Demo</a> page it references.
+Also, open the <a href="https://devtools.glitch.me/network/getstarted.html" target="_blank">Get Started Demo</a> page it references. (This example is outdated. Feel free to try any other website to test the features )
 
 Or, if you prefer you can work through the <a href="https://developer.chrome.com/docs/devtools/network/#open" target="_blank">written version of the tutorial</a>
 
