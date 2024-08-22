@@ -701,8 +701,8 @@ var relearn_search_index = [
   },
   {
     "breadcrumb": "Hyper-Text Transfer Protocol",
-    "content": "Now that we’ve discussed the request-response pattern and address resolution, let’s turn our attention to how requests are processed in the browser. The following tutorial from Google describes the network panel in Chrome:\nYouTube Video Also, open the Get Started Demo page it references.\nOr, if you prefer you can work through the written version of the tutorial\nSimilar developer tools exist in other browsers:\nFirefox Safari Edge ",
-    "description": "Now that we’ve discussed the request-response pattern and address resolution, let’s turn our attention to how requests are processed in the browser. The following tutorial from Google describes the network panel in Chrome:\nYouTube Video Also, open the Get Started Demo page it references.\nOr, if you prefer you can work through the written version of the tutorial\nSimilar developer tools exist in other browsers:\nFirefox Safari Edge ",
+    "content": "Now that we’ve discussed the request-response pattern and address resolution, let’s turn our attention to how requests are processed in the browser. The following tutorial from Google describes the network panel in Chrome:\nYouTube Video Also, open the Get Started Demo page it references. (This example is outdated. Feel free to try any other website to test the features )\nOr, if you prefer you can work through the written version of the tutorial\nSimilar developer tools exist in other browsers:\nFirefox Safari Edge ",
+    "description": "Now that we’ve discussed the request-response pattern and address resolution, let’s turn our attention to how requests are processed in the browser. The following tutorial from Google describes the network panel in Chrome:\nYouTube Video Also, open the Get Started Demo page it references. (This example is outdated. Feel free to try any other website to test the features )\nOr, if you prefer you can work through the written version of the tutorial",
     "tags": [],
     "title": "Developer Tools Network Panel",
     "uri": "/cc120/2-http/03-network-panel/"
