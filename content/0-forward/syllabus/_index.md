@@ -20,7 +20,7 @@ Our **preferred method of contact** will be through the Edstem Discussion board.
 **Professor:**  Dr. Safia Malallah (She/her) 
 - **Office:** 2161 Engineering Hall (DUE)
 - **Office Hours:** 
-- <p><iframe style="width: 100%; height: 600px; border: none;" src="https://outlook.office365.com/owa/calendar/2d1b7aa5485444a6a79e6554e7f71d03@ksu.edu/ca2e565b04514938a719a481024f8f6712110196831606713063/calendar.html"></iframe></p>
+- <p><iframe style="border: solid 1px #777;" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;mode=WEEK&amp;showPrint=0&amp;src=azJ2azdlZGNmbWVhYmViZ3BwMWdiY2EzdDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=anRkNzhxY29zNTl2a3NpaGs3NGVqZWgwY3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=MWZmcTd1N2RkM2Z0dDFycms2N2YzcHY4cGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23AD1457&amp;color=%23B39DDB&amp;color=%23616161&amp;color=%23009688" width="800" height="600"></iframe></p>
 - **Want to meet with me outside office hours?:** https://calendly.com/safiamalallah
 
 ### Getting Help
