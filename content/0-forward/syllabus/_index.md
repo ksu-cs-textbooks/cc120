@@ -21,7 +21,7 @@ Our **preferred method of contact** will be through the Edstem Discussion board.
 - **Office:** 2161 Engineering Hall (DUE)
 - **Office Hours:** 
 - <iframe style="border: solid 1px #777;" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;mode=WEEK&amp;showPrint=0&amp;src=azJ2azdlZGNmbWVhYmViZ3BwMWdiY2EzdDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=anRkNzhxY29zNTl2a3NpaGs3NGVqZWgwY3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=MWZmcTd1N2RkM2Z0dDFycms2N2YzcHY4cGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23AD1457&amp;color=%23B39DDB&amp;color=%23616161&amp;color=%23009688" width="800" height="600"></iframe>
-- **Want to meet with me outside office hours?:** https://calendly.com/safiamalallah
+- **Want to meet with me outside office hours?:** <a href='https://outlook.office.com/bookwithme/user/2d1b7aa5485444a6a79e6554e7f71d03@ksu.edu?anonymous&ep=plink'>Schedule online</a>
 
 ### Getting Help
 - Review the course materials posted on K-State Canvas and the course website 
