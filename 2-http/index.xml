@@ -519,7 +519,7 @@
       <link>https://textbooks.cs.ksu.edu/cc120/2-http/03-network-panel/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc120/2-http/03-network-panel/</guid>
-      <description>Now that we’ve discussed the request-response pattern and address resolution, let’s turn our attention to how requests are processed in the browser. The following tutorial from Google describes the network panel in Chrome:&#xA;Also, open the Get Started Demo page it references. (This example is outdated. Feel free to try any other website to test the features )&#xA;Or, if you prefer you can work through the written version of the tutorial</description>
+      <description>Now that we’ve discussed the request-response pattern and address resolution, let’s turn our attention to how requests are processed in the browser. The following tutorial from Google describes the network panel in Chrome:&#xA;YouTube Video Also, open the Get Started Demo page it references. (This example is outdated. Feel free to try any other website to test the features )&#xA;Or, if you prefer you can work through the written version of the tutorial</description>
     </item>
     <item>
       <title>Browser Requests</title>

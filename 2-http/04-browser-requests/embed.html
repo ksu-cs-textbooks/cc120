@@ -526,19 +526,19 @@ When you type in an address in your browser (or click a hyperlink), this initiat
     <link href="/cc120/2-http/04-browser-requests/index.print.html" rel="alternate" type="text/html" title="Browser Requests :: K-State CC 120 Textbook">
     <link href="/cc120/2-http/04-browser-requests/tele.html" rel="alternate" type="text/html" title="Browser Requests :: K-State CC 120 Textbook">
     
-  <link href="/cc120/css/fontawesome-all.min.css?1725488618" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/css/fontawesome-all.min.css?1725488618" rel="stylesheet"></noscript>
-  <link href="/cc120/css/nucleus.css?1725488618" rel="stylesheet">
-  <link href="/cc120/css/auto-complete.css?1725488618" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/css/auto-complete.css?1725488618" rel="stylesheet"></noscript>
-  <link href="/cc120/css/perfect-scrollbar.min.css?1725488618" rel="stylesheet">
-  <link href="/cc120/css/fonts.css?1725488618" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/css/fonts.css?1725488618" rel="stylesheet"></noscript>
-  <link href="/cc120/css/theme.css?1725488618" rel="stylesheet">
+  <link href="/cc120/css/fontawesome-all.min.css?1737134838" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/css/fontawesome-all.min.css?1737134838" rel="stylesheet"></noscript>
+  <link href="/cc120/css/nucleus.css?1737134838" rel="stylesheet">
+  <link href="/cc120/css/auto-complete.css?1737134838" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/css/auto-complete.css?1737134838" rel="stylesheet"></noscript>
+  <link href="/cc120/css/perfect-scrollbar.min.css?1737134838" rel="stylesheet">
+  <link href="/cc120/css/fonts.css?1737134838" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/css/fonts.css?1737134838" rel="stylesheet"></noscript>
+  <link href="/cc120/css/theme.css?1737134838" rel="stylesheet">
   
   
   
-  <link href="/cc120/css/theme-light-theme.css?1725488618" rel="stylesheet" id="R-variant-style">
-  <link href="/cc120/css/chroma-relearn-light.css?1725488618" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc120/css/variant.css?1725488618" rel="stylesheet">
-  <link href="/cc120/css/print.css?1725488618" rel="stylesheet" media="print">
+  <link href="/cc120/css/theme-light-theme.css?1737134838" rel="stylesheet" id="R-variant-style">
+  <link href="/cc120/css/chroma-relearn-light.css?1737134838" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc120/css/variant.css?1737134838" rel="stylesheet">
+  <link href="/cc120/css/print.css?1737134838" rel="stylesheet" media="print">
   
   
   
@@ -561,7 +561,7 @@ When you type in an address in your browser (or click a hyperlink), this initiat
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc120/css/custom.css?1725488618" rel="stylesheet">
+  <link href="/cc120/css/custom.css?1737134838" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc120/2-http/04-browser-requests/embed.html">
@@ -581,11 +581,11 @@ When you type in an address in your browser (or click a hyperlink), this initiat
 <p>Now that you are familiar with the network panel, let&rsquo;s explore the primary kind of request you&rsquo;re already used to making - requests originating from a browser.  Every time you use a browser to browse the Internet, you are creating a series of HTTP (or HTTPS) requests that travel across the networks between you and a web server, which responds to your requests.</p>
 <p>When you type in an address in your browser (or click a hyperlink), this initiates a HTTP request against the server located at that address. Ideally, the request succeeds, and you are sent the webpage you requested. As the browser parses that webpage, it may also request additional resources linked in that page (such as images, CSS files, and JavaScript files).</p>
 <p>To help illustrate how these requests are made, we&rsquo;ll once again turn to our developer tools.  Open the example page <a href='/examples/2.5.1/index.html' target='_blank'>this link</a>.  On that tab, open your developer tools with <code>CTRL + SHIFT + i</code> or by right-clicking the page and selecting &ldquo;Inspect&rdquo; from the context menu.  Then choose the &ldquo;Network&rdquo; tab:</p>
-<p><a href="#R-image-08d3fdb97d5183fba55bbf9c356bdab3" class="lightbox-link"><img alt="Selecting the network tab in the developer tools" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc120/images/2.4.1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-08d3fdb97d5183fba55bbf9c356bdab3"><img alt="Selecting the network tab in the developer tools" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc120/images/2.4.1.png"></a></p>
+<p><a href="#R-image-6430b5e2cbb59a75a549bd10fe8d66d4" class="lightbox-link"><img alt="Selecting the network tab in the developer tools" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc120/images/2.4.1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6430b5e2cbb59a75a549bd10fe8d66d4"><img alt="Selecting the network tab in the developer tools" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc120/images/2.4.1.png"></a></p>
 <p>The network tab displays details about each request the browser makes.  Initially it will probably be empty, as it does not log requests while not open.  Try refreshing the page - you should see it populate with information:</p>
-<p><a href="#R-image-055100831cd51cd4fe7ff0f12ceaed7d" class="lightbox-link"><img alt="The populated network tab" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc120/images/2.4.2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-055100831cd51cd4fe7ff0f12ceaed7d"><img alt="The populated network tab" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc120/images/2.4.2.png"></a></p>
+<p><a href="#R-image-29cb7aef4917fee9a5ca37138df7de53" class="lightbox-link"><img alt="The populated network tab" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc120/images/2.4.2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-29cb7aef4917fee9a5ca37138df7de53"><img alt="The populated network tab" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc120/images/2.4.2.png"></a></p>
 <p>The first entry is the page itself - the HTML file.  But then you should see entries for <em>site.css</em>, <em>brazil.gif</em>, <em>fiber-4814456_960_720.jpg</em>, <em>jquery-3.5.1.slim.min.js</em>, and <em>site.js</em>.  Each of these entries represents an additional resource the browser fetched from the web in order to display the page.</p>
 <p>Take, for example, the two images <em>brazil.gif</em> and <em>fiber-4814456_960_720.jpg</em>.  These correspond to <code>&lt;img&gt;</code> tags in the HTML file:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">img</span> <span class="na">alt</span><span class="o">=</span><span class="s">&#34;Paper scene from the film Brazil&#34;</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;brazil.gif&#34;</span><span class="p">/&gt;</span>
@@ -593,8 +593,8 @@ When you type in an address in your browser (or click a hyperlink), this initiat
 </span></span><span class="line"><span class="cl">        </span></span></code></pre></div><p>The important takeaway here is that the image is requested <em>separately</em> from the HTML file.  As the browser reads the page and encounters the <code>&lt;img&gt;</code> tag, it makes an additional request for the resource supplied in its <code>src</code> attribute.  When that second request finishes, the downloaded image is added to the web page.</p>
 <p>Notice too that while one image was on our webserver, the other is retrieved from <a href="https://pixabay.com" rel="external" target="_blank">Pixabay.com</a>&rsquo;s server.</p>
 <p>You can use the network tab to help debug issues with resources.  Click on one of the requested resources, and it will open up details about the request:</p>
-<p><a href="#R-image-5edf575d694feab4629ce220b8625dbc" class="lightbox-link"><img alt="Request details in the Network Tab" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc120/images/2.4.3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5edf575d694feab4629ce220b8625dbc"><img alt="Request details in the Network Tab" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc120/images/2.4.3.png"></a></p>
+<p><a href="#R-image-12a4af959a4372902646f58e468d81a6" class="lightbox-link"><img alt="Request details in the Network Tab" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc120/images/2.4.3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-12a4af959a4372902646f58e468d81a6"><img alt="Request details in the Network Tab" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc120/images/2.4.3.png"></a></p>
 <p>Notice that it reports the status code along with details about the request and response, and provides a preview of the requested resource.</p>
 
             <footer class="footline">
@@ -610,10 +610,10 @@ When you type in an address in your browser (or click a hyperlink), this initiat
 
 
 
-<script src="/cc120/js/clipboard.min.js?1725488618" defer></script>
-<script src="/cc120/js/perfect-scrollbar.min.js?1725488618" defer></script>
-<script src="/cc120/js/theme.js?1725488618" defer></script>
+<script src="/cc120/js/clipboard.min.js?1737134838" defer></script>
+<script src="/cc120/js/perfect-scrollbar.min.js?1737134838" defer></script>
+<script src="/cc120/js/theme.js?1737134838" defer></script>
 
-<script src="/cc120/js/embed-iframe.js?1725488618" defer></script>
+<script src="/cc120/js/embed-iframe.js?1737134838" defer></script>
 </body>
 </html>

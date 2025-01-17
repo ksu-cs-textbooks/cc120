@@ -495,7 +495,7 @@
   <channel>
     <title>Development Tools :: K-State CC 120 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc120/6-accessibility/07-dev-tools/</link>
-    <description>Just as you can use W3C’s validator to help validate your HTML, tools exist to help evaluate the accessibility of your websites. The easiest of these are integrated into the developer tools of your browser. The following video covers using Chrome developer tools to address accessibility bugs:&#xA;We’ve also talked about Screen Readers and Magnifiers, which are typically integrated into your operating system. You can use these to experience your web page the same way a disabled user might.</description>
+    <description>Just as you can use W3C’s validator to help validate your HTML, tools exist to help evaluate the accessibility of your websites. The easiest of these are integrated into the developer tools of your browser. The following video covers using Chrome developer tools to address accessibility bugs:&#xA;YouTube Video We’ve also talked about Screen Readers and Magnifiers, which are typically integrated into your operating system. You can use these to experience your web page the same way a disabled user might.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
