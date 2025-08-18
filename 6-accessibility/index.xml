@@ -512,7 +512,7 @@
       <link>https://textbooks.cs.ksu.edu/cc120/6-accessibility/02-standards/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc120/6-accessibility/02-standards/</guid>
-      <description>The W3C has crafted a number of accessibility standards, as introduced in the following video Introduction to Web Accessibility and W3C Standards created by the Web Accessibility Initiative:&#xA;YouTube Video The specific W3C standards covering web accessibility are:&#xA;Web Content Accessibility Guidelines (WCAG) The WACG is built around four principles for content delivered through the web. It should be 1:&#xA;Perceivable - Information and user interface components must be presentable to users in ways they can perceive.</description>
+      <description>The W3C has crafted a number of accessibility standards, as introduced in the following video Introduction to Web Accessibility and W3C Standards created by the Web Accessibility Initiative:&#xA;The specific W3C standards covering web accessibility are:&#xA;Web Content Accessibility Guidelines (WCAG) The WACG is built around four principles for content delivered through the web. It should be 1:&#xA;Perceivable - Information and user interface components must be presentable to users in ways they can perceive.</description>
     </item>
     <item>
       <title>Perceivable Content</title>
@@ -547,7 +547,7 @@
       <link>https://textbooks.cs.ksu.edu/cc120/6-accessibility/07-dev-tools/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc120/6-accessibility/07-dev-tools/</guid>
-      <description>Just as you can use W3C’s validator to help validate your HTML, tools exist to help evaluate the accessibility of your websites. The easiest of these are integrated into the developer tools of your browser. The following video covers using Chrome developer tools to address accessibility bugs:&#xA;YouTube Video We’ve also talked about Screen Readers and Magnifiers, which are typically integrated into your operating system. You can use these to experience your web page the same way a disabled user might.</description>
+      <description>Just as you can use W3C’s validator to help validate your HTML, tools exist to help evaluate the accessibility of your websites. The easiest of these are integrated into the developer tools of your browser. The following video covers using Chrome developer tools to address accessibility bugs:&#xA;We’ve also talked about Screen Readers and Magnifiers, which are typically integrated into your operating system. You can use these to experience your web page the same way a disabled user might.</description>
     </item>
     <item>
       <title>Summary</title>

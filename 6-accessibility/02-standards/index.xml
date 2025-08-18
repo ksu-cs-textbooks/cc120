@@ -495,7 +495,7 @@
   <channel>
     <title>Accessibility Standards :: K-State CC 120 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc120/6-accessibility/02-standards/</link>
-    <description>The W3C has crafted a number of accessibility standards, as introduced in the following video Introduction to Web Accessibility and W3C Standards created by the Web Accessibility Initiative:&#xA;YouTube Video The specific W3C standards covering web accessibility are:&#xA;Web Content Accessibility Guidelines (WCAG) The WACG is built around four principles for content delivered through the web. It should be 1:&#xA;Perceivable - Information and user interface components must be presentable to users in ways they can perceive.</description>
+    <description>The W3C has crafted a number of accessibility standards, as introduced in the following video Introduction to Web Accessibility and W3C Standards created by the Web Accessibility Initiative:&#xA;The specific W3C standards covering web accessibility are:&#xA;Web Content Accessibility Guidelines (WCAG) The WACG is built around four principles for content delivered through the web. It should be 1:&#xA;Perceivable - Information and user interface components must be presentable to users in ways they can perceive.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
