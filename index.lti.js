@@ -753,8 +753,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Graphics",
-    "description": "As described earlier, SVG is an image file format. Thus, it can be used as the src for an \u003cimg\u003e element in HTML:\n\u003cimg src=\"/cc120/images/triangle.svg\" alt=\"A triangle\"\u003e However, the SVG itself is just text. And that text shares a lot of characteristics with HTML, as both are derived from XML. As SVG became more commonplace, the W3C added support for inline SVGs - placing SVG code directly in a HTML document:",
-    "modified": "2025-11-11T14:56:50-06:00",
+    "description": "As described earlier, SVG is an image file format. Thus, it can be used as the src for an \u003cimg\u003e element in HTML:\n\u003cimg src=\"/images/triangle.svg\" alt=\"A triangle\"\u003e However, the SVG itself is just text. And that text shares a lot of characteristics with HTML, as both are derived from XML. As SVG became more commonplace, the W3C added support for inline SVGs - placing SVG code directly in a HTML document:",
+    "modified": "2025-11-11T14:58:04-06:00",
     "tags": [],
     "title": "SVG and HTML",
     "uri": "/cc120/7-graphics/18-svg-and-html/index.html"
