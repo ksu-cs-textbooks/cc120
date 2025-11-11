@@ -1,549 +1,78 @@
-
-
-
-
-
-  
-	
-	  
-
-  
-	
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.128.0">
-    <meta name="generator" content="Relearn 6.0.0">
+    <meta name="generator" content="Hugo 0.148.1">
+    <meta name="generator" content="Relearn 8.0.0">
     <meta name="description" content="The Scalable Vector Graphics (SVG) image format is a file format for creating a vector graphic. It uses the same ideas about path, stroke, and fill and coordinate that we discussed with the canvas. It also is a text format based on XML, as was HTML. So the contents of a XML file will look familiar to you. Here is an example:
-&lt;svg viewBox=&#34;0 0 500 200&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt; &lt;path d=&#34;M 100 50 L 100 150 L 300 150 Z&#34; stroke=&#34;black&#34; fill=&#34;#dd3333&#34;/&gt; &lt;/svg&gt;Let’s take a close look at the file format.">
+&lt;svg viewBox=&#34;0 0 500 200&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt; &lt;path d=&#34;M 100 50 L 100 150 L 300 150 Z&#34; stroke=&#34;black&#34; fill=&#34;#dd3333&#34;/&gt; &lt;/svg&gt; Let’s take a close look at the file format. First, like HTML and other XML derivatives, we use tags to specify elements. The &lt;svg&gt; tag indicates the top level of our SVG image, much like the &lt;html&gt; tag does for HTML. The xmlns links to the specification of the XML format, and should be included in all &lt;svg&gt; elements (it’s one of the requirements of the XML format - earlier versions of HTML did this as well for the HTML namespace, but HTML5 broke away from the requirement).">
     <meta name="author" content="Nathan Bean">
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/cc120/images/hero.png">
     <meta name="twitter:title" content="SVG :: K-State CC 120 Textbook">
     <meta name="twitter:description" content="The Scalable Vector Graphics (SVG) image format is a file format for creating a vector graphic. It uses the same ideas about path, stroke, and fill and coordinate that we discussed with the canvas. It also is a text format based on XML, as was HTML. So the contents of a XML file will look familiar to you. Here is an example:
-&lt;svg viewBox=&#34;0 0 500 200&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt; &lt;path d=&#34;M 100 50 L 100 150 L 300 150 Z&#34; stroke=&#34;black&#34; fill=&#34;#dd3333&#34;/&gt; &lt;/svg&gt;Let’s take a close look at the file format.">
-    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc120/7-graphics/13-svg/">
+&lt;svg viewBox=&#34;0 0 500 200&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt; &lt;path d=&#34;M 100 50 L 100 150 L 300 150 Z&#34; stroke=&#34;black&#34; fill=&#34;#dd3333&#34;/&gt; &lt;/svg&gt; Let’s take a close look at the file format. First, like HTML and other XML derivatives, we use tags to specify elements. The &lt;svg&gt; tag indicates the top level of our SVG image, much like the &lt;html&gt; tag does for HTML. The xmlns links to the specification of the XML format, and should be included in all &lt;svg&gt; elements (it’s one of the requirements of the XML format - earlier versions of HTML did this as well for the HTML namespace, but HTML5 broke away from the requirement).">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc120/7-graphics/13-svg/index.html">
     <meta property="og:site_name" content="K-State CC 120 Textbook">
     <meta property="og:title" content="SVG :: K-State CC 120 Textbook">
     <meta property="og:description" content="The Scalable Vector Graphics (SVG) image format is a file format for creating a vector graphic. It uses the same ideas about path, stroke, and fill and coordinate that we discussed with the canvas. It also is a text format based on XML, as was HTML. So the contents of a XML file will look familiar to you. Here is an example:
-&lt;svg viewBox=&#34;0 0 500 200&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt; &lt;path d=&#34;M 100 50 L 100 150 L 300 150 Z&#34; stroke=&#34;black&#34; fill=&#34;#dd3333&#34;/&gt; &lt;/svg&gt;Let’s take a close look at the file format.">
-    <meta property="og:locale" content="en-us">
+&lt;svg viewBox=&#34;0 0 500 200&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt; &lt;path d=&#34;M 100 50 L 100 150 L 300 150 Z&#34; stroke=&#34;black&#34; fill=&#34;#dd3333&#34;/&gt; &lt;/svg&gt; Let’s take a close look at the file format. First, like HTML and other XML derivatives, we use tags to specify elements. The &lt;svg&gt; tag indicates the top level of our SVG image, much like the &lt;html&gt; tag does for HTML. The xmlns links to the specification of the XML format, and should be included in all &lt;svg&gt; elements (it’s one of the requirements of the XML format - earlier versions of HTML did this as well for the HTML namespace, but HTML5 broke away from the requirement).">
+    <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Graphics">
     <meta property="article:published_time" content="2018-08-24T10:53:26-05:00">
     <meta property="article:modified_time" content="2022-11-13T15:40:36-06:00">
+    <meta property="og:image" content="https://textbooks.cs.ksu.edu/cc120/images/hero.png">
     <meta itemprop="name" content="SVG :: K-State CC 120 Textbook">
     <meta itemprop="description" content="The Scalable Vector Graphics (SVG) image format is a file format for creating a vector graphic. It uses the same ideas about path, stroke, and fill and coordinate that we discussed with the canvas. It also is a text format based on XML, as was HTML. So the contents of a XML file will look familiar to you. Here is an example:
-&lt;svg viewBox=&#34;0 0 500 200&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt; &lt;path d=&#34;M 100 50 L 100 150 L 300 150 Z&#34; stroke=&#34;black&#34; fill=&#34;#dd3333&#34;/&gt; &lt;/svg&gt;Let’s take a close look at the file format.">
+&lt;svg viewBox=&#34;0 0 500 200&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt; &lt;path d=&#34;M 100 50 L 100 150 L 300 150 Z&#34; stroke=&#34;black&#34; fill=&#34;#dd3333&#34;/&gt; &lt;/svg&gt; Let’s take a close look at the file format. First, like HTML and other XML derivatives, we use tags to specify elements. The &lt;svg&gt; tag indicates the top level of our SVG image, much like the &lt;html&gt; tag does for HTML. The xmlns links to the specification of the XML format, and should be included in all &lt;svg&gt; elements (it’s one of the requirements of the XML format - earlier versions of HTML did this as well for the HTML namespace, but HTML5 broke away from the requirement).">
     <meta itemprop="datePublished" content="2018-08-24T10:53:26-05:00">
     <meta itemprop="dateModified" content="2022-11-13T15:40:36-06:00">
-    <meta itemprop="wordCount" content="412">
+    <meta itemprop="wordCount" content="414">
+    <meta itemprop="image" content="https://textbooks.cs.ksu.edu/cc120/images/hero.png">
     <title>SVG :: K-State CC 120 Textbook</title>
-    <link href="https://textbooks.cs.ksu.edu/cc120/7-graphics/13-svg/" rel="canonical" type="text/html" title="SVG :: K-State CC 120 Textbook">
+    <link href="https://textbooks.cs.ksu.edu/cc120/7-graphics/13-svg/index.html" rel="canonical" type="text/html" title="SVG :: K-State CC 120 Textbook">
     <link href="/cc120/7-graphics/13-svg/index.xml" rel="alternate" type="application/rss+xml" title="SVG :: K-State CC 120 Textbook">
     <link href="/cc120/7-graphics/13-svg/index.print.html" rel="alternate" type="text/html" title="SVG :: K-State CC 120 Textbook">
     <link href="/cc120/7-graphics/13-svg/embed.html" rel="alternate" type="text/html" title="SVG :: K-State CC 120 Textbook">
-    <link href="/cc120/css/fontawesome-all.min.css?1755561276" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/css/fontawesome-all.min.css?1755561276" rel="stylesheet"></noscript>
-    <link href="/cc120/css/nucleus.css?1755561276" rel="stylesheet">
-    <link href="/cc120/css/auto-complete.css?1755561276" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/css/auto-complete.css?1755561276" rel="stylesheet"></noscript>
-    <link href="/cc120/css/perfect-scrollbar.min.css?1755561276" rel="stylesheet">
-    <link href="/cc120/css/fonts.css?1755561276" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/css/fonts.css?1755561276" rel="stylesheet"></noscript>
-    <link href="/cc120/css/theme.css?1755561276" rel="stylesheet">
-    <link href="/cc120/css/theme-auto.css?1755561276" rel="stylesheet" id="R-variant-style">
-    <link href="/cc120/css/chroma-auto.css?1755561276" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc120/css/variant.css?1755561276" rel="stylesheet">
-    <link href="/cc120/css/print.css?1755561276" rel="stylesheet" media="print">
-    <script src="/cc120/js/variant.js?1755561276"></script>
+    <link href="/cc120/css/auto-complete/auto-complete.min.css?1762892827" rel="stylesheet">
+    <script src="/cc120/js/auto-complete/auto-complete.min.js?1762892827" defer></script>
+    <script src="/cc120/js/search-lunr.min.js?1762892827" defer></script>
+    <script src="/cc120/js/search.min.js?1762892827" defer></script>
     <script>
       window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/cc120/searchindex.en.js?1762892827";
+    </script>
+    <script src="/cc120/js/lunr/lunr.min.js?1762892827" defer></script>
+    <script src="/cc120/js/lunr/lunr.stemmer.support.min.js?1762892827" defer></script>
+    <script src="/cc120/js/lunr/lunr.multi.min.js?1762892827" defer></script>
+    <script src="/cc120/js/lunr/lunr.en.min.js?1762892827" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/cc120/fonts/fontawesome/css/fontawesome-all.min.css?1762892827" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/fonts/fontawesome/css/fontawesome-all.min.css?1762892827" rel="stylesheet"></noscript>
+    <link href="/cc120/css/perfect-scrollbar/perfect-scrollbar.min.css?1762892827" rel="stylesheet">
+    <link href="/cc120/css/theme.min.css?1762892827" rel="stylesheet">
+    <link href="/cc120/css/format-html.min.css?1762892827" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/7-graphics\/13-svg\/index.html';
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..\/..';
       window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc120';
-      window.index_js_url="/cc120/index.search.js";
-      // variant stuff
-      window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=false;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
       // translations
       window.T_Copy_to_clipboard = `Copy to clipboard`;
       window.T_Copied_to_clipboard = `Copied to clipboard!`;
@@ -553,11 +82,42 @@
       window.T_View_reset = `View reset!`;
       window.T_No_results_found = `No results found for "{0}"`;
       window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'light-theme' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      // [x] russfeld
+      window.relearn.writeVariant=false;
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          
+          if (window.relearn.writeVariant) {
+            window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+          }
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
     </script>
-    
-    <link href="/cc120/css/custom.css?1755561276" rel="stylesheet">
+    <link href="/cc120/css/custom.css?1762892827" rel="stylesheet">
   </head>
-  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc120/7-graphics/13-svg/">
+  <body class="mobile-support html" data-url="/cc120/7-graphics/13-svg/index.html">
     
     <div id="tele" class="tele mirror">
     
@@ -567,11 +127,11 @@
       
       
       <div id="R-main-overlay"></div>
-      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+      <main id="R-body-inner" class="highlightable 7-graphics" tabindex="-1">
         <div class="flex-block-wrapper">
-          <article class="default">
-            <header class="headline">
-            </header>
+<article class="default">
+  <header class="headline">
+  </header>
 
 <h1 id="svg">SVG</h1>
 
@@ -579,48 +139,45 @@
 <svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
   <path d="M 100 50 L 100 150 L 300 150 Z" stroke="black" fill="#dd3333"/>
 </svg>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-svg" data-lang="svg"><span class="line"><span class="cl"><span class="nt">&lt;svg</span> <span class="na">viewBox=</span><span class="s">&#34;0 0 500 200&#34;</span> <span class="na">xmlns=</span><span class="s">&#34;http://www.w3.org/2000/svg&#34;</span><span class="nt">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M 100 50 L 100 150 L 300 150 Z&#34;</span> <span class="na">stroke=</span><span class="s">&#34;black&#34;</span> <span class="na">fill=</span><span class="s">&#34;#dd3333&#34;</span><span class="nt">/&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="nt">&lt;/svg&gt;</span></span></span></code></pre></div><p>Let&rsquo;s take a close look at the file format. First, like HTML and other XML derivatives, we use tags to specify elements.  The <code>&lt;svg&gt;</code> tag indicates the top level of our SVG image, much like the <code>&lt;html&gt;</code> tag does for HTML. The <code>xmlns</code> links to the specification of the XML format, and should be included in all <code>&lt;svg&gt;</code> elements (it&rsquo;s one of the requirements of the XML format - earlier versions of HTML did this as well for the HTML namespace, but HTML5 broke away from the requirement).</p>
+<div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-svg" data-lang="svg"><span style="display:flex;"><span><span style="color:#f92672">&lt;svg</span> <span style="color:#a6e22e">viewBox=</span><span style="color:#e6db74">&#34;0 0 500 200&#34;</span> <span style="color:#a6e22e">xmlns=</span><span style="color:#e6db74">&#34;http://www.w3.org/2000/svg&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;path</span> <span style="color:#a6e22e">d=</span><span style="color:#e6db74">&#34;M 100 50 L 100 150 L 300 150 Z&#34;</span> <span style="color:#a6e22e">stroke=</span><span style="color:#e6db74">&#34;black&#34;</span> <span style="color:#a6e22e">fill=</span><span style="color:#e6db74">&#34;#dd3333&#34;</span><span style="color:#f92672">/&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;/svg&gt;</span></span></span></code></pre></div>
+<p>Let&rsquo;s take a close look at the file format. First, like HTML and other XML derivatives, we use tags to specify elements.  The <code>&lt;svg&gt;</code> tag indicates the top level of our SVG image, much like the <code>&lt;html&gt;</code> tag does for HTML. The <code>xmlns</code> links to the specification of the XML format, and should be included in all <code>&lt;svg&gt;</code> elements (it&rsquo;s one of the requirements of the XML format - earlier versions of HTML did this as well for the HTML namespace, but HTML5 broke away from the requirement).</p>
 <p>Likewise the <code>&lt;path&gt;</code> element defines a path, much like those we drew with the <code>&lt;canvas&gt;</code> and its rendering context. The <code>d</code> attribute in the <code>&lt;path&gt;</code> is its <em>data</em>, and it provides it a series of commands and values, separated by spaces. These instruct the program rendering the SVG in how to move the imaginary pen around.  The <code>stroke</code> and <code>fill</code> attributes specify how the resulting path should be stroked and filled.</p>
 <p>Finally, the <code>viewBox</code> attribute in the <code>&lt;svg&gt;</code> tag describes what part of the image should be rendered. This is specified as a rectangle, following the familiar format of <code>x y width height</code>, where the point (<code>x</code>,<code>y</code>) is the upper left corner, and <code>width</code> and <code>height</code> specify a distance to the left and down, respectively.</p>
 <p>The <code>viewBox</code> plays an important role in how SVG graphics scale.  If we used this SVG in an <code>&lt;img&gt;</code> tag and set it to have a different width, it would automatically scale the view box contents to match:</p>
 <svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg" width="200">
   <path d="M 100 50 L 100 150 L 300 150 Z" stroke="black" fill="#dd3333"/>
 </svg>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;/images/triangle.svg&#34;</span> <span class="na">width</span><span class="o">=</span><span class="s">&#34;200&#34;</span><span class="p">&gt;</span></span></span></code></pre></div><p>Now that you understand the basics, let&rsquo;s turn our attention to some specific SVG elements.</p>
+<div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/images/triangle.svg&#34;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;200&#34;</span>&gt;</span></span></code></pre></div>
+<p>Now that you understand the basics, let&rsquo;s turn our attention to some specific SVG elements.</p>
 
-  
-  
-<div class="box notices cstyle info">
-  <div class="box-label"><i class="fa-fw fas fa-info-circle"></i> Info</div>
+<details open class=" box cstyle notices info">
+  <summary class="box-label" tabindex="-1">
+    <i class="fa-fw fas fa-info-circle"></i> 
+    Info
+  </summary>
   <div class="box-content">
-
 <p>There is an important idea in the above discussion - the SVG file format specifies <em>how</em> the image should be drawn. But it is up to the program reading the SVG to actually <em>carry out the drawing commands</em>. As this is much more involved than simply copying raster bits, not all image viewing software support SVG files. However, all modern browsers do.</p>
-</div>
-</div>
+  </div>
+</details>
 
-            <footer class="footline">
-              
-              
-              
-              
-            </footer>
-          </article>
-</div>
-</main>
-</div>
-
-</div>
-
-
-
-
-<script src="/cc120/js/clipboard.min.js?1755561276" defer></script>
-<script src="/cc120/js/perfect-scrollbar.min.js?1755561276" defer></script>
-<script src="/cc120/js/theme.js?1755561276" defer></script>
-
-<script src="/cc120/js/tele-scroll.js?1755561276" defer></script>
-
-</body>
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+      
+      
+      
+    </div>
+    <script src="/cc120/js/clipboard/clipboard.min.js?1762892827" defer></script>
+    <script src="/cc120/js/perfect-scrollbar/perfect-scrollbar.min.js?1762892827" defer></script>
+    <script src="/cc120/js/theme.min.js?1762892827" defer></script>
+      
+      
+      
+    </div> 
+  <script src="/cc120/js/tele-scroll.min.js?1762892827" defer></script>
+  </body>
 </html>

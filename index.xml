@@ -1,565 +1,73 @@
-
-
-
-
-
-  
-	
-	  
-
-  
-	
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CC 120: Web Page Development :: K-State CC 120 Textbook</title>
-    <link>https://textbooks.cs.ksu.edu/cc120/</link>
+    <link>https://textbooks.cs.ksu.edu/cc120/index.html</link>
     <description>CC 120 Course Textbook&#xA;Nathan Bean and Josh Weese&#xA;Kansas State University&#xA;© 2023&#xA;This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc120/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Course Information</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/0-forward/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/0-forward/index.html</link>
       <pubDate>Tue, 05 Jul 2022 10:53:05 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/0-forward/</guid>
-      <description>Web Only This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.&#xA;Welcome to CC120! Please take the time to read through the syllabus. Content for this course will be delivered through a variety of platforms, all can be found by starting in Canvas.</description>
+      <guid>https://textbooks.cs.ksu.edu/cc120/0-forward/index.html</guid>
+      <description>Web Only This textbook was authored for the CC 120 - Web Page Development course at Kansas State University. This front matter is specific to that course. If you are not enrolled in the course, please disregard this section.&#xA;Welcome to CC120! Please take the time to read through the syllabus. Content for this course will be delivered through a variety of platforms, all can be found by starting in Canvas. This textbook as well as Codio (link in Canvas) will be the primary sources of information.</description>
     </item>
     <item>
       <title>The World-Wide-Web</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/1-www/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/1-www/index.html</link>
       <pubDate>Tue, 05 Jul 2022 10:53:05 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/1-www/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc120/1-www/index.html</guid>
       <description>Proudly serving resources since 1991</description>
     </item>
     <item>
       <title>Hyper-Text Transfer Protocol</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/2-http/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/2-http/index.html</link>
       <pubDate>Tue, 05 Jul 2022 10:53:05 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/2-http/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc120/2-http/index.html</guid>
       <description>Responding to requests since 1991</description>
     </item>
     <item>
       <title>Hyper-Text Markup Language</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/3-html/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/3-html/index.html</link>
       <pubDate>Tue, 05 Jul 2022 10:53:05 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/index.html</guid>
       <description>Hyper-Text Markup Language Providing structured content to the web since 1993</description>
     </item>
     <item>
       <title>Cascading Style Sheets</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/4-css/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/4-css/index.html</link>
       <pubDate>Tue, 05 Jul 2022 10:53:05 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/4-css/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc120/4-css/index.html</guid>
       <description>Cascading Style Sheets Bringing style to the web since 1998</description>
     </item>
     <item>
       <title>JavaScript</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/5-js/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/5-js/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:05 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/5-js/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc120/5-js/index.html</guid>
       <description>JavaScript Bringing interaction to web pages since 1995.</description>
     </item>
     <item>
       <title>Accessibility</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/6-accessibility/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/6-accessibility/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:05 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/6-accessibility/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc120/6-accessibility/index.html</guid>
       <description>Accessibility Making the web useable for all people.</description>
     </item>
     <item>
       <title>Graphics</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/7-graphics/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/7-graphics/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:05 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/7-graphics/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc120/7-graphics/index.html</guid>
       <description>Graphics Bringing visual expression to the web.</description>
     </item>
     <item>
       <title>Web Hosting</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/8-hosting/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/8-hosting/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:05 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/8-hosting/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc120/8-hosting/index.html</guid>
       <description>Hosting Providing your Website to the World</description>
     </item>
   </channel>

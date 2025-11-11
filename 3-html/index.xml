@@ -1,560 +1,68 @@
-
-
-
-
-
-  
-	
-	  
-
-  
-	
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hyper-Text Markup Language :: K-State CC 120 Textbook</title>
-    <link>https://textbooks.cs.ksu.edu/cc120/3-html/</link>
+    <link>https://textbooks.cs.ksu.edu/cc120/3-html/index.html</link>
     <description>Hyper-Text Markup Language Providing structured content to the web since 1993</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jun 2024 15:40:07 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 14:26:44 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc120/3-html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/3-html/01-introduction/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/3-html/01-introduction/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/01-introduction/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/01-introduction/index.html</guid>
       <description>Hyper-Text Markup Language (HTML) alongside Hyper-Text Transfer Protocol (HTTP) formed the core of Sir Tim Berners-Lee’s world-wide web. As the name implies, HTTP is a markup language, one that combines the text of what is being said with instructions on how to display it.&#xA;The other aspect of HTML is its hyper-text nature. Hyper-text refers to text that links to additional resources - primarily the links in the document, but also embedded multimedia.</description>
     </item>
     <item>
       <title>HTML Element Structure</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/3-html/02-element-structure/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/3-html/02-element-structure/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/02-element-structure/</guid>
-      <description>HTML was built from the SGML (Structured Generalized Markup Language) standard, which provides the concept of “tags” to provide markup and structure within a text document. Each element in HTML is defined by a unique opening and closing tag, which in turn are surrounded by angle brackets (&lt;&gt;).&#xA;For example, a top-level heading in HTML would be written:&#xA;&lt;h1&gt;Hello World&lt;/h1&gt;&#xA;And render:&#xA;Hello World The &lt;h1&gt; is the opening tag and the &lt;/h1&gt; is the closing tag.</description>
+      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/02-element-structure/index.html</guid>
+      <description>HTML was built from the SGML (Structured Generalized Markup Language) standard, which provides the concept of “tags” to provide markup and structure within a text document. Each element in HTML is defined by a unique opening and closing tag, which in turn are surrounded by angle brackets (&lt;&gt;).&#xA;For example, a top-level heading in HTML would be written:&#xA;&lt;h1&gt;Hello World&lt;/h1&gt;&#xA;And render:&#xA;Hello World The &lt;h1&gt; is the opening tag and the &lt;/h1&gt; is the closing tag. The name of the tag appears immediately within the &lt;&gt; of the opening tag, and within the closing tag proceeded by a forward slash (/). Between the opening tag and closing tag is the content of the element. This can be text (as in the case above) or it can be another HTML element.</description>
     </item>
     <item>
       <title>HTML Document Structure</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/3-html/03-document-structure/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/3-html/03-document-structure/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/03-document-structure/</guid>
-      <description>When authoring an HTML page, HTML elements should be organized into an HTML Document. This format is defined in the HTML standard. HTML that does not follow this format are technically invalid, and may not be interpreted and rendered correctly by all browsers. Accordingly, it is important to follow the standard.&#xA;The basic structure of a valid HTML5 document is:&#xA;&lt;!doctype HTML&gt; &lt;html lang=&#34;en&#34;&gt; &lt;head&gt; &lt;title&gt;Page Title Goes Here&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;p&gt;Page body and tags go here.</description>
+      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/03-document-structure/index.html</guid>
+      <description>When authoring an HTML page, HTML elements should be organized into an HTML Document. This format is defined in the HTML standard. HTML that does not follow this format are technically invalid, and may not be interpreted and rendered correctly by all browsers. Accordingly, it is important to follow the standard.&#xA;The basic structure of a valid HTML5 document is:&#xA;&lt;!doctype HTML&gt; &lt;html lang=&#34;en&#34;&gt; &lt;head&gt; &lt;title&gt;Page Title Goes Here&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;p&gt;Page body and tags go here...&lt;/p&gt; &lt;/body&gt; &lt;/html&gt; We’ll walk through each section of the page in detail.</description>
     </item>
     <item>
       <title>Flow Model</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/3-html/04-flow-model/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/3-html/04-flow-model/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/04-flow-model/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/04-flow-model/index.html</guid>
       <description>Given that the role of HTML is markup, i.e. providing structure and formatting to text, HTML elements can broadly be categorized into two categories depending on how they affect the flow of text - inline and block.&#xA;Inline elements referred to elements that maintained the flow of text, i.e. the bring attention to (&lt;b&gt;) element used in a paragraph of text, would bold the text without breaking the flow:&#xA;&lt;p&gt;The quick brown &lt;b&gt;fox&lt;/b&gt; lept over the log&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tables</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/3-html/05-tables/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/3-html/05-tables/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/05-tables/</guid>
-      <description>Tables were amongst the first addition to HTML (along with images), as they were necessary for the primary role of early HTML, disseminating research.&#xA;A table requires a lot of elements to be nested in a specific manner. It is best expressed through an example:&#xA;&lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;Name&lt;/th&gt; &lt;th&gt;Role&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Darth Vader&lt;/td&gt; &lt;td&gt;Antagonist&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Luke Skywalker&lt;/td&gt; &lt;td&gt;Coming-of-age protagonist&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Princess Lea&lt;/td&gt; &lt;td&gt;Heroic resistance fighter&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Obi-Wan Kenobi&lt;/td&gt; &lt;td&gt;Wise old man&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Han Solo&lt;/td&gt; &lt;td&gt;Likeable scoundrel&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Chewbacca&lt;/td&gt; &lt;td&gt;The muscle&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Threepio&lt;/td&gt; &lt;td&gt;Comedic foil&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Artoo Deetoo&lt;/td&gt; &lt;td&gt;Plot driver&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;It renders as:</description>
+      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/05-tables/index.html</guid>
+      <description>Tables were amongst the first addition to HTML (along with images), as they were necessary for the primary role of early HTML, disseminating research.&#xA;A table requires a lot of elements to be nested in a specific manner. It is best expressed through an example:&#xA;&lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;Name&lt;/th&gt; &lt;th&gt;Role&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Darth Vader&lt;/td&gt; &lt;td&gt;Antagonist&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Luke Skywalker&lt;/td&gt; &lt;td&gt;Coming-of-age protagonist&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Princess Lea&lt;/td&gt; &lt;td&gt;Heroic resistance fighter&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Obi-Wan Kenobi&lt;/td&gt; &lt;td&gt;Wise old man&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Han Solo&lt;/td&gt; &lt;td&gt;Likeable scoundrel&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Chewbacca&lt;/td&gt; &lt;td&gt;The muscle&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Threepio&lt;/td&gt; &lt;td&gt;Comedic foil&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Artoo Deetoo&lt;/td&gt; &lt;td&gt;Plot driver&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; It renders as:</description>
     </item>
     <item>
       <title>Forms</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/3-html/06-forms/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/3-html/06-forms/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/06-forms/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/06-forms/index.html</guid>
       <description>Forms were also amongst the first additions to the HTML standard, and provide the ability to submit data to a web server. A web form is composed of &lt;input&gt;, &lt;textarea&gt;, &lt;select&gt; and similar elements nested within a &lt;form&gt; element.&#xA;The Form Element The form element primarily is used to organize input elements and specify how they should be submitted. In its simplest form, it is simply a tag that other elements are nested within:</description>
     </item>
     <item>
       <title>Common HTML Elements</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/3-html/07-common-html-elements/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/3-html/07-common-html-elements/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/07-common-html-elements/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/07-common-html-elements/index.html</guid>
       <description>This page details some of the most commonly used HTML elements. For a full reference, see MDN’s HTML Element Reference.&#xA;Document-Level Elements These elements describe the basic structure of the HTML document.&#xA;&lt;html&gt; The &lt;html&gt; element contains the entire HTML document. It should have exactly two children, the &lt;head&gt; and the &lt;body&gt; elements, appearing in that order.&#xA;&lt;head&gt; The &lt;head&gt; element contains any metadata describing the document. The most common children elements are &lt;title&gt;, &lt;meta&gt;, and &lt;link&gt;.</description>
     </item>
     <item>
       <title>Document Object Model</title>
-      <link>https://textbooks.cs.ksu.edu/cc120/3-html/08-the-dom/</link>
+      <link>https://textbooks.cs.ksu.edu/cc120/3-html/08-the-dom/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/08-the-dom/</guid>
-      <description>The Document Object Model (or DOM) is a data structure representing the content of a web page, created by the browser as it parses the website. The browser then makes this data structure accessible to scripts running on the page. The DOM is essentially a tree composed of objects representing the HTML elements and text on the page.&#xA;Consider this HTML:&#xA;&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;title&gt;Hello DOM!&lt;/title&gt; &lt;link href=&#34;site.css&#34;/&gt; &lt;/head&gt; &lt;body&gt; &lt;div class=&#34;banner&#34;&gt; &lt;h1&gt;Hello DOM!</description>
+      <guid>https://textbooks.cs.ksu.edu/cc120/3-html/08-the-dom/index.html</guid>
+      <description>The Document Object Model (or DOM) is a data structure representing the content of a web page, created by the browser as it parses the website. The browser then makes this data structure accessible to scripts running on the page. The DOM is essentially a tree composed of objects representing the HTML elements and text on the page.&#xA;Consider this HTML:&#xA;&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;title&gt;Hello DOM!&lt;/title&gt; &lt;link href=&#34;site.css&#34;/&gt; &lt;/head&gt; &lt;body&gt; &lt;div class=&#34;banner&#34;&gt; &lt;h1&gt;Hello DOM!&lt;/h1&gt; &lt;p&gt; The Document Object Model (DOM) is a programming API for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated. In the DOM specification, the term &#34;document&#34; is used in the broad sense - increasingly, XML is being used as a way of representing many different kinds of information that may be stored in diverse systems, and much of this would traditionally be seen as data rather than as documents. Nevertheless, XML presents this data as documents, and the DOM may be used to manage this data. &lt;/p&gt; &lt;a href=&#34;https://www.w3.org/TR/WD-DOM/introduction.html&#34;&gt;From w3.org&#39;s What is the Document Object Model?&lt;/a&gt; &lt;/div&gt; &lt;/body&gt; &lt;html&gt; When it is parsed by the browser, it is transformed into this tree:</description>
     </item>
   </channel>
 </rss>
