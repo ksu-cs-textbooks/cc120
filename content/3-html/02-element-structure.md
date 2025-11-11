@@ -74,7 +74,7 @@ In addition to the tag name, tags can have _attributes_ embedded within them. Th
 
 This allows the image to be downloaded and displayed within the browser:
 
-<img src="/images/Light_Bulb_or_Idea_Flat_Icon_Vector.svg" alt="Light Bulb">
+<img src="/cc120/images/Light_Bulb_or_Idea_Flat_Icon_Vector.svg" alt="Light Bulb">
 
 Note that the `<img>` element is another void tag.  Also, `<img>` elements should always have an `alt` attribute set - this is text that is displayed if the image cannot be downloaded, and is also read by a screen reader when viewed by the visually impaired.
 
