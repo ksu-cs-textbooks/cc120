@@ -666,7 +666,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Graphics",
     "description": "The Scalable Vector Graphics (SVG) image format is a file format for creating a vector graphic. It uses the same ideas about path, stroke, and fill and coordinate that we discussed with the canvas. It also is a text format based on XML, as was HTML. So the contents of a XML file will look familiar to you. Here is an example:\n\u003csvg viewBox=\"0 0 500 200\" xmlns=\"http://www.w3.org/2000/svg\"\u003e \u003cpath d=\"M 100 50 L 100 150 L 300 150 Z\" stroke=\"black\" fill=\"#dd3333\"/\u003e \u003c/svg\u003e Let’s take a close look at the file format. First, like HTML and other XML derivatives, we use tags to specify elements. The \u003csvg\u003e tag indicates the top level of our SVG image, much like the \u003chtml\u003e tag does for HTML. The xmlns links to the specification of the XML format, and should be included in all \u003csvg\u003e elements (it’s one of the requirements of the XML format - earlier versions of HTML did this as well for the HTML namespace, but HTML5 broke away from the requirement).",
-    "modified": "2022-11-13T15:40:36-06:00",
+    "modified": "2025-11-11T14:56:50-06:00",
     "tags": [],
     "title": "SVG",
     "uri": "/cc120/7-graphics/13-svg/index.html"
@@ -753,8 +753,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Graphics",
-    "description": "As described earlier, SVG is an image file format. Thus, it can be used as the src for an \u003cimg\u003e element in HTML:\n\u003cimg src=\"/images/triangle.svg\" alt=\"A triangle\"\u003e However, the SVG itself is just text. And that text shares a lot of characteristics with HTML, as both are derived from XML. As SVG became more commonplace, the W3C added support for inline SVGs - placing SVG code directly in a HTML document:",
-    "modified": "2022-11-13T15:40:36-06:00",
+    "description": "As described earlier, SVG is an image file format. Thus, it can be used as the src for an \u003cimg\u003e element in HTML:\n\u003cimg src=\"/cc120/images/triangle.svg\" alt=\"A triangle\"\u003e However, the SVG itself is just text. And that text shares a lot of characteristics with HTML, as both are derived from XML. As SVG became more commonplace, the W3C added support for inline SVGs - placing SVG code directly in a HTML document:",
+    "modified": "2025-11-11T14:56:50-06:00",
     "tags": [],
     "title": "SVG and HTML",
     "uri": "/cc120/7-graphics/18-svg-and-html/index.html"

@@ -23,13 +23,13 @@
     <meta property="og:type" content="article">
     <meta property="article:section" content="Graphics">
     <meta property="article:published_time" content="2018-08-24T10:53:26-05:00">
-    <meta property="article:modified_time" content="2022-11-13T15:40:36-06:00">
+    <meta property="article:modified_time" content="2025-11-11T14:56:50-06:00">
     <meta property="og:image" content="https://textbooks.cs.ksu.edu/cc120/images/hero.png">
     <meta itemprop="name" content="SVG :: K-State CC 120 Textbook">
     <meta itemprop="description" content="The Scalable Vector Graphics (SVG) image format is a file format for creating a vector graphic. It uses the same ideas about path, stroke, and fill and coordinate that we discussed with the canvas. It also is a text format based on XML, as was HTML. So the contents of a XML file will look familiar to you. Here is an example:
 &lt;svg viewBox=&#34;0 0 500 200&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt; &lt;path d=&#34;M 100 50 L 100 150 L 300 150 Z&#34; stroke=&#34;black&#34; fill=&#34;#dd3333&#34;/&gt; &lt;/svg&gt; Let’s take a close look at the file format. First, like HTML and other XML derivatives, we use tags to specify elements. The &lt;svg&gt; tag indicates the top level of our SVG image, much like the &lt;html&gt; tag does for HTML. The xmlns links to the specification of the XML format, and should be included in all &lt;svg&gt; elements (it’s one of the requirements of the XML format - earlier versions of HTML did this as well for the HTML namespace, but HTML5 broke away from the requirement).">
     <meta itemprop="datePublished" content="2018-08-24T10:53:26-05:00">
-    <meta itemprop="dateModified" content="2022-11-13T15:40:36-06:00">
+    <meta itemprop="dateModified" content="2025-11-11T14:56:50-06:00">
     <meta itemprop="wordCount" content="414">
     <meta itemprop="image" content="https://textbooks.cs.ksu.edu/cc120/images/hero.png">
     <title>SVG :: K-State CC 120 Textbook</title>
@@ -37,26 +37,26 @@
     <link href="/cc120/7-graphics/13-svg/index.xml" rel="alternate" type="application/rss+xml" title="SVG :: K-State CC 120 Textbook">
     <link href="/cc120/7-graphics/13-svg/index.print.html" rel="alternate" type="text/html" title="SVG :: K-State CC 120 Textbook">
     <link href="/cc120/7-graphics/13-svg/tele.html" rel="alternate" type="text/html" title="SVG :: K-State CC 120 Textbook">
-    <link href="/cc120/css/auto-complete/auto-complete.min.css?1762894383" rel="stylesheet">
-    <script src="/cc120/js/auto-complete/auto-complete.min.js?1762894383" defer></script>
-    <script src="/cc120/js/search-lunr.min.js?1762894383" defer></script>
-    <script src="/cc120/js/search.min.js?1762894383" defer></script>
+    <link href="/cc120/css/auto-complete/auto-complete.min.css?1762894626" rel="stylesheet">
+    <script src="/cc120/js/auto-complete/auto-complete.min.js?1762894626" defer></script>
+    <script src="/cc120/js/search-lunr.min.js?1762894626" defer></script>
+    <script src="/cc120/js/search.min.js?1762894626" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc120/searchindex.en.js?1762894383";
+      window.relearn.index_js_url="/cc120/searchindex.en.js?1762894626";
     </script>
-    <script src="/cc120/js/lunr/lunr.min.js?1762894383" defer></script>
-    <script src="/cc120/js/lunr/lunr.stemmer.support.min.js?1762894383" defer></script>
-    <script src="/cc120/js/lunr/lunr.multi.min.js?1762894383" defer></script>
-    <script src="/cc120/js/lunr/lunr.en.min.js?1762894383" defer></script>
+    <script src="/cc120/js/lunr/lunr.min.js?1762894626" defer></script>
+    <script src="/cc120/js/lunr/lunr.stemmer.support.min.js?1762894626" defer></script>
+    <script src="/cc120/js/lunr/lunr.multi.min.js?1762894626" defer></script>
+    <script src="/cc120/js/lunr/lunr.en.min.js?1762894626" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc120/fonts/fontawesome/css/fontawesome-all.min.css?1762894383" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/fonts/fontawesome/css/fontawesome-all.min.css?1762894383" rel="stylesheet"></noscript>
-    <link href="/cc120/css/perfect-scrollbar/perfect-scrollbar.min.css?1762894383" rel="stylesheet">
-    <link href="/cc120/css/theme.min.css?1762894383" rel="stylesheet">
-    <link href="/cc120/css/format-html.min.css?1762894383" rel="stylesheet" id="R-format-style">
+    <link href="/cc120/fonts/fontawesome/css/fontawesome-all.min.css?1762894626" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/fonts/fontawesome/css/fontawesome-all.min.css?1762894626" rel="stylesheet"></noscript>
+    <link href="/cc120/css/perfect-scrollbar/perfect-scrollbar.min.css?1762894626" rel="stylesheet">
+    <link href="/cc120/css/theme.min.css?1762894626" rel="stylesheet">
+    <link href="/cc120/css/format-html.min.css?1762894626" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -115,7 +115,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc120/css/custom.css?1762894383" rel="stylesheet">
+    <link href="/cc120/css/custom.css?1762894626" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/cc120/7-graphics/13-svg/index.html">
     <div id="R-body" class="default-animation">
@@ -146,7 +146,7 @@
 <svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg" width="200">
   <path d="M 100 50 L 100 150 L 300 150 Z" stroke="black" fill="#dd3333"/>
 </svg>
-<div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/images/triangle.svg&#34;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;200&#34;</span>&gt;</span></span></code></pre></div>
+<div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/cc120/images/triangle.svg&#34;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;200&#34;</span>&gt;</span></span></code></pre></div>
 <p>Now that you understand the basics, let&rsquo;s turn our attention to some specific SVG elements.</p>
 
 <details open class=" box cstyle notices info">
@@ -168,9 +168,9 @@
       
       
     </div>
-    <script src="/cc120/js/clipboard/clipboard.min.js?1762894383" defer></script>
-    <script src="/cc120/js/perfect-scrollbar/perfect-scrollbar.min.js?1762894383" defer></script>
-    <script src="/cc120/js/theme.min.js?1762894383" defer></script>
-  <script src="/cc120/js/embed-iframe.min.js?1762894383" defer></script>
+    <script src="/cc120/js/clipboard/clipboard.min.js?1762894626" defer></script>
+    <script src="/cc120/js/perfect-scrollbar/perfect-scrollbar.min.js?1762894626" defer></script>
+    <script src="/cc120/js/theme.min.js?1762894626" defer></script>
+  <script src="/cc120/js/embed-iframe.min.js?1762894626" defer></script>
   </body>
 </html>
