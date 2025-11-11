@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -37,26 +36,26 @@ The Positioning Context First, we need to understand the positioning context, th
     <link href="/cc120/4-css/12-css-positioning/index.xml" rel="alternate" type="application/rss+xml" title="CSS Positioning :: K-State CC 120 Textbook">
     <link href="/cc120/4-css/12-css-positioning/tele.html" rel="alternate" type="text/html" title="CSS Positioning :: K-State CC 120 Textbook">
     <link href="/cc120/4-css/12-css-positioning/embed.html" rel="alternate" type="text/html" title="CSS Positioning :: K-State CC 120 Textbook">
-    <link href="/cc120/css/auto-complete/auto-complete.min.css?1762892827" rel="stylesheet">
-    <script src="/cc120/js/auto-complete/auto-complete.min.js?1762892827" defer></script>
-    <script src="/cc120/js/search-lunr.min.js?1762892827" defer></script>
-    <script src="/cc120/js/search.min.js?1762892827" defer></script>
+    <link href="/cc120/css/auto-complete/auto-complete.min.css?1762894383" rel="stylesheet">
+    <script src="/cc120/js/auto-complete/auto-complete.min.js?1762894383" defer></script>
+    <script src="/cc120/js/search-lunr.min.js?1762894383" defer></script>
+    <script src="/cc120/js/search.min.js?1762894383" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc120/searchindex.en.js?1762892827";
+      window.relearn.index_js_url="/cc120/searchindex.en.js?1762894383";
     </script>
-    <script src="/cc120/js/lunr/lunr.min.js?1762892827" defer></script>
-    <script src="/cc120/js/lunr/lunr.stemmer.support.min.js?1762892827" defer></script>
-    <script src="/cc120/js/lunr/lunr.multi.min.js?1762892827" defer></script>
-    <script src="/cc120/js/lunr/lunr.en.min.js?1762892827" defer></script>
+    <script src="/cc120/js/lunr/lunr.min.js?1762894383" defer></script>
+    <script src="/cc120/js/lunr/lunr.stemmer.support.min.js?1762894383" defer></script>
+    <script src="/cc120/js/lunr/lunr.multi.min.js?1762894383" defer></script>
+    <script src="/cc120/js/lunr/lunr.en.min.js?1762894383" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc120/fonts/fontawesome/css/fontawesome-all.min.css?1762892827" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/fonts/fontawesome/css/fontawesome-all.min.css?1762892827" rel="stylesheet"></noscript>
-    <link href="/cc120/css/perfect-scrollbar/perfect-scrollbar.min.css?1762892827" rel="stylesheet">
-    <link href="/cc120/css/theme.min.css?1762892827" rel="stylesheet">
-    <link href="/cc120/css/format-print.min.css?1762892827" rel="stylesheet" id="R-format-style">
+    <link href="/cc120/fonts/fontawesome/css/fontawesome-all.min.css?1762894383" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc120/fonts/fontawesome/css/fontawesome-all.min.css?1762894383" rel="stylesheet"></noscript>
+    <link href="/cc120/css/perfect-scrollbar/perfect-scrollbar.min.css?1762894383" rel="stylesheet">
+    <link href="/cc120/css/theme.min.css?1762894383" rel="stylesheet">
+    <link href="/cc120/css/format-print.min.css?1762894383" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -115,17 +114,64 @@ The Positioning Context First, we need to understand the positioning context, th
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc120/css/custom.css?1762892827" rel="stylesheet">
+    <link href="/cc120/css/custom.css?1762894383" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc120/4-css/12-css-positioning/index.html">
-    
-    <div id="tele" class="tele mirror">
-    
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      
-      
-      
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#the-positioning-context">The Positioning Context</a></li>
+    <li><a href="#the-position-property">The Position Property</a>
+      <ul>
+        <li><a href="#static-positioning">Static Positioning</a></li>
+        <li><a href="#relative-positioning">Relative Positioning</a></li>
+        <li><a href="#absolute-positioning">Absolute Positioning</a></li>
+        <li><a href="#fixed-positioning">Fixed Positioning</a></li>
+      </ul>
+    </li>
+    <li><a href="#z-order">Z-Order</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc120/index.html"><span itemprop="name">CC 120: Web Page Development</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc120/4-css/index.html"><span itemprop="name">Cascading Style Sheets</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">CSS Positioning</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc120/edit/master/content/4-css/12-css-positioning.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc120/4-css/12-css-positioning/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc120/4-css/11-css-box-model/index.html" title="CSS Box Model (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc120/4-css/13-css-layouts/index.html" title="CSS Layouts (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc120/4-css/12-css-positioning/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc120/4-css/12-css-positioning/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable 4-css" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -138,8 +184,8 @@ The Positioning Context First, we need to understand the positioning context, th
 <p>By default HTML elements are positioned in the page using the HTML flow algorithm.  You can find a detailed discussion in the <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow" rel="external" target="_blank">MDN Documentation</a>.  However, you may want to override this and manually position elements, which you can do with the CSS properties <code>position</code>, <code>left</code>, <code>top</code>, <code>right</code>, and <code>bottom</code>.</p>
 <h2 id="the-positioning-context">The Positioning Context</h2>
 <p>First, we need to understand the positioning context, this is basically the area an element is positioned within.  The <code>left</code>, <code>top</code>, <code>right</code>, and <code>bottom</code> properties affect where an element appears within its context.</p>
-<p><a href="#R-image-ddf0feb15e27cef966f0f39fae6b9aff" class="lightbox-link"><img alt="Positioning Context" class="border lazy lightbox figure-image" loading="lazy" src="/cc120/images/4.12.1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ddf0feb15e27cef966f0f39fae6b9aff"><img alt="Positioning Context" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc120/images/4.12.1.png"></a></p>
+<p><a href="#R-image-62f2635ee12991f3698f2cdd364a168e" class="lightbox-link"><img alt="Positioning Context" class="border lazy lightbox figure-image" loading="lazy" src="/cc120/images/4.12.1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-62f2635ee12991f3698f2cdd364a168e"><img alt="Positioning Context" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc120/images/4.12.1.png"></a></p>
 <p>You can think of the context as a box.  The <code>left</code> property determines how far the element is from the left side of this context, the <code>top</code> from the top, <code>right</code> from the right, and <code>bottom</code> from the bottom. These values can be numeric or percentage values, and can be negative.</p>
 
 <details open class=" box cstyle notices tip">
@@ -171,17 +217,17 @@ The Positioning Context First, we need to understand the positioning context, th
 </article>
         </div>
       </main>
-      
-      
-      
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Nathan Bean
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc120/commit/10ae030c6eccd5b37abe34a9183f0d840741e2ec">Jul 25, 2022</a>
+</p>
+
+</div>
     </div>
-    <script src="/cc120/js/clipboard/clipboard.min.js?1762892827" defer></script>
-    <script src="/cc120/js/perfect-scrollbar/perfect-scrollbar.min.js?1762892827" defer></script>
-    <script src="/cc120/js/theme.min.js?1762892827" defer></script>
-      
-      
-      
-    </div> 
-  <script src="/cc120/js/tele-scroll.min.js?1762892827" defer></script>
+    <script src="/cc120/js/clipboard/clipboard.min.js?1762894383" defer></script>
+    <script src="/cc120/js/perfect-scrollbar/perfect-scrollbar.min.js?1762894383" defer></script>
+    <script src="/cc120/js/theme.min.js?1762894383" defer></script>
   </body>
 </html>
