@@ -10,7 +10,7 @@ As described earlier, SVG is an image file format. Thus, it can be used as the `
 <img src="/images/triangle.svg" alt="A triangle">
 
 ```html
-<img src="/images/triangle.svg" alt="A triangle">
+<img src="/cc120/images/triangle.svg" alt="A triangle">
 ```
 
 However, the SVG itself is just text. And that text shares a lot of characteristics with HTML, as both are derived from XML. As SVG became more commonplace, the W3C added support for _inline SVGs_ - placing SVG code directly in a HTML document:

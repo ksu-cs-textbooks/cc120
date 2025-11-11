@@ -30,7 +30,7 @@ The `viewBox` plays an important role in how SVG graphics scale.  If we used thi
 </svg>
 
 ```html
-<img src="/images/triangle.svg" width="200">
+<img src="/cc120/images/triangle.svg" width="200">
 ```
 
 Now that you understand the basics, let's turn our attention to some specific SVG elements.
